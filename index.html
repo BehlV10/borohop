@@ -7,7 +7,7 @@
   <meta name="description" content="NYC boroughs, neighborhoods, and nearby towns. Filter by date, category, location, and expenses. Zero tracking, no accounts, no cookies.">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0039A6">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body class="view-list">
 <div class="wrap">
@@ -151,6 +151,9 @@
     </div>
   </div>
 
+  <!-- Modal Backdrop Overlay -->
+  <div id="modalBackdrop" class="modal-backdrop" hidden></div>
+
   <!-- Attendees "Who's Going" Modal -->
   <div class="cal-pop attendees-modal" id="attendeesModal" hidden role="dialog" aria-modal="true" aria-labelledby="attendeesModalTitle">
     <div class="pop-header">
@@ -169,6 +172,6 @@
 
 </div>
 
-<script src="app.js"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>

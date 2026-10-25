@@ -958,9 +958,43 @@ body.view-list #mapPane { display: none; }
   color: var(--ink);
 }
 
+/* Modal Backdrop Overlay */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 9998;
+}
+.modal-backdrop[hidden] {
+  display: none !important;
+}
+
+/* Prevent background scroll when modal open */
+body.modal-open {
+  overflow: hidden !important;
+}
+
 /* Attendees Modal */
 .attendees-modal {
-  max-width: 540px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  width: 92%;
+  max-width: 520px;
+  max-height: 85vh;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+  overflow-y: auto;
+}
+.attendees-modal[hidden] {
+  display: none !important;
 }
 .attendees-modal-sub {
   font-size: 12px;
