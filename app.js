@@ -77,9 +77,20 @@
 
   function initTheme() {
     const saved = localStorage.getItem(THEME_KEY);
-    // Explicitly default to Light mode unless the user previously clicked Dark
-    const isDark = saved === "dark";
-    applyTheme(isDark);
+    if (saved === "dark" || saved === "light") {
+      applyTheme(saved === "dark");
+    } else {
+      const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      applyTheme(prefersDark);
+    }
+
+    if (window.matchMedia) {
+      window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+        if (!localStorage.getItem(THEME_KEY)) {
+          applyTheme(e.matches);
+        }
+      });
+    }
   }
   function applyTheme(isDark) {
     document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
@@ -445,7 +456,7 @@
         if (csb) csb.hidden = true;
         document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
         chipAll.classList.add("active");
-        applyFiltersBtnEl.classList.remove("has-pending");
+        applyFiltersBtnEl?.classList.remove("has-pending");
         applyFilters();
         updateUrlState();
         showToast("✨ Showing all events");
@@ -465,7 +476,7 @@
       chipWeekend.addEventListener("click", () => {
         datesPicker.selectWeekend();
         chipWeekend.classList.add("active");
-        applyFiltersBtnEl.classList.remove("has-pending");
+        applyFiltersBtnEl?.classList.remove("has-pending");
         updatePresetChipsUI();
         applyFilters();
       });
@@ -477,7 +488,7 @@
         priceMulti.values.add("free");
         priceMulti.refreshLabel();
         chipFree.classList.add("active");
-        applyFiltersBtnEl.classList.remove("has-pending");
+        applyFiltersBtnEl?.classList.remove("has-pending");
         updatePresetChipsUI();
         applyFilters();
       });
@@ -489,7 +500,7 @@
         typeMulti.values.add("Food");
         typeMulti.refreshLabel();
         chipFood.classList.add("active");
-        applyFiltersBtnEl.classList.remove("has-pending");
+        applyFiltersBtnEl?.classList.remove("has-pending");
         updatePresetChipsUI();
         applyFilters();
       });
@@ -501,7 +512,7 @@
         typeMulti.values.add("Board Games");
         typeMulti.refreshLabel();
         chipGames.classList.add("active");
-        applyFiltersBtnEl.classList.remove("has-pending");
+        applyFiltersBtnEl?.classList.remove("has-pending");
         updatePresetChipsUI();
         applyFilters();
       });
@@ -559,16 +570,16 @@
       pop.innerHTML = html;
 
       pop.querySelector(".pop-close-btn")?.addEventListener("click", close);
-      pop.querySelector(".pop-apply-btn")?.addEventListener("click", () => {
-        close();
-        if (applyFiltersBtnEl) applyFiltersBtnEl.click();
-      });
+      pop.querySelector(".pop-apply-btn")?.addEventListener("click", close);
 
       pop.querySelectorAll('input[type="checkbox"]').forEach(cb => {
         cb.addEventListener("change", () => {
           if (cb.checked) selected.add(cb.value);
           else selected.delete(cb.value);
           refreshLabel();
+          applyFilters();
+          updateUrlState();
+          updatePresetChipsUI();
           if (onChange) onChange();
         });
       });
@@ -695,10 +706,7 @@
       pop.innerHTML = html;
 
       pop.querySelector(".pop-close-btn")?.addEventListener("click", close);
-      pop.querySelector("#calDoneBtn")?.addEventListener("click", () => {
-        close();
-        if (applyFiltersBtnEl) applyFiltersBtnEl.click();
-      });
+      pop.querySelector("#calDoneBtn")?.addEventListener("click", close);
 
       pop.querySelector("#calPrevMonthBtn")?.addEventListener("click", () => {
         currentMonth--;
@@ -715,12 +723,18 @@
         selected.clear();
         selected.add(todayISO);
         refreshLabel();
+        applyFilters();
+        updateUrlState();
+        updatePresetChipsUI();
         if (onChange) onChange();
         renderCalendar();
       });
 
       pop.querySelector("#calWeekendBtn")?.addEventListener("click", () => {
         selectWeekend();
+        applyFilters();
+        updateUrlState();
+        updatePresetChipsUI();
         if (onChange) onChange();
         renderCalendar();
       });
@@ -733,6 +747,9 @@
           selected.add(ymd(d.getFullYear(), d.getMonth(), d.getDate()));
         }
         refreshLabel();
+        applyFilters();
+        updateUrlState();
+        updatePresetChipsUI();
         if (onChange) onChange();
         renderCalendar();
       });
@@ -740,6 +757,9 @@
       pop.querySelector("#calClearBtn")?.addEventListener("click", () => {
         selected.clear();
         refreshLabel();
+        applyFilters();
+        updateUrlState();
+        updatePresetChipsUI();
         if (onChange) onChange();
         renderCalendar();
       });
@@ -750,6 +770,9 @@
           if (selected.has(iso)) selected.delete(iso);
           else selected.add(iso);
           refreshLabel();
+          applyFilters();
+          updateUrlState();
+          updatePresetChipsUI();
           if (onChange) onChange();
           renderCalendar();
         });
@@ -868,7 +891,7 @@
       filterNearMeActive = false;
       document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
       document.getElementById("searchBox").value = "";
-      applyFiltersBtnEl.classList.remove("has-pending");
+      applyFiltersBtnEl?.classList.remove("has-pending");
       applyFilters();
       updateUrlState();
     });
@@ -1087,6 +1110,13 @@
       }
     }
 
+    // Outdoor detection
+    const isOutdoor = (ev.types && (ev.types.includes("Nature") || ev.types.includes("Field Trip"))) ||
+      (ev.name && /park|garden|walk|hike|island|preserve|trail|parade|outdoor/i.test(ev.name));
+    if (isOutdoor) {
+      badges.push('<span class="badge badge-timing">🌳 Outdoor</span>');
+    }
+
     // Distance
     if (filterNearMeActive && userCoords && ev.lat && ev.lng) {
       const dist = haversineMiles(userCoords.lat, userCoords.lng, ev.lat, ev.lng).toFixed(1);
@@ -1117,6 +1147,8 @@
     const where = `
       <div class="l3">${escapeAttr(ev.locationName ? ev.locationName + ' — ' : '')}${escapeAttr(ev.region === "nyc" ? (ev.neighborhood ? ev.neighborhood + ', ' : '') + ev.borough : (ev.town || 'Nearby'))}</div>
       <div class="l4" style="color:var(--ink-soft);font-size:11.5px;">${escapeAttr(ev.address)}</div>
+    `;
+
     const tagsHtml = (ev.types && ev.types.length) ? `
       <div class="event-tags-list">
         ${ev.types.map(t => `<button type="button" class="event-tag" data-type="${escapeAttr(t)}" title="Filter by ${escapeAttr(t)}">${typeEmoji(t)} ${escapeAttr(t)}</button>`).join("")}
@@ -1125,7 +1157,7 @@
 
     const transit = `
       <div class="l4" style="margin-top:4px;">
-        ${ev.transitLines && ev.transitLines.length ? `${subwayBullets(ev.transitLines)} <span class="station-name">to ${escapeAttr(ev.transitStation)}</span>` : escapeAttr(ev.transitText || '')}
+        ${ev.transitLines && ev.transitLines.length ? `${subwayBullets(ev.transitLines)} <span class="station-name">to ${escapeAttr(ev.transitStation)}</span> <a class="pill-btn" href="https://new.mta.info/alerts" target="_blank" rel="noopener noreferrer" title="View real-time MTA subway alerts" style="font-size:10.5px;padding:2px 7px;margin-left:6px;">🚇 MTA Alerts ↗</a>` : escapeAttr(ev.transitText || '')}
         ${ev.ferryNote ? ` <span style="font-size:11px;color:var(--ink-soft);">(${escapeAttr(ev.ferryNote)})</span>` : ''}
       </div>
     `;
@@ -1136,10 +1168,12 @@
     const gmapsUrl = googleMapsDirectionsUrl(ev);
     const isPast = dateMode === "past";
     const rsvpText = isPast ? "Link to Event" : "Link to RSVP";
+    const weatherUrl = (ev.lat && ev.lng) ? `https://forecast.weather.gov/MapClick.php?lat=${ev.lat}&lon=${ev.lng}` : null;
 
     const actions = `
       <div class="action-links">
         <a class="pill-btn" href="${gmapsUrl}" target="_blank" rel="noopener noreferrer">🗺️ Directions</a>
+        ${weatherUrl ? `<a class="pill-btn" href="${weatherUrl}" target="_blank" rel="noopener noreferrer" title="View National Weather Service forecast">🌤️ Forecast ↗</a>` : ''}
         ${!isPast ? `
           <a class="pill-btn" href="${googleCalendarUrl(ev)}" target="_blank" rel="noopener noreferrer">📅 Google Cal</a>
           <button type="button" class="pill-btn ics-btn" data-ev-id="${ev.id}">🍏 Apple / .ics</button>
