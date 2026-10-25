@@ -1186,9 +1186,14 @@
       </div>
     ` : "";
 
+    const mtaIssue = getMtaAlertForEvent(ev);
+    const mtaAlertHtml = mtaIssue
+      ? `<a class="pill-btn mta-alert-btn" href="https://new.mta.info/alerts" target="_blank" rel="noopener noreferrer" title="${escapeAttr(mtaIssue.summary)}">⚠️ ${escapeAttr(mtaIssue.route)} Train: ${escapeAttr(mtaIssue.type)} ↗</a>`
+      : "";
+
     const transit = `
-      <div class="l4" style="margin-top:4px;">
-        ${ev.transitLines && ev.transitLines.length ? `${subwayBullets(ev.transitLines)} <span class="station-name">to ${escapeAttr(ev.transitStation)}</span> <a class="pill-btn" href="https://new.mta.info/alerts" target="_blank" rel="noopener noreferrer" title="View real-time MTA subway alerts" style="font-size:10.5px;padding:2px 7px;margin-left:6px;">🚇 MTA Alerts ↗</a>` : escapeAttr(ev.transitText || '')}
+      <div class="l4" style="margin-top:4px;display:flex;align-items:center;flex-wrap:wrap;gap:6px;">
+        ${ev.transitLines && ev.transitLines.length ? `${subwayBullets(ev.transitLines)} <span class="station-name">to ${escapeAttr(ev.transitStation)}</span>${mtaAlertHtml}` : escapeAttr(ev.transitText || '')}
         ${ev.ferryNote ? ` <span style="font-size:11px;color:var(--ink-soft);">(${escapeAttr(ev.ferryNote)})</span>` : ''}
       </div>
     `;
@@ -1719,6 +1724,67 @@
     });
   });
 
+  /* ============ Real-time MTA Subway Alerts ============ */
+  const MTA_ALERTS_URL = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts.json";
+  let activeMtaAlerts = new Map(); // routeId -> { route, type, summary }
+
+  function getMtaAlertForEvent(ev) {
+    if (!ev.transitLines || !ev.transitLines.length || activeMtaAlerts.size === 0) return null;
+    for (const rawLine of ev.transitLines) {
+      const clean = String(rawLine).replace(/X$/, "").toUpperCase();
+      if (activeMtaAlerts.has(clean)) {
+        return activeMtaAlerts.get(clean);
+      }
+    }
+    return null;
+  }
+
+  function loadMtaAlerts() {
+    fetch(MTA_ALERTS_URL)
+      .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then(data => {
+        const criticalTypes = new Set([
+          "Delays", "Expect Delays", "Suspension", "Planned - Suspended",
+          "Planned - Part Suspended", "Planned - Reroute", "Service Change", "Slow Speeds"
+        ]);
+        const map = new Map();
+        (data.entity || []).forEach(ent => {
+          const alert = ent.alert;
+          if (!alert) return;
+          const header = alert.header_text?.translation?.[0]?.text || "";
+          const mercury = alert["transit_realtime.mercury_alert"] || {};
+          const alertType = mercury.alert_type || "";
+          const isIssue = criticalTypes.has(alertType) || /delay|suspend|reroute|slow speed|no trains/i.test(header);
+          if (!isIssue) return;
+
+          (alert.informed_entity || []).forEach(inf => {
+            const raw = inf.route_id;
+            if (!raw) return;
+            const route = raw.replace(/X$/, "").toUpperCase();
+            if (!map.has(route)) {
+              let labelType = alertType.replace(/^Planned - /, "");
+              map.set(route, {
+                route,
+                type: labelType || "Alert",
+                summary: header.replace(/\[|\]/g, "")
+              });
+            }
+          });
+        });
+        activeMtaAlerts = map;
+        // Re-render list if alerts found so specific warning badges show up
+        if (activeMtaAlerts.size > 0 && lastFiltered && lastFiltered.length) {
+          renderList(lastFiltered);
+        }
+      })
+      .catch(err => {
+        console.warn("MTA alerts feed unavailable:", err);
+      });
+  }
+
   /* ============ Data Bootstrap ============ */
   async function loadEventsData() {
     try {
@@ -1735,6 +1801,7 @@
     initPresetChips();
     applyUrlParams();
     applyFilters();
+    loadMtaAlerts();
 
     // Check for deep-linked event (?event=ID)
     const params = new URLSearchParams(window.location.search);

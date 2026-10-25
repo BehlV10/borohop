@@ -641,6 +641,25 @@ header p {
   border-color: var(--accent);
   color: #fff;
 }
+.mta-alert-btn {
+  font-size: 10.5px;
+  padding: 2px 7px;
+  background: var(--orange-bg);
+  color: var(--orange-badge);
+  border: 1px solid var(--orange-badge);
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.mta-alert-btn:hover {
+  background: var(--orange-badge);
+  color: #fff;
+  text-decoration: none;
+}
 .pill-btn.accent {
   background: var(--accent);
   color: #fff;
