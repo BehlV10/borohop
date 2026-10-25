@@ -1,0 +1,19 @@
+{
+  "name": "borohop",
+  "version": "2.0.0",
+  "description": "BoroHop — Events Finder for NYC boroughs and nearby towns. Privacy-first, zero tracking.",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "sync": "python3 scripts/scrape_meetup.py"
+  },
+  "keywords": [
+    "nyc",
+    "meetup",
+    "events",
+    "borough-hoppers",
+    "leaflet",
+    "pwa"
+  ],
+  "author": "Borough Hoppers",
+  "license": "MIT"
+}

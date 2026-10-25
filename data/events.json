@@ -1,0 +1,5368 @@
+[
+  {
+    "name": "Coffee & Conversation: % Arabica in Nolita (8 Prince Street)",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6",
+      "J",
+      "Z"
+    ],
+    "transitStation": "Spring St",
+    "start": "2026-02-11",
+    "end": null,
+    "startTime": "07:30",
+    "endTime": "09:00",
+    "price": 0,
+    "priceDetail": [
+      "Coffee & pastries: $5 to $8"
+    ],
+    "address": "8 Prince Street, New York, NY",
+    "lat": 40.72249,
+    "lng": -73.99397,
+    "locationName": "% Arabica in Nolita",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313241536/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/02-11-26_Coffee_Arabica_Nolita_v14.png",
+    "id": 0
+  },
+  {
+    "name": "Tastebuds: Mouth-watering Moroccan food at Dar Lbahja",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Queens",
+    "transitLines": [
+      "N",
+      "W"
+    ],
+    "transitStation": "30 Av",
+    "start": "2026-02-13",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $20 to $28"
+    ],
+    "address": "47-12 30th Avenue, Queens County, NY",
+    "lat": 40.76092,
+    "lng": -73.909065,
+    "locationName": "Dar Lbahja",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313321579/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/02-13-26_Tastebuds_Mouth-watering_v14.png",
+    "id": 1
+  },
+  {
+    "name": "Free Valentine's Day mixer\ud83d\udc9826-39 year olds, for relationships & friendships",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "1",
+      "2",
+      "3",
+      "A",
+      "C",
+      "E"
+    ],
+    "transitStation": "34 St\u2013Penn Station",
+    "start": "2026-02-14",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "215 West 35th Street, New York, NY",
+    "lat": 40.751877,
+    "lng": -73.99108,
+    "locationName": "Stout NYC Penn Station (215 West 35th Street)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313287109/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/02-14-26_Free_Valentines_v14.png",
+    "id": 2
+  },
+  {
+    "name": "Coffee & Conversation: Devoci\u00f3n in Midtown (600 Lexington Avenue)",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "E",
+      "M",
+      "6"
+    ],
+    "transitStation": "Lexington Av/53 St",
+    "start": "2026-02-18",
+    "end": null,
+    "startTime": "07:30",
+    "endTime": "09:00",
+    "price": 0,
+    "priceDetail": [
+      "Coffee & pastries: $5 to $8"
+    ],
+    "address": "600 Lexington Avenue, New York, NY",
+    "lat": 40.757996,
+    "lng": -73.97157,
+    "locationName": "Devoci\u00f3n (in Midtown)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313287203/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/02-18-26_Coffee_Devocion_Midtown_v14.png",
+    "id": 3
+  },
+  {
+    "name": "Coffee & Conversation: Variety on the Upper East Side (1269 Lexington Avenue)",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6"
+    ],
+    "transitStation": "86 St",
+    "start": "2026-02-25",
+    "end": null,
+    "startTime": "07:30",
+    "endTime": "09:00",
+    "price": 0,
+    "priceDetail": [
+      "Coffee & pastries: $4 to $7"
+    ],
+    "address": "1269 Lexington Avenue, New York, NY",
+    "lat": 40.778866,
+    "lng": -73.9559,
+    "locationName": "Variety (on the Upper East Side)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313455630/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/02-25-26_Coffee_Variety_UES_v14.png",
+    "id": 4
+  },
+  {
+    "name": "Uzbek drinks, Uyghur food, & Turkish desserts \ud83d\ude0b",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Midwood",
+    "transitLines": [
+      "Q"
+    ],
+    "transitStation": "Avenue U",
+    "start": "2026-02-27",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $14 to $26"
+    ],
+    "address": "2376 Coney Island Avenue, New York, NY",
+    "lat": 40.59904,
+    "lng": -73.96157,
+    "locationName": "Laghman Express",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313507640/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/02-27-26_Uzbek_drinks_v14.png",
+    "id": 5
+  },
+  {
+    "name": "Movie & discussion: Sambizanga (from Angola) & Center for Fiction Caf\u00e9 & Bar",
+    "types": [
+      "Film",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "B",
+      "D",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "Atlantic Av\u2013Barclays Ctr",
+    "start": "2026-03-02",
+    "end": null,
+    "startTime": "16:15",
+    "endTime": "19:30",
+    "price": 0,
+    "address": "30 Lafayette Avenue, Kings County, NY",
+    "lat": 40.68653,
+    "lng": -73.97768,
+    "locationName": "BAM Rose Cinemas",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313287861/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-02-26_Movie_Sambizanga_Angola_v14.png",
+    "id": 6
+  },
+  {
+    "name": "Coffee & Conversation: Maman near Union Square (3 West 18th Street)",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6",
+      "L",
+      "N",
+      "Q",
+      "R",
+      "W",
+      "F",
+      "M"
+    ],
+    "transitStation": "14 St\u2013Union Sq",
+    "start": "2026-03-04",
+    "end": null,
+    "startTime": "07:30",
+    "endTime": "09:00",
+    "price": 0,
+    "priceDetail": [
+      "Food & pastries: $8 to $16"
+    ],
+    "address": "3 West 18th Street, New York, NY",
+    "lat": 40.738956,
+    "lng": -73.99235,
+    "locationName": "maman (location near Union Square)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313510605/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-04-26_Coffee_Maman_UnionSq_v14.png",
+    "id": 7
+  },
+  {
+    "name": "Movie & discussion: Peacemaker (from Croatia) & Bartley Dunnes",
+    "types": [
+      "Film",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "E",
+      "M"
+    ],
+    "transitStation": "5 Av/53 St",
+    "start": "2026-03-05",
+    "end": null,
+    "startTime": "18:15",
+    "endTime": "21:15",
+    "price": 0,
+    "address": "11 West 53rd Street, New York, NY",
+    "lat": 40.76135,
+    "lng": -73.97733,
+    "locationName": "MoMA Film Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313455748/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-05-26_Movie_Peacemaker_Croatia_v14.png",
+    "id": 8
+  },
+  {
+    "name": "Irish coffee, dinner, and drinks \u2618\ufe0f",
+    "types": [
+      "Food"
+    ],
+    "region": "outside",
+    "town": "Yonkers, NY",
+    "train": "4 train",
+    "transitText": "4 to Woodlawn, then a short walk",
+    "start": "2026-03-13",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $12 to $22"
+    ],
+    "address": "946 McLean Ave, Yonkers, NY 10704",
+    "lat": 40.9015,
+    "lng": -73.872,
+    "locationName": "Irish Coffee Shop",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313715276/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-13-26_Irish_coffee_v14.png",
+    "id": 9
+  },
+  {
+    "name": "Tour Taiwan's food, movie, and beverage scene \ud83c\udf72\ud83c\udfa5\ud83e\uddcb",
+    "types": [
+      "Film",
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "S"
+    ],
+    "transitStation": "Grand Central\u201342 St",
+    "start": "2026-03-21",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "17:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $14 to $26"
+    ],
+    "address": "56 East 41st Street, New York, NY",
+    "lat": 40.751675,
+    "lng": -73.978935,
+    "locationName": "Traveler",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313716177/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-21-26_Tour_Taiwans_v14.png",
+    "id": 10
+  },
+  {
+    "name": "Coffee & Conversation: Buuuni in Inwood (4961 Broadway)",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "1"
+    ],
+    "transitStation": "Dyckman St",
+    "start": "2026-03-22",
+    "end": null,
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "price": 0,
+    "priceDetail": [
+      "Food & pastries: $6 to $14"
+    ],
+    "address": "4961 Broadway, New York, NY",
+    "lat": 40.86811,
+    "lng": -73.92049,
+    "locationName": "Buuuni (in Inwood)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313287972/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-22-26_Coffee_Buuuni_Inwood_v14.png",
+    "id": 11
+  },
+  {
+    "name": "Helping hands: Bead Crafts with Visually Impaired Adults ",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "F",
+      "M",
+      "1"
+    ],
+    "transitStation": "23 St",
+    "start": "2026-03-26",
+    "end": null,
+    "startTime": "15:15",
+    "endTime": "16:45",
+    "price": 0,
+    "address": "135 West 23rd street, New York, NY",
+    "lat": 40.743755,
+    "lng": -73.99416,
+    "locationName": "VISIONS / Services for the Blind and Visually Impaired",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313506140/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-26-26_Helping_hands_v14.png",
+    "id": 12
+  },
+  {
+    "name": "Fly away to Flushing for fun, feasts, and fizzy drinks \ud83d\udc3c\ud83c\udde8\ud83c\uddf3",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Flushing",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "Flushing\u2013Main St",
+    "start": "2026-03-27",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "20:45",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $20 to $30"
+    ],
+    "address": "133-42 39th Ave STE 101, New York, NY",
+    "lat": 40.759243,
+    "lng": -73.83256,
+    "locationName": "Jiang Nan (Flushing)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313754332/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/03-27-26_Fly_away_v14.png",
+    "id": 13
+  },
+  {
+    "name": "Jool Mouy! \ud83c\uddf0\ud83c\udded Make new friends over Cambodian coffee then hang in Central Park",
+    "types": [
+      "Nature",
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6",
+      "Q"
+    ],
+    "transitStation": "86 St",
+    "start": "2026-04-04",
+    "end": null,
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "price": 0,
+    "priceDetail": [
+      "Coffee & pastries: $4 to $8"
+    ],
+    "address": "214 East 82nd Street, New York, NY",
+    "lat": 40.776054,
+    "lng": -73.955246,
+    "locationName": "Artara coffee",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314095143/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/04-04-26_Jool_Mouy_v14.png",
+    "id": 14
+  },
+  {
+    "name": "Same Same but Songkran! \ud83c\uddf9\ud83c\udded (the Thai New Year) \ud83c\udf89\ud83d\udd2b",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Queens",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "52 St",
+    "start": "2026-04-05",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "16:00",
+    "price": 0,
+    "address": "54-25 Skillman Ave, Queens County, NY",
+    "lat": 40.74551,
+    "lng": -73.90917,
+    "locationName": "Thai Cultural Center of New York",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313928425/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/04-05-26_Same_Same_v14.png",
+    "id": 15
+  },
+  {
+    "name": "Elf Mebrook!\ud83d\udc4f Celebrate Syria Day \ud83c\uddf8\ud83c\uddfe with bites, baklava, & belly dancing\ud83d\udc83\ud83c\udffb",
+    "types": [
+      "Dance",
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "R"
+    ],
+    "transitStation": "86 St",
+    "start": "2026-04-17",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "21:30",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $22 to $36"
+    ],
+    "address": "8530 Third Ave, Kings County, NY",
+    "lat": 40.623703,
+    "lng": -74.03127,
+    "locationName": "Laila Bay Ridge",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313937010/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/04-17-26_Elf_Mebrook_v14.png",
+    "id": 16
+  },
+  {
+    "name": "Cho sugoi! Chopsticks & Cherry Blossoms \ud83e\udd62\ud83c\udf38 from Japan \ud83d\uddfe",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "D",
+      "N",
+      "R"
+    ],
+    "transitStation": "36 St",
+    "start": "2026-04-18",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "16:00",
+    "price": 0,
+    "priceDetail": [
+      "Food: $5 to $15"
+    ],
+    "address": "934 3rd Ave, Brooklyn, NY",
+    "lat": 40.6561,
+    "lng": -74.00644,
+    "locationName": "Japan Village",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313937634/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/04-18-26_Cho_sugoi_v14.png",
+    "id": 17
+  },
+  {
+    "name": "Exolore Inwood Hill Park, Met Cloisters, Fort Tryon Park \ud83c\udf04",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A"
+    ],
+    "transitStation": "Inwood\u2013207 St",
+    "start": "2026-04-19",
+    "end": null,
+    "startTime": "09:00",
+    "endTime": "17:00",
+    "price": 0,
+    "address": "1 Park Ter W, New York, NY",
+    "lat": 40.870453,
+    "lng": -73.91861,
+    "locationName": "Isham Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314115897/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/04-19-26_Exolore_Inwood_v14.png",
+    "id": 18
+  },
+  {
+    "name": "Siyabonga! \ud83c\uddff\ud83c\udde6 Feast on South Africa's Freedom Day \ud83c\udf72",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "77 St",
+    "start": "2026-04-26",
+    "end": null,
+    "startTime": "12:45",
+    "endTime": "15:15",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $28 to $42"
+    ],
+    "address": "1446 1st Ave, New York, NY",
+    "lat": 40.769825,
+    "lng": -73.95423,
+    "locationName": "Kaia South African Farmhouse Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313937717/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/04-26-26_Siyabonga_Feast_v14.png",
+    "id": 19
+  },
+  {
+    "name": "Baila! \ud83d\udd7a Salsa to Kathak, Dance Parade 2026 on International Dance Day! \ud83d\ude04",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "L"
+    ],
+    "transitStation": "Jefferson St",
+    "start": "2026-04-29",
+    "end": null,
+    "startTime": "18:00",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "234 Starr Street, New York, NY",
+    "lat": 40.706085,
+    "lng": -73.92243,
+    "locationName": "Sultan Room Rooftop",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314332801/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/04-29-26_Baila_Salsa_v14.png",
+    "id": 20
+  },
+  {
+    "name": "Kain tayo! \ud83c\udf72 Sarap Filipino dinner, desserts, and drinks \ud83d\ude0b\ud83c\uddf5\ud83c\udded",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "L"
+    ],
+    "transitStation": "14 St",
+    "start": "2026-05-02",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "22:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $18 to $34"
+    ],
+    "address": "156 9th Avenue, New York, NY",
+    "lat": 40.74425,
+    "lng": -74.002625,
+    "locationName": "Tradicionale",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314229842/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-02-26_Kain_tayo_v14.png",
+    "id": 21
+  },
+  {
+    "name": "Vui ve Vietnam! C\u00e1 Ph\u00ea \u2615, Thuc An (Food) \ud83c\udf5c, Do Trang Mieng (Dessert) \ud83c\udf70",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6",
+      "L",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "14 St\u2013Union Sq",
+    "start": "2026-05-03",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "15:30",
+    "price": 17,
+    "priceDetail": [
+      "Entrees: $17 to $43"
+    ],
+    "address": "11 East 17th Street, New York, NY",
+    "lat": 40.737732,
+    "lng": -73.99119,
+    "locationName": "La Dong",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314208327/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-03-26_Vui_ve_v14.png",
+    "id": 22
+  },
+  {
+    "name": "\u00a1Viva M\u00e9xico! \ud83c\uddf2\ud83c\uddfd Mariachi, Folkl\u00f3rico Skirts & Fresh Mariscos! \ud83e\ude87",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Kew Gardens Hills",
+    "transitLines": [
+      "F"
+    ],
+    "transitStation": "Kew Gardens\u2013Union Tpke",
+    "start": "2026-05-03",
+    "end": null,
+    "startTime": "14:45",
+    "endTime": "18:00",
+    "price": 0,
+    "address": "153-49 Reeves Avenue, New York, NY",
+    "lat": 40.73827,
+    "lng": -73.81566,
+    "locationName": "Kupferberg Center for the Arts",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314332805/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-03-26_Viva_Mexico_v14.png",
+    "id": 23
+  },
+  {
+    "name": "Dear Mama! \ud83e\udd17 Celebrate Mother's Day with meals and music \ud83d\ude0b\ud83c\udfa4",
+    "types": [
+      "Concerts",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "C",
+      "E"
+    ],
+    "transitStation": "50 St",
+    "start": "2026-05-09",
+    "end": null,
+    "startTime": "16:45",
+    "endTime": "21:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $15 to $32"
+    ],
+    "address": "701 9th Avenue, New York, NY",
+    "lat": 40.76236,
+    "lng": -73.98987,
+    "locationName": "Mom's Kitchen & Bar",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314546479/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-09-26_Dear_Mama_v14.png",
+    "id": 24
+  },
+  {
+    "name": "Az\u00facar! \ud83d\udd25 Congas, Trumpets & 250 Years of American Rhythm! \ud83c\udfba",
+    "types": [
+      "Culture",
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "103 St",
+    "start": "2026-05-15",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "20:45",
+    "price": 0,
+    "address": "1230 5th Avenue, New York, NY",
+    "lat": 40.793118,
+    "lng": -73.951408,
+    "locationName": "El Museo del Barrio",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314332810/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-15-26_Azucar_Congas_v14.png",
+    "id": 25
+  },
+  {
+    "name": "Slay! \ud83d\udc83See 100s of Dance Styles (Afrobeats to Zouk) at Dance Parade 2026!\ud83e\udd29",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "Astor Pl",
+    "start": "2026-05-16",
+    "end": null,
+    "startTime": "11:30",
+    "endTime": "14:30",
+    "price": 0,
+    "address": "38 St Marks Pl, New York, NY",
+    "lat": 40.728382,
+    "lng": -73.98748,
+    "locationName": "Swiss Institute",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314332819/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-16-26_Slay_See_v14.png",
+    "id": 26
+  },
+  {
+    "name": "Bud'mo in Little Ukraine! \ud83c\uddfa\ud83c\udde6 Dancing, culture, and pierogies \ud83e\udd5f",
+    "types": [
+      "Dance",
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "F",
+      "6"
+    ],
+    "transitStation": "2 Av",
+    "start": "2026-05-16",
+    "end": null,
+    "startTime": "16:00",
+    "endTime": "20:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $14 to $24"
+    ],
+    "address": "140 2nd Avenue, New York, NY",
+    "lat": 40.72887,
+    "lng": -73.98712,
+    "locationName": "Ukrainian East Village Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314060469/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-16-26_Budmo_in_v14.png",
+    "id": 27
+  },
+  {
+    "name": "Hipp Hipp Hurra! \ud83c\uddf3\ud83c\uddf4 Let's celebrate Norway Day on Syttende Mai (17th of May)!",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "33 St",
+    "start": "2026-05-17",
+    "end": null,
+    "startTime": "11:45",
+    "endTime": "16:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $16 to $28"
+    ],
+    "address": "58 Park Ave, New York, NY",
+    "lat": 40.749454,
+    "lng": -73.98005,
+    "locationName": "Bj\u00f6rk Cafe & Bistro",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/313937767/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-17-26_Hipp_Hipp_v14.png",
+    "id": 28
+  },
+  {
+    "name": "Ayibobo! \ud83c\udded\ud83c\uddf9 Haitian Flag Day \ud83c\udf89Manman Drums, Ibo Dance & Soup Joumou! \ud83c\udfa4",
+    "types": [
+      "Dance",
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "B",
+      "Q"
+    ],
+    "transitStation": "Prospect Park",
+    "start": "2026-05-20",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "21:15",
+    "price": 0,
+    "address": "101 East Dr, Kings County, NY",
+    "lat": 40.660835,
+    "lng": -73.96528,
+    "locationName": "Prospect Park Boathouse",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314332827/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-20-26_Ayibobo_Haitian_v14.png",
+    "id": 29
+  },
+  {
+    "name": "Harambee! \ud83e\udd41 Ugandan Dance, West African Djembe & African Food! \ud83c\udf72",
+    "types": [
+      "Dance",
+      "Concerts",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "B",
+      "D",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "Atlantic Av\u2013Barclays Ctr",
+    "start": "2026-05-23",
+    "end": null,
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "price": 0,
+    "address": "30 Lafayette Ave, Kings County, NY",
+    "lat": 40.68653,
+    "lng": -73.97768,
+    "locationName": "BAM Howard Gilman Opera House",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314332849/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/05-23-26_Harambee_Ugandan_v14.png",
+    "id": 30
+  },
+  {
+    "name": "Pirka! \ud83c\udfb8 Ancient Ainu Strings with Modern Melodies! \ud83c\udfb6",
+    "types": [
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6",
+      "E",
+      "M"
+    ],
+    "transitStation": "51 St",
+    "start": "2026-06-04",
+    "end": null,
+    "startTime": "19:15",
+    "endTime": "21:45",
+    "price": 0,
+    "address": "333 E. 47th Street, New York, ny",
+    "lat": 40.752556,
+    "lng": -73.96825,
+    "locationName": "Japan Society",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314332831/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-04-26_Pirka_Ancient_v14.png",
+    "id": 31
+  },
+  {
+    "name": "Asu mare! (No way!) \ud83d\ude06 Partake in paja Peruvian plates! \ud83c\uddf5\ud83c\uddea",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "N",
+      "W"
+    ],
+    "transitStation": "Astoria Blvd",
+    "start": "2026-06-06",
+    "end": null,
+    "startTime": "10:45",
+    "endTime": "14:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $12 to $48"
+    ],
+    "address": "21-19 Broadway, New York, NY",
+    "lat": 40.765156,
+    "lng": -73.93044,
+    "locationName": "Inca Paisa (in Astoria)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314986976/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-06-26_Asu_mare_v14.png",
+    "id": 32
+  },
+  {
+    "name": "Sahtein! \ud83d\ude0b Experience Palestinian culture and cuisine! \ud83c\uddf5\ud83c\uddf8",
+    "types": [
+      "Food",
+      "Culture",
+      "Museums"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "L"
+    ],
+    "transitStation": "8 Av",
+    "start": "2026-06-06",
+    "end": "2026-06-07",
+    "startTime": "21:00",
+    "endTime": "01:00",
+    "price": 0,
+    "address": "99 Gansevoort St, New York, NY",
+    "lat": 40.739586,
+    "lng": -74.00914,
+    "locationName": "Whitney Museum of American Art",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314995330/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-06-26_Sahtein_Experience_v14.png",
+    "id": 33
+  },
+  {
+    "name": "Jallala! \ud83c\udf72 Have heterei cuisine from Bolivia and Paraguay! \ud83c\udde7\ud83c\uddf4 \ud83c\uddf5\ud83c\uddfe",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Queens",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "46 St\u2013Bliss St",
+    "start": "2026-06-07",
+    "end": null,
+    "startTime": "10:45",
+    "endTime": "14:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $16 to $28"
+    ],
+    "address": "43-16 Greenpoint Avenue, Sunnyside, NY",
+    "lat": 40.741528,
+    "lng": -73.92147,
+    "locationName": "I Love Paraguay Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314987010/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-07-26_Jallala_Have_v14.png",
+    "id": 34
+  },
+  {
+    "name": "The Spot! \ud83d\ude03 Check out museums galore at Museum Mile \ud83d\uddbc\ufe0f\ud83c\udfa8",
+    "types": [
+      "Museums"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6"
+    ],
+    "transitStation": "86 St",
+    "start": "2026-06-09",
+    "end": null,
+    "startTime": "18:00",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "1000 5th Ave, New York, NY",
+    "lat": 40.77906,
+    "lng": -73.96274,
+    "locationName": "The Metropolitan Museum of Art",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314994820/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-09-26_The_Spot_v14.png",
+    "id": 35
+  },
+  {
+    "name": "Goated! \ud83d\udcda Celebrate Black authors & eat Southern food in Harlem! \ud83e\uddc7",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "2",
+      "3"
+    ],
+    "transitStation": "135 St",
+    "start": "2026-06-13",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "16:00",
+    "price": 0,
+    "address": "515 Malcolm X Boulevard, New York, NY",
+    "lat": 40.814587,
+    "lng": -73.940926,
+    "locationName": "Schomburg Center for Research in Black Culture",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314994236/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-13-26_Goated_Celebrate_v14.png",
+    "id": 36
+  },
+  {
+    "name": "\u00a1Wepa! \ud83d\ude4c Celebrate Puerto Ricans with parade, food, and dance! \ud83c\uddf5\ud83c\uddf7\ud83d\udc83",
+    "types": [
+      "Dance",
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6",
+      "Q"
+    ],
+    "transitStation": "68 St\u2013Hunter College",
+    "start": "2026-06-14",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "19:00",
+    "price": 0,
+    "priceDetail": [
+      "Coffee & pastries: $4 to $8"
+    ],
+    "address": "340 East 70th Street, New York, NY",
+    "lat": 40.766567,
+    "lng": -73.95741,
+    "locationName": "787 Coffee @ 340 East 70th Street",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314994405/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-14-26_Wepa_Celebrate_v14.png",
+    "id": 37
+  },
+  {
+    "name": "Happy Teenth! \ud83c\udf89 Join the Juneteenth celebration! \u26d3\ufe0f\u200d\ud83d\udca5",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "2",
+      "4",
+      "5"
+    ],
+    "transitStation": "149 St\u2013Grand Concourse",
+    "start": "2026-06-18",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "450 Grand Concourse, New York, NY",
+    "lat": 40.818,
+    "lng": -73.92803,
+    "locationName": "Hostos Center for the Arts & Culture",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314995146/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-18-26_Happy_Teenth_v14.png",
+    "id": 38
+  },
+  {
+    "name": "Holy Mackerel! \ud83e\udddc\u200d\u2640\ufe0f Mermaid Parade with food and beach time! \ud83c\udfd6\ufe0f",
+    "types": [
+      "Culture",
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Coney Island",
+    "transitLines": [
+      "D",
+      "F",
+      "N",
+      "Q"
+    ],
+    "transitStation": "Coney Island\u2013Stillwell Av",
+    "start": "2026-06-20",
+    "end": null,
+    "startTime": "12:30",
+    "endTime": "17:00",
+    "price": 0,
+    "address": "1019 Surf Avenue, New York, NY",
+    "lat": 40.575764,
+    "lng": -73.97901,
+    "locationName": "Mermaid Parade (watching at West 12th and Surf Avenue, or outside of IHOP at 1019 Surf Avenue)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314994597/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-20-26_Holy_Mackerel_v14.png",
+    "id": 39
+  },
+  {
+    "name": "Snap, snap! \ud83e\udef0 Spoken word poets at Nuyorican Poets Cafe \ud83c\udfa4",
+    "types": [
+      "Theatre"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "L"
+    ],
+    "transitStation": "1 Av",
+    "start": "2026-06-26",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "21:30",
+    "price": 0,
+    "address": "710 East 9th Street, New York, NY",
+    "lat": 40.724857,
+    "lng": -73.97757,
+    "locationName": "The Loisaida Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/314995218/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-26-26_Snap_snap_v14.png",
+    "id": 40
+  },
+  {
+    "name": "Red Hook Tour! \ud83c\udf62 BBQ, Key Lime Pie, the Pier, and Cocktails! \ud83e\udd67\ud83c\udf79",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "F",
+      "G"
+    ],
+    "transitStation": "Smith\u20139 Sts",
+    "start": "2026-06-27",
+    "end": null,
+    "startTime": "11:30",
+    "endTime": "15:30",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $16 to $28"
+    ],
+    "address": "454 Van Brunt Street, Kings County, NY",
+    "lat": 40.67495,
+    "lng": -74.0162,
+    "locationName": "Hometown Bar-B-Que",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315079358/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-27-26_Red_Hook_v14.png",
+    "id": 41
+  },
+  {
+    "name": "The Gay Agenda! \ud83c\udf08 Participate in Pride festivities in West Village and Chelsea!",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "L"
+    ],
+    "transitStation": "14 St",
+    "start": "2026-06-28",
+    "end": null,
+    "startTime": "10:30",
+    "endTime": "15:30",
+    "price": 0,
+    "address": "208 West 13th Street, New York, NY",
+    "lat": 40.738052,
+    "lng": -74.001076,
+    "locationName": "The LGBT Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315366604/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/06-28-26_The_Gay_v14.png",
+    "id": 42
+  },
+  {
+    "name": "Let's celebrate Canada Day!! \ud83c\udf41",
+    "types": [
+      "Culture",
+      "Food",
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "C",
+      "E"
+    ],
+    "transitStation": "50 St",
+    "start": "2026-07-04",
+    "end": null,
+    "startTime": "09:00",
+    "endTime": "13:30",
+    "price": 0,
+    "priceDetail": [
+      "Coffee & donuts: $3 to $6"
+    ],
+    "address": "936 8th Avenue, New York, NY",
+    "lat": 40.76556,
+    "lng": -73.98342,
+    "locationName": "Tim Horton's (at 936 8th Avenue)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315487030/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-04-26_Lets_celebrate_v14.png",
+    "id": 43
+  },
+  {
+    "name": "Celebrate America's 250th Birthday!! \ud83c\udf86",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Civic Center",
+    "transitLines": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "C",
+      "J",
+      "Z"
+    ],
+    "transitStation": "Fulton St",
+    "start": "2026-07-04",
+    "end": null,
+    "startTime": "15:00",
+    "endTime": "22:00",
+    "price": 0,
+    "address": "375 Pearl St, New York, NY 10038",
+    "lat": 40.7108,
+    "lng": -74.0012,
+    "locationName": "Starbucks",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315320086/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-04-26_Celebrate_Americas_v14.png",
+    "id": 44
+  },
+  {
+    "name": "Explore Bagels and Boats from the 1900s! \ud83e\udd6f\u26f5",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "C",
+      "J",
+      "Z"
+    ],
+    "transitStation": "Fulton St",
+    "start": "2026-07-05",
+    "end": null,
+    "startTime": "12:30",
+    "endTime": "16:00",
+    "price": 0,
+    "priceDetail": [
+      "Bagels & sandwiches: $3 to $15"
+    ],
+    "address": "41 John Street, New York, NY",
+    "lat": 40.709366,
+    "lng": -74.00796,
+    "locationName": "Apollo Bagels",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315367368/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-05-26_Explore_Bagels_v14.png",
+    "id": 45
+  },
+  {
+    "name": "Enjoy Tunisian & Sudanese Music!!  \ud83c\uddf9\ud83c\uddf3 \ud83c\uddf8\ud83c\uddf8",
+    "types": [
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "F",
+      "G"
+    ],
+    "transitStation": "15 St\u2013Prospect Park",
+    "start": "2026-07-10",
+    "end": null,
+    "startTime": "17:30",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "141 Prospect Park West, Kings County, NY",
+    "lat": 40.663395,
+    "lng": -73.97664,
+    "locationName": "Lena Horne Bandshell (in Prospect Park)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315487300/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-10-26_Enjoy_Tunisian_v14.png",
+    "id": 46
+  },
+  {
+    "name": "Enjoy music and bites at Chinatown Nights!! \ud83c\udfee",
+    "types": [
+      "Concerts",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "B",
+      "D",
+      "J",
+      "Z"
+    ],
+    "transitStation": "Grand St",
+    "start": "2026-07-10",
+    "end": null,
+    "startTime": "21:00",
+    "endTime": "22:00",
+    "price": 0,
+    "address": "Forsyth St & Canal St, New York, NY",
+    "lat": 40.71562,
+    "lng": -73.994255,
+    "locationName": "Forsyth Plaza",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315488162/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-10-26_Enjoy_music_v14.png",
+    "id": 47
+  },
+  {
+    "name": "Explore African Art + lekk bu neex (tasty food \ud83d\ude0b) from Senegal!! \ud83c\uddf8\ud83c\uddf3",
+    "types": [
+      "Museums",
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "transitStation": "125 St",
+    "start": "2026-07-11",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "15:00",
+    "price": 0,
+    "address": "144 W 125th Street, New York, NY",
+    "lat": 40.808285,
+    "lng": -73.94769,
+    "locationName": "The Studio Museum in Harlem",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315488383/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-11-26_Explore_African_v14.png",
+    "id": 48
+  },
+  {
+    "name": "Let's play board games!! \ud83d\ude0a Air condition edition \ud83e\uddd6",
+    "types": [
+      "Board Games"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "E",
+      "M",
+      "6"
+    ],
+    "transitStation": "Lexington Av/53 St",
+    "start": "2026-07-11",
+    "end": null,
+    "startTime": "16:00",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "157 E 53rd St., New York City, NY",
+    "lat": 40.758175,
+    "lng": -73.97021,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315490536/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-11-26_BoardGames_AirCondition_v14.png",
+    "id": 49
+  },
+  {
+    "name": "C'est la f\u00eate! Celebrate Bastille Day!! \ud83c\uddeb\ud83c\uddf7\ud83e\uddd1\u200d\ud83c\udfa8\ud83e\udd56Aka France's National Day!!",
+    "types": [
+      "Culture",
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "N",
+      "R",
+      "W"
+    ],
+    "transitStation": "5 Av/59 St",
+    "start": "2026-07-12",
+    "end": null,
+    "startTime": "12:45",
+    "endTime": "19:30",
+    "price": 0,
+    "address": "22 East 60th Street, New York, NY",
+    "lat": 40.76382,
+    "lng": -73.97049,
+    "locationName": "L'Alliance New York",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315489592/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-12-26_Cest_la_v14.png",
+    "id": 50
+  },
+  {
+    "name": "Kayak on the Hudson!!",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "1",
+      "A",
+      "C",
+      "E"
+    ],
+    "transitStation": "Canal St",
+    "start": "2026-07-18",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "11:00",
+    "price": 0,
+    "address": "233 West Street, New york, NY",
+    "lat": 40.72142,
+    "lng": -74.01308,
+    "locationName": "The Downtown Boathouse at Pier 26",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315607026/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-18-26_Kayak_on_v14.png",
+    "id": 51
+  },
+  {
+    "name": "Join our Intergalactic Potluck!!",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "B",
+      "C"
+    ],
+    "transitStation": "103 St",
+    "start": "2026-07-18",
+    "end": null,
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "price": 0,
+    "address": "Great Hill, New York, NY",
+    "lat": 40.797253,
+    "lng": -73.9591,
+    "locationName": "Central Park's Great Hill",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315513991/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-18-26_Join_our_v14.png",
+    "id": 52
+  },
+  {
+    "name": "See The Odyssey together!",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "N",
+      "Q",
+      "R",
+      "W",
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
+    "transitStation": "Times Sq\u201342 St",
+    "start": "2026-07-18",
+    "end": null,
+    "startTime": "19:15",
+    "endTime": "23:00",
+    "price": 0,
+    "address": "234 W 42nd St, New York, NY",
+    "lat": 40.756607,
+    "lng": -73.989044,
+    "locationName": "AMC Empire",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315576740/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-18-26_See_The_v14.png",
+    "id": 53
+  },
+  {
+    "name": "Taste of Egypt!! \ud83c\uddea\ud83c\uddec\ud83e\udd9e\ud83c\udfa5",
+    "types": [
+      "Food",
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Queens",
+    "transitLines": [
+      "N",
+      "W"
+    ],
+    "transitStation": "Astoria Blvd",
+    "start": "2026-07-19",
+    "end": null,
+    "startTime": "18:15",
+    "endTime": "22:30",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $35 to $65"
+    ],
+    "address": "2425 Steinway Street, Queens, NY",
+    "lat": 40.768364,
+    "lng": -73.911186,
+    "locationName": "Sabry's Seafood",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315540836/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-19-26_Taste_of_v14.png",
+    "id": 54
+  },
+  {
+    "name": "Lebanese Film \ud83c\uddf1\ud83c\udde7\ud83c\udfa5 A Sad and Beautiful World!",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "B",
+      "D",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "Atlantic Av\u2013Barclays Ctr",
+    "start": "2026-07-23",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "21:30",
+    "price": 0,
+    "address": "30 Lafayette Ave, Kings County, NY",
+    "lat": 40.68653,
+    "lng": -73.97768,
+    "locationName": "BAM Rose Cinemas",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315782507/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-23-26_Lebanese_Film_v14.png",
+    "id": 55
+  },
+  {
+    "name": "An Italian Celebration! \ud83c\uddee\ud83c\uddf9 Essere pieno come un uovo! \ud83e\udd5a",
+    "types": [
+      "Culture",
+      "Food",
+      "Museums"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "N",
+      "Q",
+      "R",
+      "W",
+      "F"
+    ],
+    "transitStation": "57 St\u20137 Av",
+    "start": "2026-07-25",
+    "end": null,
+    "startTime": "11:30",
+    "endTime": "17:30",
+    "price": 0,
+    "priceDetail": [
+      "Coffee & pastries: $4 to $8"
+    ],
+    "address": "1385 6th Avenue, New York, NY",
+    "lat": 40.76387,
+    "lng": -73.97775,
+    "locationName": "Zibetto Espresso Bar",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315534046/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-25-26_An_Italian_v14.png",
+    "id": 56
+  },
+  {
+    "name": "Delicious Modern Indian Food!!",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "L"
+    ],
+    "transitStation": "1 Av",
+    "start": "2026-07-25",
+    "end": null,
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $23 to $42"
+    ],
+    "address": "107 1st Avenue, New York, NY",
+    "lat": 40.726864,
+    "lng": -73.98625,
+    "locationName": "Adda",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315540657/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-25-26_Delicious_Modern_v14.png",
+    "id": 57
+  },
+  {
+    "name": "\u00a1Esto se prendi\u00f3! \ud83c\udde8\ud83c\uddf4 Colombian Coffee, Lunch, and Dancing!!",
+    "types": [
+      "Dance",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Queens",
+    "transitLines": [
+      "7",
+      "E",
+      "F",
+      "M",
+      "R"
+    ],
+    "transitStation": "Jackson Hts\u2013Roosevelt Av",
+    "start": "2026-07-26",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "17:00",
+    "price": 0,
+    "priceDetail": [
+      "Bakery & food: $4 to $12"
+    ],
+    "address": "80-03 Roosevelt Ave, Queens County, NY",
+    "lat": 40.747578,
+    "lng": -73.88562,
+    "locationName": "Pecoshitas",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315571638/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/07-26-26_Esto_se_v14.png",
+    "id": 58
+  },
+  {
+    "name": "Bike along Park Avenue! \ud83d\udeb2",
+    "types": [
+      "Nature",
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "28 St",
+    "start": "2026-08-01",
+    "end": null,
+    "startTime": "08:30",
+    "endTime": "11:00",
+    "price": 0,
+    "address": "378 Park Ave S, New York, NY",
+    "lat": 40.74266,
+    "lng": -73.98483,
+    "locationName": "East 27th and Park Avenue South (meeting outside Hillstone or where the bikes are)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315877465/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-01-26_Bike_along_v14.png",
+    "id": 59
+  },
+  {
+    "name": "Swiss National Day! \ud83c\udde8\ud83c\udded",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "1"
+    ],
+    "transitStation": "Houston St",
+    "start": "2026-08-01",
+    "end": null,
+    "startTime": "11:45",
+    "endTime": "13:30",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $30 to $40"
+    ],
+    "address": "630 Hudson St, New York, NY",
+    "lat": 40.738388,
+    "lng": -74.00527,
+    "locationName": "The Lavaux",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315862509/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-01-26_Swiss_National_v14.png",
+    "id": 60
+  },
+  {
+    "name": "West African Dance! \ud83c\udf0d",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "1",
+      "R",
+      "W"
+    ],
+    "transitStation": "Bowling Green",
+    "start": "2026-08-01",
+    "end": null,
+    "startTime": "14:00",
+    "endTime": "15:30",
+    "price": 0,
+    "address": "75 Battery Place, New York, NY",
+    "lat": 40.718224,
+    "lng": -74.01613,
+    "locationName": "Rockefeller Park (in Battery Park)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315862654/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-01-26_West_African_v14.png",
+    "id": 61
+  },
+  {
+    "name": "Ecuador Independence Day! \ud83c\uddea\ud83c\udde8",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Jackson Heights",
+    "transitLines": [
+      "7",
+      "E",
+      "F",
+      "M",
+      "R"
+    ],
+    "transitStation": "Jackson Hts\u2013Roosevelt Av",
+    "start": "2026-08-02",
+    "end": null,
+    "startTime": "09:30",
+    "endTime": "12:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $14 to $26"
+    ],
+    "address": "40-32 National St, New York, NY",
+    "lat": 40.748974,
+    "lng": -73.86331,
+    "locationName": "Leticias Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315862976/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-02-26_Ecuador_Independence_v14.png",
+    "id": 62
+  },
+  {
+    "name": "Classic Indian Film: Sholay! \ud83c\uddee\ud83c\uddf3",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "F",
+      "B",
+      "D"
+    ],
+    "transitStation": "East Broadway",
+    "start": "2026-08-02",
+    "end": null,
+    "startTime": "12:45",
+    "endTime": "16:30",
+    "price": 0,
+    "address": "7 Ludlow St, New York, NY",
+    "lat": 40.715115,
+    "lng": -73.99118,
+    "locationName": "Metrograph",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315863187/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-02-26_Classic_Indian_v14.png",
+    "id": 63
+  },
+  {
+    "name": "Wave Hill Public Garden! \ud83c\udfde\ufe0f\ud83c\udfb7",
+    "types": [
+      "Nature",
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Bronx",
+    "neighborhood": "Bronx",
+    "transitText": "Metro-North Hudson Line to Riverdale",
+    "start": "2026-08-05",
+    "end": null,
+    "startTime": "17:00",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "4900 Independence Ave, Bronx County, NY",
+    "lat": 40.897762,
+    "lng": -73.9124,
+    "locationName": "Wave Hill Public Garden & Cultural Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315863277/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-05-26_Wave_Hill_v14.png",
+    "id": 64
+  },
+  {
+    "name": "Long Beach & Lobsters! \ud83c\udfd6\ufe0f\ud83e\udd9e",
+    "types": [
+      "Nature",
+      "Food"
+    ],
+    "region": "outside",
+    "town": "Long Beach, NY",
+    "train": "LIRR Long Beach Branch",
+    "transitText": "LIRR to Long Beach",
+    "start": "2026-08-08",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "17:30",
+    "price": 0,
+    "address": "Park Ave & Park Pl, Long Beach, NY 11561",
+    "lat": 40.589368,
+    "lng": -73.664854,
+    "locationName": "Long Beach LIRR Station",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315863388/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Pin now shows the Long Beach LIRR station itself, the actual destination, rather than the NYC departure point at Penn Station.",
+    "customImage": "images/08-08-26_Long_Beach_v14.png",
+    "id": 65
+  },
+  {
+    "name": "Jamaica Day! \ud83c\uddef\ud83c\uddf2",
+    "types": [
+      "Culture",
+      "Food",
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "1"
+    ],
+    "transitStation": "59 St\u2013Columbus Circle",
+    "start": "2026-08-08",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $13.50 to $26"
+    ],
+    "address": "503 West 57th Street, New York, NY",
+    "lat": 40.769474,
+    "lng": -73.98888,
+    "locationName": "Jerk House Caribbean Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315903999/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-08-26_Jamaica_Day_v14.png",
+    "id": 66
+  },
+  {
+    "name": "Dominican Day! \ud83c\udde9\ud83c\uddf4",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "1",
+      "A"
+    ],
+    "transitStation": "Dyckman St",
+    "start": "2026-08-09",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "16:00",
+    "price": 0,
+    "priceDetail": [
+      "Food & coffee: $6 to $16"
+    ],
+    "address": "4394 Broadway, New York, NY",
+    "lat": 40.854713,
+    "lng": -73.93327,
+    "locationName": "Cafe Bloom",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315877243/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-09-26_Dominican_Day_v14.png",
+    "id": 67
+  },
+  {
+    "name": "Let's play board games!! \ud83d\ude0a Serious laughs edition \ud83c\udfa9\ud83e\udd23",
+    "types": [
+      "Board Games"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "E",
+      "M",
+      "6"
+    ],
+    "transitStation": "Lexington Av/53 St",
+    "start": "2026-08-09",
+    "end": null,
+    "startTime": "17:00",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY",
+    "lat": 40.75808,
+    "lng": -73.97,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315919864/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-09-26_BoardGames_SeriousLaughs_v14.png",
+    "id": 68
+  },
+  {
+    "name": "Movie: Catch Me If You Can! \ud83e\uddd1\u200d\u2708\ufe0f\ud83e\udd23",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "B",
+      "D",
+      "F",
+      "M",
+      "N",
+      "Q",
+      "R",
+      "S",
+      "W"
+    ],
+    "transitStation": "42 St\u2013Bryant Pk",
+    "start": "2026-08-10",
+    "end": null,
+    "startTime": "17:30",
+    "endTime": "23:00",
+    "price": 0,
+    "address": "Bryant Park,, New York, NY",
+    "lat": 40.754833,
+    "lng": -73.984116,
+    "locationName": "Bryant Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315864183/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-10-26_Movie_Catch_v14.png",
+    "id": 69
+  },
+  {
+    "name": "Bourdain Bonanza! \ud83d\udc68\u200d\ud83e\uddb3",
+    "types": [
+      "Culture",
+      "Food",
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "1",
+      "F",
+      "M"
+    ],
+    "transitStation": "23 St",
+    "start": "2026-08-12",
+    "end": null,
+    "startTime": "16:45",
+    "endTime": "21:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $11 to $25"
+    ],
+    "address": "174 5th Ave, New York, NY",
+    "lat": 40.74114,
+    "lng": -73.99017,
+    "locationName": "S&P Lunch",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316008176/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-12-26_Bourdain_Bonanza_v14.png",
+    "id": 70
+  },
+  {
+    "name": "Battery Dance Festival! \ud83e\udead",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "1",
+      "R",
+      "W"
+    ],
+    "transitStation": "Bowling Green",
+    "start": "2026-08-14",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "20 Battery Pl, New York, NY",
+    "lat": 40.70504,
+    "lng": -74.018166,
+    "locationName": "Wagner Park (in Battery Park)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315903315/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-14-26_Battery_Dance_v14.png",
+    "id": 71
+  },
+  {
+    "name": "Destination Unknown! \ud83e\uddd0\ud83d\ude26",
+    "types": [
+      "Culture",
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "1",
+      "2",
+      "3",
+      "7",
+      "A",
+      "C",
+      "E",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "42 St\u2013Port Authority",
+    "start": "2026-08-15",
+    "end": null,
+    "startTime": "08:30",
+    "endTime": "17:00",
+    "price": 5,
+    "address": "625 8th Ave, New York, NY",
+    "lat": 40.755905,
+    "lng": -73.99113,
+    "locationName": "Port Authority Bus Terminal",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315899591/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-15-26_Destination_Unknown_v14.png",
+    "id": 72
+  },
+  {
+    "name": "Korea Day! \ud83c\uddf0\ud83c\uddf7",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "28 St",
+    "start": "2026-08-15",
+    "end": null,
+    "startTime": "16:45",
+    "endTime": "21:00",
+    "price": 5,
+    "priceDetail": [
+      "Entrees: $12 to $30"
+    ],
+    "address": "17 East 31st Street, New York, NY",
+    "lat": 40.74615,
+    "lng": -73.985054,
+    "locationName": "My Name is Han",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315906263/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-15-26_Korea_Day_v14.png",
+    "id": 73
+  },
+  {
+    "name": "India Day! \ud83c\uddee\ud83c\uddf3",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "28 St",
+    "start": "2026-08-16",
+    "end": null,
+    "startTime": "12:00",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "45 Madison Ave, New York, NY",
+    "lat": 40.74289,
+    "lng": -73.98634,
+    "locationName": "C\u00e9line Dejoie (Meeting outside store at Madison Ave & East 26th Street)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315892348/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-16-26_India_Day_v14.png",
+    "id": 74
+  },
+  {
+    "name": "Movie: Bridesmaids! \ud83d\udc70\ud83e\udd23",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "A",
+      "C",
+      "2",
+      "3"
+    ],
+    "transitStation": "High St",
+    "start": "2026-08-20",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "22:00",
+    "price": 0,
+    "address": "80 Furman St, Kings County, NY",
+    "lat": 40.700935,
+    "lng": -73.99603,
+    "locationName": "Harbor View Lawn in Brooklyn Bridge Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315903877/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-20-26_Movie_Bridesmaids_v14.png",
+    "id": 75
+  },
+  {
+    "name": "Booze & Bodies! \ud83c\udf78\ud83d\ude27",
+    "types": [
+      "Culture",
+      "Theatre"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "L"
+    ],
+    "transitStation": "14 St",
+    "start": "2026-08-21",
+    "end": null,
+    "startTime": "17:15",
+    "endTime": "22:00",
+    "price": 40,
+    "address": "184 8th Ave, New York, NY",
+    "lat": 40.74292,
+    "lng": -73.999985,
+    "locationName": "Bar Bonobo",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315925948/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-21-26_Booze_Bodies_v14.png",
+    "id": 76
+  },
+  {
+    "name": "Cuisine from several regions of India! \ud83c\uddee\ud83c\uddf3",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6",
+      "L",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "14 St\u2013Union Sq",
+    "start": "2026-08-22",
+    "end": null,
+    "startTime": "12:15",
+    "endTime": "14:15",
+    "price": 35,
+    "priceDetail": [
+      "Entrees: $15 to $32"
+    ],
+    "address": "20 East 17th Street, New York, NY",
+    "lat": 40.73721,
+    "lng": -73.991295,
+    "locationName": "Kanyakumari",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315926011/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-22-26_Cuisine_from_v14.png",
+    "id": 77
+  },
+  {
+    "name": "Queens Night Market! \ud83e\udd5f\ud83c\udf61\ud83c\udf5b",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Flushing Meadows Corona Park",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "111 St",
+    "start": "2026-08-22",
+    "end": null,
+    "startTime": "15:30",
+    "endTime": "18:30",
+    "price": 0,
+    "priceDetail": [
+      "Food: $6 to $15"
+    ],
+    "address": "47-01 111th Street, New York, NY",
+    "lat": 40.747128,
+    "lng": -73.85152,
+    "locationName": "New York Hall of Science",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316008899/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-22-26_Queens_Night_Aug22_v14.png",
+    "id": 78
+  },
+  {
+    "name": "Pakistan Day! \ud83c\uddf5\ud83c\uddf0",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "F",
+      "J",
+      "M"
+    ],
+    "transitStation": "Delancey St\u2013Essex St",
+    "start": "2026-08-23",
+    "end": null,
+    "startTime": "10:00",
+    "endTime": "13:30",
+    "price": 0,
+    "priceDetail": [
+      "Chai & bites: $4 to $10"
+    ],
+    "address": "109 Ludlow Street, New York, NY",
+    "lat": 40.719402,
+    "lng": -73.988945,
+    "locationName": "Kaafi by Chaiguy",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315892917/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-23-26_Pakistan_Day_v14.png",
+    "id": 79
+  },
+  {
+    "name": "Let's play board games!! \ud83d\ude0a Unintentional wordplay edition \ud83e\udee2",
+    "types": [
+      "Board Games"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "E",
+      "M",
+      "6"
+    ],
+    "transitStation": "Lexington Av/53 St",
+    "start": "2026-08-23",
+    "end": null,
+    "startTime": "15:00",
+    "endTime": "18:00",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY",
+    "lat": 40.75808,
+    "lng": -73.97,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315919915/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-23-26_BoardGames_Wordplay_v14.png",
+    "id": 80
+  },
+  {
+    "name": "Salsa Dancing!\ud83d\udc83",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "B",
+      "D",
+      "F",
+      "M"
+    ],
+    "transitStation": "W 4 St\u2013Wash Sq",
+    "start": "2026-08-26",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "Washington Square N, New York, NY",
+    "lat": 40.731472,
+    "lng": -73.99709,
+    "locationName": "Washington Square Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316009207/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-26-26_Salsa_Dancing_v14.png",
+    "id": 81
+  },
+  {
+    "name": "US Open Fan Week \ud83c\udfbeQualifying Tournament!",
+    "types": [
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Queens",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "Mets\u2013Willets Point",
+    "start": "2026-08-27",
+    "end": null,
+    "startTime": "09:30",
+    "endTime": "14:00",
+    "price": 0,
+    "address": "Flushing Meadows Corona Park, Queens, NY",
+    "lat": 40.740086,
+    "lng": -73.841705,
+    "locationName": "USTA Billie Jean King National Tennis Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315893958/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-27-26_US_Open_v14.png",
+    "id": 82
+  },
+  {
+    "name": "Fat Hungarian Party! \ud83c\udded\ud83c\uddfa Zs\u00edr magyar buli!",
+    "types": [
+      "Culture",
+      "Food",
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "Q",
+      "4",
+      "5",
+      "6"
+    ],
+    "transitStation": "86 St",
+    "start": "2026-08-29",
+    "end": null,
+    "startTime": "17:15",
+    "endTime": "21:30",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $18 to $30"
+    ],
+    "address": "1631 2nd Ave, New York, NY",
+    "lat": 40.77714,
+    "lng": -73.95263,
+    "locationName": "Budapest Cafe",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315894270/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-29-26_Fat_Hungarian_v14.png",
+    "id": 83
+  },
+  {
+    "name": "Rockaway Beach! \ud83c\udfd6\ufe0f",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Rockaway Park",
+    "transitLines": [
+      "A",
+      "S"
+    ],
+    "transitStation": "Beach 105 St",
+    "start": "2026-08-30",
+    "end": null,
+    "startTime": "09:30",
+    "endTime": "16:30",
+    "price": 0,
+    "address": "Beach 108th St & Beach Channel Dr, Rockaway Park, NY 11694",
+    "lat": 40.583217,
+    "lng": -73.827594,
+    "locationName": "Rockaway Beach (NYC Ferry Landing)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316139334/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Pin now shows Rockaway Beach itself, the actual destination, rather than the Manhattan ferry departure point at Pier 11.",
+    "customImage": "images/08-30-26_Rockaway_Beach_v14.png",
+    "id": 84
+  },
+  {
+    "name": "Georgian Food + Music at The History Restaurant! \ud83c\uddec\ud83c\uddea",
+    "types": [
+      "Concerts",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "C",
+      "E"
+    ],
+    "transitStation": "50 St",
+    "start": "2026-08-30",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "21:30",
+    "price": 31,
+    "priceDetail": [
+      "Entrees: $31 to $50"
+    ],
+    "address": "645 9th Avenue, New York, NY",
+    "lat": 40.76064,
+    "lng": -73.99143,
+    "locationName": "The History Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316163188/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/08-30-26_Georgian_Food_v14.png",
+    "id": 85
+  },
+  {
+    "name": "High Line & Hudson Yards! \ud83d\ude88\ud83d\udc5b\ud83c\udfa9",
+    "types": [
+      "Culture",
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "L"
+    ],
+    "transitStation": "14 St",
+    "start": "2026-09-01",
+    "end": null,
+    "startTime": "16:30",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "91 Gansevoort St, New York, NY",
+    "lat": 40.739487,
+    "lng": -74.00818,
+    "locationName": "The High Line's Entrace at Gansevoort Street",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316277244/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-01-26_High_Line_v14.png",
+    "id": 86
+  },
+  {
+    "name": "Learn Brazilian Dance \ud83c\udde7\ud83c\uddf7 and Circus Arts! \ud83e\udd21",
+    "types": [
+      "Dance",
+      "Theatre"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "B",
+      "D",
+      "F",
+      "M",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "34 St\u2013Herald Sq",
+    "start": "2026-09-02",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "Broadway between 32nd and 33rd Streets, New York, NY",
+    "lat": 40.748695,
+    "lng": -73.98835,
+    "locationName": "Greely Square (for Brazilian Dance)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316355592/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-02-26_Learn_Brazilian_v14.png",
+    "id": 87
+  },
+  {
+    "name": "DreamWorks Water Park! \ud83d\udedd",
+    "types": [
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "East Rutherford, NJ",
+    "train": "NJ Transit + local bus",
+    "transitText": "NJ Transit/bus to American Dream Meadowlands",
+    "start": "2026-09-04",
+    "end": null,
+    "startTime": "08:15",
+    "endTime": "16:30",
+    "price": 70,
+    "address": "1 American Dream Way, East Rutherford, NJ 07073",
+    "lat": 40.807101,
+    "lng": -74.069175,
+    "locationName": "DreamWorks Water Park (American Dream)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316380522/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Pin now shows the water park itself in East Rutherford, NJ, rather than the NYC departure point at Port Authority.",
+    "customImage": "images/09-04-26_DreamWorks_Water_v14.png",
+    "id": 88
+  },
+  {
+    "name": "Ethiopian New Year! \ud83c\uddea\ud83c\uddf9\ud83c\udf89",
+    "types": [
+      "Culture",
+      "Food",
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "G"
+    ],
+    "transitStation": "Fulton St",
+    "start": "2026-09-04",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "21:00",
+    "price": 5,
+    "priceDetail": [
+      "Entrees: $17 to $30"
+    ],
+    "address": "1057 Fulton St, Kings County, NY",
+    "lat": 40.682148,
+    "lng": -73.95947,
+    "locationName": "Bati (Ethiopian restaurant)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316277291/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-04-26_Ethiopian_New_v14.png",
+    "id": 89
+  },
+  {
+    "name": "Washington DC Trip! \ud83c\udfdb\ufe0f\ud83c\udfa8\ud83d\udcdc",
+    "types": [
+      "Culture",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "Amtrak to Washington, DC",
+    "start": "2026-09-05",
+    "end": "2026-09-06",
+    "startTime": "07:10",
+    "endTime": "19:46",
+    "price": 0,
+    "address": "Union Station Dr NE, Washington, DC",
+    "lat": 38.897385,
+    "lng": -77.00632,
+    "locationName": "Union Station",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316089564/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Pin now shows Union Station in Washington, DC, since this meta-event frames the whole DC trip, rather than the NYC departure point.",
+    "customImage": "images/09-05-26_Washington_DC_v14.png",
+    "id": 90
+  },
+  {
+    "name": "Amtrak from NYC to DC! \ud83d\ude84\ud83c\udfa8",
+    "types": [
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "Amtrak to Washington, DC (Union Station)",
+    "start": "2026-09-05",
+    "end": null,
+    "startTime": "07:15",
+    "endTime": "11:30",
+    "price": 82,
+    "address": "Union Station Dr NE, Washington, DC",
+    "lat": 38.897385,
+    "lng": -77.00632,
+    "locationName": "Union Station",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315712953/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Pin now shows Union Station, the DC arrival point, rather than the NYC departure point at Penn Station.",
+    "customImage": "images/09-05-26_Amtrak_NYCtoDC_v14.png",
+    "id": 91
+  },
+  {
+    "name": "Postal Museum! \ud83d\udcec\ud83c\udfe4",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Red Line) to Union Station",
+    "start": "2026-09-05",
+    "end": null,
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "price": 0,
+    "address": "2 Massachusetts Ave NE, Washington, DC, DC",
+    "lat": 38.8983,
+    "lng": -77.00814,
+    "locationName": "Smithsonian National Postal Museum",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713116/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-05-26_Postal_Museum_v14.png",
+    "id": 92
+  },
+  {
+    "name": "National Gallery of Art! \ud83d\uddbc\ufe0f",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Green/Yellow) to Archives\u2013Navy Memorial, or (Orange/Blue/Silver) to Smithsonian",
+    "start": "2026-09-05",
+    "end": null,
+    "startTime": "13:00",
+    "endTime": "15:15",
+    "price": 0,
+    "address": "6th Street and Constitution Ave NW, Washington, DC, DC",
+    "lat": 38.891396,
+    "lng": -77.019966,
+    "locationName": "National Gallery of Art \u2013 West Building",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713169/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-05-26_National_Gallery_v14.png",
+    "id": 93
+  },
+  {
+    "name": "National Museum of the American Indian (in DC)! \ud83c\udff9\ud83c\udf3d\ud83c\udf3e",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Orange/Blue/Silver) to L'Enfant Plaza",
+    "start": "2026-09-05",
+    "end": null,
+    "startTime": "15:45",
+    "endTime": "17:00",
+    "price": 0,
+    "address": "4th St & Independence Ave SW, Washington, DC, DC",
+    "lat": 38.888428,
+    "lng": -77.0165,
+    "locationName": "National Museum of the American Indian (in DC's National Mall)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713343/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-05-26_NatlMuseum_AmericanIndian_v14.png",
+    "id": 94
+  },
+  {
+    "name": "National Portrait Gallery! \ud83e\udd33\ud83d\udc69\u200d\ud83c\udfa8",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Red/Yellow/Green) to Gallery Pl\u2013Chinatown",
+    "start": "2026-09-05",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "8th St & G St NW, Washington, DC, DC",
+    "lat": 38.89794,
+    "lng": -77.02302,
+    "locationName": "National Portrait Gallery",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713405/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-05-26_National_Portrait_v14.png",
+    "id": 95
+  },
+  {
+    "name": "Sculpture Garden! \ud83d\uddff",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Green/Yellow) to Archives\u2013Navy Memorial",
+    "start": "2026-09-05",
+    "end": null,
+    "startTime": "19:15",
+    "endTime": "19:45",
+    "price": 0,
+    "address": "Constitution Ave NW & 7th St NW, Washington, DC, DC",
+    "lat": 38.891407,
+    "lng": -77.022964,
+    "locationName": "National Gallery of Art \u2013 Sculpture Garden",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713438/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-05-26_Sculpture_Garden_v14.png",
+    "id": 96
+  },
+  {
+    "name": "Smithsonian Castle! \ud83c\udff0",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Orange/Blue/Silver) to Smithsonian",
+    "start": "2026-09-06",
+    "end": null,
+    "startTime": "08:15",
+    "endTime": "09:15",
+    "price": 0,
+    "address": "1000 Jefferson Dr SW, Washington, DC, DC",
+    "lat": 38.88888,
+    "lng": -77.025986,
+    "locationName": "Smithsonian Castle",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713494/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-06-26_Smithsonian_Castle_v14.png",
+    "id": 97
+  },
+  {
+    "name": "National Museum of African American History & Culture! \ud83c\udf0d\u26d3\ufe0f\u200d\ud83d\udca5",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Orange/Blue/Silver) to Smithsonian",
+    "start": "2026-09-06",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "12:00",
+    "price": 0,
+    "address": "1400 Constitution Ave NW, Washington, DC, DC",
+    "lat": 38.89118,
+    "lng": -77.032585,
+    "locationName": "National Museum of African American History & Culture",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713839/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-06-26_NatlMuseum_AfricanAmerican_v14.png",
+    "id": 98
+  },
+  {
+    "name": "National Museum of Asian Art! \ud83c\udf0f\ud83c\udfee\u26e9\ufe0f",
+    "types": [
+      "Museums",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Orange/Blue/Silver) to Smithsonian",
+    "start": "2026-09-06",
+    "end": null,
+    "startTime": "13:00",
+    "endTime": "15:15",
+    "price": 0,
+    "address": "1050 Independence Ave SW, Washington, DC, DC",
+    "lat": 38.888306,
+    "lng": -77.02741,
+    "locationName": "National Museum of Asian Art",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713888/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-06-26_NatlMuseum_AsianArt_v14.png",
+    "id": 99
+  },
+  {
+    "name": "Amtrak from DC to NYC! \ud83d\ude84\ud83d\uddfd",
+    "types": [
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Washington, DC",
+    "train": "Amtrak",
+    "transitText": "DC Metro (Red Line) to Union Station",
+    "start": "2026-09-06",
+    "end": null,
+    "startTime": "15:55",
+    "endTime": "19:45",
+    "price": 58,
+    "address": "Union Station Dr NE, Washington, DC, DC",
+    "lat": 38.897385,
+    "lng": -77.00632,
+    "locationName": "Union Station DC",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/315713055/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-06-26_Amtrak_DCtoNYC_v14.png",
+    "id": 100
+  },
+  {
+    "name": "Harriman State Park & Lake Sebago! \ud83c\udfde\ufe0f\ud83c\udf0a",
+    "types": [
+      "Nature",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Tuxedo Park, NY",
+    "train": "NJ Transit / Metro-North",
+    "transitText": "NJ Transit to Secaucus, then Metro-North to Tuxedo",
+    "start": "2026-09-07",
+    "end": null,
+    "startTime": "08:30",
+    "endTime": "17:30",
+    "price": 0,
+    "address": "233 NY-17, Tuxedo Park, NY 10987",
+    "lat": 41.2014,
+    "lng": -74.2017,
+    "locationName": "Tuxedo Sushi",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316010761/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Meeting point is now shown as Tuxedo Sushi near Tuxedo Station -- the actual hike destination -- rather than the NYC departure point at Penn Station.",
+    "customImage": "images/09-07-26_Harriman_State_v14.png",
+    "id": 101
+  },
+  {
+    "name": "Blade Runner: The Final Cut! \ud83e\udd16",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "N",
+      "R",
+      "W",
+      "E",
+      "M"
+    ],
+    "transitStation": "5 Av/59 St",
+    "start": "2026-09-07",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "21:30",
+    "price": 17,
+    "address": "4 W 58th St, New York, NY",
+    "lat": 40.76376,
+    "lng": -73.97429,
+    "locationName": "Paris Theater",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316139461/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-07-26_Blade_Runner_v14.png",
+    "id": 102
+  },
+  {
+    "name": "9/11 Documentary with Q&A \ud83d\uddfd(for 25th anniversary)",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "4",
+      "5",
+      "6",
+      "L",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "14 St\u2013Union Sq",
+    "start": "2026-09-09",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "21:45",
+    "price": 0,
+    "address": "66 Fifth Avenue, New York, NY",
+    "lat": 40.735134,
+    "lng": -73.99449,
+    "locationName": "The New School's Kellen Auditorium (Room N101)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316277432/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-09-26_911_Documentary_v14.png",
+    "id": 103
+  },
+  {
+    "name": "MoMA Friday Night! \ud83d\uddbc\ufe0f",
+    "types": [
+      "Museums",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "E",
+      "M"
+    ],
+    "transitStation": "5 Av/53 St",
+    "start": "2026-09-11",
+    "end": null,
+    "startTime": "18:15",
+    "endTime": "20:30",
+    "price": 0,
+    "address": "11 West 53rd Street, New York, NY",
+    "lat": 40.76135,
+    "lng": -73.97733,
+    "locationName": "MoMA (Musuem of Modern Art)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316280350/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-11-26_MoMA_Friday_v14.png",
+    "id": 104
+  },
+  {
+    "name": "Jamaica Bay Wildlife Refuge! \ud83c\udfde\ufe0f",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Queens",
+    "transitLines": [
+      "A"
+    ],
+    "transitStation": "Broad Channel",
+    "start": "2026-09-12",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "12:15",
+    "price": 0,
+    "address": "175-10 Cross Bay Blvd, Queens, NY",
+    "lat": 40.617146,
+    "lng": -73.82454,
+    "locationName": "Jamaica Bay Wildlife Refuge Visitor Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316336880/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-12-26_Jamaica_Bay_v14.png",
+    "id": 105
+  },
+  {
+    "name": "Guatemala Day! \ud83c\uddec\ud83c\uddf9",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Prospect-Lefferts Gardens",
+    "transitLines": [
+      "B",
+      "Q"
+    ],
+    "transitStation": "Prospect Park",
+    "start": "2026-09-12",
+    "end": null,
+    "startTime": "13:45",
+    "endTime": "15:45",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: $20 to $30"
+    ],
+    "address": "43 Lincoln Road, New York, NY",
+    "lat": 40.660957,
+    "lng": -73.961365,
+    "locationName": "Ix Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316380817/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-12-26_Guatemala_Day_v14.png",
+    "id": 106
+  },
+  {
+    "name": "Let's play board games!! \ud83d\ude0a Big bad wolf edition (in Prospect Park)",
+    "types": [
+      "Board Games"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [
+      "F",
+      "G",
+      "B",
+      "Q"
+    ],
+    "transitStation": "15 St\u2013Prospect Park",
+    "start": "2026-09-12",
+    "end": null,
+    "startTime": "16:00",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "40 West Drive, Kings County, NY",
+    "lat": 40.66557,
+    "lng": -73.97158,
+    "locationName": "The Picnic House in Prospect Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316381027/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-12-26_BoardGames_BigBadWolf_v14.png",
+    "id": 107
+  },
+  {
+    "name": "Bungalow! \ud83c\uddee\ud83c\uddf3",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "L"
+    ],
+    "transitStation": "1 Av",
+    "start": "2026-09-12",
+    "end": null,
+    "startTime": "19:45",
+    "endTime": "22:00",
+    "price": 28,
+    "priceDetail": [
+      "Entrees: $28 to $48"
+    ],
+    "address": "21 1st Ave, New York, NY",
+    "lat": 40.72364,
+    "lng": -73.98842,
+    "locationName": "Bungalow",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316009584/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-12-26_Bungalow_v14.png",
+    "id": 108
+  },
+  {
+    "name": "Trip to Philadelphia! \ud83c\udfdb\ufe0f\ud83c\udfa8\ud83d\udcdc",
+    "types": [
+      "Culture",
+      "Field Trip",
+      "Museums"
+    ],
+    "region": "outside",
+    "town": "Philadelphia, PA",
+    "train": "Greyhound",
+    "transitText": "Greyhound bus to Philadelphia",
+    "start": "2026-09-13",
+    "end": null,
+    "startTime": "08:30",
+    "endTime": "20:30",
+    "price": 0,
+    "address": "51 N 12th St, Philadelphia, PA 19107",
+    "lat": 39.953709,
+    "lng": -75.158569,
+    "locationName": "Reading Terminal Market",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316334760/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Pin now shows Reading Terminal Market, the group's first stop in Philadelphia, rather than the NYC departure point at the Greyhound pick-up.",
+    "customImage": "images/09-13-26_Trip_to_v14.png",
+    "id": 109
+  },
+  {
+    "name": "Football Watch Party (Manchester United vs Manchester City) ft. Erling Haaland",
+    "types": [
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "B",
+      "D",
+      "F",
+      "M"
+    ],
+    "transitStation": "W 4 St\u2013Wash Sq",
+    "start": "2026-09-13",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "13:30",
+    "price": 0,
+    "address": "80 W 3rd St, New York, NY 10012, USA, New York, NY",
+    "lat": 40.729725,
+    "lng": -73.99887,
+    "locationName": "Amity Hall Downtown",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316507826/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "customImage": "images/09-13-26_Football_Watch_v14.png",
+    "id": 110
+  },
+  {
+    "name": "El Grito! Mexican Independence Day! \ud83c\uddf2\ud83c\uddfd",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Sunset Park",
+    "transitLines": [
+      "R"
+    ],
+    "transitStation": "45 Str",
+    "start": "2026-09-15",
+    "end": null,
+    "startTime": "16:00",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "4401 5th Ave, Brooklyn, NY 11220",
+    "lat": 40.64834370803738,
+    "lng": -74.00672655341559,
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316334783/",
+    "spotsLeft": null,
+    "wikiTitle": "Sunset, Brooklyn",
+    "thingsToKnow": "Free, no RSVP needed with the city; singing and dancing planned as part of the festivities.",
+    "customImage": "images/09-15-26_El_Grito_Mexican_Independence_v14.png",
+    "id": 111
+  },
+  {
+    "name": "Tango in the Park! \ud83d\udc83\ud83e\uddb5",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Sutton Place",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "51 St",
+    "start": "2026-09-16",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "19:30",
+    "price": 0,
+    "address": "1 Sutton Pl S, New York, NY",
+    "lat": 40.756184,
+    "lng": -73.96081,
+    "locationName": "Sutton Place Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316455262/",
+    "spotsLeft": null,
+    "wikiTitle": "Sutton Place",
+    "thingsToKnow": "Free, no RSVP needed with the city; all levels welcome, can join anytime.",
+    "customImage": "images/09-16-26_Tango_Sutton_Place_v14.png",
+    "id": 112
+  },
+  {
+    "name": "New York Sings Yiddish! \ud83c\udfa4",
+    "types": [
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Central Park",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "68 St\u2013Hunter College",
+    "start": "2026-09-17",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "14 East 71st Street, New York, NY",
+    "lat": 40.772724,
+    "lng": -73.9702,
+    "locationName": "Rumsey Playfield",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316400446/",
+    "spotsLeft": null,
+    "wikiTitle": "SummerStage",
+    "thingsToKnow": "Free, no RSVP needed with the city; the concert itself continues until 10pm even though the group gathering wraps up at 9pm.",
+    "customImage": "images/09-17-26_Yiddish_Singing_Concert_v14.png",
+    "id": 113
+  },
+  {
+    "name": "Camping in NYC! \ud83c\udfd5\ufe0f",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Staten Island",
+    "neighborhood": "Annadale",
+    "transitText": "Staten Island Railway to Annadale",
+    "start": "2026-09-18",
+    "end": "2026-09-19",
+    "startTime": "18:00",
+    "endTime": "08:00",
+    "price": 0,
+    "address": "222 Poillon Ave, Richmond County, NY",
+    "lat": 40.53088,
+    "lng": -74.17777,
+    "locationName": "Blue Heron Nature Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316400081/",
+    "spotsLeft": null,
+    "wikiTitle": "Blue Heron Park Nature Preserve",
+    "thingsToKnow": "Lottery-based registration (already closed for this date); tents provided by NYC Parks Urban Park Rangers.",
+    "customImage": "images/09-18-26_Camping_Blue_Heron_v14.png",
+    "id": 114
+  },
+  {
+    "name": "Soundview Restoration Day! \ud83c\udf33",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Bronx",
+    "neighborhood": "Soundview",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "Morrison Av\u2013Soundview",
+    "start": "2026-09-19",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "14:00",
+    "price": 0,
+    "address": "Lafayette Ave & Colgate Ave, Bronx County, NY",
+    "lat": 40.819183,
+    "lng": -73.87983,
+    "locationName": "Butterfly Meditation Garden, Soundview Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316482315/",
+    "spotsLeft": null,
+    "wikiTitle": "Soundview, Bronx",
+    "thingsToKnow": "Must sign a waiver; helps plant 250 trees and clean up the shoreline.",
+    "customImage": "images/09-19-26_Soundview_Tree_Planting_v14.png",
+    "id": 115
+  },
+  {
+    "name": "Flushing Food Crawl! \ud83d\ude0b",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Flushing",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "Flushing\u2013Main St",
+    "start": "2026-09-19",
+    "end": null,
+    "startTime": "14:45",
+    "endTime": "17:15",
+    "price": 0,
+    "priceDetail": [
+      "Food: $8 to $18"
+    ],
+    "address": "39-16 Prince St #104, New York, NY",
+    "lat": 40.759575,
+    "lng": -73.83241,
+    "locationName": "Nan Xiang Soup Dumplings",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316479060/",
+    "spotsLeft": null,
+    "wikiTitle": "Flushing, Queens",
+    "thingsToKnow": "Best to bring cash; five food stops total, trade off buying with your small group.",
+    "customImage": "images/09-19-26_Flushing_Soup_Dumplings_v14.png",
+    "id": 116
+  },
+  {
+    "name": "Queens Night Market! \ud83e\udd5f\ud83c\udf61\ud83c\udf5b",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Corona",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "111 St",
+    "start": "2026-09-19",
+    "end": null,
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "price": 0,
+    "priceDetail": [
+      "Food: $6 to $15"
+    ],
+    "address": "4701 111th Street, Queens County, NY",
+    "lat": 40.747307,
+    "lng": -73.85172,
+    "locationName": "Queens Night Market",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316479198/",
+    "spotsLeft": null,
+    "wikiTitle": "Flushing Meadows\u2013Corona Park",
+    "thingsToKnow": "Cash preferred (some vendors take Venmo/Zelle); food is roughly $6 per item; outside food/drink OK, no outside alcohol.",
+    "customImage": "images/09-19-26_Queens_Night_Market_v14.png",
+    "id": 117
+  },
+  {
+    "name": "How to Live on Earth! \u26f0\ufe0f",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Lower East Side",
+    "transitLines": [
+      "F",
+      "J",
+      "M"
+    ],
+    "transitStation": "Delancey St\u2013Essex St",
+    "start": "2026-09-20",
+    "end": null,
+    "startTime": "09:30",
+    "endTime": "11:45",
+    "price": 20,
+    "address": "129 Delancey St, New York, NY 10002",
+    "lat": 40.718157,
+    "lng": -73.987716,
+    "locationName": "Regal Essex Crossing",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316582853/",
+    "spotsLeft": null,
+    "wikiTitle": "Essex Crossing",
+    "thingsToKnow": "Movie starts at 10am, seating begins 9:45am; 1 hour 36 minutes, features Benedict Cumberbatch; part of Climate Week NYC.",
+    "customImage": "images/09-20-26_Live_on_Earth_v14.png",
+    "id": 118
+  },
+  {
+    "name": "Help count Monarch Butterflies, Hike, & More in Marine Park! \ud83e\udd8b",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Marine Park",
+    "transitLines": [
+      "Q"
+    ],
+    "transitStation": "Kings Hwy",
+    "start": "2026-09-20",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "11:45",
+    "price": 0,
+    "address": "3301 Avenue U, Brooklyn, NY 11234",
+    "lat": 40.604046,
+    "lng": -73.930632,
+    "locationName": "Salt Marsh Nature Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316405783/",
+    "spotsLeft": null,
+    "wikiTitle": "Marine Park (New York City)",
+    "thingsToKnow": "Multi-part morning: butterfly tagging, a short hike, coffee, and optional kayak/bike rentals after; the Nature Center has restrooms and AC.",
+    "customImage": "images/09-20-26_Marine_Park_Butterflies_v14.png",
+    "id": 119
+  },
+  {
+    "name": "Mexico Day! \ud83c\uddf2\ud83c\uddfd",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "NoMad",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "28 St",
+    "start": "2026-09-20",
+    "end": null,
+    "startTime": "13:15",
+    "endTime": "16:15",
+    "price": 0,
+    "address": "79 Madison Ave, New York, NY",
+    "lat": 40.74418,
+    "lng": -73.98542,
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316406223/",
+    "spotsLeft": null,
+    "wikiTitle": "NoMad, Manhattan",
+    "thingsToKnow": "Two parts: the Mexican Independence Day Parade on Madison Ave, then Mexican food at La Contenta Oeste near Union Square.",
+    "customImage": "images/09-20-26_Mexico_Day_Parade_v14.png",
+    "id": 120
+  },
+  {
+    "name": "Let's play board games!! \ud83d\ude0a 90s music edition",
+    "types": [
+      "Board Games"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "transitLines": [
+      "E",
+      "M",
+      "6"
+    ],
+    "transitStation": "Lexington Av/53 St",
+    "start": "2026-09-20",
+    "end": null,
+    "startTime": "17:30",
+    "endTime": "20:30",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY",
+    "lat": 40.75764,
+    "lng": -73.968895,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316406389/",
+    "spotsLeft": null,
+    "wikiTitle": "Midtown Manhattan",
+    "thingsToKnow": "Drop in and leave anytime; bring games/snacks if you'd like. Usually 10 to 20 attendees.",
+    "customImage": "images/09-20-26_Board_Games_90s_v14.png",
+    "id": 121
+  },
+  {
+    "name": "100th Annual San Gennaro Festival! \ud83c\uddee\ud83c\uddf9",
+    "types": [
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Little Italy",
+    "transitLines": [
+      "6",
+      "J",
+      "Z"
+    ],
+    "transitStation": "Spring St",
+    "start": "2026-09-22",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "220 Grand St, New York, NY 10013",
+    "lat": 40.718964,
+    "lng": -73.99589,
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316413099/",
+    "spotsLeft": null,
+    "wikiTitle": "Little Italy, Manhattan",
+    "thingsToKnow": "Free, no RSVP needed; live Italian singers, karaoke, and food/drink stands along Mulberry Street.",
+    "customImage": "images/09-22-26_San_Gennaro_Festival_v14.png",
+    "id": 122
+  },
+  {
+    "name": "Mid Autumn Festival! \ud83e\udd6e",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Financial District",
+    "transitLines": [
+      "1",
+      "R",
+      "W"
+    ],
+    "transitStation": "Rector St",
+    "start": "2026-09-26",
+    "end": null,
+    "startTime": "13:15",
+    "endTime": "17:00",
+    "price": 15,
+    "address": "100 Washington St, New York, NY 10006",
+    "lat": 40.708538,
+    "lng": -74.014694,
+    "locationName": "China Institute of America",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316508492/",
+    "spotsLeft": null,
+    "wikiTitle": "China Institute",
+    "thingsToKnow": "Requires RSVP with China Institute ($15, may sell out); performances, workshops (mooncake making, rice dough sculpture, Chinese dance), and interactive stations.",
+    "customImage": "images/09-26-26_Mid_Autumn_Festival_v14.png",
+    "id": 123
+  },
+  {
+    "name": "Dong Bei! \ud83c\udde8\ud83c\uddf3 Food from Northeast China! \ud83c\udf5c\ud83e\udd6c",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Financial District",
+    "transitLines": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "C",
+      "J",
+      "Z"
+    ],
+    "transitStation": "Fulton St",
+    "start": "2026-09-26",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "20:00",
+    "price": 30,
+    "priceDetail": [
+      "$30 minimum",
+      "Entrees: $16 to $32"
+    ],
+    "address": "17 Ann St, New York, NY 10038",
+    "lat": 40.71098,
+    "lng": -74.007744,
+    "locationName": "DONG BEI Restaurant and Bar",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316519604/",
+    "spotsLeft": null,
+    "wikiTitle": "Financial District, Manhattan",
+    "thingsToKnow": "$30 minimum spend per person required by the restaurant; continuation of the Mid-Autumn Festival celebration.",
+    "customImage": "images/09-26-26_Dong_Bei_Restaurant_v14.png",
+    "id": 124
+  },
+  {
+    "name": "Star Gaze Saturday! \ud83d\udd2d\ud83c\udf03",
+    "types": [
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Upper West Side",
+    "transitLines": [
+      "1",
+      "2",
+      "3"
+    ],
+    "transitStation": "72 St",
+    "start": "2026-09-26",
+    "end": null,
+    "startTime": "21:00",
+    "endTime": "22:30",
+    "price": 0,
+    "address": "Riverside Park South, New York, NY 10069",
+    "lat": 40.779726,
+    "lng": -73.990283,
+    "locationName": "Pier I, Riverside Park South",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316507910/",
+    "spotsLeft": null,
+    "wikiTitle": "Riverside Park (Manhattan)",
+    "thingsToKnow": "Free, may be canceled for clouds/bad weather (weather update 24 hours in advance); organized by the Amateur Astronomers Association.",
+    "customImage": "images/09-26-26_Star_Gaze_Saturday_v14.png",
+    "id": 125
+  },
+  {
+    "name": "Puppy Yoga! \ud83d\udc36",
+    "types": [
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "transitLines": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "B",
+      "D",
+      "F",
+      "M",
+      "N",
+      "Q",
+      "R",
+      "S",
+      "W"
+    ],
+    "transitStation": "42 St\u2013Bryant Pk",
+    "start": "2026-09-27",
+    "end": null,
+    "startTime": "13:00",
+    "endTime": "14:15",
+    "price": 59,
+    "address": "435 5th Ave Fl 6, New York, NY 10016",
+    "lat": 40.751235,
+    "lng": -73.982124,
+    "locationName": "Puppy Yoga USA",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316519153/",
+    "spotsLeft": null,
+    "wikiTitle": "Bryant Park",
+    "thingsToKnow": "Requires a paid ticket in advance (may sell out); option to split a 4-ticket bundle with friends for a lower per-person price.",
+    "customImage": "images/09-27-26_Puppy_Yoga_USA_v14.png",
+    "id": 126
+  },
+  {
+    "name": "25th Hour! \ud83c\udfa5",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Fort Greene",
+    "transitLines": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "B",
+      "D",
+      "N",
+      "Q",
+      "R",
+      "W"
+    ],
+    "transitStation": "Atlantic Av\u2013Barclays Ctr",
+    "start": "2026-10-01",
+    "end": null,
+    "startTime": "18:15",
+    "endTime": "20:45",
+    "price": 19,
+    "address": "30 Lafayette Ave, Kings County, NY",
+    "lat": 40.68653,
+    "lng": -73.97768,
+    "locationName": "BAM Rose Cinemas",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316407583/",
+    "spotsLeft": null,
+    "wikiTitle": "Brooklyn Academy of Music",
+    "thingsToKnow": "Movie starts at 6:30pm; directed by Spike Lee, starring Ed Norton, Rosario Dawson, Brian Cox, and Philip Seymour Hoffman.",
+    "customImage": "images/10-01-26_25th_Hour_Movie_v14.png",
+    "id": 127
+  },
+  {
+    "name": "High End Wine & Food at Monterey Steakhouse!",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "transitLines": [
+      "6",
+      "E",
+      "M"
+    ],
+    "transitStation": "51 St",
+    "start": "2026-10-02",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "20:30",
+    "price": 35,
+    "priceDetail": [
+      "$35 wine (per person)",
+      "Plus food + 33% for tax/tip"
+    ],
+    "address": "37 E 50th St, New York, NY 10022",
+    "lat": 40.757885,
+    "lng": -73.97461,
+    "locationName": "Monterey Steakhouse",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316703584/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "High-end wine tasting dinner, all wines rated 96+ points; $35 covers wine only, food billed separately plus 33% for tax/tip; refunds accepted until Oct 1 at 9am.",
+    "customImage": "images/10-02-26_Monterey_Steakhouse_Wine_v14.png",
+    "id": 128
+  },
+  {
+    "name": "Shaver Hall!",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "transitLines": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "B",
+      "D",
+      "F",
+      "M",
+      "N",
+      "Q",
+      "R",
+      "S",
+      "W"
+    ],
+    "transitStation": "42 St\u2013Bryant Pk",
+    "start": "2026-10-02",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "price": 0,
+    "priceDetail": [
+      "Food: prices vary by vendor (11 eateries)"
+    ],
+    "address": "424 5th Ave, New York, NY 10018",
+    "lat": 40.751355,
+    "lng": -73.982723,
+    "locationName": "Shaver Hall",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316781679/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "NYC's newest food hall (opened June 2026, inside the former Lord & Taylor building); meet outside 6:30-6:45pm, group heads in together at 6:45.",
+    "customImage": "images/10-02-26_Shaver_Hall_v14.png",
+    "id": 129
+  },
+  {
+    "name": "Snug Harbor's City of Forest Day! \ud83c\udf33",
+    "types": [
+      "Nature",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Staten Island",
+    "neighborhood": "Randall Manor",
+    "transitText": "Staten Island Ferry, then a 40-min walk, 15-min bus, or 10-min rideshare from St. George",
+    "start": "2026-10-03",
+    "end": null,
+    "startTime": "08:30",
+    "endTime": "14:00",
+    "price": 0,
+    "address": "1000 Richmond Terrace, Staten Island, NY 10301",
+    "lat": 40.6425,
+    "lng": -74.10278,
+    "locationName": "Snug Harbor Cultural Center & Botanical Garden",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316718278/",
+    "spotsLeft": null,
+    "wikiTitle": "Snug Harbor",
+    "thingsToKnow": "Free, but RSVP required per activity via Snug Harbor's own ticket site; meet at the Manhattan side of the Staten Island Ferry (Whitehall Terminal) at 8:30am for the 9am ferry if joining the group from the start.",
+    "customImage": "images/10-03-26_Snug_Harbor_ForestDay_v14.png",
+    "id": 130
+  },
+  {
+    "name": "Sri Lankan Food at AA Lankan\u2019s Caf\u00e9! \ud83c\uddf1\ud83c\uddf0",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Staten Island",
+    "neighborhood": "Staten Island",
+    "transitText": "Staten Island Ferry, then local bus or rideshare",
+    "start": "2026-10-03",
+    "end": null,
+    "startTime": "14:45",
+    "endTime": "17:00",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: prices vary, see Google Maps link"
+    ],
+    "address": "98 Victory Blvd, Staten Island, NY 10301",
+    "lat": 40.637626,
+    "lng": -74.079683,
+    "locationName": "AA Lankan's Cafe",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316718722/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Billing: one person pays, others reimburse via Venmo/Zelle/PayPal/cash at 1.3x the subtotal (covers tax + 20% tip); group takes the ferry back to Manhattan together at 6pm.",
+    "customImage": "images/10-03-26_AA_Lankans_SriLankan_v14.png",
+    "id": 131
+  },
+  {
+    "name": "Bull Hill Hike in Cold Spring!",
+    "types": [
+      "Nature",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Cold Spring, NY",
+    "train": "Metro-North Hudson Line",
+    "transitText": "Metro-North Hudson Line to Cold Spring",
+    "start": "2026-10-04",
+    "end": null,
+    "startTime": "08:30",
+    "endTime": "14:30",
+    "price": 0,
+    "address": "44 Market St, Cold Spring, NY 10516",
+    "lat": 41.414812,
+    "lng": -73.957573,
+    "locationName": "Cold Spring Metro-North Station",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316719683/",
+    "spotsLeft": null,
+    "wikiTitle": "Cold Spring, New York",
+    "thingsToKnow": "Meet 8:30am at Grand Central's info counter; ~5.5mi full Bull Hill loop, ~1400ft climb in the first 2 miles; optional lunch afterward at Riverview Restaurant (separate listing).",
+    "customImage": "images/10-04-26_Bull_Hill_Hike_v14.png",
+    "id": 132
+  },
+  {
+    "name": "Riverview Restaurant in Cold Spring! \ud83c\udf7d\ufe0f",
+    "types": [
+      "Food"
+    ],
+    "region": "outside",
+    "town": "Cold Spring, NY",
+    "train": "Metro-North Hudson Line",
+    "transitText": "Metro-North Hudson Line to Cold Spring",
+    "start": "2026-10-04",
+    "end": null,
+    "startTime": "14:30",
+    "endTime": "15:50",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: see lunch menu link"
+    ],
+    "address": "45 Fair St Apt 2, Cold Spring, NY",
+    "lat": 41.420197,
+    "lng": -73.96082,
+    "locationName": "Riverview Restaurant",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316719776/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Follows the Bull Hill hike (separate listing); billing is 1.3x the subtotal reimbursed to whoever pays, covering tax + 20% tip.",
+    "customImage": "images/10-04-26_Riverview_ColdSpring_v14.png",
+    "id": 133
+  },
+  {
+    "name": "Bhangra in the Plaza!",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "transitLines": [
+      "B",
+      "D",
+      "F",
+      "M",
+      "N",
+      "Q",
+      "R",
+      "W",
+      "1",
+      "2",
+      "3"
+    ],
+    "transitStation": "34 St\u2013Herald Sq",
+    "start": "2026-10-07",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "Between 32nd and 33rd Streets, Broadway and 6th Ave, New York, NY 10001",
+    "lat": 40.748706,
+    "lng": -73.988338,
+    "locationName": "Greeley Square Park",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316721918/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Free, RSVP required via Eventbrite; can join anytime but dances get more advanced later in the session.",
+    "customImage": "images/10-07-26_Bhangra_Plaza_v14.png",
+    "id": 134
+  },
+  {
+    "name": "Museum of Jewish Heritage!",
+    "types": [
+      "Museums"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Battery Park City",
+    "transitLines": [
+      "4",
+      "5",
+      "1",
+      "R",
+      "W"
+    ],
+    "transitStation": "Bowling Green",
+    "start": "2026-10-08",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "36 Battery Pl, New York, NY",
+    "lat": 40.706253,
+    "lng": -74.0188,
+    "locationName": "Museum of Jewish Heritage",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316407453/",
+    "spotsLeft": null,
+    "wikiTitle": "Museum of Jewish Heritage",
+    "thingsToKnow": "Free on Thursdays 4-8pm, but RSVP recommended via their website in advance; Caf\u00e9 Bergson on the 2nd floor has drinks and bites.",
+    "customImage": "images/10-08-26_Jewish_Heritage_Museum_v14.png",
+    "id": 135
+  },
+  {
+    "name": "Acadia National Park! \ud83c\udfde\ufe0f\ud83e\udd29",
+    "types": [
+      "Nature",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Deer Isle, ME",
+    "train": "Car (self-drive/rental) or carpool",
+    "transitText": "Car -- self-drive, rental, or carpool (no train/bus route)",
+    "start": "2026-10-09",
+    "end": "2026-10-12",
+    "startTime": "08:15",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "Deer Isle, ME 04627",
+    "lat": 44.224507,
+    "lng": -68.677781,
+    "locationName": "Deer Isle (base for Acadia National Park)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316741895/",
+    "spotsLeft": null,
+    "wikiTitle": "Deer Isle, Maine",
+    "thingsToKnow": "4-day/3-night trip; cars picked up/dropped off at Hertz, LaGuardia Terminal A; find your own lodging early, it sells out; Cadillac Mountain sunrise reservations ($6/vehicle) release the day before at 10am ET on Recreation.gov.",
+    "customImage": "images/10-09-26_Acadia_National_Park_v14.png",
+    "id": 136
+  },
+  {
+    "name": "Salem & Boston! \ud83e\uddd9\u200d\u2640\ufe0f\ud83d\udd2e\ud83d\udc08\u200d\u2b1b",
+    "types": [
+      "Culture",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Boston, MA",
+    "train": "Flixbus",
+    "transitText": "Flixbus to Boston South Station, then MBTA Commuter Rail to Salem",
+    "start": "2026-10-10",
+    "end": "2026-10-12",
+    "startTime": "01:00",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "700 Atlantic Ave, Boston, MA 02110",
+    "lat": 42.3523,
+    "lng": -71.0552,
+    "locationName": "Boston South Station",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316742221/",
+    "spotsLeft": null,
+    "wikiTitle": "South Station",
+    "thingsToKnow": "Group meets 1-1:20am at Penn Station's Moynihan Hall for the 1:30am Flixbus (~$58); a later 6:30am bus is also an option; return bus from Boston South Station departs 4pm Monday, arriving NYC Chinatown ~9pm; find overnight lodging early.",
+    "customImage": "images/10-10-26_Salem_Boston_Trip_v14.png",
+    "id": 137
+  },
+  {
+    "name": "Too Fat for China!",
+    "types": [
+      "Theatre"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "DUMBO",
+    "transitLines": [
+      "F"
+    ],
+    "transitStation": "York St",
+    "start": "2026-10-13",
+    "end": null,
+    "startTime": "18:15",
+    "endTime": "19:30",
+    "price": 25,
+    "priceDetail": [
+      "Tickets: $25"
+    ],
+    "address": "68-117 Jay St, Brooklyn, NY 11201",
+    "lat": 40.703014,
+    "lng": -73.986821,
+    "locationName": "The Rat NYC",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316721970/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Comedy/performance show; doors 6:15pm, show starts 6:30pm.",
+    "customImage": "images/10-13-26_Too_Fat_China_v14.png",
+    "id": 138
+  },
+  {
+    "name": "Mindfulness Crochet Session! \ud83e\uddf6",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitText": "Location TBD -- to be announced by the organizer",
+    "start": "2026-10-14",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "Location to be announced",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "locationName": "Location TBD",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316722071/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Venue not yet set by the organizer as of this listing -- announced by Sept 30. Address/coordinates here are a placeholder (general Manhattan) until a real venue is confirmed; update once known.",
+    "customImage": "images/10-14-26_Mindfulness_Crochet_v14.png",
+    "id": 139
+  },
+  {
+    "name": "Arab American Comedy Festival! \ud83e\udd23",
+    "types": [
+      "Theatre",
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "East Village",
+    "transitLines": [
+      "R",
+      "W",
+      "6"
+    ],
+    "transitStation": "Astor Pl",
+    "start": "2026-10-16",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "price": 36,
+    "priceDetail": [
+      "Tickets: $36",
+      "2-drink minimum (soft drinks OK)"
+    ],
+    "address": "425 Lafayette St, New York, NY 10003",
+    "lat": 40.728965,
+    "lng": -73.99175,
+    "locationName": "Joe's Pub",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316723368/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "New York Arab American Comedy Festival -- Arab All Stars Live featuring Demetrius Fields; meet outside 6:30-6:45pm, show starts 7pm.",
+    "customImage": "images/10-16-26_Arab_American_Comedy_v14.png",
+    "id": 140
+  },
+  {
+    "name": "Let\u2019s dance Salsa & Bachata! Disney Edition!",
+    "types": [
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Flatiron",
+    "transitLines": [
+      "1",
+      "F",
+      "M",
+      "R",
+      "W"
+    ],
+    "transitStation": "28 St",
+    "start": "2026-10-16",
+    "end": null,
+    "startTime": "20:40",
+    "endTime": "23:00",
+    "price": 20,
+    "priceDetail": [
+      "$20 online",
+      "$25 at the door"
+    ],
+    "address": "37 W 26th St, New York, NY 10010",
+    "lat": 40.744552,
+    "lng": -73.990432,
+    "locationName": "Candela Fridays",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316722899/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Disney Night -- wear a Disney t-shirt; beginner class 8:50-10pm, social dancing 10-11pm (venue open til 2am); no dance experience needed.",
+    "customImage": "images/10-16-26_Salsa_Bachata_Disney_v14.png",
+    "id": 141
+  },
+  {
+    "name": "Graffiti, Coffee Crawl, & Thrift Stores in Bushwick! \u2615\ud83d\udc55",
+    "types": [
+      "Field Trip",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Bushwick",
+    "transitLines": [
+      "L"
+    ],
+    "transitStation": "Jefferson St",
+    "start": "2026-10-17",
+    "end": null,
+    "startTime": "09:30",
+    "endTime": "12:30",
+    "price": 0,
+    "address": "26 Cypress Ave, Brooklyn, NY 11237",
+    "lat": 40.708766,
+    "lng": -73.921065,
+    "locationName": "Cypress Ave & Troutman St (meeting point)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316869229/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Self-guided crawl through Bushwick's graffiti, coffee shops & thrift stores -- stops include Nook, Maria Hernandez Park, Knickerbocker Bagel, Urban Jungle, Beacon's Closet & Sey Coffee; drop in anytime, we take the train to Manhattan around 12:30pm.",
+    "customImage": "images/10-17-26_Graffiti_Coffee_Bushwick_v14.png",
+    "id": 142
+  },
+  {
+    "name": "Pacific Islander Festival! \ud83c\udf3a",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Hell's Kitchen",
+    "transitLines": [
+      "C",
+      "E"
+    ],
+    "transitStation": "50 St",
+    "start": "2026-10-17",
+    "end": null,
+    "startTime": "13:30",
+    "endTime": "18:30",
+    "price": 35,
+    "priceDetail": [
+      "$35 per day"
+    ],
+    "address": "789 10th Ave, New York, NY 10019",
+    "lat": 40.766297,
+    "lng": -73.990946,
+    "locationName": "Five Angels Theater @ The 52nd Street Project",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316723598/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Tatou / Pacific Islander Festival -- Ori Tahiti competition 11am-4pm, evening showcase/awards/pa'ina from 6pm, market & art exhibit 10am-6pm.",
+    "customImage": "images/10-17-26_Pacific_Islander_Festival_v14.png",
+    "id": 143
+  },
+  {
+    "name": "Garba Night in Brooklyn! \ud83d\udd7a\ud83c\udffd\ud83d\udc83\ud83c\udffc\ud83d\uded5",
+    "types": [
+      "Dance",
+      "Culture",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Midwood",
+    "transitLines": [
+      "Q"
+    ],
+    "transitStation": "Cortelyou Rd",
+    "start": "2026-10-17",
+    "end": null,
+    "startTime": "19:15",
+    "endTime": "22:30",
+    "price": 45,
+    "priceDetail": [
+      "Tickets: $44.52 (via Eventbrite)"
+    ],
+    "address": "786 Coney Island Ave, Brooklyn, NY 11218",
+    "lat": 40.63823,
+    "lng": -73.968807,
+    "locationName": "JALSA",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316637329/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Durga Puja / Garba night -- food, Garba dancing, sacred rituals & color; event runs 7:15-10:30pm (venue open til 11:30pm).",
+    "customImage": "images/10-17-26_Garba_Night_Brooklyn_v14.png",
+    "id": 144
+  },
+  {
+    "name": "Filipino food at Renee's Kitchenette! \ud83c\uddf5\ud83c\udded",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Woodside",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "69 St",
+    "start": "2026-10-18",
+    "end": null,
+    "startTime": "10:00",
+    "endTime": "11:45",
+    "price": 0,
+    "priceDetail": [
+      "Entrees: roughly $12 to $20 (billing: pay the host back 1.3x the subtotal to cover tax & tip)"
+    ],
+    "address": "69-14 Roosevelt Ave, Woodside, NY 11377",
+    "lat": 40.746264,
+    "lng": -73.895696,
+    "locationName": "Renee's Kitchenette & Grill",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316869945/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Known as \"the restaurant that paved the way for Little Manila\" -- try the Sizzling Sisig, Ox-Tail Kare Kare, or a Tocilog/Tapsilog platter; followed by the free Little Manila Parade & Block Party next door (separate listing).",
+    "customImage": "images/10-18-26_Renees_Kitchenette_Filipino_v14.png",
+    "id": 145
+  },
+  {
+    "name": "Little Manila Parade and Block Party! \ud83c\uddf5\ud83c\udded",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Woodside",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "69 St",
+    "start": "2026-10-18",
+    "end": null,
+    "startTime": "11:35",
+    "endTime": "13:00",
+    "price": 0,
+    "address": "69-14 Roosevelt Ave, Woodside, NY 11377",
+    "lat": 40.746264,
+    "lng": -73.895696,
+    "locationName": "Renee's Kitchenette & Grill (meeting point)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316869946/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Free parade & block party runs til 6pm (host leaves at 1pm) -- grab a free ticket via Partiful; preceded by Filipino food at Renee's Kitchenette from 10-11:45am (separate listing).",
+    "customImage": "images/10-18-26_Little_Manila_Parade_v14.png",
+    "id": 146
+  },
+  {
+    "name": "D\u00eda de Muertos! \ud83c\uddf2\ud83c\uddfd\ud83c\udf38\ud83d\udc80",
+    "types": [
+      "Dance",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Flushing Meadows Corona Park",
+    "transitLines": [
+      "7"
+    ],
+    "transitStation": "111 St",
+    "start": "2026-10-18",
+    "end": null,
+    "startTime": "13:45",
+    "endTime": "16:00",
+    "price": 40,
+    "priceDetail": [
+      "Ticket: $40 (includes fees)"
+    ],
+    "address": "Flushing Meadows Corona Park, 14 United Nations Ave S, Corona, NY 11368",
+    "lat": 40.744147,
+    "lng": -73.844387,
+    "locationName": "Queens Theatre",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316870318/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Calpulli Mexican Dance Company's Day of the Dead performance; meet in the lobby 1:45-1:50pm, show runs 2-4pm; about a 15 min walk from the 111 St station.",
+    "customImage": "images/10-18-26_Dia_de_Muertos_Queens_Theatre_v14.png",
+    "id": 147
+  },
+  {
+    "name": "Dog Cafe! \ud83d\udc36\u2615\ufe0f",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "East Village",
+    "transitLines": [
+      "L"
+    ],
+    "transitStation": "1 Av",
+    "start": "2026-10-18",
+    "end": null,
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "price": 0,
+    "priceDetail": [
+      "$5 cover fee per party (waivable -- mention Prakhar's party)"
+    ],
+    "address": "195 Avenue A, New York, NY 10009",
+    "lat": 40.729286,
+    "lng": -73.98145,
+    "locationName": "Boris & Horton",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316636573/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Group capped around 10 (first 3 bringing a dog, first 7 not); no minimum order, but a coffee purchase is encouraged to support the cafe.",
+    "customImage": "images/10-18-26_Dog_Cafe_Boris_Horton_v14.png",
+    "id": 148
+  },
+  {
+    "name": "German food at Zum Stammtisch! \ud83c\udde9\ud83c\uddea\ud83e\udd68",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Glendale",
+    "transitLines": [
+      "M"
+    ],
+    "transitStation": "Forest Ave",
+    "start": "2026-10-18",
+    "end": null,
+    "startTime": "17:15",
+    "endTime": "19:30",
+    "price": 0,
+    "priceDetail": [
+      "Billing: pay the host back 1.3x the subtotal to cover tax & tip"
+    ],
+    "address": "69-46 Myrtle Ave, Glendale, NY 11385",
+    "lat": 40.701781,
+    "lng": -73.881106,
+    "locationName": "Zum Stammtisch",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316870863/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "German beer hall classics -- schnitzel, sausages & pretzels.",
+    "customImage": "images/10-18-26_Zum_Stammtisch_German_v14.png",
+    "id": 149
+  },
+  {
+    "name": "La Bola Negra!",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "transitLines": [
+      "N",
+      "R",
+      "W"
+    ],
+    "transitStation": "5 Av/59 St",
+    "start": "2026-10-19",
+    "end": null,
+    "startTime": "17:50",
+    "endTime": "20:45",
+    "price": 17,
+    "priceDetail": [
+      "Ticket: $17"
+    ],
+    "address": "4 W 58th St, New York, NY 10019",
+    "lat": 40.763761,
+    "lng": -73.974292,
+    "locationName": "The Paris Theater",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317004803/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "New Spanish film, heralded as one of the best films of the year; meet outside 5:50-6pm, movie runs 6:15-8:45pm; seats DD 104 to DD 106.",
+    "customImage": "images/10-19-26_La_Bola_Negra_Film_v14.png",
+    "id": 150
+  },
+  {
+    "name": "Zikrayat Restaurant & Lounge! \ud83d\udd7a\ud83d\udc83",
+    "types": [
+      "Dance",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Queens",
+    "neighborhood": "Astoria",
+    "transitLines": [
+      "M",
+      "R"
+    ],
+    "transitStation": "Steinway St",
+    "start": "2026-10-23",
+    "end": "2026-10-24",
+    "startTime": "22:15",
+    "endTime": "00:00",
+    "price": 0,
+    "priceDetail": [
+      "No minimum spend, order a la carte"
+    ],
+    "address": "24-17 Steinway St, Astoria, NY 11103",
+    "lat": 40.768547,
+    "lng": -73.910963,
+    "locationName": "Zikrayat Restaurant & Lounge",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316823946/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Dancing to Arabic music plus Middle Eastern food; meet outside 10:15pm, group heads in at 10:20pm; can stay later than midnight.",
+    "customImage": "images/10-23-26_Zikrayat_Restaurant_Lounge_v14.png",
+    "id": 151
+  },
+  {
+    "name": "Bear Mountain!",
+    "types": [
+      "Nature",
+      "Field Trip"
+    ],
+    "region": "outside",
+    "town": "Bear Mountain, NY",
+    "train": "Coach USA bus from Port Authority (or drive)",
+    "transitText": "Coach USA bus from Port Authority Bus Terminal, or drive",
+    "start": "2026-10-24",
+    "end": null,
+    "startTime": "07:45",
+    "endTime": "19:00",
+    "price": 0,
+    "priceDetail": [
+      "Bus: $18.40 each way + $2 surcharge (~$40.80 round trip)",
+      "Parking (if driving): $10"
+    ],
+    "address": "3020 Seven Lakes Dr, Bear Mountain, NY 10911",
+    "lat": 41.313056,
+    "lng": -73.990278,
+    "locationName": "Bear Mountain Inn",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316818498/",
+    "spotsLeft": null,
+    "wikiTitle": "Bear Mountain Inn",
+    "thingsToKnow": "Hessian Loop Trail (1.5mi, easy) then Bear Mountain Loop Trail (4mi, moderate/hard, ~1,000ft gain); by car, meet at Bear Mountain Inn by 10am; by bus, meet at Port Authority Gate 405 by 7:45am (bus departs 8:45am, tickets first-come-first-served); optional dinner after at Restaurant 1915 (separate listing).",
+    "customImage": "images/10-24-26_Bear_Mountain_Hike_v14.png",
+    "id": 152
+  },
+  {
+    "name": "Restaurant 1915 at Bear Mountain!",
+    "types": [
+      "Food"
+    ],
+    "region": "outside",
+    "town": "Bear Mountain, NY",
+    "train": "Coach USA bus from Port Authority (or drive)",
+    "transitText": "Coach USA bus from Port Authority Bus Terminal, or drive",
+    "start": "2026-10-24",
+    "end": null,
+    "startTime": "15:00",
+    "endTime": "16:45",
+    "price": 0,
+    "address": "3020 Seven Lakes Drive, Tomkins Cove, NY 10986",
+    "lat": 41.313084,
+    "lng": -73.98952,
+    "locationName": "Restaurant 1915",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316818677/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Follows the Bear Mountain hike (separate listing); can also just join for the meal on its own.",
+    "customImage": "images/10-24-26_Restaurant_1915_Bear_Mountain_v14.png",
+    "id": 153
+  },
+  {
+    "name": "You Can See Everything!",
+    "types": [
+      "Film"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "N",
+      "Q",
+      "R",
+      "W",
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
+    "transitStation": "Times Sq\u201342 St",
+    "start": "2026-10-24",
+    "end": null,
+    "startTime": "18:40",
+    "endTime": "22:20",
+    "price": 0,
+    "priceDetail": [
+      "Movie ticket price varies -- purchase via AMC's site"
+    ],
+    "address": "234 W 42nd St, New York, NY",
+    "lat": 40.756607,
+    "lng": -73.989044,
+    "locationName": "AMC Empire 25",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316826809/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "The new Elizabeth Holmes documentary, directed by Nathan Fielder (Nathan for You, The Rehearsal) & Lance Oppenheim; meet in the 1st floor lobby 6:40-6:50pm, trailers at 7pm, movie starts 7:20pm (runs about 3 hours); seats P10 to P14.",
+    "customImage": "images/10-24-26_You_Can_See_Everything_v14.png",
+    "id": 154
+  },
+  {
+    "name": "Governors Island! \u26f4\ufe0f",
+    "types": [
+      "Field Trip",
+      "Nature"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Financial District",
+    "transitLines": [
+      "1",
+      "4",
+      "5",
+      "R",
+      "W"
+    ],
+    "transitStation": "Whitehall St\u2013South Ferry",
+    "start": "2026-10-25",
+    "end": null,
+    "startTime": "08:00",
+    "endTime": "15:15",
+    "price": 0,
+    "priceDetail": [
+      "Ferry: $5 round trip (free before 11am weekends)",
+      "Bike rental: $21/2hr or $28/day (optional)"
+    ],
+    "address": "10 South St Slip 7, New York, NY 10004",
+    "lat": 40.701332,
+    "lng": -74.011638,
+    "locationName": "Governors Island Ferry",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316824342/",
+    "spotsLeft": null,
+    "wikiTitle": "Governors Island",
+    "thingsToKnow": "Choose-your-own-adventure itinerary: bike rental, Slide Hill Playground, Fort Jay, a free walking tour (register ahead), lunch on your own near Makina Caf\u00e9, then Nolan Park's art exhibits with a free pumpkin; meet at the ferry terminal by 8am, ferry departs 8:30am.",
+    "customImage": "images/10-25-26_Governors_Island_v14.png",
+    "id": 155,
+    "rsvpCount": 13,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "El Clasico Watch Party (Barcelona vs Real Madrid) ft. Mbappe, Yamal \u26bd\ufe0f \ud83c\uddea\ud83c\uddf8",
+    "types": [
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea",
+    "transitLines": [
+      "F",
+      "M",
+      "1"
+    ],
+    "transitStation": "23 St",
+    "start": "2026-10-25",
+    "end": null,
+    "startTime": "15:30",
+    "endTime": "18:00",
+    "price": 0,
+    "priceDetail": [
+      "No minimum order"
+    ],
+    "address": "138 W 25th St, New York, NY 10001",
+    "lat": 40.74473,
+    "lng": -73.993546,
+    "locationName": "Smithfield Hall",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316625312/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Game starts 4pm; arrive by 3:30pm if possible, the bar tends to get busy.",
+    "customImage": "images/10-25-26_El_Clasico_Watch_Party_v14.png",
+    "id": 156,
+    "rsvpCount": 11,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "\ud83e\udddf\u200d\u2640\ufe0f Let\u2019s play board games!! \ud83e\udddb Halloween edition! \ud83e\udd23",
+    "types": [
+      "Board Games"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "transitLines": [
+      "E",
+      "M"
+    ],
+    "transitStation": "Lexington Av\u201353 St",
+    "start": "2026-10-25",
+    "end": null,
+    "startTime": "16:30",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY 10022",
+    "lat": 40.75812,
+    "lng": -73.97002,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316824347/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Costumes encouraged (not required) -- prizes for funniest, scariest, and sexiest; drop in and leave anytime; usually 10-20 attendees; bring games/snacks/friends if you'd like.",
+    "customImage": "images/10-25-26_Board_Games_Halloween_v14.png",
+    "id": 157,
+    "rsvpCount": 18,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Boqueria Flatiron! \ud83c\uddea\ud83c\uddf8 For Barcelona-style Tapas!",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Flatiron",
+    "transitLines": [
+      "1"
+    ],
+    "transitStation": "18 St",
+    "start": "2026-10-25",
+    "end": null,
+    "startTime": "18:15",
+    "endTime": "20:15",
+    "price": 20,
+    "priceDetail": [
+      "$20 deposit required"
+    ],
+    "address": "53 W 19th St, New York, NY 10011",
+    "lat": 40.740239,
+    "lng": -73.993767,
+    "locationName": "Boqueria Flatiron",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316626116/",
+    "spotsLeft": 3,
+    "wikiTitle": null,
+    "thingsToKnow": "Barcelona-style tapas.",
+    "customImage": "images/10-25-26_Boqueria_Flatiron_v14.png",
+    "id": 158,
+    "rsvpCount": 5,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Greenwich Village Halloween Parade!",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Greenwich Village",
+    "transitLines": [
+      "C",
+      "E"
+    ],
+    "transitStation": "Spring St",
+    "start": "2026-10-31",
+    "end": null,
+    "startTime": "17:30",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "177 6th Ave, New York, NY 10013",
+    "lat": 40.726136,
+    "lng": -74.004033,
+    "locationName": "Vought Tower (meeting point)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317016444/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
+    "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
+    "id": 159,
+    "rsvpCount": 21,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "EPL Watch Party (Liverpool vs Arsenal) ft. Barcola, Odegaard \u26bd\ufe0f \ud83c\uddec\ud83c\udde7",
+    "types": [
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "transitLines": [
+      "1",
+      "2",
+      "3",
+      "A",
+      "C",
+      "E"
+    ],
+    "transitStation": "34 St\u2013Penn Station",
+    "start": "2026-11-01",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "13:30",
+    "price": 0,
+    "priceDetail": [
+      "No minimum order"
+    ],
+    "address": "240 W 35th St, New York, NY 10001",
+    "lat": 40.75216,
+    "lng": -73.99194,
+    "locationName": "Jack Doyle's",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316625236/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Game starts 11:30am; arrive a little early (~11am) before the bar gets crowded.",
+    "customImage": "images/11-01-26_EPL_Watch_Party_v14.png",
+    "id": 160,
+    "rsvpCount": 5,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Cheer on the NYC Marathon Runners! \ud83c\udfc3\u200d\u2640\ufe0f\ud83c\udfc3\u200d\u2642\ufe0f",
+    "types": [
+      "Sports"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "East Harlem",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "103 St",
+    "start": "2026-11-01",
+    "end": null,
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "price": 0,
+    "address": "1937 1st Ave, New York, NY 10029",
+    "lat": 40.785528,
+    "lng": -73.943471,
+    "locationName": "1937 1st Avenue (cheering spot)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317016372/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
+    "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
+    "id": 161,
+    "rsvpCount": 4,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "D\u00eda de los Muertos Parade at New York Botanical Garden! \ud83c\udf38\ud83d\udc80",
+    "types": [
+      "Culture",
+      "Dance"
+    ],
+    "region": "nyc",
+    "borough": "Bronx",
+    "neighborhood": "Bronx",
+    "transitText": "Metro-North Harlem Line to Botanical Garden",
+    "start": "2026-11-01",
+    "end": null,
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "price": 35,
+    "priceDetail": [
+      "Ticket: $35 (free with NYBG membership)"
+    ],
+    "address": "2900 Southern Blvd, Bronx, NY 10458",
+    "lat": 40.866481,
+    "lng": -73.880743,
+    "locationName": "NYBG Ticket Counter",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317016644/",
+    "spotsLeft": null,
+    "wikiTitle": "New York Botanical Garden",
+    "thingsToKnow": "Meet at the Ticket Counter 1-1:10pm; 1pm crafts (crochet workshop, mask making), 2pm parade, 2:30-3:30pm dance performances, 3:30-5pm dance party; can join/leave anytime, grab a bite afterward.",
+    "customImage": "images/11-01-26_Dia_de_los_Muertos_NYBG_v14.png",
+    "id": 162,
+    "rsvpCount": 5,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "British Food! Tea & Sympathy \ud83e\uded6 \ud83c\uddec\ud83c\udde7",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "West Village",
+    "transitLines": [
+      "A",
+      "C",
+      "E",
+      "L"
+    ],
+    "transitStation": "14 St\u20138 Av",
+    "start": "2026-11-01",
+    "end": null,
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "price": 0,
+    "address": "108 Greenwich Ave, New York, NY 10011",
+    "lat": 40.738313,
+    "lng": -74.00193,
+    "locationName": "Tea & Sympathy",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316625454/",
+    "spotsLeft": 0,
+    "wikiTitle": null,
+    "customImage": "images/11-01-26_Tea_Sympathy_British_v14.png",
+    "id": 163,
+    "rsvpCount": 4,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Roosevelt Island! \ud83d\udea1",
+    "types": [
+      "Nature",
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Roosevelt Island",
+    "transitLines": [
+      "4",
+      "5",
+      "6",
+      "N",
+      "Q",
+      "R"
+    ],
+    "transitStation": "Lexington Av/59 St",
+    "start": "2026-10-23",
+    "end": null,
+    "startTime": "18:40",
+    "endTime": "21:30",
+    "price": 0,
+    "address": "254 E 60th St, New York, NY 10022",
+    "lat": 40.760904,
+    "lng": -73.964402,
+    "locationName": "Tramway Plaza",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317060151/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Meet 6:40-6:50pm at street level (E 60th St & 2nd Ave), then head upstairs to take the tram together at 6:50pm; ~4.2mi walk around the island, 1.5-2 hours, can join/leave anytime. Food options on the island: ME Mediterranean Eatery (gyros/pizza, open til 8pm), Pinks Cantina (tacos/burritos, open til 9pm), Fuji East (sushi, open til 9:30pm).",
+    "customImage": "images/10-23-26_Roosevelt_Island_v14.png",
+    "id": 164
+  },
+  {
+    "name": "Halloween Concert at Juilliard! \ud83c\udfb8\ud83c\udfb7\ud83e\udd41",
+    "types": [
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Lincoln Square",
+    "transitLines": [
+      "1"
+    ],
+    "transitStation": "66 St\u2013Lincoln Center",
+    "start": "2026-10-27",
+    "end": null,
+    "startTime": "19:15",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "60 Lincoln Center Plaza, New York, NY 10023",
+    "lat": 40.773759,
+    "lng": -73.982829,
+    "locationName": "The Juilliard School (Paul Hall)",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317067168/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Free annual Halloween concert in Paul Hall (lobby level); free but RSVP required via Juilliard's site. Unconventional contemporary pieces by Berio, Steve Reich, Lera Auerbach, Kaija Saariaho, Pauline Oliveros, Yoko Ono, Robert Ashley & R. Murray Schafer, performed by Juilliard students.",
+    "customImage": "images/10-27-26_Halloween_Juilliard_v14.png",
+    "id": 165,
+    "rsvpCount": 16,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "European Literature Night 2026! \ud83d\udcda",
+    "types": [
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "77 St",
+    "start": "2026-10-28",
+    "end": null,
+    "startTime": "17:40",
+    "endTime": "21:00",
+    "price": 0,
+    "address": "2 E 79th St, New York, NY 10075",
+    "lat": 40.776702,
+    "lng": -73.963558,
+    "locationName": "Ukrainian Institute of America",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317066735/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Meet outside 5:40-5:50pm, then inside; free but RSVP required via Eventbrite (tickets limited). Book sale 6-10pm, PEN America-moderated panels 6:30-8:30pm, author readings/conversations 6:30-9pm, signing & reception at 9pm; authors from 14 European countries including Austria, Germany, Ireland, Italy, Poland, Spain & Ukraine.",
+    "customImage": "images/10-28-26_European_Literature_v14.png",
+    "id": 166,
+    "rsvpCount": 4,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Rockefeller State Park Preserve! \ud83e\udd7e\ud83c\udf42",
+    "types": [
+      "Nature"
+    ],
+    "region": "outside",
+    "town": "Pleasantville, NY",
+    "train": "Metro-North Hudson Line",
+    "transitText": "Metro-North Hudson Line to Tarrytown, then rideshare",
+    "start": "2026-10-31",
+    "end": null,
+    "startTime": "08:30",
+    "endTime": "15:00",
+    "price": 0,
+    "address": "125 Phelps Way, Pleasantville, NY 10570",
+    "lat": 41.111742,
+    "lng": -73.836172,
+    "locationName": "Rockefeller State Park Preserve Visitor Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317068084/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
+    "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
+    "id": 167,
+    "rsvpCount": 8,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Christmas Spectacular starring the Rockettes! \ud83c\udf84",
+    "types": [
+      "Theatre"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "transitLines": [
+      "B",
+      "D",
+      "F"
+    ],
+    "transitStation": "47-50 Sts\u2013Rockefeller Ctr",
+    "start": "2026-11-05",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "price": 0,
+    "address": "1260 6th Ave, New York, NY 10020",
+    "lat": 40.759976,
+    "lng": -73.979977,
+    "locationName": "Radio City Music Hall",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317068838/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Meet 6:30pm in front of Radio City Music Hall, entering together at 6:45pm; show runs 7-8:30pm, 90 minutes, no intermission.",
+    "customImage": "images/11-05-26_Christmas_Spectacular_v14.png",
+    "id": 168,
+    "rsvpCount": 1,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Czech Jazz Night! \ud83c\udde8\ud83c\uddff\ud83c\udfb9\ud83e\udd41",
+    "types": [
+      "Concerts"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side",
+    "transitLines": [
+      "Q"
+    ],
+    "transitStation": "72 St",
+    "start": "2026-11-05",
+    "end": null,
+    "startTime": "18:40",
+    "endTime": "21:00",
+    "price": 15,
+    "priceDetail": [
+      "Tickets: $15"
+    ],
+    "address": "321 E 73rd St, New York, NY 10021",
+    "lat": 40.769081,
+    "lng": -73.95648,
+    "locationName": "Czech Center New York",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317067225/",
+    "spotsLeft": null,
+    "wikiTitle": null,
+    "thingsToKnow": "Meet outside 6:40-6:50pm, then inside; concert continues until 11pm though the group gathering wraps up around 9pm.",
+    "customImage": "images/11-05-26_Czech_Jazz_Night_v14.png",
+    "id": 169,
+    "rsvpCount": 5,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Turkish food at Nar! \ud83c\uddf9\ud83c\uddf7",
+    "types": [
+      "Food"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Flatiron",
+    "transitLines": [
+      "N",
+      "R",
+      "W",
+      "6"
+    ],
+    "transitStation": "23 St",
+    "start": "2026-11-06",
+    "end": null,
+    "startTime": "18:40",
+    "endTime": "21:00",
+    "price": 25,
+    "priceDetail": [
+      "$25 deposit required (can be used toward food & drink)"
+    ],
+    "address": "34 E 20th St #3, New York, NY 10003",
+    "lat": 40.738536,
+    "lng": -73.988776,
+    "locationName": "NAR | Modern Turkish & Mediterranean",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317067989/",
+    "spotsLeft": 8,
+    "wikiTitle": null,
+    "thingsToKnow": "$25 deposit, applied toward food & drink; can Venmo or Zelle the host to avoid the PayPal fee.",
+    "customImage": "images/11-06-26_Turkish_Nar_v14.png",
+    "id": 170,
+    "rsvpCount": 4,
+    "spotsLeftChecked": true
+  },
+  {
+    "name": "Diwali [Part 1] - Celebration at Bhakti Center! \ud83e\ude94\ud83d\uded5",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "East Village",
+    "transitLines": [
+      "F"
+    ],
+    "transitStation": "2 Av",
+    "start": "2026-11-08",
+    "end": null,
+    "startTime": "15:45",
+    "endTime": "18:15",
+    "price": 45,
+    "address": "25 1st Ave, New York, NY 10003, USA",
+    "lat": 40.7233,
+    "lng": -73.9877,
+    "locationName": "Bhakti Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
+    "rsvpCount": 8,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
+    "thingsToKnow": "You're also welcome to join us for an all you can eat Gujarati Thali dinner at Vatan from 6:45 to 8:30pm (it\u2019s a prix-fix menu, costs $45 + taxes and tips)",
+    "priceDetail": [
+      "$45"
+    ],
+    "id": 171
+  },
+  {
+    "name": "Diwali [Part 2] - All-You-Can-Eat Feast at Vatan! \ud83c\uddee\ud83c\uddf3",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Kips Bay",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "28 St",
+    "start": "2026-11-08",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "20:30",
+    "price": 45,
+    "address": "409 3rd Ave, Manhattan, NY 10016, USA",
+    "lat": 40.7423,
+    "lng": -73.9806,
+    "locationName": "Vatan",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
+    "rsvpCount": 6,
+    "spotsLeft": 14,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
+    "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
+    "priceDetail": [
+      "$45"
+    ],
+    "id": 172
+  }
+]
