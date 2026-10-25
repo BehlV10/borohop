@@ -31,6 +31,7 @@
 
   <!-- Quick Filter Preset Chips -->
   <div class="preset-chips-scroll" role="toolbar" aria-label="Quick filter presets">
+    <button type="button" class="chip active" id="chipAll" data-filter="all">✨ All</button>
     <button type="button" class="chip" id="chipSaved" data-filter="saved">⭐ Saved (<span id="savedCountBadge">0</span>)</button>
     <button type="button" class="chip" id="chipWeekend" data-filter="weekend">🔥 This Weekend</button>
     <button type="button" class="chip" id="chipFree" data-filter="free">🆓 Free Only</button>
@@ -68,18 +69,21 @@
     <button type="button" id="clearAllFiltersBtn">Clear All Filters</button>
   </div>
 
-  <!-- Date Mode Toggle: Past / Upcoming -->
+  <!-- Date Mode Segmented Control: Upcoming / Past / All -->
   <div class="date-mode-row">
-    <button type="button" id="dateModeToggle" class="date-mode-toggle" role="switch" aria-checked="false" aria-label="Show Upcoming or Past events">
-      <span class="dmt-option dmt-past">Past</span>
-      <span class="dmt-knob"></span>
-      <span class="dmt-option dmt-upcoming">Upcoming</span>
-    </button>
+    <div class="date-mode-segments" role="radiogroup" aria-label="Show events timeframe">
+      <button type="button" class="dms-btn active" data-mode="upcoming">Upcoming</button>
+      <button type="button" class="dms-btn" data-mode="past">Past</button>
+      <button type="button" class="dms-btn" data-mode="all">All Events</button>
+    </div>
   </div>
 
-  <!-- Search input -->
+  <!-- Search input with quick-clear -->
   <div class="search-row">
-    <input type="search" id="searchBox" placeholder="Search event titles, neighborhoods, venues, details…" aria-label="Search events">
+    <div class="search-wrap">
+      <input type="search" id="searchBox" placeholder="Search event titles, neighborhoods, venues, details…" aria-label="Search events">
+      <button type="button" id="clearSearchBtn" class="search-clear-btn" aria-label="Clear search" hidden>×</button>
+    </div>
   </div>
 
   <!-- Toolbar lines -->

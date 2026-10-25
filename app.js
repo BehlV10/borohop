@@ -77,8 +77,8 @@
 
   function initTheme() {
     const saved = localStorage.getItem(THEME_KEY);
-    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const isDark = saved ? saved === "dark" : prefersDark;
+    // Explicitly default to Light mode unless the user previously clicked Dark
+    const isDark = saved === "dark";
     applyTheme(isDark);
   }
   function applyTheme(isDark) {
@@ -141,9 +141,11 @@
 
   function applyUrlParams() {
     const params = new URLSearchParams(window.location.search);
-    if (params.get("mode") === "past") {
-      dateMode = "past";
-      dateModeToggle.setAttribute("aria-checked", "true");
+    if (params.get("mode")) {
+      dateMode = params.get("mode");
+      document.querySelectorAll(".dms-btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.mode === dateMode);
+      });
     }
     if (params.get("q")) {
       searchText = params.get("q");
@@ -413,7 +415,14 @@
   }
 
   /* ============ Quick Preset Chips Handler ============ */
+  function updatePresetChipsUI() {
+    const chipAll = document.getElementById("chipAll");
+    const anyPresetActive = filterSavedActive || filterNearMeActive || (priceMulti.values.size > 0 && priceMulti.values.has("free")) || (typeMulti.values.size > 0 && (typeMulti.values.has("Food") || typeMulti.values.has("Board Games"))) || datesPicker.selected.size > 0;
+    if (chipAll) chipAll.classList.toggle("active", !anyPresetActive);
+  }
+
   function initPresetChips() {
+    const chipAll = document.getElementById("chipAll");
     const chipSaved = document.getElementById("chipSaved");
     const chipWeekend = document.getElementById("chipWeekend");
     const chipFree = document.getElementById("chipFree");
@@ -421,10 +430,33 @@
     const chipGames = document.getElementById("chipGames");
     const chipNearMe = document.getElementById("chipNearMe");
 
+    if (chipAll) {
+      chipAll.addEventListener("click", () => {
+        filterSavedActive = false;
+        filterNearMeActive = false;
+        datesPicker.clear();
+        typeMulti.clear();
+        priceMulti.clear();
+        locMulti.clear();
+        searchText = "";
+        const sb = document.getElementById("searchBox");
+        if (sb) sb.value = "";
+        const csb = document.getElementById("clearSearchBtn");
+        if (csb) csb.hidden = true;
+        document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+        chipAll.classList.add("active");
+        applyFiltersBtnEl.classList.remove("has-pending");
+        applyFilters();
+        updateUrlState();
+        showToast("✨ Showing all events");
+      });
+    }
+
     if (chipSaved) {
       chipSaved.addEventListener("click", () => {
         filterSavedActive = !filterSavedActive;
         chipSaved.classList.toggle("active", filterSavedActive);
+        updatePresetChipsUI();
         applyFilters();
       });
     }
@@ -432,7 +464,9 @@
     if (chipWeekend) {
       chipWeekend.addEventListener("click", () => {
         datesPicker.selectWeekend();
+        chipWeekend.classList.add("active");
         applyFiltersBtnEl.classList.remove("has-pending");
+        updatePresetChipsUI();
         applyFilters();
       });
     }
@@ -442,7 +476,9 @@
         priceMulti.values.clear();
         priceMulti.values.add("free");
         priceMulti.refreshLabel();
+        chipFree.classList.add("active");
         applyFiltersBtnEl.classList.remove("has-pending");
+        updatePresetChipsUI();
         applyFilters();
       });
     }
@@ -452,7 +488,9 @@
         typeMulti.values.clear();
         typeMulti.values.add("Food");
         typeMulti.refreshLabel();
+        chipFood.classList.add("active");
         applyFiltersBtnEl.classList.remove("has-pending");
+        updatePresetChipsUI();
         applyFilters();
       });
     }
@@ -462,13 +500,18 @@
         typeMulti.values.clear();
         typeMulti.values.add("Board Games");
         typeMulti.refreshLabel();
+        chipGames.classList.add("active");
         applyFiltersBtnEl.classList.remove("has-pending");
+        updatePresetChipsUI();
         applyFilters();
       });
     }
 
     if (chipNearMe) {
-      chipNearMe.addEventListener("click", toggleNearMe);
+      chipNearMe.addEventListener("click", () => {
+        toggleNearMe();
+        updatePresetChipsUI();
+      });
     }
   }
 
@@ -831,29 +874,39 @@
     });
   }
 
-  /* ============ Date Mode Switch (Past / Upcoming) ============ */
-  const dateModeToggle = document.getElementById("dateModeToggle");
-  if (dateModeToggle) {
-    dateModeToggle.addEventListener("click", () => {
-      const isPastNow = dateMode === "past";
-      dateMode = isPastNow ? "upcoming" : "past";
-      dateModeToggle.setAttribute("aria-checked", isPastNow ? "false" : "true");
+  /* ============ Date Mode Segmented Control (Upcoming / Past / All) ============ */
+  document.querySelectorAll(".dms-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".dms-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      dateMode = btn.dataset.mode;
       applyFilters();
       updateUrlState();
     });
-  }
+  });
 
-  /* ============ Search Input ============ */
+  /* ============ Search Input with Quick-Clear ============ */
   const searchBox = document.getElementById("searchBox");
+  const clearSearchBtn = document.getElementById("clearSearchBtn");
   let searchTimer = null;
   if (searchBox) {
     searchBox.addEventListener("input", () => {
+      if (clearSearchBtn) clearSearchBtn.hidden = !searchBox.value;
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => {
         searchText = searchBox.value.trim().toLowerCase();
         applyFilters();
         updateUrlState();
       }, 250);
+    });
+  }
+  if (clearSearchBtn) {
+    clearSearchBtn.addEventListener("click", () => {
+      searchBox.value = "";
+      clearSearchBtn.hidden = true;
+      searchText = "";
+      applyFilters();
+      updateUrlState();
     });
   }
 
@@ -969,8 +1022,12 @@
   function displayList(list) {
     const countEl = document.getElementById("countLine");
     if (countEl) {
-      const modeLabel = dateMode === "upcoming" ? "upcoming" : "past";
-      countEl.textContent = `Showing ${list.length} ${modeLabel} event${list.length === 1 ? "" : "s"}`;
+      let modeLabel = "upcoming";
+      if (dateMode === "past") modeLabel = "past";
+      if (dateMode === "all") modeLabel = "total";
+      const freeCount = list.filter(e => e.price === 0).length;
+      const freeTag = freeCount > 0 ? ` • ${freeCount} Free` : "";
+      countEl.textContent = `Showing ${list.length} ${modeLabel} event${list.length === 1 ? "" : "s"}${freeTag}`;
     }
     renderList(list);
     recomputePageBreaks();
@@ -1060,7 +1117,11 @@
     const where = `
       <div class="l3">${escapeAttr(ev.locationName ? ev.locationName + ' — ' : '')}${escapeAttr(ev.region === "nyc" ? (ev.neighborhood ? ev.neighborhood + ', ' : '') + ev.borough : (ev.town || 'Nearby'))}</div>
       <div class="l4" style="color:var(--ink-soft);font-size:11.5px;">${escapeAttr(ev.address)}</div>
-    `;
+    const tagsHtml = (ev.types && ev.types.length) ? `
+      <div class="event-tags-list">
+        ${ev.types.map(t => `<button type="button" class="event-tag" data-type="${escapeAttr(t)}" title="Filter by ${escapeAttr(t)}">${typeEmoji(t)} ${escapeAttr(t)}</button>`).join("")}
+      </div>
+    ` : "";
 
     const transit = `
       <div class="l4" style="margin-top:4px;">
@@ -1084,6 +1145,7 @@
           <button type="button" class="pill-btn ics-btn" data-ev-id="${ev.id}">🍏 Apple / .ics</button>
         ` : ''}
         ${ev.rsvpUrl ? `<a class="pill-btn primary" href="${ev.rsvpUrl}" target="_blank" rel="noopener noreferrer">${rsvpText} ↗</a>` : ''}
+        <button type="button" class="pill-btn share-event-btn" data-ev-id="${ev.id}" title="Copy direct link to this event">🔗 Share</button>
       </div>
     `;
 
@@ -1105,6 +1167,7 @@
           <div class="col-right">
             <div class="col-right-top">
               ${where}
+              ${tagsHtml}
               ${transit}
               ${note}
             </div>
@@ -1148,6 +1211,35 @@
         const id = Number(btn.dataset.evId);
         const ev = ALL_EVENTS.find(e => e.id === id);
         if (ev) downloadIcsFile(ev);
+      });
+    });
+
+    // Attach Category Tag filter buttons
+    resultsEl.querySelectorAll(".event-tag").forEach(tagBtn => {
+      tagBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const t = tagBtn.dataset.type;
+        typeMulti.values.clear();
+        typeMulti.values.add(t);
+        typeMulti.refreshLabel();
+        applyFilters();
+        updateUrlState();
+        showToast(`Filtered by ${t}`);
+      });
+    });
+
+    // Attach direct Share Event buttons
+    resultsEl.querySelectorAll(".share-event-btn").forEach(sBtn => {
+      sBtn.addEventListener("click", () => {
+        const id = sBtn.dataset.evId;
+        const shareUrl = `${window.location.origin}${window.location.pathname}?event=${id}`;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast("🔗 Direct link to event copied!");
+          });
+        } else {
+          showToast("🔗 Event URL copied");
+        }
       });
     });
   }
@@ -1424,6 +1516,29 @@
     initPresetChips();
     applyUrlParams();
     applyFilters();
+
+    // Check for deep-linked event (?event=ID)
+    const params = new URLSearchParams(window.location.search);
+    const targetEventId = params.get("event");
+    if (targetEventId !== null) {
+      const targetIdNum = Number(targetEventId);
+      const targetEv = ALL_EVENTS.find(e => e.id === targetIdNum);
+      if (targetEv) {
+        if (!isUpcoming(targetEv) && dateMode === "upcoming") {
+          dateMode = "all";
+          document.querySelectorAll(".dms-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === "all"));
+          applyFilters();
+        }
+        setTimeout(() => {
+          const row = document.querySelector(`.row[data-id="${targetIdNum}"]`);
+          if (row) {
+            row.classList.add("highlighted");
+            row.scrollIntoView({ behavior: "smooth", block: "center" });
+            showToast(`📍 Found: ${targetEv.name}`);
+          }
+        }, 400);
+      }
+    }
   }
 
   loadEventsData();
