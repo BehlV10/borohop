@@ -137,7 +137,29 @@
     });
   }
 
-  function updateUrlState() {
+  /* ============ View Toggle Helpers & URL State ============ */
+  const listLabel = document.getElementById("viewListLabel");
+  const mapLabel = document.getElementById("viewMapLabel");
+  const galleryLabel = document.getElementById("viewGalleryLabel");
+
+  function setViewMode(mode, pushHistory = false) {
+    const validMode = (mode === "map" || mode === "gallery") ? mode : "list";
+    document.body.classList.toggle("view-map", validMode === "map");
+    document.body.classList.toggle("view-list", validMode === "list");
+    document.body.classList.toggle("view-gallery", validMode === "gallery");
+    listLabel?.classList.toggle("active", validMode === "list");
+    mapLabel?.classList.toggle("active", validMode === "map");
+    galleryLabel?.classList.toggle("active", validMode === "gallery");
+
+    const radio = document.querySelector(`input[name="viewMode"][value="${validMode}"]`);
+    if (radio) radio.checked = true;
+
+    if (validMode === "map" && typeof ensureMapAndRender === "function") ensureMapAndRender(lastFiltered);
+    if (validMode === "gallery" && typeof initGalleryView === "function") initGalleryView();
+    updateUrlState(pushHistory);
+  }
+
+  function updateUrlState(push = false) {
     const params = new URLSearchParams();
     if (dateMode !== "upcoming") params.set("mode", dateMode);
     if (searchText) params.set("q", searchText);
@@ -151,13 +173,21 @@
     if (viewMode !== "list") params.set("view", viewMode);
     if (viewMode === "gallery") {
       const curParams = new URLSearchParams(window.location.search);
-      const albumId = activeAlbum ? activeAlbum.id : curParams.get("album");
-      if (albumId) params.set("album", albumId);
+      if (activeAlbum && activeAlbum.id) {
+        params.set("album", activeAlbum.id);
+      }
       if (curParams.get("key")) params.set("key", curParams.get("key"));
     }
 
     const newUrl = window.location.pathname + (params.toString() ? "?" + params.toString() : "");
-    window.history.replaceState({}, "", newUrl);
+    const currentUrl = window.location.pathname + window.location.search;
+    if (newUrl !== currentUrl) {
+      if (push) {
+        window.history.pushState({ view: viewMode, album: activeAlbum ? activeAlbum.id : null }, "", newUrl);
+      } else {
+        window.history.replaceState({ view: viewMode, album: activeAlbum ? activeAlbum.id : null }, "", newUrl);
+      }
+    }
   }
 
   function applyUrlParams() {
@@ -191,19 +221,13 @@
       prices.forEach(p => priceMulti.values.add(p));
       priceMulti.refreshLabel();
     }
-    if (params.get("view") === "map") {
-      const mapRadio = document.querySelector('input[name="viewMode"][value="map"]');
-      if (mapRadio) {
-        mapRadio.checked = true;
-        mapRadio.dispatchEvent(new Event("change"));
-      }
-    } else if (params.get("view") === "gallery") {
-      const galRadio = document.querySelector('input[name="viewMode"][value="gallery"]');
-      if (galRadio) {
-        galRadio.checked = true;
-        galRadio.dispatchEvent(new Event("change"));
-      }
+
+    const viewParam = params.get("view") || "list";
+    const albumParam = params.get("album");
+    if (GALLERY_ALBUMS) {
+      activeAlbum = albumParam ? (GALLERY_ALBUMS.find(a => a.id === albumParam) || null) : null;
     }
+    setViewMode(viewParam, false);
   }
 
   /* ============ Category Colors & Emojis ============ */
@@ -982,21 +1006,9 @@
   }
 
   /* ============ View Toggle (List / Map / Gallery) & Photos Toggle ============ */
-  const listLabel = document.getElementById("viewListLabel");
-  const mapLabel = document.getElementById("viewMapLabel");
-  const galleryLabel = document.getElementById("viewGalleryLabel");
   document.querySelectorAll('input[name="viewMode"]').forEach(r => {
     r.addEventListener("change", () => {
-      const mode = r.value;
-      document.body.classList.toggle("view-map", mode === "map");
-      document.body.classList.toggle("view-list", mode === "list");
-      document.body.classList.toggle("view-gallery", mode === "gallery");
-      listLabel?.classList.toggle("active", mode === "list");
-      mapLabel?.classList.toggle("active", mode === "map");
-      galleryLabel?.classList.toggle("active", mode === "gallery");
-      if (mode === "map") ensureMapAndRender(lastFiltered);
-      if (mode === "gallery") initGalleryView();
-      updateUrlState();
+      setViewMode(r.value, true);
     });
   });
 
@@ -1947,13 +1959,7 @@
     const album = (GALLERY_ALBUMS || []).find(a => a.id === albumId);
     if (!album) return;
     activeAlbum = album;
-    const galleryRadio = document.querySelector('input[name="viewMode"][value="gallery"]');
-    if (galleryRadio) {
-      galleryRadio.checked = true;
-      galleryRadio.dispatchEvent(new Event("change"));
-    } else {
-      initGalleryView();
-    }
+    setViewMode("gallery", true);
   }
 
   function isGalleryUnlocked() {
@@ -2023,6 +2029,7 @@
     showToast("🔒 Gallery locked");
     activeAlbum = null;
     initGalleryView();
+    updateUrlState(true);
   }
 
   async function renderGallery() {
@@ -2033,12 +2040,12 @@
 
     if (!albumsGrid) return;
 
-    if (!activeAlbum) {
-      const urlAlbumId = new URLSearchParams(window.location.search).get("album");
-      if (urlAlbumId) {
-        const found = albums.find(a => a.id === urlAlbumId);
-        if (found) activeAlbum = found;
-      }
+    const urlAlbumId = new URLSearchParams(window.location.search).get("album");
+    if (urlAlbumId) {
+      const found = albums.find(a => a.id === urlAlbumId);
+      activeAlbum = found || null;
+    } else {
+      activeAlbum = null;
     }
 
     if (activeAlbum) {
@@ -2231,8 +2238,8 @@
   /* Back to albums button */
   document.getElementById("galleryBackToAlbumsBtn")?.addEventListener("click", () => {
     activeAlbum = null;
+    updateUrlState(true);
     renderGallery();
-    updateUrlState();
   });
 
   /* Event card photos button delegation */
@@ -2299,6 +2306,23 @@
     if (uploadModal && !uploadModal.hidden && e.key === "Escape") {
       uploadModal.hidden = true;
       if (modalBackdrop) modalBackdrop.hidden = true;
+    }
+  });
+
+  /* Browser Back/Forward navigation */
+  window.addEventListener("popstate", () => {
+    if (lightbox && !lightbox.hidden) {
+      closeLightbox();
+    }
+    const params = new URLSearchParams(window.location.search);
+    const view = params.get("view") || "list";
+    const albumId = params.get("album");
+    if (GALLERY_ALBUMS) {
+      activeAlbum = albumId ? (GALLERY_ALBUMS.find(a => a.id === albumId) || null) : null;
+    }
+    setViewMode(view, false);
+    if (view === "gallery") {
+      renderGallery();
     }
   });
 
