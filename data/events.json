@@ -4964,7 +4964,7 @@
     "thingsToKnow": "Hessian Loop Trail (1.5mi, easy) then Bear Mountain Loop Trail (4mi, moderate/hard, ~1,000ft gain); by car, meet at Bear Mountain Inn by 10am; by bus, meet at Port Authority Gate 405 by 7:45am (bus departs 8:45am, tickets first-come-first-served); optional dinner after at Restaurant 1915 (separate listing).",
     "customImage": "images/10-24-26_Bear_Mountain_Hike_v14.png",
     "id": 152,
-    "rsvpCount": 27,
+    "rsvpCount": 25,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5050,14 +5050,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York City"
-      },
-      {
-        "name": "Maria",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/9/d/f/highres_305967103.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 1,
-        "city": "Union, NJ"
       },
       {
         "name": "ruechika1",
@@ -5511,15 +5503,6 @@
         "city": "New York, NY"
       },
       {
-        "name": "dfretro",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/c/5/f/highres_325436415.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Recently arrived in NYC and will be staying here till the end of May. I'm trying to get into new hobbies and experience new things. \nusually have the hobby of reading mainly fantasy.\nI rediscovered how much iike biking and exploring by coming here",
-        "city": "New York, NY"
-      },
-      {
         "name": "Sarah McDonald",
         "photo": "https://secure.meetupstatic.com/photos/member/4/1/e/highres_326341054.jpeg",
         "isHost": false,
@@ -5548,6 +5531,14 @@
       {
         "name": "Ebony",
         "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "ita wi\u013ai",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -5604,7 +5595,7 @@
     "thingsToKnow": "Game starts 4pm; arrive by 3:30pm if possible, the bar tends to get busy.",
     "customImage": "images/10-25-26_El_Clasico_Watch_Party_v14.png",
     "id": 156,
-    "rsvpCount": 15,
+    "rsvpCount": 14,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5676,15 +5667,6 @@
         "bio": "I\u2019m interested in outdoor activities and languages. I\u2019m also here professionally to learn more about Agile.",
         "job": "Technology",
         "city": "New York, NY"
-      },
-      {
-        "name": "Eduardo",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/3/e/4/highres_319285572.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "bio": "Am a very active guy, wanna meet people and practice activities",
-        "city": "New York"
       },
       {
         "name": "Johannes Oberhammer",
@@ -5765,7 +5747,7 @@
     "thingsToKnow": "Costumes encouraged (not required) -- prizes for funniest, scariest, and sexiest; drop in and leave anytime; usually 10-20 attendees; bring games/snacks/friends if you'd like.",
     "customImage": "images/10-25-26_Board_Games_Halloween_v14.png",
     "id": 157,
-    "rsvpCount": 19,
+    "rsvpCount": 23,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5925,6 +5907,40 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "bio": "INFJ",
+        "city": "New York, NY"
+      },
+      {
+        "name": "Apoorv",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/d/8/3/highres_326552131.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Xzavier",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/4/1/8/highres_326549720.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "I am the color red in a world full of black and white",
+        "city": "New York"
+      },
+      {
+        "name": "Akanksha Gupta",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/9/e/f/highres_302339887.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Selena",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/d/f/e/highres_320591774.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "NYC based web developer",
         "city": "New York, NY"
       }
     ]
