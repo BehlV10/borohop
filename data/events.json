@@ -5604,7 +5604,7 @@
     "thingsToKnow": "Game starts 4pm; arrive by 3:30pm if possible, the bar tends to get busy.",
     "customImage": "images/10-25-26_El_Clasico_Watch_Party_v14.png",
     "id": 156,
-    "rsvpCount": 14,
+    "rsvpCount": 15,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5726,6 +5726,14 @@
         "guestsCount": 0,
         "job": "Business Finance Law",
         "city": "New York"
+      },
+      {
+        "name": "yorulmazy2",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/5/1/d/highres_324365405.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -5791,14 +5799,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
-        "city": "New York"
-      },
-      {
-        "name": "Jenn N.",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/0/5/c/highres_326412380.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
         "city": "New York"
       },
       {
@@ -5917,6 +5917,15 @@
         "guestsCount": 0,
         "bio": "Hello everyone, i live in VA with my fiance, i realized i don't have a big social circle, hence i wanted to meet some nice people with whom i share the same interests and make some new friends",
         "city": "Jersey City"
+      },
+      {
+        "name": "Dan",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/7/c/4/highres_326554756.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "INFJ",
+        "city": "New York, NY"
       }
     ]
   },
