@@ -153,7 +153,7 @@
   function applyUrlParams() {
     const params = new URLSearchParams(window.location.search);
     if (params.get("mode")) {
-      dateMode = params.get("mode");
+      dateMode = params.get("mode") === "past" ? "past" : "upcoming";
       document.querySelectorAll(".dms-btn").forEach(b => {
         b.classList.toggle("active", b.dataset.mode === dateMode);
       });
@@ -897,16 +897,48 @@
     });
   }
 
-  /* ============ Date Mode Segmented Control (Upcoming / Past / All) ============ */
+  /* ============ Date Mode Segmented Control (Upcoming / Past) ============ */
   document.querySelectorAll(".dms-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".dms-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
-      dateMode = btn.dataset.mode;
+      dateMode = btn.dataset.mode === "past" ? "past" : "upcoming";
       applyFilters();
       updateUrlState();
     });
   });
+
+  /* ============ Mobile Filters Drawer Toggle ============ */
+  const toggleFiltersBtn = document.getElementById("toggleFiltersBtn");
+  const filtersSection = document.getElementById("filtersSection");
+  const filterActions = document.getElementById("filterActions");
+  const filtersActiveBadge = document.getElementById("filtersActiveBadge");
+
+  function updateActiveFilterBadge() {
+    let count = 0;
+    if (datesPicker && datesPicker.selected && datesPicker.selected.size > 0) count++;
+    if (typeMulti && typeMulti.values && typeMulti.values.size > 0) count += typeMulti.values.size;
+    if (locMulti && locMulti.values && locMulti.values.size > 0) count += locMulti.values.size;
+    if (priceMulti && priceMulti.values && priceMulti.values.size > 0) count += priceMulti.values.size;
+
+    if (filtersActiveBadge) {
+      if (count > 0) {
+        filtersActiveBadge.textContent = `${count} active`;
+        filtersActiveBadge.hidden = false;
+      } else {
+        filtersActiveBadge.hidden = true;
+      }
+    }
+  }
+
+  if (toggleFiltersBtn && filtersSection) {
+    toggleFiltersBtn.addEventListener("click", () => {
+      const isOpen = filtersSection.classList.toggle("is-open");
+      filterActions?.classList.toggle("is-open", isOpen);
+      toggleFiltersBtn.classList.toggle("is-open", isOpen);
+      toggleFiltersBtn.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
 
   /* ============ Search Input with Quick-Clear ============ */
   const searchBox = document.getElementById("searchBox");
@@ -1036,6 +1068,7 @@
       });
     }
 
+    updateActiveFilterBadge();
     displayList(lastFiltered);
     if (document.body.classList.contains("view-map")) {
       ensureMapAndRender(lastFiltered);
@@ -1045,9 +1078,7 @@
   function displayList(list) {
     const countEl = document.getElementById("countLine");
     if (countEl) {
-      let modeLabel = "upcoming";
-      if (dateMode === "past") modeLabel = "past";
-      if (dateMode === "all") modeLabel = "total";
+      const modeLabel = dateMode === "past" ? "past" : "upcoming";
       const freeCount = list.filter(e => e.price === 0).length;
       const freeTag = freeCount > 0 ? ` • ${freeCount} Free` : "";
       countEl.textContent = `Showing ${list.length} ${modeLabel} event${list.length === 1 ? "" : "s"}${freeTag}`;
@@ -1525,7 +1556,10 @@
         return `
           <div class="attendee-card">
             ${avatarHtml}
-            <div class="attendee-card-name">${name}</div>
+            <div class="attendee-card-info">
+              <div class="attendee-card-name" title="${name}">${name}</div>
+              <div class="attendee-card-badge">Going ✓</div>
+            </div>
           </div>
         `;
       }).join("");
@@ -1710,8 +1744,8 @@
       const targetEv = ALL_EVENTS.find(e => e.id === targetIdNum);
       if (targetEv) {
         if (!isUpcoming(targetEv) && dateMode === "upcoming") {
-          dateMode = "all";
-          document.querySelectorAll(".dms-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === "all"));
+          dateMode = "past";
+          document.querySelectorAll(".dms-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === "past"));
           applyFilters();
         }
         setTimeout(() => {

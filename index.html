@@ -7,7 +7,7 @@
   <meta name="description" content="NYC boroughs, neighborhoods, and nearby towns. Filter by date, category, location, and expenses. Zero tracking, no accounts, no cookies.">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0039A6">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body class="view-list">
 <div class="wrap">
@@ -40,8 +40,17 @@
     <button type="button" class="chip" id="chipNearMe" data-filter="nearme">📍 Near Me</button>
   </div>
 
+  <!-- Mobile Filter Toggle Button -->
+  <div class="filters-toggle-wrap">
+    <button type="button" class="filters-toggle-btn" id="toggleFiltersBtn" aria-expanded="false" aria-controls="filtersSection">
+      <span class="filters-toggle-label">🔍 Filter by Date, Category, Location</span>
+      <span class="filters-toggle-badge" id="filtersActiveBadge" hidden>0 active</span>
+      <span class="filters-toggle-arrow">▼</span>
+    </button>
+  </div>
+
   <!-- Filters: 2x2 Grid -->
-  <section class="filters" aria-label="Filters">
+  <section class="filters" id="filtersSection" aria-label="Filters">
     <div class="field">
       <label id="datesLabel">Dates</label>
       <button type="button" class="cal-btn" id="datesBtn" aria-labelledby="datesLabel" aria-expanded="false">Any dates</button>
@@ -64,16 +73,15 @@
     </div>
   </section>
 
-  <div class="filter-actions">
+  <div class="filter-actions" id="filterActions">
     <button type="button" id="clearAllFiltersBtn">Clear All Filters</button>
   </div>
 
-  <!-- Date Mode Segmented Control: Upcoming / Past / All -->
+  <!-- Date Mode Segmented Control: Upcoming / Past -->
   <div class="date-mode-row">
     <div class="date-mode-segments" role="radiogroup" aria-label="Show events timeframe">
-      <button type="button" class="dms-btn active" data-mode="upcoming">Upcoming</button>
-      <button type="button" class="dms-btn" data-mode="past">Past</button>
-      <button type="button" class="dms-btn" data-mode="all">All Events</button>
+      <button type="button" class="dms-btn active" data-mode="upcoming">🗓️ Upcoming</button>
+      <button type="button" class="dms-btn" data-mode="past">📜 Past Events</button>
     </div>
   </div>
 
@@ -172,6 +180,6 @@
 
 </div>
 
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

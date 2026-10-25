@@ -1,10 +1,10 @@
 // Service Worker for BoroHop — Offline Subway Browsing
-const CACHE_NAME = "borohop-v3";
+const CACHE_NAME = "borohop-v4";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=3",
-  "./app.js?v=3",
+  "./styles.css?v=4",
+  "./app.js?v=4",
   "./manifest.json",
   "./data/events.json"
 ];
