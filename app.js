@@ -1265,7 +1265,7 @@
         ${weatherUrl ? `<a class="pill-btn" href="${weatherUrl}" target="_blank" rel="noopener noreferrer" title="View National Weather Service forecast">🌤️ Forecast ↗</a>` : ''}
         ${!isPast ? `
           <a class="pill-btn" href="${googleCalendarUrl(ev)}" target="_blank" rel="noopener noreferrer">📅 Google Cal</a>
-          <button type="button" class="pill-btn ics-btn" data-ev-id="${ev.id}">🍏 Apple / .ics</button>
+          <button type="button" class="pill-btn ics-btn" data-ev-id="${ev.id}" title="Download .ics file for Outlook, Apple, Thunderbird, or Android calendar">📆 Outlook / iCal</button>
         ` : ''}
         ${galleryBtnHtml}
         ${ev.rsvpUrl ? `<a class="pill-btn primary" href="${ev.rsvpUrl}" target="_blank" rel="noopener noreferrer">${rsvpText} ↗</a>` : ''}

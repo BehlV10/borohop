@@ -4964,7 +4964,7 @@
     "thingsToKnow": "Hessian Loop Trail (1.5mi, easy) then Bear Mountain Loop Trail (4mi, moderate/hard, ~1,000ft gain); by car, meet at Bear Mountain Inn by 10am; by bus, meet at Port Authority Gate 405 by 7:45am (bus departs 8:45am, tickets first-come-first-served); optional dinner after at Restaurant 1915 (separate listing).",
     "customImage": "images/10-24-26_Bear_Mountain_Hike_v14.png",
     "id": 152,
-    "rsvpCount": 28,
+    "rsvpCount": 27,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5466,7 +5466,7 @@
     "thingsToKnow": "Choose-your-own-adventure itinerary: bike rental, Slide Hill Playground, Fort Jay, a free walking tour (register ahead), lunch on your own near Makina Caf\u00e9, then Nolan Park's art exhibits with a free pumpkin; meet at the ferry terminal by 8am, ferry departs 8:30am.",
     "customImage": "images/10-25-26_Governors_Island_v14.png",
     "id": 155,
-    "rsvpCount": 13,
+    "rsvpCount": 12,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5604,7 +5604,7 @@
     "thingsToKnow": "Game starts 4pm; arrive by 3:30pm if possible, the bar tends to get busy.",
     "customImage": "images/10-25-26_El_Clasico_Watch_Party_v14.png",
     "id": 156,
-    "rsvpCount": 11,
+    "rsvpCount": 14,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5641,6 +5641,15 @@
         "guestsCount": 0,
         "bio": "I like to read, make new friends, visit new places",
         "city": "Bronx"
+      },
+      {
+        "name": "Michelle",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
+        "city": "New York"
       },
       {
         "name": "kaul.kartik",
@@ -5748,7 +5757,7 @@
     "thingsToKnow": "Costumes encouraged (not required) -- prizes for funniest, scariest, and sexiest; drop in and leave anytime; usually 10-20 attendees; bring games/snacks/friends if you'd like.",
     "customImage": "images/10-25-26_Board_Games_Halloween_v14.png",
     "id": 157,
-    "rsvpCount": 18,
+    "rsvpCount": 19,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5927,21 +5936,19 @@
     "end": null,
     "startTime": "18:15",
     "endTime": "20:15",
-    "price": 20,
-    "priceDetail": [
-      "$20 deposit required"
-    ],
+    "price": 0,
+    "priceDetail": [],
     "address": "53 W 19th St, New York, NY 10011",
     "lat": 40.740239,
     "lng": -73.993767,
     "locationName": "Boqueria Flatiron",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316626116/",
-    "spotsLeft": 3,
+    "spotsLeft": 0,
     "wikiTitle": null,
     "thingsToKnow": "Barcelona-style tapas.",
     "customImage": "images/10-25-26_Boqueria_Flatiron_v14.png",
     "id": 158,
-    "rsvpCount": 5,
+    "rsvpCount": 8,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5993,6 +6000,24 @@
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Sadia Nahar",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/b/d/c/highres_318811708.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "job": "Healthcare",
+        "city": "Brooklyn, NY"
+      },
+      {
+        "name": "Michelle",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
         "city": "New York"
       }
     ]
@@ -6887,7 +6912,7 @@
     "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
-    "rsvpCount": 8,
+    "rsvpCount": 10,
     "spotsLeftChecked": true,
     "attendees": [
       {
