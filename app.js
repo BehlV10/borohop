@@ -1216,9 +1216,9 @@
 
       attendeesHtml = `
         <div class="attendees-wrap">
-          <button type="button" class="attendees-btn" data-attendee-ev-id="${ev.id}" title="Click to view who is going" aria-label="View who is going (${countLabel})">
+          <button type="button" class="attendees-btn" data-attendee-ev-id="${ev.id}" title="Click to view attendee list" aria-label="View who is going (${countLabel})">
             ${displayAvatars ? `<span class="attendee-avatars">${displayAvatars}</span>` : ''}
-            <span class="attendees-label">${countLabel} ↗</span>
+            <span class="attendees-label">${countLabel} — View Attendee List ↗</span>
           </button>
         </div>
       `;
@@ -1532,10 +1532,9 @@
     const attendees = ev.attendees || [];
     const rsvps = ev.rsvpCount || attendees.length;
 
-    if (attendeesModalTitle) attendeesModalTitle.textContent = ev.name;
+    if (attendeesModalTitle) attendeesModalTitle.textContent = `👥 Attendees (${rsvps})`;
     if (attendeesModalSub) {
-      const parts = [];
-      if (rsvps > 0) parts.push(`${rsvps} Going`);
+      const parts = [ev.name];
       if (ev.start) parts.push(fmtDayCompact(ev.start));
       if (ev.locationName || ev.borough) parts.push(ev.locationName || ev.borough);
       attendeesModalSub.textContent = parts.join(" · ");
@@ -1561,7 +1560,7 @@
             ${avatarHtml}
             <div class="attendee-card-info">
               <div class="attendee-card-name" title="${name}">${name}</div>
-              <div class="attendee-card-badge">Going ✓</div>
+              <div class="attendee-card-badge">✓ Attending</div>
             </div>
           </div>
         `;

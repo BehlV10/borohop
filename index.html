@@ -7,7 +7,7 @@
   <meta name="description" content="NYC boroughs, neighborhoods, and nearby towns. Filter by date, category, location, and expenses. Zero tracking, no accounts, no cookies.">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0039A6">
-  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body class="view-list">
 <div class="wrap">
@@ -157,29 +157,27 @@
       <button type="button" id="pdfCancelBtn" style="font:inherit;font-size:12px;background:none;border:none;color:var(--ink-soft);cursor:pointer;">Cancel</button>
       <button type="button" id="pdfConfirmBtn" class="pill-btn primary">Create PDF</button>
     </div>
-  </div>
+</div><!-- /.wrap -->
 
-  <!-- Modal Backdrop Overlay -->
-  <div id="modalBackdrop" class="modal-backdrop" hidden></div>
+<!-- Modal Backdrop Overlay -->
+<div id="modalBackdrop" class="modal-backdrop" hidden></div>
 
-  <!-- Attendees "Who's Going" Modal -->
-  <div class="cal-pop attendees-modal" id="attendeesModal" hidden role="dialog" aria-modal="true" aria-labelledby="attendeesModalTitle">
-    <div class="pop-header">
-      <div style="min-width:0;padding-right:8px;">
-        <span class="pop-title" id="attendeesModalTitle">Who's Going</span>
-        <div id="attendeesModalSub" class="attendees-modal-sub"></div>
-      </div>
-      <button type="button" class="pop-close-btn" id="attendeesCloseBtn" aria-label="Close modal">×</button>
+<!-- Attendees "Who's Going" Modal -->
+<div class="attendees-modal" id="attendeesModal" hidden role="dialog" aria-modal="true" aria-labelledby="attendeesModalTitle">
+  <div class="pop-header">
+    <div style="min-width:0;padding-right:8px;">
+      <span class="pop-title" id="attendeesModalTitle">Who's Going</span>
+      <div id="attendeesModalSub" class="attendees-modal-sub"></div>
     </div>
-    <div id="attendeesModalList" class="attendees-modal-list"></div>
-    <div id="attendeesModalFooter" class="attendees-modal-footer"></div>
+    <button type="button" class="pop-close-btn" id="attendeesCloseBtn" aria-label="Close modal">×</button>
   </div>
-
-  <!-- Feedback Toast Notification -->
-  <div id="toast" hidden role="status" aria-live="polite"></div>
-
+  <div id="attendeesModalList" class="attendees-modal-list"></div>
+  <div id="attendeesModalFooter" class="attendees-modal-footer"></div>
 </div>
 
-<script src="app.js?v=6"></script>
+<!-- Feedback Toast Notification -->
+<div id="toast" hidden role="status" aria-live="polite"></div>
+
+<script src="app.js?v=7"></script>
 </body>
 </html>
