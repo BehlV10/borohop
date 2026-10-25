@@ -1116,8 +1116,6 @@
       } else {
         badges.push(`<span class="badge badge-timing">🎫 ${ev.spotsLeft} spots left</span>`);
       }
-    } else if (ev.rsvpCount > 0) {
-      badges.push(`<span class="badge badge-going">👥 ${ev.rsvpCount} going</span>`);
     }
 
     // Price
@@ -1538,7 +1536,7 @@
     if (attendeesModalSub) {
       const parts = [];
       if (rsvps > 0) parts.push(`${rsvps} Going`);
-      if (ev.start) parts.push(fmtDay(ev.start));
+      if (ev.start) parts.push(fmtDayCompact(ev.start));
       if (ev.locationName || ev.borough) parts.push(ev.locationName || ev.borough);
       attendeesModalSub.textContent = parts.join(" · ");
     }
