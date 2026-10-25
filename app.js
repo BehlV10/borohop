@@ -1165,8 +1165,11 @@
     const note = ev.thingsToKnow ? `<div class="things-to-know">ℹ️ ${escapeAttr(ev.thingsToKnow)}</div>` : "";
 
     let attendeesHtml = "";
-    if (ev.attendees && ev.attendees.length) {
-      const avatars = ev.attendees.map(a => {
+    const hasAttendees = ev.attendees && ev.attendees.length > 0;
+    const rsvps = ev.rsvpCount || (hasAttendees ? ev.attendees.length : 0);
+
+    if (hasAttendees || rsvps > 0) {
+      const displayAvatars = (ev.attendees || []).slice(0, 5).map(a => {
         const photo = a.photo || "";
         const name = escapeAttr(a.name || "Member");
         if (photo) {
@@ -1175,13 +1178,14 @@
         return `<span class="attendee-avatar" title="${name}" style="display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--ink-soft);background:var(--line);">${name.charAt(0)}</span>`;
       }).join("");
 
-      const extraCount = (ev.rsvpCount && ev.rsvpCount > ev.attendees.length) ? (ev.rsvpCount - ev.attendees.length) : 0;
-      const extraLabel = extraCount > 0 ? `<span class="attendees-label">+${extraCount} more going</span>` : `<span class="attendees-label">${ev.attendees.length} going</span>`;
+      const countLabel = rsvps > 0 ? `${rsvps} going` : `${ev.attendees.length} going`;
 
       attendeesHtml = `
         <div class="attendees-wrap">
-          <div class="attendee-avatars">${avatars}</div>
-          ${extraLabel}
+          <button type="button" class="attendees-btn" data-attendee-ev-id="${ev.id}" title="Click to view who is going" aria-label="View who is going (${countLabel})">
+            ${displayAvatars ? `<span class="attendee-avatars">${displayAvatars}</span>` : ''}
+            <span class="attendees-label">${countLabel} ↗</span>
+          </button>
         </div>
       `;
     }
@@ -1297,6 +1301,16 @@
         } else {
           showToast("🔗 Event URL copied");
         }
+      });
+    });
+
+    // Attach Attendees modal popup buttons
+    resultsEl.querySelectorAll(".attendees-btn").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const id = Number(btn.dataset.attendeeEvId);
+        const ev = ALL_EVENTS.find(e => e.id === id);
+        if (ev) openAttendeesModal(ev);
       });
     });
   }
@@ -1460,8 +1474,101 @@
       info.innerHTML = `<ul class="results" style="margin-top:0;">${buildRowHtml(ev)}</ul>`;
       info.querySelectorAll(".star-btn").forEach(b => b.addEventListener("click", () => toggleSaved(ev)));
       info.querySelectorAll(".ics-btn").forEach(b => b.addEventListener("click", () => downloadIcsFile(ev)));
+      info.querySelectorAll(".attendees-btn").forEach(b => b.addEventListener("click", () => openAttendeesModal(ev)));
     }
   }
+
+  /* ============ Who's Going Attendees Modal ============ */
+  const attendeesModal = document.getElementById("attendeesModal");
+  const attendeesModalTitle = document.getElementById("attendeesModalTitle");
+  const attendeesModalSub = document.getElementById("attendeesModalSub");
+  const attendeesModalList = document.getElementById("attendeesModalList");
+  const attendeesModalFooter = document.getElementById("attendeesModalFooter");
+  const attendeesCloseBtn = document.getElementById("attendeesCloseBtn");
+
+  function openAttendeesModal(ev) {
+    if (!attendeesModal) return;
+    const attendees = ev.attendees || [];
+    const rsvps = ev.rsvpCount || attendees.length;
+
+    if (attendeesModalTitle) attendeesModalTitle.textContent = ev.name;
+    if (attendeesModalSub) {
+      const parts = [];
+      if (rsvps > 0) parts.push(`${rsvps} Going`);
+      if (ev.start) parts.push(fmtDay(ev.start));
+      if (ev.locationName || ev.borough) parts.push(ev.locationName || ev.borough);
+      attendeesModalSub.textContent = parts.join(" · ");
+    }
+
+    if (!attendees.length) {
+      attendeesModalList.innerHTML = `
+        <div style="grid-column:1/-1;text-align:center;padding:28px 14px;color:var(--ink-soft);font-size:13px;">
+          <div style="font-size:24px;margin-bottom:8px;">👥</div>
+          <div>No attendee photo list available in preview.</div>
+          ${ev.rsvpUrl ? `<div style="margin-top:10px;"><a class="pill-btn primary" href="${escapeAttr(ev.rsvpUrl)}" target="_blank" rel="noopener noreferrer">View RSVPs on Meetup ↗</a></div>` : ''}
+        </div>
+      `;
+    } else {
+      attendeesModalList.innerHTML = attendees.map(a => {
+        const photo = a.photo;
+        const name = escapeAttr(a.name || "Member");
+        const avatarHtml = photo
+          ? `<img class="attendee-card-avatar" src="${escapeAttr(photo)}" alt="${name}" referrerpolicy="no-referrer" loading="lazy">`
+          : `<span class="attendee-card-initial">${name.charAt(0)}</span>`;
+        return `
+          <div class="attendee-card">
+            ${avatarHtml}
+            <div class="attendee-card-name">${name}</div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    let footerHtml = "";
+    if (ev.rsvpUrl) {
+      footerHtml = `
+        <span class="attendees-modal-footer-note">${attendees.length} ${attendees.length === 1 ? 'member' : 'members'} listed</span>
+        <div style="display:flex;gap:8px;">
+          <button type="button" class="pill-btn" id="attendeesModalDoneBtn">Close</button>
+          <a class="pill-btn primary" href="${escapeAttr(ev.rsvpUrl)}" target="_blank" rel="noopener noreferrer">RSVP on Meetup ↗</a>
+        </div>
+      `;
+    } else {
+      footerHtml = `
+        <span class="attendees-modal-footer-note">${attendees.length} ${attendees.length === 1 ? 'member' : 'members'} listed</span>
+        <button type="button" class="pill-btn" id="attendeesModalDoneBtn">Close</button>
+      `;
+    }
+    if (attendeesModalFooter) {
+      attendeesModalFooter.innerHTML = footerHtml;
+      document.getElementById("attendeesModalDoneBtn")?.addEventListener("click", () => {
+        attendeesModal.hidden = true;
+      });
+    }
+
+    attendeesModal.hidden = false;
+  }
+
+  attendeesCloseBtn?.addEventListener("click", () => {
+    if (attendeesModal) attendeesModal.hidden = true;
+  });
+
+  document.addEventListener("click", (e) => {
+    if (attendeesModal && !attendeesModal.hidden && !attendeesModal.contains(e.target) && !e.target.closest(".attendees-btn")) {
+      attendeesModal.hidden = true;
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      if (attendeesModal && !attendeesModal.hidden) {
+        attendeesModal.hidden = true;
+      }
+      if (pdfModal && !pdfModal.hidden) {
+        pdfModal.hidden = true;
+      }
+    }
+  });
 
   /* ============ PDF Export Feature ============ */
   function loadJsPDF() {

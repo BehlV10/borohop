@@ -73,7 +73,51 @@ def infer_categories(title: str, description: str) -> List[str]:
     if not matched:
         matched.append("Culture")
     # Return at most 2 primary categories
-    return matched[:2]
+def fetch_meetup_attendees(event_id: str) -> List[Dict[str, str]]:
+    if not event_id:
+        return []
+    gql_url = "https://www.meetup.com/gql2"
+    query = """
+    query getAttendees($eventId: ID!) {
+      event(id: $eventId) {
+        rsvps(first: 100) {
+          edges {
+            node {
+              member {
+                name
+                memberPhoto {
+                  highResUrl
+                  baseUrl
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    try:
+        req = urllib.request.Request(
+            gql_url,
+            data=json.dumps({"query": query, "variables": {"eventId": str(event_id)}}).encode("utf-8"),
+            headers={"User-Agent": USER_AGENT, "Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            edges = data.get("data", {}).get("event", {}).get("rsvps", {}).get("edges", [])
+            res = []
+            for edge in edges:
+                m = edge.get("node", {}).get("member", {})
+                if not m:
+                    continue
+                name = m.get("name")
+                p = m.get("memberPhoto") or {}
+                photo_url = p.get("highResUrl") or p.get("baseUrl")
+                if name:
+                    res.append({"name": name, "photo": photo_url})
+            return res
+    except Exception as e:
+        return []
 
 def fetch_meetup_events() -> List[Dict[str, Any]]:
     combined_cache = {}
@@ -214,19 +258,27 @@ def fetch_meetup_events() -> List[Dict[str, Any]]:
 
         # Attendees with unobscured face photos from Meetup
         attendees = []
-        rsvps_edge = ev.get('rsvps({"first":5})', {})
-        edges = rsvps_edge.get('edges', []) if isinstance(rsvps_edge, dict) else []
-        for edge in edges:
-            rsvp_ref = edge.get('node', {}).get('__ref')
-            rsvp = cache.get(rsvp_ref, {})
-            m_ref = rsvp.get('member', {}).get('__ref')
-            member = cache.get(m_ref, {}) if m_ref else {}
-            p_ref = member.get('memberPhoto', {}).get('__ref')
-            photo = cache.get(p_ref, {}) if p_ref else {}
-            name = member.get('name')
-            photo_url_m = photo.get('highResUrl') or photo.get('baseUrl')
-            if name:
-                attendees.append({'name': name, 'photo': photo_url_m})
+        meetup_id = ev.get("id")
+        if not meetup_id and event_url:
+            m_id = re.search(r'/events/(\d+)', event_url)
+            if m_id:
+                meetup_id = m_id.group(1)
+        if meetup_id and going_count > 0:
+            attendees = fetch_meetup_attendees(meetup_id)
+        if not attendees:
+            rsvps_edge = ev.get('rsvps({"first":5})', {})
+            edges = rsvps_edge.get('edges', []) if isinstance(rsvps_edge, dict) else []
+            for edge in edges:
+                rsvp_ref = edge.get('node', {}).get('__ref')
+                rsvp = cache.get(rsvp_ref, {})
+                m_ref = rsvp.get('member', {}).get('__ref')
+                member = cache.get(m_ref, {}) if m_ref else {}
+                p_ref = member.get('memberPhoto', {}).get('__ref')
+                photo = cache.get(p_ref, {}) if p_ref else {}
+                name = member.get('name')
+                photo_url_m = photo.get('highResUrl') or photo.get('baseUrl')
+                if name:
+                    attendees.append({'name': name, 'photo': photo_url_m})
 
         event_obj = {
             "name": title,

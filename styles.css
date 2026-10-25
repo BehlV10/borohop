@@ -895,13 +895,33 @@ body.view-list #mapPane { display: none; }
   to { transform: translateY(0); }
 }
 
-/* Attendee Faces Avatars */
+/* Attendee Faces Avatars & Trigger Button */
 .attendees-wrap {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-top: 8px;
   flex-wrap: wrap;
+}
+.attendees-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface-raised);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  padding: 3px 10px 3px 4px;
+  cursor: pointer;
+  font: inherit;
+  transition: all 0.15s ease;
+  text-align: left;
+  color: var(--ink);
+}
+.attendees-btn:hover {
+  background: var(--surface);
+  border-color: var(--ink);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 .attendee-avatars {
   display: inline-flex;
@@ -918,7 +938,6 @@ body.view-list #mapPane { display: none; }
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   transition: transform 0.15s ease, z-index 0.15s ease;
   position: relative;
-  cursor: pointer;
 }
 .attendee-avatar:first-child {
   margin-left: 0;
@@ -931,4 +950,89 @@ body.view-list #mapPane { display: none; }
   font-size: 11.5px;
   color: var(--ink-soft);
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.attendees-btn:hover .attendees-label {
+  color: var(--ink);
+}
+
+/* Attendees Modal */
+.attendees-modal {
+  max-width: 540px;
+}
+.attendees-modal-sub {
+  font-size: 12px;
+  color: var(--ink-soft);
+  font-weight: 500;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.attendees-modal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  padding: 12px 2px;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+.attendee-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+.attendee-card:hover {
+  border-color: var(--ink);
+  transform: translateY(-1px);
+}
+.attendee-card-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: var(--line);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+.attendee-card-initial {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--line-strong);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.attendee-card-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.25;
+  word-break: break-word;
+}
+.attendees-modal-footer {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.attendees-modal-footer-note {
+  font-size: 11.5px;
+  color: var(--ink-soft);
 }

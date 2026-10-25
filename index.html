@@ -151,6 +151,19 @@
     </div>
   </div>
 
+  <!-- Attendees "Who's Going" Modal -->
+  <div class="cal-pop attendees-modal" id="attendeesModal" hidden role="dialog" aria-modal="true" aria-labelledby="attendeesModalTitle">
+    <div class="pop-header">
+      <div style="min-width:0;padding-right:8px;">
+        <span class="pop-title" id="attendeesModalTitle">Who's Going</span>
+        <div id="attendeesModalSub" class="attendees-modal-sub"></div>
+      </div>
+      <button type="button" class="pop-close-btn" id="attendeesCloseBtn" aria-label="Close modal">×</button>
+    </div>
+    <div id="attendeesModalList" class="attendees-modal-list"></div>
+    <div id="attendeesModalFooter" class="attendees-modal-footer"></div>
+  </div>
+
   <!-- Feedback Toast Notification -->
   <div id="toast" hidden role="status" aria-live="polite"></div>
 
