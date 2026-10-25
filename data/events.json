@@ -4521,7 +4521,29 @@
     "customImage": "images/10-18-26_Little_Manila_Parade_v14.png",
     "id": 146,
     "rsvpCount": 5,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Marilyn ",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/5/2/6/highres_326018182.jpeg"
+      },
+      {
+        "name": "Syifa Nadia Rahmawati",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/e/6/f/highres_325180559.jpeg"
+      },
+      {
+        "name": "Grace",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/1/1/5/highres_321753045.jpeg"
+      },
+      {
+        "name": "Warren Williams",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/0/5/8/highres_305296472.jpeg"
+      }
+    ]
   },
   {
     "name": "D\u00eda de Muertos! \ud83c\uddf2\ud83c\uddfd\ud83c\udf38\ud83d\udc80",
@@ -4555,7 +4577,13 @@
     "customImage": "images/10-18-26_Dia_de_Muertos_Queens_Theatre_v14.png",
     "id": 147,
     "rsvpCount": 1,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      }
+    ]
   },
   {
     "name": "Dog Cafe! \ud83d\udc36\u2615\ufe0f",
@@ -4588,7 +4616,29 @@
     "customImage": "images/10-18-26_Dog_Cafe_Boris_Horton_v14.png",
     "id": 148,
     "rsvpCount": 7,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      },
+      {
+        "name": "Andrea",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg"
+      },
+      {
+        "name": "Nathan",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/f/3/e/highres_325784862.jpeg"
+      },
+      {
+        "name": "Allie",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/6/8/d/highres_308293965.jpeg"
+      },
+      {
+        "name": "Emmy ",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/4/c/highres_286151084.jpeg"
+      }
+    ]
   },
   {
     "name": "German food at Zum Stammtisch! \ud83c\udde9\ud83c\uddea\ud83e\udd68",
@@ -4621,7 +4671,29 @@
     "customImage": "images/10-18-26_Zum_Stammtisch_German_v14.png",
     "id": 149,
     "rsvpCount": 6,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Frances",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/5/3/highres_322972051.jpeg"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+      },
+      {
+        "name": "LB",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/9/f/a/highres_288126650.jpeg"
+      },
+      {
+        "name": "Wing L",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/0/f/highres_314726383.jpeg"
+      }
+    ]
   },
   {
     "name": "La Bola Negra!",
@@ -4656,7 +4728,29 @@
     "customImage": "images/10-19-26_La_Bola_Negra_Film_v14.png",
     "id": 150,
     "rsvpCount": 5,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Ben",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/d/0/9/highres_312876105.jpeg"
+      },
+      {
+        "name": "Mike",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/a/e/highres_256481902.jpeg"
+      },
+      {
+        "name": "Monica",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg"
+      },
+      {
+        "name": "Erzinete",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+      }
+    ]
   },
   {
     "name": "Zikrayat Restaurant & Lounge! \ud83d\udd7a\ud83d\udc83",
@@ -4691,7 +4785,25 @@
     "customImage": "images/10-23-26_Zikrayat_Restaurant_Lounge_v14.png",
     "id": 151,
     "rsvpCount": 4,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Sharon",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/c/a/highres_106869162.jpeg"
+      },
+      {
+        "name": "Karol\u00edna Kutnarov\u00e1",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg"
+      },
+      {
+        "name": "Sasha Diaz",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/0/9/1/highres_326116529.jpeg"
+      }
+    ]
   },
   {
     "name": "Bear Mountain!",
@@ -4723,7 +4835,29 @@
     "customImage": "images/10-24-26_Bear_Mountain_Hike_v14.png",
     "id": 152,
     "rsvpCount": 28,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Aqib",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Ahnaf Inkiad",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/b/8/highres_325314712.jpeg"
+      },
+      {
+        "name": "Ashley",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/1/5/8/highres_322576728.jpeg"
+      },
+      {
+        "name": "Andrei",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg"
+      }
+    ]
   },
   {
     "name": "Restaurant 1915 at Bear Mountain!",
@@ -4750,7 +4884,29 @@
     "customImage": "images/10-24-26_Restaurant_1915_Bear_Mountain_v14.png",
     "id": 153,
     "rsvpCount": 9,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Aqib",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg"
+      },
+      {
+        "name": "sumit.kumarlm3010",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/d/3/c/highres_325484348.jpeg"
+      },
+      {
+        "name": "Tim",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg"
+      }
+    ]
   },
   {
     "name": "You Can See Everything!",
@@ -4793,7 +4949,29 @@
     "customImage": "images/10-24-26_You_Can_See_Everything_v14.png",
     "id": 154,
     "rsvpCount": 13,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Jen Tung",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/d/0/8/highres_322879720.jpeg"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+      },
+      {
+        "name": "nadine.thomas974",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/d/0/9/highres_325691529.jpeg"
+      },
+      {
+        "name": "Tony",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/2/4/d/highres_325533357.jpeg"
+      }
+    ]
   },
   {
     "name": "Governors Island! \u26f4\ufe0f",
@@ -4832,7 +5010,29 @@
     "customImage": "images/10-25-26_Governors_Island_v14.png",
     "id": 155,
     "rsvpCount": 13,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+      },
+      {
+        "name": "Paige Brauser",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/1/8/highres_326050520.jpeg"
+      },
+      {
+        "name": "coastercreature7",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/3/5/highres_324879221.jpeg"
+      },
+      {
+        "name": "Tyler G",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/f/0/5/highres_323508901.jpeg"
+      }
+    ]
   },
   {
     "name": "El Clasico Watch Party (Barcelona vs Real Madrid) ft. Mbappe, Yamal \u26bd\ufe0f \ud83c\uddea\ud83c\uddf8",
@@ -4867,7 +5067,29 @@
     "customImage": "images/10-25-26_El_Clasico_Watch_Party_v14.png",
     "id": 156,
     "rsvpCount": 11,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      },
+      {
+        "name": "Aqib",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg"
+      },
+      {
+        "name": "Catherine",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/2/b/c/highres_246364796.jpeg"
+      },
+      {
+        "name": "Sasha ",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/4/2/6/highres_316805158.jpeg"
+      },
+      {
+        "name": "kaul.kartik",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg"
+      }
+    ]
   },
   {
     "name": "\ud83e\udddf\u200d\u2640\ufe0f Let\u2019s play board games!! \ud83e\udddb Halloween edition! \ud83e\udd23",
@@ -4898,7 +5120,29 @@
     "customImage": "images/10-25-26_Board_Games_Halloween_v14.png",
     "id": 157,
     "rsvpCount": 18,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Jenna",
+        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg"
+      },
+      {
+        "name": "Tim",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg"
+      },
+      {
+        "name": "Andrea",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg"
+      }
+    ]
   },
   {
     "name": "Boqueria Flatiron! \ud83c\uddea\ud83c\uddf8 For Barcelona-style Tapas!",
@@ -4931,7 +5175,29 @@
     "customImage": "images/10-25-26_Boqueria_Flatiron_v14.png",
     "id": 158,
     "rsvpCount": 5,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+      },
+      {
+        "name": "Heather ",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/8/f/highres_319674671.jpeg"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg"
+      },
+      {
+        "name": "Debbie",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg"
+      }
+    ]
   },
   {
     "name": "Greenwich Village Halloween Parade!",
@@ -4962,7 +5228,29 @@
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
     "rsvpCount": 21,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Ben",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/d/0/9/highres_312876105.jpeg"
+      },
+      {
+        "name": "Caroline",
+        "photo": null
+      },
+      {
+        "name": "Catherine Martha",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/7/4/a/highres_306970058.jpeg"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Rom",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/2/highres_10740514.jpeg"
+      }
+    ]
   },
   {
     "name": "EPL Watch Party (Liverpool vs Arsenal) ft. Barcola, Odegaard \u26bd\ufe0f \ud83c\uddec\ud83c\udde7",
@@ -5000,7 +5288,25 @@
     "customImage": "images/11-01-26_EPL_Watch_Party_v14.png",
     "id": 160,
     "rsvpCount": 5,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      },
+      {
+        "name": "kaul.kartik",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg"
+      },
+      {
+        "name": "Shells",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg"
+      },
+      {
+        "name": "Tejas",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg"
+      }
+    ]
   },
   {
     "name": "Cheer on the NYC Marathon Runners! \ud83c\udfc3\u200d\u2640\ufe0f\ud83c\udfc3\u200d\u2642\ufe0f",
@@ -5030,7 +5336,25 @@
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
     "rsvpCount": 4,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Erzinete",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+      },
+      {
+        "name": "Martha C.",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/3/5/7/highres_326154103.jpeg"
+      },
+      {
+        "name": "Nelly",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/6/1/7/highres_325693847.jpeg"
+      }
+    ]
   },
   {
     "name": "D\u00eda de los Muertos Parade at New York Botanical Garden! \ud83c\udf38\ud83d\udc80",
@@ -5061,7 +5385,29 @@
     "customImage": "images/11-01-26_Dia_de_los_Muertos_NYBG_v14.png",
     "id": 162,
     "rsvpCount": 5,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Jonathan Rivera ",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/4/6/9/highres_325749321.jpeg"
+      },
+      {
+        "name": "May Bloom",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg"
+      },
+      {
+        "name": "Liz",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/9/d/1/highres_312475761.jpeg"
+      },
+      {
+        "name": "Helly K",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/f/3/1/highres_324036657.jpeg"
+      }
+    ]
   },
   {
     "name": "British Food! Tea & Sympathy \ud83e\uded6 \ud83c\uddec\ud83c\udde7",
@@ -5093,7 +5439,25 @@
     "customImage": "images/11-01-26_Tea_Sympathy_British_v14.png",
     "id": 163,
     "rsvpCount": 4,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+      },
+      {
+        "name": "Stefania",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/0/b/8/highres_320660664.jpeg"
+      },
+      {
+        "name": "Brian",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/a/8/2/highres_318627266.jpeg"
+      }
+    ]
   },
   {
     "name": "Roosevelt Island! \ud83d\udea1",
@@ -5129,7 +5493,29 @@
     "customImage": "images/10-23-26_Roosevelt_Island_v14.png",
     "id": 164,
     "rsvpCount": 21,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Ralf",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg"
+      },
+      {
+        "name": "Catalina Lorca",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg"
+      },
+      {
+        "name": "Ebony",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg"
+      }
+    ]
   },
   {
     "name": "Halloween Concert at Juilliard! \ud83c\udfb8\ud83c\udfb7\ud83e\udd41",
@@ -5159,7 +5545,29 @@
     "customImage": "images/10-27-26_Halloween_Juilliard_v14.png",
     "id": 165,
     "rsvpCount": 16,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Mignonne S",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/f/4/2/highres_175428962.jpeg"
+      },
+      {
+        "name": "Catalina Lorca",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg"
+      },
+      {
+        "name": "Erzinete",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+      },
+      {
+        "name": "Lee",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg"
+      }
+    ]
   },
   {
     "name": "European Literature Night 2026! \ud83d\udcda",
@@ -5189,7 +5597,25 @@
     "customImage": "images/10-28-26_European_Literature_v14.png",
     "id": 166,
     "rsvpCount": 4,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Lorena",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/5/4/e/highres_325418222.jpeg"
+      },
+      {
+        "name": "Erzinete",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg"
+      }
+    ]
   },
   {
     "name": "Rockefeller State Park Preserve! \ud83e\udd7e\ud83c\udf42",
@@ -5216,7 +5642,29 @@
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
     "rsvpCount": 8,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Andrei",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg"
+      },
+      {
+        "name": "Jessica Wang",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/a/1/highres_326048353.jpeg"
+      },
+      {
+        "name": "Michelle",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg"
+      },
+      {
+        "name": "marta",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/4/b/c/highres_315137596.jpeg"
+      }
+    ]
   },
   {
     "name": "Christmas Spectacular starring the Rockettes! \ud83c\udf84",
@@ -5248,7 +5696,13 @@
     "customImage": "images/11-05-26_Christmas_Spectacular_v14.png",
     "id": 168,
     "rsvpCount": 1,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Caroline",
+        "photo": null
+      }
+    ]
   },
   {
     "name": "Czech Jazz Night! \ud83c\udde8\ud83c\uddff\ud83c\udfb9\ud83e\udd41",
@@ -5281,7 +5735,29 @@
     "customImage": "images/11-05-26_Czech_Jazz_Night_v14.png",
     "id": 169,
     "rsvpCount": 5,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Sonali Gupta",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/1/9/3/highres_285364499.jpeg"
+      },
+      {
+        "name": "Andrei",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+      },
+      {
+        "name": "Lee",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg"
+      }
+    ]
   },
   {
     "name": "Turkish food at Nar! \ud83c\uddf9\ud83c\uddf7",
@@ -5317,7 +5793,25 @@
     "customImage": "images/11-06-26_Turkish_Nar_v14.png",
     "id": 170,
     "rsvpCount": 4,
-    "spotsLeftChecked": true
+    "spotsLeftChecked": true,
+    "attendees": [
+      {
+        "name": "Ercan Ozturk",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/f/b/highres_324791259.jpeg"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Debbie",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg"
+      },
+      {
+        "name": "Gayle Johnson",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/d/4/9/highres_310552553.jpeg"
+      }
+    ]
   },
   {
     "name": "Diwali [Part 1] - Celebration at Bhakti Center! \ud83e\ude94\ud83d\uded5",
@@ -5350,7 +5844,29 @@
     "priceDetail": [
       "$45"
     ],
-    "id": 171
+    "id": 171,
+    "attendees": [
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Lingyan",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/a/f/c/highres_310055580.jpeg"
+      },
+      {
+        "name": "Yi",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/2/3/3/highres_281257427.jpeg"
+      },
+      {
+        "name": "Shells",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg"
+      }
+    ]
   },
   {
     "name": "Diwali [Part 2] - All-You-Can-Eat Feast at Vatan! \ud83c\uddee\ud83c\uddf3",
@@ -5383,7 +5899,29 @@
     "priceDetail": [
       "$45"
     ],
-    "id": 172
+    "id": 172,
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+      },
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg"
+      },
+      {
+        "name": "Qama",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg"
+      },
+      {
+        "name": "Harsh",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg"
+      }
+    ]
   },
   {
     "name": "Diwali [Part 2] - All-You-Can-Eat Feast at Vatan! \ud83c\uddee\ud83c\uddf3",
@@ -5413,6 +5951,12 @@
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/8/4/6/4/highres_536733892.jpeg",
     "thingsToKnow": "**The not so fun rule on RSVPs**",
-    "id": 173
+    "id": 173,
+    "attendees": [
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+      }
+    ]
   }
 ]

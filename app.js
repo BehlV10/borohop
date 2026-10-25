@@ -1164,6 +1164,28 @@
 
     const note = ev.thingsToKnow ? `<div class="things-to-know">ℹ️ ${escapeAttr(ev.thingsToKnow)}</div>` : "";
 
+    let attendeesHtml = "";
+    if (ev.attendees && ev.attendees.length) {
+      const avatars = ev.attendees.map(a => {
+        const photo = a.photo || "";
+        const name = escapeAttr(a.name || "Member");
+        if (photo) {
+          return `<img class="attendee-avatar" src="${escapeAttr(photo)}" alt="${name}" title="${name}" referrerpolicy="no-referrer" loading="lazy">`;
+        }
+        return `<span class="attendee-avatar" title="${name}" style="display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--ink-soft);background:var(--line);">${name.charAt(0)}</span>`;
+      }).join("");
+
+      const extraCount = (ev.rsvpCount && ev.rsvpCount > ev.attendees.length) ? (ev.rsvpCount - ev.attendees.length) : 0;
+      const extraLabel = extraCount > 0 ? `<span class="attendees-label">+${extraCount} more going</span>` : `<span class="attendees-label">${ev.attendees.length} going</span>`;
+
+      attendeesHtml = `
+        <div class="attendees-wrap">
+          <div class="attendee-avatars">${avatars}</div>
+          ${extraLabel}
+        </div>
+      `;
+    }
+
     // Action links
     const gmapsUrl = googleMapsDirectionsUrl(ev);
     const isPast = dateMode === "past";
@@ -1186,7 +1208,7 @@
     const imgUrl = resolveImageUrl(ev.customImage);
     const photoHtml = (imagesEnabled && imgUrl) ? `
       <div class="thumb-wrap">
-        <img class="thumb" src="${escapeAttr(imgUrl)}" alt="${escapeAttr(ev.name)}" loading="lazy">
+        <img class="thumb" src="${escapeAttr(imgUrl)}" alt="${escapeAttr(ev.name)}" referrerpolicy="no-referrer" loading="lazy">
       </div>
     ` : "";
 
@@ -1204,6 +1226,7 @@
               ${tagsHtml}
               ${transit}
               ${note}
+              ${attendeesHtml}
             </div>
             <div class="col-right-bottom">
               ${actions}

@@ -212,6 +212,22 @@ def fetch_meetup_events() -> List[Dict[str, Any]]:
                 things_to_know = l.replace("\\", "")[:240]
                 break
 
+        # Attendees with unobscured face photos from Meetup
+        attendees = []
+        rsvps_edge = ev.get('rsvps({"first":5})', {})
+        edges = rsvps_edge.get('edges', []) if isinstance(rsvps_edge, dict) else []
+        for edge in edges:
+            rsvp_ref = edge.get('node', {}).get('__ref')
+            rsvp = cache.get(rsvp_ref, {})
+            m_ref = rsvp.get('member', {}).get('__ref')
+            member = cache.get(m_ref, {}) if m_ref else {}
+            p_ref = member.get('memberPhoto', {}).get('__ref')
+            photo = cache.get(p_ref, {}) if p_ref else {}
+            name = member.get('name')
+            photo_url_m = photo.get('highResUrl') or photo.get('baseUrl')
+            if name:
+                attendees.append({'name': name, 'photo': photo_url_m})
+
         event_obj = {
             "name": title,
             "types": types,
@@ -234,7 +250,8 @@ def fetch_meetup_events() -> List[Dict[str, Any]]:
             "spotsLeft": spots_left,
             "spotsLeftChecked": True,
             "customImage": photo_url,
-            "thingsToKnow": things_to_know
+            "thingsToKnow": things_to_know,
+            "attendees": attendees
         }
         if price_detail:
             event_obj["priceDetail"] = price_detail
@@ -279,6 +296,8 @@ def sync_events():
             cur["endTime"] = m_ev.get("endTime", cur.get("endTime"))
             if not cur.get("customImage") and m_ev.get("customImage"):
                 cur["customImage"] = m_ev.get("customImage")
+            if m_ev.get("attendees"):
+                cur["attendees"] = m_ev["attendees"]
             updated_count += 1
         else:
             m_ev["id"] = len(existing)
