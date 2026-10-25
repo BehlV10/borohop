@@ -1554,22 +1554,101 @@
         </div>
       `;
     } else {
-      attendeesModalList.innerHTML = attendees.map(a => {
+      attendeesModalList.innerHTML = attendees.map((a, idx) => {
         const photo = a.photo;
         const name = escapeAttr(a.name || "Member");
         const avatarHtml = photo
           ? `<img class="attendee-card-avatar" src="${escapeAttr(photo)}" alt="${name}" referrerpolicy="no-referrer" loading="lazy">`
           : `<span class="attendee-card-initial">${name.charAt(0)}</span>`;
+
+        // Badges: Host, First Event, Guests, Going
+        const badges = [];
+        if (a.isHost) {
+          badges.push(`<span class="attendee-pill host-pill" title="Event Host">👑 Host</span>`);
+        }
+        if (a.isFirstEvent) {
+          badges.push(`<span class="attendee-pill first-timer-pill" title="First event with Borough Hoppers!">👋 1st Event</span>`);
+        }
+        if (a.guestsCount > 0) {
+          badges.push(`<span class="attendee-pill guest-pill" title="Bringing ${a.guestsCount} guest(s)">+${a.guestsCount} ${a.guestsCount === 1 ? 'guest' : 'guests'}</span>`);
+        }
+        badges.push(`<span class="attendee-pill going-pill">✓ Going</span>`);
+
+        // Occupation / Location meta
+        const meta = [];
+        if (a.job) meta.push(`💼 ${escapeAttr(a.job)}`);
+        if (a.city) meta.push(`📍 ${escapeAttr(a.city)}`);
+        const metaHtml = meta.length ? `<div class="attendee-meta">${meta.join(" · ")}</div>` : "";
+
+        // Bio: either short inline or expandable
+        let bioHtml = "";
+        const rawBio = (a.bio || "").trim();
+        const hasBio = Boolean(rawBio);
+        if (hasBio) {
+          const isLong = rawBio.length > 95 || rawBio.includes("\n");
+          if (!isLong) {
+            bioHtml = `<div class="attendee-bio">“${escapeAttr(rawBio)}”</div>`;
+          } else {
+            const shortBio = escapeAttr(rawBio.slice(0, 90).trim()) + "…";
+            const fullBio = escapeAttr(rawBio).replace(/\n/g, "<br>");
+            bioHtml = `
+              <div class="attendee-bio attendee-bio-expandable" data-bio-idx="${idx}">
+                <div class="attendee-bio-short">“${shortBio}”</div>
+                <div class="attendee-bio-full" style="display:none;">“${fullBio}”</div>
+                <button type="button" class="attendee-bio-toggle" data-bio-idx="${idx}" aria-label="Toggle full bio">Read full bio ▾</button>
+              </div>
+            `;
+          }
+        }
+
+        const cardClass = hasBio ? "attendee-card has-bio" : "attendee-card";
+
         return `
-          <div class="attendee-card">
+          <div class="${cardClass}" data-card-idx="${idx}">
             ${avatarHtml}
             <div class="attendee-card-info">
-              <div class="attendee-card-name" title="${name}">${name}</div>
-              <div class="attendee-card-badge">✓ Attending</div>
+              <div class="attendee-card-top">
+                <div class="attendee-card-name" title="${name}">${name}</div>
+                <div class="attendee-card-badges">${badges.join("")}</div>
+              </div>
+              ${metaHtml}
+              ${bioHtml}
             </div>
           </div>
         `;
       }).join("");
+
+      // Bio expand/collapse click handling
+      attendeesModalList.querySelectorAll(".attendee-bio-toggle").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const wrap = btn.closest(".attendee-bio-expandable");
+          if (!wrap) return;
+          const isExpanded = wrap.classList.contains("is-expanded");
+          const shortEl = wrap.querySelector(".attendee-bio-short");
+          const fullEl = wrap.querySelector(".attendee-bio-full");
+          if (isExpanded) {
+            wrap.classList.remove("is-expanded");
+            if (shortEl) shortEl.style.display = "";
+            if (fullEl) fullEl.style.display = "none";
+            btn.textContent = "Read full bio ▾";
+          } else {
+            wrap.classList.add("is-expanded");
+            if (shortEl) shortEl.style.display = "none";
+            if (fullEl) fullEl.style.display = "";
+            btn.textContent = "Show less ▴";
+          }
+        });
+      });
+
+      // Tapping anywhere on a card with an expandable bio also expands it
+      attendeesModalList.querySelectorAll(".attendee-card.has-bio").forEach(card => {
+        card.addEventListener("click", (e) => {
+          if (e.target.closest(".attendee-bio-toggle")) return;
+          const toggleBtn = card.querySelector(".attendee-bio-toggle");
+          if (toggleBtn) toggleBtn.click();
+        });
+      });
     }
 
     let footerNote = `${attendees.length} ${attendees.length === 1 ? 'member' : 'members'} listed`;

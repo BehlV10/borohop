@@ -73,7 +73,7 @@ def infer_categories(title: str, description: str) -> List[str]:
     if not matched:
         matched.append("Culture")
     # Return at most 2 primary categories
-def fetch_meetup_attendees(event_id: str) -> List[Dict[str, str]]:
+def fetch_meetup_attendees(event_id: str) -> List[Dict[str, Any]]:
     if not event_id:
         return []
     gql_url = "https://www.meetup.com/gql2"
@@ -83,8 +83,14 @@ def fetch_meetup_attendees(event_id: str) -> List[Dict[str, str]]:
         rsvps(first: 100) {
           edges {
             node {
+              isHost
+              isFirstEvent
+              guestsCount
               member {
                 name
+                bio
+                city
+                jobField
                 memberPhoto {
                   highResUrl
                   baseUrl
@@ -102,21 +108,44 @@ def fetch_meetup_attendees(event_id: str) -> List[Dict[str, str]]:
             data=json.dumps({"query": query, "variables": {"eventId": str(event_id)}}).encode("utf-8"),
             headers={"User-Agent": USER_AGENT, "Content-Type": "application/json"}
         )
-        with urllib.request.urlopen(req, timeout=5) as resp:
+        with urllib.request.urlopen(req, timeout=8) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             edges = data.get("data", {}).get("event", {}).get("rsvps", {}).get("edges", [])
             res = []
             for edge in edges:
-                m = edge.get("node", {}).get("member", {})
+                node = edge.get("node", {})
+                m = node.get("member", {})
                 if not m:
                     continue
                 name = m.get("name")
+                if not name:
+                    continue
                 p = m.get("memberPhoto") or {}
-                photo_url = p.get("highResUrl") or p.get("baseUrl")
-                if name:
-                    res.append({"name": name, "photo": photo_url})
+                photo_url = p.get("highResUrl") or p.get("baseUrl") or ""
+
+                bio = (m.get("bio") or "").strip()
+                job = m.get("jobField") or ""
+                if job:
+                    job = job.replace("_", " ").title()
+                city = (m.get("city") or "").strip()
+
+                att = {
+                    "name": name,
+                    "photo": photo_url,
+                    "isHost": bool(node.get("isHost")),
+                    "isFirstEvent": bool(node.get("isFirstEvent")),
+                    "guestsCount": int(node.get("guestsCount") or 0)
+                }
+                if bio:
+                    att["bio"] = bio
+                if job:
+                    att["job"] = job
+                if city:
+                    att["city"] = city
+                res.append(att)
             return res
     except Exception as e:
+        print(f"Warning: Could not fetch attendees for {event_id}: {e}")
         return []
 
 def fetch_meetup_events() -> List[Dict[str, Any]]:

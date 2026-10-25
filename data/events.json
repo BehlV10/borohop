@@ -4525,23 +4525,44 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Marilyn ",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/5/2/6/highres_326018182.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/5/2/6/highres_326018182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Forest Hls"
       },
       {
         "name": "Syifa Nadia Rahmawati",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/e/6/f/highres_325180559.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/e/6/f/highres_325180559.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City, NY"
       },
       {
         "name": "Grace",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/1/1/5/highres_321753045.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/1/1/5/highres_321753045.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Warren Williams",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/0/5/8/highres_305296472.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/0/5/8/highres_305296472.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Native NYer with varied interests in search of interesting people and conversation",
+        "city": "New York"
       }
     ]
   },
@@ -4581,7 +4602,11 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -4620,31 +4645,61 @@
     "attendees": [
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Andrea",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Nathan",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/f/3/e/highres_325784862.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/f/3/e/highres_325784862.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Allie",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/6/8/d/highres_308293965.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/6/8/d/highres_308293965.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       },
       {
         "name": "Emmy ",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/b/4/c/highres_286151084.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/4/c/highres_286151084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new people. I enjoy anything outdoors and am willing to try new things",
+        "city": "Manhattan"
       },
       {
         "name": "L\u00edvia Clarete",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/c/4/b/highres_326148203.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/b/c/4/b/highres_326148203.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
       },
       {
         "name": "Paula",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/7/a/6/highres_322375206.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/7/a/6/highres_322375206.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -4683,27 +4738,52 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Frances",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/b/5/3/highres_322972051.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/5/3/highres_322972051.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Alan",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
       },
       {
         "name": "LB",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/9/f/a/highres_288126650.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/9/f/a/highres_288126650.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Wing L",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/7/0/f/highres_314726383.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/0/f/highres_314726383.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "David",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/b/9/6/highres_28167542.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/b/9/6/highres_28167542.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -4744,23 +4824,45 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Ben",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/d/0/9/highres_312876105.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/d/0/9/highres_312876105.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Manhattan"
       },
       {
         "name": "Mike",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/a/e/highres_256481902.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/a/e/highres_256481902.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Sailing, running , entrepeneurs, non-profits, travel",
+        "city": "Brooklyn"
       },
       {
         "name": "Monica",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "i'm looking for a community of fun, active,singles to socialize and network for business and pleasure.",
+        "city": "New York"
       },
       {
         "name": "Erzinete",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
       }
     ]
   },
@@ -4801,19 +4903,35 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Sharon",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/3/c/a/highres_106869162.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/c/a/highres_106869162.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Karol\u00edna Kutnarov\u00e1",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Sasha Diaz",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/0/9/1/highres_326116529.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/0/9/1/highres_326116529.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronx"
       }
     ]
   },
@@ -4851,103 +4969,203 @@
     "attendees": [
       {
         "name": "Aqib",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jamaica"
       },
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
-      },
-      {
-        "name": "Ahnaf Inkiad",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/5/b/8/highres_325314712.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Ashley",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/1/5/8/highres_322576728.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/1/5/8/highres_322576728.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello! I'm Ashley \u2600\ufe0f. Born and raised in NYC.  During my free time I enjoy coffee shops, being in nature, hiking when weather permits, salsa dancing, live music, travelling, and weekend getaways. Looking to make new connections in this big city",
+        "city": "New York"
       },
       {
         "name": "Andrei",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
       },
       {
         "name": "marta",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/4/b/c/highres_315137596.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/4/b/c/highres_315137596.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "John Hargrove",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/8/0/8/highres_323194824.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/8/0/8/highres_323194824.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       },
       {
         "name": "Aniket Pratap Singh",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/c/7/6/highres_326535478.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/c/7/6/highres_326535478.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Communications professional with common cautions.",
+        "city": "New York, NY"
       },
       {
         "name": "Elena",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/2/highres_326094674.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/2/highres_326094674.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
+        "city": "New York"
       },
       {
         "name": "Tim",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       },
       {
         "name": "Rashmi",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/8/c/2/highres_326275490.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/8/c/2/highres_326275490.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       },
       {
         "name": "Maria",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/9/d/f/highres_305967103.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/d/f/highres_305967103.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "Union, NJ"
       },
       {
         "name": "ruechika1",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/5/9/highres_326441817.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/5/9/highres_326441817.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Bronx"
       },
       {
         "name": "montesana.ny",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/d/5/0/highres_326411600.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/d/5/0/highres_326411600.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "New York, NY"
       },
       {
         "name": "Maria Guzman",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/e/6/5/highres_326456933.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/e/6/5/highres_326456933.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Bear Mountain"
       },
       {
         "name": "Brett",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       },
       {
         "name": "sumit.kumarlm3010",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/d/3/c/highres_325484348.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/d/3/c/highres_325484348.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York, NY"
       },
       {
         "name": "Simon Yung Cho",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/2/9/a/highres_326493434.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/2/9/a/highres_326493434.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "New York, NY"
       },
       {
         "name": "V.",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/8/7/8/highres_323106264.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/7/8/highres_323106264.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Melissa Kwan",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/3/d/e/highres_161289182.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/d/e/highres_161289182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello, I am interested in networking and meeting new friends.",
+        "city": "Houston"
       },
       {
         "name": "Varun Behl",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/7/highres_317633943.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/7/highres_317633943.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Cambridge"
       },
       {
         "name": "Stela",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/e/e/e/highres_326527918.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/e/e/e/highres_326527918.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Max ",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/f/6/highres_309326102.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/f/6/highres_309326102.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Mohit Agarwal",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/0/e/0/highres_319601184.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/e/0/highres_319601184.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
       },
       {
         "name": "Manjunath Reddy",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ]
   },
@@ -4980,39 +5198,79 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Aqib",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jamaica"
       },
       {
         "name": "sumit.kumarlm3010",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/d/3/c/highres_325484348.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/d/3/c/highres_325484348.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York, NY"
       },
       {
         "name": "Tim",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       },
       {
         "name": "Brett",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       },
       {
         "name": "Melissa Kwan",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/3/d/e/highres_161289182.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/d/e/highres_161289182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello, I am interested in networking and meeting new friends.",
+        "city": "Houston"
       },
       {
         "name": "John Hargrove",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/8/0/8/highres_323194824.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/8/0/8/highres_323194824.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       },
       {
         "name": "montesana.ny",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/d/5/0/highres_326411600.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/d/5/0/highres_326411600.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Vaibhaw",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/e/7/5/highres_325956469.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/e/7/5/highres_325956469.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I have a lot of hobbies, mainly around chill adventuring and crafting.",
+        "city": "Harrison"
       }
     ]
   },
@@ -5061,55 +5319,114 @@
     "attendees": [
       {
         "name": "Jen Tung",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/d/0/8/highres_322879720.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/d/0/8/highres_322879720.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, Pilates, traveling, pet rabbit \ud83d\udc07",
+        "city": "Brooklyn"
       },
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Alan",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
       },
       {
         "name": "nadine.thomas974",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/d/0/9/highres_325691529.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/d/0/9/highres_325691529.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Tony",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/2/4/d/highres_325533357.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/2/4/d/highres_325533357.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Here it is clean:\n\nRecovering people pleaser. Aspiring mystic. Occasional troublemaker. Curious enough to keep asking the difficult questions, grounded enough to sit with the answers. A dash of childlike wonder helps.",
+        "city": "New York"
       },
       {
         "name": "Ping",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/8/5/f/highres_10386239.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/5/f/highres_10386239.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
       },
       {
         "name": "Ralf",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Drummer & bass player, comedy & sci-fi lover!",
+        "city": "New York"
       },
       {
         "name": "Ebony",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Tienany Bakayoko",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/8/8/highres_326017256.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/8/8/highres_326017256.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to connect on a social and professional setting",
+        "city": "Brooklyn"
       },
       {
         "name": "Erzinete",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
       },
       {
         "name": "Monica",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "i'm looking for a community of fun, active,singles to socialize and network for business and pleasure.",
+        "city": "New York"
       },
       {
         "name": "Miryam D",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/d/6/8/highres_312383912.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/d/6/8/highres_312383912.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "In planted from   Greenwich Connecticut new to nyc and looking to broad my network and enjoy what nyc has to offer",
+        "city": "New York, NY"
       },
       {
         "name": "ita wi\u013ai",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -5154,55 +5471,104 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Alan",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
       },
       {
         "name": "Paige Brauser",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/9/1/8/highres_326050520.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/1/8/highres_326050520.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "coastercreature7",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/9/3/5/highres_324879221.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/3/5/highres_324879221.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Tyler G",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/f/0/5/highres_323508901.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/b/f/0/5/highres_323508901.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "dfretro",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/c/5/f/highres_325436415.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/c/5/f/highres_325436415.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Recently arrived in NYC and will be staying here till the end of May. I'm trying to get into new hobbies and experience new things. \nusually have the hobby of reading mainly fantasy.\nI rediscovered how much iike biking and exploring by coming here",
+        "city": "New York, NY"
       },
       {
         "name": "Sarah McDonald",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/1/e/highres_326341054.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/1/e/highres_326341054.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Melissa Kwan",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/3/d/e/highres_161289182.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/d/e/highres_161289182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello, I am interested in networking and meeting new friends.",
+        "city": "Houston"
       },
       {
         "name": "Tejas",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "Chicago"
       },
       {
         "name": "Ebony",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg"
-      },
-      {
-        "name": "ita wi\u013ai",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Louise",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/4/d/6/highres_326305814.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/4/d/6/highres_326305814.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Caroline",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Education",
+        "city": "New York"
       }
     ]
   },
@@ -5243,47 +5609,114 @@
     "attendees": [
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Aqib",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/2/5/highres_326111045.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jamaica"
       },
       {
         "name": "Catherine",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/2/b/c/highres_246364796.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/2/b/c/highres_246364796.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Friendly, well-read woman who enjoy traveling widely, swimming in the ocean.",
+        "job": "Technology",
+        "city": "New York"
       },
       {
         "name": "Sasha ",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/4/2/6/highres_316805158.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/4/2/6/highres_316805158.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "I like to read, make new friends, visit new places",
+        "city": "Bronx"
       },
       {
         "name": "kaul.kartik",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Livingston, NJ"
       },
       {
         "name": "Shells",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Jaime",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/b/4/e/highres_325436142.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/b/4/e/highres_325436142.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I\u2019m interested in outdoor activities and languages. I\u2019m also here professionally to learn more about Agile.",
+        "job": "Technology",
+        "city": "New York, NY"
       },
       {
         "name": "Eduardo",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/3/e/4/highres_319285572.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/3/e/4/highres_319285572.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Am a very active guy, wanna meet people and practice activities",
+        "city": "New York"
       },
       {
         "name": "Johannes Oberhammer",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/a/b/6/highres_326551414.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/a/b/6/highres_326551414.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Sebastian Pucher",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/b/2/5/highres_326551525.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/b/2/5/highres_326551525.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Timo Weinberger",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/b/5/2/highres_326551570.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/b/5/2/highres_326551570.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Ali Siddiqui",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/9/f/f/highres_285695327.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Alexandria"
+      },
+      {
+        "name": "Tiffany Val",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/0/7/1/highres_319472881.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
       }
     ]
   },
@@ -5320,75 +5753,161 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Jenna",
-        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Tim",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg"
-      },
-      {
-        "name": "Andrea",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       },
       {
         "name": "Brett",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       },
       {
         "name": "Jenn N.",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/0/5/c/highres_326412380.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/0/5/c/highres_326412380.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Yizhou",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/b/5/5/highres_310219285.jpeg"
-      },
-      {
-        "name": "Varun Behl",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/7/highres_317633943.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/b/5/5/highres_310219285.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Emmy ",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/b/4/c/highres_286151084.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/4/c/highres_286151084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new people. I enjoy anything outdoors and am willing to try new things",
+        "city": "Manhattan"
       },
       {
         "name": "Vaibhaw",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/e/7/5/highres_325956469.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/e/7/5/highres_325956469.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I have a lot of hobbies, mainly around chill adventuring and crafting.",
+        "city": "Harrison"
       },
       {
         "name": "Paz",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/8/c/highres_324788588.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/8/c/highres_324788588.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "himalisaini1503",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/b/a/f/highres_326539375.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/b/a/f/highres_326539375.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Jai S",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/b/9/f/highres_326539359.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/b/9/f/highres_326539359.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Rui",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
       },
       {
         "name": "Matty",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/7/b/f/highres_325890655.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/7/b/f/highres_325890655.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Evelyn Low",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/9/e/2/highres_314294818.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/9/e/2/highres_314294818.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "job": "Other Prefer Not To Say",
+        "city": "New York"
       },
       {
         "name": "Paula",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/7/a/6/highres_322375206.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/7/a/6/highres_322375206.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "SAM",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/b/5/4/highres_324623380.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/b/5/4/highres_324623380.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Doris J.",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/3/e/highres_276848510.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "sathvik reddy",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/b/b/a/highres_326307578.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Jersey City"
+      },
+      {
+        "name": "sandhya siva",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/e/7/7/highres_319640087.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Hello everyone, i live in VA with my fiance, i realized i don't have a big social circle, hence i wanted to meet some nice people with whom i share the same interests and make some new friends",
+        "city": "Jersey City"
       }
     ]
   },
@@ -5427,23 +5946,54 @@
     "attendees": [
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Alan",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
       },
       {
         "name": "Heather ",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/5/8/f/highres_319674671.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/8/f/highres_319674671.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Hazel",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Debbie",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hi! Moved back to NY after 25 years and looking to make new friends. Love food, wine, art events, and anything unique.",
+        "job": "Technology",
+        "city": "Jamaica, NY"
+      },
+      {
+        "name": "Susan",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/8/1/3/highres_273310259.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -5480,83 +6030,171 @@
     "attendees": [
       {
         "name": "Ben",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/d/0/9/highres_312876105.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/d/0/9/highres_312876105.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Manhattan"
       },
       {
         "name": "Caroline",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Education",
+        "city": "New York"
       },
       {
         "name": "Catherine Martha",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/7/4/a/highres_306970058.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/7/4/a/highres_306970058.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       },
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Rom",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/0/2/highres_10740514.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/2/highres_10740514.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "So I can find new people, I guess...",
+        "city": "New York"
       },
       {
         "name": "Harsh",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
       },
       {
         "name": "Brett",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       },
       {
         "name": "May Bloom",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "White Plains"
       },
       {
         "name": "Jonathan Beltran",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/e/b/c/highres_312607868.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/e/b/c/highres_312607868.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hey there. Looking to make new friends and meet new people from different cultural backgrounds. I appreciate the ethnic diversity of NY and love learning new things about other countries.",
+        "city": "New York"
       },
       {
         "name": "kaul.kartik",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "Livingston, NJ"
       },
       {
         "name": "E T",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/6/6/7/highres_325898503.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/6/6/7/highres_325898503.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Manhattan"
       },
       {
         "name": "Sasha Diaz",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/0/9/1/highres_326116529.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/0/9/1/highres_326116529.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronx"
       },
       {
         "name": "Lindsey Mayer",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/6/d/0/highres_320094992.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/6/d/0/highres_320094992.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Bellerose"
       },
       {
         "name": "R",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/c/8/9/highres_326543689.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/c/8/9/highres_326543689.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "SAM",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/b/5/4/highres_324623380.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/b/5/4/highres_324623380.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Erzinete",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
       },
       {
         "name": "Jaclyn",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/8/a/1/highres_324306305.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/a/1/highres_324306305.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello there! My name is Jackie and I am not new to the area....\r\nI enjoy camping-more so in a cabin, hiking, biking-fun festive outdoor activities!!! Sailing is my hobby.",
+        "city": "Buffalo"
       },
       {
         "name": "Lawrence E",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/2/5/5/highres_319529269.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/2/5/5/highres_319529269.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Yi",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/2/3/3/highres_281257427.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/2/3/3/highres_281257427.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love reading, opera, and hiking.",
+        "job": "Education",
+        "city": "New York"
       },
       {
         "name": "Pweety ",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/9/9/2/highres_324155218.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/9/9/2/highres_324155218.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -5600,19 +6238,36 @@
     "attendees": [
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York, NY"
       },
       {
         "name": "kaul.kartik",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Livingston, NJ"
       },
       {
         "name": "Shells",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Tejas",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "Chicago"
       }
     ]
   },
@@ -5648,19 +6303,36 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Erzinete",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
       },
       {
         "name": "Martha C.",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/3/5/7/highres_326154103.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/3/5/7/highres_326154103.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
       },
       {
         "name": "Nelly",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/6/1/7/highres_325693847.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/6/1/7/highres_325693847.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -5697,23 +6369,44 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Jonathan Rivera ",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/4/6/9/highres_325749321.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/4/6/9/highres_325749321.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Making friends is like tending to plants in your plants, and I enjoy watering and caring for my garden.",
+        "city": "Bronx"
       },
       {
         "name": "May Bloom",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "White Plains"
       },
       {
         "name": "Liz",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/9/d/1/highres_312475761.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/9/d/1/highres_312475761.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Helly K",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/f/3/1/highres_324036657.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/f/3/1/highres_324036657.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronxville"
       }
     ]
   },
@@ -5751,19 +6444,36 @@
     "attendees": [
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Alan",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
       },
       {
         "name": "Stefania",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/0/b/8/highres_320660664.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/0/b/8/highres_320660664.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Brian",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/a/8/2/highres_318627266.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/a/8/2/highres_318627266.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Staten Island"
       }
     ]
   },
@@ -5805,75 +6515,153 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Ralf",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Drummer & bass player, comedy & sci-fi lover!",
+        "city": "New York"
       },
       {
         "name": "Catalina Lorca",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "Montr\u00e9al"
       },
       {
         "name": "Rui",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
       },
       {
         "name": "Ebony",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Tienany Bakayoko",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/8/8/highres_326017256.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/8/8/highres_326017256.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "bio": "Looking to connect on a social and professional setting",
+        "city": "Brooklyn"
       },
       {
         "name": "Anne L",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/3/4/6/highres_326317702.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/3/4/6/highres_326317702.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bayside"
       },
       {
         "name": "Varun Behl",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/7/highres_317633943.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/7/highres_317633943.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Cambridge"
       },
       {
         "name": "Tommy",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/2/9/8/highres_314789336.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/2/9/8/highres_314789336.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "for fun",
+        "city": "College Point"
       },
       {
         "name": "Lawrence E",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/2/5/5/highres_319529269.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/2/5/5/highres_319529269.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Karol\u00edna Kutnarov\u00e1",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "ita wi\u013ai",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
       },
       {
         "name": "Peter",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/a/8/3/highres_326530883.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/a/8/3/highres_326530883.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Hi, I'm Peter! I love the outdoors \u2014 hiking, running, and exploring New York. Always up for something fun and new, and meeting good people along the way. \ud83d\ude42",
+        "city": "New York, NY"
       },
       {
         "name": "Jeremy Alster",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/c/0/9/highres_325687177.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/c/0/9/highres_325687177.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Nigel Abraham",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/1/4/b/highres_326544907.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/1/4/b/highres_326544907.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Ankur Soni",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/9/b/9/highres_324751161.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/9/b/9/highres_324751161.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Ali Siddiqui",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/9/f/f/highres_285695327.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/9/f/f/highres_285695327.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Alexandria"
       },
       {
         "name": "Desi",
-        "photo": "https://secure.meetupstatic.com/photos/member/e/8/1/5/highres_326039413.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/e/8/1/5/highres_326039413.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Eat. Play. Love.",
+        "city": "New York"
       }
     ]
   },
@@ -5909,51 +6697,104 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Mignonne S",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/f/4/2/highres_175428962.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/b/f/4/2/highres_175428962.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Catalina Lorca",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "Montr\u00e9al"
       },
       {
         "name": "Erzinete",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
-      },
-      {
-        "name": "Lee",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
       },
       {
         "name": "Yvette",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/2/9/c/highres_312424764.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/2/9/c/highres_312424764.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 2,
+        "city": "Rego Park"
       },
       {
         "name": "Tzvetomir Kotzev",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/0/4/f/highres_326428751.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/0/4/f/highres_326428751.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Lorena",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/5/4/e/highres_325418222.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/5/4/e/highres_325418222.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Avid reader, crochet enthusiast, and pickleball fan. I\u2019m happiest wandering through museums, catching a great show, or diving into conversations about art and finance. Mother and a devoted New Yorker who loves discovering the city\u2019s energy and charm.",
+        "city": "New York"
       },
       {
         "name": "Trevor H.",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/8/8/1/highres_326451329.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/c/8/8/1/highres_326451329.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "bio": "Hello! Just moved to Brooklyn and looking to meet people and build a community of friends! Enjoy outdoors, board games, bar trivia, and more.",
+        "city": "Brooklyn"
       },
       {
         "name": "Debbie",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hi! Moved back to NY after 25 years and looking to make new friends. Love food, wine, art events, and anything unique.",
+        "job": "Technology",
+        "city": "Jamaica, NY"
       },
       {
         "name": "Zai ",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/3/7/b/highres_326249563.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/3/7/b/highres_326249563.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hey, I moved to NY 3 years back. I am interested in hike.",
+        "city": "New York, NY"
       },
       {
         "name": "Vanessa Uzonwanne",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/c/9/a/highres_276203706.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/c/9/a/highres_276203706.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Ana",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/b/8/c/highres_326148012.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -5989,19 +6830,36 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Lorena",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/5/4/e/highres_325418222.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/5/4/e/highres_325418222.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Avid reader, crochet enthusiast, and pickleball fan. I\u2019m happiest wandering through museums, catching a great show, or diving into conversations about art and finance. Mother and a devoted New Yorker who loves discovering the city\u2019s energy and charm.",
+        "city": "New York"
       },
       {
         "name": "Erzinete",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
       },
       {
         "name": "Hazel",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6034,31 +6892,70 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Andrei",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
       },
       {
         "name": "Jessica Wang",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/0/a/1/highres_326048353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/a/1/highres_326048353.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronx"
       },
       {
         "name": "Michelle",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
+        "city": "New York"
       },
       {
         "name": "marta",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/4/b/c/highres_315137596.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/4/b/c/highres_315137596.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
       },
       {
         "name": "Meg",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/f/6/d/highres_318028525.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/f/6/d/highres_318028525.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
       },
       {
         "name": "John Hargrove",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/8/0/8/highres_323194824.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/8/0/8/highres_323194824.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
+      },
+      {
+        "name": "Sandhya Gajji",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/2/8/highres_326401064.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "New York, NY"
       }
     ]
   },
@@ -6096,7 +6993,12 @@
     "attendees": [
       {
         "name": "Caroline",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Education",
+        "city": "New York"
       }
     ]
   },
@@ -6135,23 +7037,45 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Sonali Gupta",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/1/9/3/highres_285364499.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/1/1/9/3/highres_285364499.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Atlanta"
       },
       {
         "name": "Andrei",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
       },
       {
         "name": "Alan",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
       },
       {
         "name": "Lee",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6193,19 +7117,37 @@
     "attendees": [
       {
         "name": "Ercan Ozturk",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/b/f/b/highres_324791259.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/f/b/highres_324791259.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       },
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Debbie",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hi! Moved back to NY after 25 years and looking to make new friends. Love food, wine, art events, and anything unique.",
+        "job": "Technology",
+        "city": "Jamaica, NY"
       },
       {
         "name": "Gayle Johnson",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/d/4/9/highres_310552553.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/c/d/4/9/highres_310552553.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6244,27 +7186,53 @@
     "attendees": [
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York, NY"
       },
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Lingyan",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/a/f/c/highres_310055580.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/a/f/c/highres_310055580.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
       },
       {
         "name": "Yi",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/2/3/3/highres_281257427.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/2/3/3/highres_281257427.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love reading, opera, and hiking.",
+        "job": "Education",
+        "city": "New York"
       },
       {
         "name": "Shells",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       },
       {
         "name": "Komal T",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/d/1/9/highres_323843833.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/d/1/9/highres_323843833.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6303,23 +7271,44 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York, NY"
       },
       {
         "name": "Hazel",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Qama",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Harsh",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
       }
     ]
   },
@@ -6355,7 +7344,11 @@
     "attendees": [
       {
         "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   }
