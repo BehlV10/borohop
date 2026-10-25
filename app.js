@@ -17,6 +17,8 @@
   /* ============ State & Data ============ */
   let ALL_EVENTS = [];
   let lastFiltered = [];
+  let GALLERY_ALBUMS = null;
+  let activeAlbum = null;
   let userCoords = null; // { lat, lng } from Geolocation
   let filterNearMeActive = false;
   let filterSavedActive = false;
@@ -143,8 +145,16 @@
     if (typeMulti.values.size > 0) params.set("types", [...typeMulti.values].join(","));
     if (locMulti.values.size > 0) params.set("locs", [...locMulti.values].join(","));
     if (priceMulti.values.size > 0) params.set("prices", [...priceMulti.values].join(","));
-    const viewMode = document.body.classList.contains("view-map") ? "map" : "list";
+    const viewMode = document.body.classList.contains("view-gallery")
+      ? "gallery"
+      : (document.body.classList.contains("view-map") ? "map" : "list");
     if (viewMode !== "list") params.set("view", viewMode);
+    if (viewMode === "gallery") {
+      const curParams = new URLSearchParams(window.location.search);
+      const albumId = activeAlbum ? activeAlbum.id : curParams.get("album");
+      if (albumId) params.set("album", albumId);
+      if (curParams.get("key")) params.set("key", curParams.get("key"));
+    }
 
     const newUrl = window.location.pathname + (params.toString() ? "?" + params.toString() : "");
     window.history.replaceState({}, "", newUrl);
@@ -186,6 +196,12 @@
       if (mapRadio) {
         mapRadio.checked = true;
         mapRadio.dispatchEvent(new Event("change"));
+      }
+    } else if (params.get("view") === "gallery") {
+      const galRadio = document.querySelector('input[name="viewMode"][value="gallery"]');
+      if (galRadio) {
+        galRadio.checked = true;
+        galRadio.dispatchEvent(new Event("change"));
       }
     }
   }
@@ -965,17 +981,21 @@
     });
   }
 
-  /* ============ View Toggle (List / Map) & Photos Toggle ============ */
+  /* ============ View Toggle (List / Map / Gallery) & Photos Toggle ============ */
   const listLabel = document.getElementById("viewListLabel");
   const mapLabel = document.getElementById("viewMapLabel");
+  const galleryLabel = document.getElementById("viewGalleryLabel");
   document.querySelectorAll('input[name="viewMode"]').forEach(r => {
     r.addEventListener("change", () => {
       const mode = r.value;
       document.body.classList.toggle("view-map", mode === "map");
       document.body.classList.toggle("view-list", mode === "list");
-      listLabel.classList.toggle("active", mode === "list");
-      mapLabel.classList.toggle("active", mode === "map");
+      document.body.classList.toggle("view-gallery", mode === "gallery");
+      listLabel?.classList.toggle("active", mode === "list");
+      mapLabel?.classList.toggle("active", mode === "map");
+      galleryLabel?.classList.toggle("active", mode === "gallery");
       if (mode === "map") ensureMapAndRender(lastFiltered);
+      if (mode === "gallery") initGalleryView();
       updateUrlState();
     });
   });
@@ -1234,6 +1254,10 @@
     const isPast = dateMode === "past";
     const rsvpText = isPast ? "Link to Event" : "Link to RSVP";
     const weatherUrl = (ev.lat && ev.lng) ? `https://forecast.weather.gov/MapClick.php?lat=${ev.lat}&lon=${ev.lng}` : null;
+    const album = (GALLERY_ALBUMS || []).find(a => a.eventId === ev.id);
+    const galleryBtnHtml = album
+      ? `<button type="button" class="pill-btn event-gallery-btn" data-album-id="${escapeAttr(album.id)}" title="View photo album for this event">📸 Photos (${(album.photos || []).length}) ↗</button>`
+      : "";
 
     const actions = `
       <div class="action-links">
@@ -1243,6 +1267,7 @@
           <a class="pill-btn" href="${googleCalendarUrl(ev)}" target="_blank" rel="noopener noreferrer">📅 Google Cal</a>
           <button type="button" class="pill-btn ics-btn" data-ev-id="${ev.id}">🍏 Apple / .ics</button>
         ` : ''}
+        ${galleryBtnHtml}
         ${ev.rsvpUrl ? `<a class="pill-btn primary" href="${ev.rsvpUrl}" target="_blank" rel="noopener noreferrer">${rsvpText} ↗</a>` : ''}
         <button type="button" class="pill-btn share-event-btn" data-ev-id="${ev.id}" title="Copy direct link to this event">🔗 Share</button>
       </div>
@@ -1869,7 +1894,10 @@
   /* ============ Data Bootstrap ============ */
   async function loadEventsData() {
     try {
-      const resp = await fetch("data/events.json");
+      const [resp, _gallery] = await Promise.all([
+        fetch("data/events.json"),
+        loadGalleryData().catch(() => [])
+      ]);
       if (!resp.ok) throw new Error("Could not load data/events.json");
       ALL_EVENTS = await resp.json();
     } catch (e) {
@@ -1907,6 +1935,372 @@
       }
     }
   }
+
+  /* ============ Community Photo Gallery Logic ============ */
+  const GALLERY_STORAGE_KEY = "borohop_gallery_unlocked";
+  const GALLERY_PASSCODES = ["borohop", "borohop2026", "boroughhoppers"];
+  let activeGalleryBorough = "all";
+  let activeLightboxPhotos = [];
+  let activeLightboxIndex = 0;
+
+  function openGalleryAlbum(albumId) {
+    const album = (GALLERY_ALBUMS || []).find(a => a.id === albumId);
+    if (!album) return;
+    activeAlbum = album;
+    const galleryRadio = document.querySelector('input[name="viewMode"][value="gallery"]');
+    if (galleryRadio) {
+      galleryRadio.checked = true;
+      galleryRadio.dispatchEvent(new Event("change"));
+    } else {
+      initGalleryView();
+    }
+  }
+
+  function isGalleryUnlocked() {
+    return localStorage.getItem(GALLERY_STORAGE_KEY) === "1";
+  }
+
+  async function loadGalleryData() {
+    if (GALLERY_ALBUMS) return GALLERY_ALBUMS;
+    try {
+      const res = await fetch("./data/gallery.json");
+      if (!res.ok) throw new Error("Could not load gallery.json");
+      GALLERY_ALBUMS = await res.json();
+      return GALLERY_ALBUMS;
+    } catch (e) {
+      console.warn("Failed to load gallery data:", e);
+      GALLERY_ALBUMS = [];
+      return [];
+    }
+  }
+
+  function initGalleryView() {
+    const lockScreen = document.getElementById("galleryLockScreen");
+    const unlockedScreen = document.getElementById("galleryUnlockedScreen");
+    if (!lockScreen || !unlockedScreen) return;
+
+    const urlKey = new URLSearchParams(window.location.search).get("key");
+    if (urlKey && GALLERY_PASSCODES.includes(urlKey.trim().toLowerCase())) {
+      localStorage.setItem(GALLERY_STORAGE_KEY, "1");
+    }
+
+    if (!isGalleryUnlocked()) {
+      lockScreen.hidden = false;
+      unlockedScreen.hidden = true;
+      setupGalleryLockScreen();
+    } else {
+      lockScreen.hidden = true;
+      unlockedScreen.hidden = false;
+      renderGallery();
+    }
+  }
+
+  function setupGalleryLockScreen() {
+    const form = document.getElementById("galleryPasscodeForm");
+    const input = document.getElementById("galleryPasscodeInput");
+    const err = document.getElementById("galleryLockError");
+
+    if (form && !form.dataset.bound) {
+      form.dataset.bound = "true";
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const code = (input?.value || "").trim().toLowerCase();
+        if (GALLERY_PASSCODES.includes(code)) {
+          localStorage.setItem(GALLERY_STORAGE_KEY, "1");
+          if (err) err.hidden = true;
+          showToast("🔓 Gallery unlocked!");
+          initGalleryView();
+        } else {
+          if (err) err.hidden = false;
+          input?.focus();
+        }
+      });
+    }
+  }
+
+  function lockGallery() {
+    localStorage.removeItem(GALLERY_STORAGE_KEY);
+    showToast("🔒 Gallery locked");
+    activeAlbum = null;
+    initGalleryView();
+  }
+
+  async function renderGallery() {
+    const albums = await loadGalleryData();
+    const albumsGrid = document.getElementById("galleryAlbumsGrid");
+    const albumsView = document.getElementById("galleryAlbumsView");
+    const singleView = document.getElementById("gallerySingleAlbumView");
+
+    if (!albumsGrid) return;
+
+    if (!activeAlbum) {
+      const urlAlbumId = new URLSearchParams(window.location.search).get("album");
+      if (urlAlbumId) {
+        const found = albums.find(a => a.id === urlAlbumId);
+        if (found) activeAlbum = found;
+      }
+    }
+
+    if (activeAlbum) {
+      albumsView.hidden = true;
+      singleView.hidden = false;
+      renderActiveAlbum();
+    } else {
+      albumsView.hidden = false;
+      singleView.hidden = true;
+      renderAlbumsList(albums);
+    }
+  }
+
+  function renderAlbumsList(albums) {
+    const albumsGrid = document.getElementById("galleryAlbumsGrid");
+    if (!albumsGrid) return;
+
+    const filtered = activeGalleryBorough === "all"
+      ? albums
+      : albums.filter(a => (a.borough || "").toLowerCase() === activeGalleryBorough.toLowerCase());
+
+    if (!filtered.length) {
+      albumsGrid.innerHTML = `
+        <div style="grid-column:1/-1;text-align:center;padding:48px 16px;color:var(--ink-soft);">
+          <div style="font-size:32px;margin-bottom:8px;">📸</div>
+          <p>No photo albums found for this filter.</p>
+        </div>
+      `;
+      return;
+    }
+
+    albumsGrid.innerHTML = filtered.map(album => {
+      const photoCount = (album.photos || []).length;
+      const countLabel = `${photoCount} ${photoCount === 1 ? 'photo' : 'photos'}`;
+      const gPhotosBadge = album.googlePhotosUrl
+        ? `<span class="badge" style="background:#4285F4;color:#fff;">Google Photos ↗</span>`
+        : "";
+
+      return `
+        <div class="gallery-album-card" data-album-id="${escapeAttr(album.id)}">
+          <div class="gallery-album-cover-wrap">
+            <img class="gallery-album-cover-img" src="${escapeAttr(album.coverPhoto)}" alt="${escapeAttr(album.title)}" loading="lazy">
+            <span class="gallery-album-count-badge">📸 ${countLabel}</span>
+          </div>
+          <div class="gallery-album-info">
+            <h3 class="gallery-album-title">${escapeAttr(album.title)}</h3>
+            <div class="gallery-album-meta">
+              <span class="badge boro">${escapeAttr(album.borough || "NYC")}</span>
+              <span>🗓️ ${escapeAttr(album.date || "")}</span>
+              ${gPhotosBadge}
+            </div>
+            ${album.description ? `<p class="gallery-album-desc">${escapeAttr(album.description)}</p>` : ""}
+            <div class="gallery-album-footer-link">View Album Photos →</div>
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    albumsGrid.querySelectorAll(".gallery-album-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const id = card.dataset.albumId;
+        const album = (GALLERY_ALBUMS || []).find(a => a.id === id);
+        if (album) {
+          activeAlbum = album;
+          renderGallery();
+          updateUrlState();
+        }
+      });
+    });
+  }
+
+  function renderActiveAlbum() {
+    if (!activeAlbum) return;
+    const titleEl = document.getElementById("galleryActiveAlbumTitle");
+    const metaEl = document.getElementById("galleryActiveAlbumMeta");
+    const descEl = document.getElementById("galleryActiveAlbumDesc");
+    const actionsEl = document.getElementById("galleryActiveAlbumActions");
+    const photosGrid = document.getElementById("galleryPhotosGrid");
+
+    if (titleEl) titleEl.textContent = activeAlbum.title;
+    if (descEl) descEl.textContent = activeAlbum.description || "";
+    if (metaEl) {
+      metaEl.innerHTML = `
+        <span class="badge boro">${escapeAttr(activeAlbum.borough || "NYC")}</span>
+        <span>🗓️ ${escapeAttr(activeAlbum.date || "")}</span>
+        <span>📸 ${(activeAlbum.photos || []).length} photos</span>
+      `;
+    }
+    if (actionsEl) {
+      let actionsHtml = "";
+      if (activeAlbum.googlePhotosUrl) {
+        actionsHtml += `<a class="pill-btn primary" href="${escapeAttr(activeAlbum.googlePhotosUrl)}" target="_blank" rel="noopener noreferrer">📸 Google Photos Album ↗</a>`;
+      }
+      actionsEl.innerHTML = actionsHtml;
+    }
+
+    if (photosGrid) {
+      const photos = activeAlbum.photos || [];
+      if (!photos.length) {
+        photosGrid.innerHTML = `
+          <div style="grid-column:1/-1;text-align:center;padding:48px 16px;color:var(--ink-soft);">
+            <p>No photos uploaded for this album yet.</p>
+          </div>
+        `;
+        return;
+      }
+
+      photosGrid.innerHTML = photos.map((p, idx) => `
+        <div class="gallery-photo-item" data-photo-idx="${idx}">
+          <img class="gallery-photo-img" src="${escapeAttr(p.thumbUrl || p.url)}" alt="${escapeAttr(p.caption || activeAlbum.title)}" loading="lazy">
+          <div class="gallery-photo-overlay">
+            <div class="gallery-photo-caption">${escapeAttr(p.caption || "")}</div>
+            ${p.credit ? `<div class="gallery-photo-credit">📷 ${escapeAttr(p.credit)}</div>` : ""}
+          </div>
+        </div>
+      `).join("");
+
+      photosGrid.querySelectorAll(".gallery-photo-item").forEach(item => {
+        item.addEventListener("click", () => {
+          const idx = Number(item.dataset.photoIdx);
+          openLightbox(activeAlbum.photos, idx);
+        });
+      });
+    }
+  }
+
+  /* ============ Lightbox Logic ============ */
+  const lightbox = document.getElementById("galleryLightbox");
+  const lightboxImg = document.getElementById("lightboxImg");
+  const lightboxCaption = document.getElementById("lightboxCaption");
+  const lightboxCounter = document.getElementById("lightboxCounter");
+  const lightboxCloseBtn = document.getElementById("lightboxCloseBtn");
+  const lightboxPrevBtn = document.getElementById("lightboxPrevBtn");
+  const lightboxNextBtn = document.getElementById("lightboxNextBtn");
+  const lightboxBackdrop = document.getElementById("lightboxBackdrop");
+
+  function openLightbox(photos, startIndex) {
+    if (!lightbox || !photos || !photos.length) return;
+    activeLightboxPhotos = photos;
+    activeLightboxIndex = Math.max(0, Math.min(startIndex, photos.length - 1));
+    updateLightbox();
+    lightbox.hidden = false;
+    document.body.classList.add("modal-open");
+  }
+
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.hidden = true;
+    document.body.classList.remove("modal-open");
+  }
+
+  function updateLightbox() {
+    const photo = activeLightboxPhotos[activeLightboxIndex];
+    if (!photo) return;
+    if (lightboxImg) {
+      lightboxImg.src = photo.url;
+      lightboxImg.alt = photo.caption || "Community photo";
+    }
+    if (lightboxCaption) {
+      let cap = photo.caption || "";
+      if (photo.credit) cap += ` • 📷 ${photo.credit}`;
+      lightboxCaption.textContent = cap;
+    }
+    if (lightboxCounter) {
+      lightboxCounter.textContent = `${activeLightboxIndex + 1} of ${activeLightboxPhotos.length}`;
+    }
+    if (lightboxPrevBtn) lightboxPrevBtn.style.visibility = activeLightboxIndex > 0 ? "visible" : "hidden";
+    if (lightboxNextBtn) lightboxNextBtn.style.visibility = activeLightboxIndex < activeLightboxPhotos.length - 1 ? "visible" : "hidden";
+  }
+
+  function nextLightboxPhoto() {
+    if (activeLightboxIndex < activeLightboxPhotos.length - 1) {
+      activeLightboxIndex++;
+      updateLightbox();
+    }
+  }
+
+  function prevLightboxPhoto() {
+    if (activeLightboxIndex > 0) {
+      activeLightboxIndex--;
+      updateLightbox();
+    }
+  }
+
+  lightboxCloseBtn?.addEventListener("click", closeLightbox);
+  lightboxBackdrop?.addEventListener("click", closeLightbox);
+  lightboxPrevBtn?.addEventListener("click", prevLightboxPhoto);
+  lightboxNextBtn?.addEventListener("click", nextLightboxPhoto);
+
+  /* Back to albums button */
+  document.getElementById("galleryBackToAlbumsBtn")?.addEventListener("click", () => {
+    activeAlbum = null;
+    renderGallery();
+    updateUrlState();
+  });
+
+  /* Event card photos button delegation */
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".event-gallery-btn");
+    if (btn && btn.dataset.albumId) {
+      e.preventDefault();
+      openGalleryAlbum(btn.dataset.albumId);
+    }
+  });
+
+  /* Lock button */
+  document.getElementById("galleryLockBtn")?.addEventListener("click", lockGallery);
+
+  /* Add Photos / Upload Modal */
+  const uploadModal = document.getElementById("galleryUploadModal");
+  const addPhotosBtn = document.getElementById("galleryAddPhotosBtn");
+  const uploadCloseBtn = document.getElementById("galleryUploadCloseBtn");
+
+  addPhotosBtn?.addEventListener("click", () => {
+    if (uploadModal) uploadModal.hidden = false;
+    if (modalBackdrop) modalBackdrop.hidden = false;
+  });
+
+  uploadCloseBtn?.addEventListener("click", () => {
+    if (uploadModal) uploadModal.hidden = true;
+    if (modalBackdrop) modalBackdrop.hidden = true;
+  });
+
+  document.getElementById("googlePhotosLinkForm")?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const input = document.getElementById("googlePhotosUrlInput");
+    const val = (input?.value || "").trim();
+    if (val) {
+      if (activeAlbum) {
+        activeAlbum.googlePhotosUrl = val;
+        renderActiveAlbum();
+      }
+      showToast("📸 Google Photos album linked!");
+      if (uploadModal) uploadModal.hidden = true;
+      if (modalBackdrop) modalBackdrop.hidden = true;
+      if (input) input.value = "";
+    }
+  });
+
+  /* Borough Chips in Gallery */
+  document.querySelectorAll("#galleryBoroughChips .chip").forEach(chip => {
+    chip.addEventListener("click", () => {
+      document.querySelectorAll("#galleryBoroughChips .chip").forEach(c => c.classList.remove("active"));
+      chip.classList.add("active");
+      activeGalleryBorough = chip.dataset.borough || "all";
+      activeAlbum = null;
+      renderGallery();
+    });
+  });
+
+  /* Keyboard controls for Lightbox and Escape for Modals */
+  document.addEventListener("keydown", (e) => {
+    if (lightbox && !lightbox.hidden) {
+      if (e.key === "ArrowRight") nextLightboxPhoto();
+      if (e.key === "ArrowLeft") prevLightboxPhoto();
+      if (e.key === "Escape") closeLightbox();
+    }
+    if (uploadModal && !uploadModal.hidden && e.key === "Escape") {
+      uploadModal.hidden = true;
+      if (modalBackdrop) modalBackdrop.hidden = true;
+    }
+  });
 
   loadEventsData();
 

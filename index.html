@@ -7,7 +7,7 @@
   <meta name="description" content="NYC boroughs, neighborhoods, and nearby towns. Filter by date, category, location, and expenses. Zero tracking, no accounts, no cookies.">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0039A6">
-  <link rel="stylesheet" href="styles.css?v=9">
+  <link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body class="view-list">
 <div class="wrap">
@@ -99,6 +99,7 @@
       <div class="view-toggle" role="radiogroup" aria-label="View mode">
         <label id="viewListLabel" class="active"><input type="radio" name="viewMode" value="list" checked> List</label>
         <label id="viewMapLabel"><input type="radio" name="viewMode" value="map"> Map</label>
+        <label id="viewGalleryLabel"><input type="radio" name="viewMode" value="gallery"> 📸 Gallery</label>
       </div>
       <label class="images-toggle">
         <input type="checkbox" id="imagesToggle" checked>
@@ -145,6 +146,63 @@
     <div id="mapSelectedInfo" class="map-selected-info"></div>
   </div>
 
+  <!-- Community Photo Gallery Container -->
+  <div id="galleryPane" class="gallery-pane">
+
+    <!-- Locked State Screen -->
+    <div id="galleryLockScreen" class="gallery-lock-card">
+      <div class="gallery-lock-icon">🔒</div>
+      <h2 class="gallery-lock-title">Community Photo Gallery</h2>
+      <p class="gallery-lock-desc">Event photos and memories are reserved for Borough Hoppers members. Enter the community passcode to unlock the gallery.</p>
+      
+      <form id="galleryPasscodeForm" class="gallery-passcode-form">
+        <input type="password" id="galleryPasscodeInput" class="gallery-passcode-input" placeholder="Enter member passcode…" autocomplete="current-password" required>
+        <button type="submit" class="pill-btn primary" id="galleryUnlockBtn">Unlock Gallery 🔓</button>
+      </form>
+      <p id="galleryLockError" class="gallery-error" hidden>Incorrect passcode. Please try again.</p>
+      <p class="gallery-hint">💡 Shared in the Meetup event chat or by event hosts. (Default: <code>borohop</code>)</p>
+    </div>
+
+    <!-- Unlocked State View -->
+    <div id="galleryUnlockedScreen" hidden>
+      <!-- Gallery Toolbar -->
+      <div class="gallery-toolbar">
+        <div class="gallery-toolbar-left">
+          <div class="gallery-chips" id="galleryBoroughChips">
+            <button type="button" class="chip active" data-borough="all">✨ All Albums</button>
+            <button type="button" class="chip" data-borough="Manhattan">Manhattan</button>
+            <button type="button" class="chip" data-borough="Queens">Queens</button>
+            <button type="button" class="chip" data-borough="Nearby">Nearby</button>
+          </div>
+        </div>
+        <div class="gallery-toolbar-right">
+          <button type="button" class="pill-btn" id="galleryAddPhotosBtn">📸 Add Photos</button>
+          <button type="button" class="pill-btn" id="galleryLockBtn" title="Lock gallery and clear saved session">🔒 Lock</button>
+        </div>
+      </div>
+
+      <!-- Albums Overview Grid -->
+      <div id="galleryAlbumsView">
+        <div class="gallery-albums-grid" id="galleryAlbumsGrid"></div>
+      </div>
+
+      <!-- Single Album Detail View (hidden by default) -->
+      <div id="gallerySingleAlbumView" hidden>
+        <div class="gallery-album-header">
+          <button type="button" class="pill-btn" id="galleryBackToAlbumsBtn">← All Albums</button>
+          <div class="gallery-album-title-wrap">
+            <h2 id="galleryActiveAlbumTitle" class="gallery-album-title"></h2>
+            <div id="galleryActiveAlbumMeta" class="gallery-album-meta"></div>
+          </div>
+          <div id="galleryActiveAlbumActions" class="gallery-album-actions"></div>
+        </div>
+        <p id="galleryActiveAlbumDesc" class="gallery-album-desc"></p>
+        <div class="gallery-photos-grid" id="galleryPhotosGrid"></div>
+      </div>
+    </div>
+
+  </div>
+
   <!-- PDF Modal -->
   <div class="cal-pop" id="pdfModal" hidden role="dialog" aria-label="PDF title">
     <div class="pop-header">
@@ -175,9 +233,50 @@
   <div id="attendeesModalFooter" class="attendees-modal-footer"></div>
 </div>
 
+<!-- Gallery Lightbox Modal -->
+<div id="galleryLightbox" class="gallery-lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo Lightbox">
+  <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+  <div class="lightbox-content">
+    <button type="button" class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close Lightbox">×</button>
+    <button type="button" class="lightbox-nav-btn prev" id="lightboxPrevBtn" aria-label="Previous photo">‹</button>
+    <div class="lightbox-image-wrap">
+      <img id="lightboxImg" class="lightbox-img" src="" alt="">
+      <div class="lightbox-caption-bar">
+        <div class="lightbox-caption-text" id="lightboxCaption"></div>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+      </div>
+    </div>
+    <button type="button" class="lightbox-nav-btn next" id="lightboxNextBtn" aria-label="Next photo">›</button>
+  </div>
+</div>
+
+<!-- Gallery Add / Google Photos Modal -->
+<div id="galleryUploadModal" class="cal-pop" hidden role="dialog" aria-modal="true" aria-labelledby="galleryUploadTitle" style="max-width:540px;">
+  <div class="pop-header">
+    <span class="pop-title" id="galleryUploadTitle">📸 Add &amp; Share Event Photos</span>
+    <button type="button" class="pop-close-btn" id="galleryUploadCloseBtn">×</button>
+  </div>
+  <div class="gallery-upload-body" style="font-size:13px;line-height:1.5;color:var(--ink);">
+    <div style="padding:12px;background:var(--surface-raised);border:1px solid var(--line);border-radius:var(--radius-sm);margin-bottom:12px;">
+      <strong style="display:block;margin-bottom:4px;color:var(--ink);">1. Shared Google Photos Album (Recommended)</strong>
+      <p style="margin:0 0 8px;color:var(--ink-soft);font-size:12px;">Have a Google Photos shared album for an event? Link it here so attendees can tap to view and upload full-resolution photos directly from their phone camera roll.</p>
+      <form id="googlePhotosLinkForm">
+        <div style="display:flex;gap:8px;">
+          <input type="url" id="googlePhotosUrlInput" placeholder="https://photos.app.goo.gl/..." style="flex:1;font:inherit;font-size:12px;padding:6px 10px;border:1px solid var(--line-strong);border-radius:4px;background:var(--surface);color:var(--ink);">
+          <button type="submit" class="pill-btn primary" style="font-size:12px;">Link Album</button>
+        </div>
+      </form>
+    </div>
+    <div style="padding:12px;background:var(--surface-raised);border:1px solid var(--line);border-radius:var(--radius-sm);">
+      <strong style="display:block;margin-bottom:4px;color:var(--ink);">2. Direct GitHub Photo Submission</strong>
+      <p style="margin:0;color:var(--ink-soft);font-size:12px;">Want your snapshots added directly to the website gallery? Share your photos with the event host on Meetup or email them to Borough Hoppers organizers.</p>
+    </div>
+  </div>
+</div>
+
 <!-- Feedback Toast Notification -->
 <div id="toast" hidden role="status" aria-live="polite"></div>
 
-<script src="app.js?v=9"></script>
+<script src="app.js?v=11"></script>
 </body>
 </html>

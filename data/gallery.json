@@ -1,0 +1,172 @@
+[
+  {
+    "id": "governors-island-oct-2026",
+    "eventId": 155,
+    "title": "Governors Island Bike Ride & Waterfront Picnic",
+    "date": "2026-10-25",
+    "borough": "Manhattan",
+    "description": "Crisp autumn bike hop around the entire 7-mile perimeter of Governors Island, soaking in skyline views from The Hills and hot apple cider at PicNic Point.",
+    "coverPhoto": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
+    "googlePhotosUrl": "",
+    "photos": [
+      {
+        "id": "gi-1",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Governors Island Ferry terminal arriving with Lower Manhattan skyline in background",
+        "credit": "Fouad Yared",
+        "date": "Oct 25, 2026"
+      },
+      {
+        "id": "gi-2",
+        "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Borough Hoppers crew taking a break at Outlook Hill looking toward Lady Liberty",
+        "credit": "Alan",
+        "date": "Oct 25, 2026"
+      },
+      {
+        "id": "gi-3",
+        "url": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Biking path under the golden fall trees near Fort Jay",
+        "credit": "Paige B.",
+        "date": "Oct 25, 2026"
+      },
+      {
+        "id": "gi-4",
+        "url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Waterfront picnic with warm cider and snacks",
+        "credit": "dfretro",
+        "date": "Oct 25, 2026"
+      }
+    ]
+  },
+  {
+    "id": "bear-mountain-hike-2026",
+    "eventId": 152,
+    "title": "Bear Mountain Peak Hike & Restaurant 1915",
+    "date": "2026-10-24",
+    "borough": "Nearby",
+    "description": "Scenic Metro-North transit to Peekskill & Bear Mountain. Clambered up the historic stone Appalachian Trail steps to Perkins Memorial Tower for peak foliage.",
+    "coverPhoto": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+    "googlePhotosUrl": "",
+    "photos": [
+      {
+        "id": "bm-1",
+        "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Perkins Memorial Tower lookout over the Hudson River valley peak fall foliage",
+        "credit": "Aqib",
+        "date": "Oct 24, 2026"
+      },
+      {
+        "id": "bm-2",
+        "url": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Group hiking along Hessian Lake before ascending the Major Welch trail",
+        "credit": "Elena",
+        "date": "Oct 24, 2026"
+      },
+      {
+        "id": "bm-3",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Post-hike banquet and warm dinner at the historic Bear Mountain Inn",
+        "credit": "Fouad Yared",
+        "date": "Oct 24, 2026"
+      }
+    ]
+  },
+  {
+    "id": "little-manila-queens-2026",
+    "eventId": 146,
+    "title": "Little Manila Parade & Food Crawl",
+    "date": "2026-10-18",
+    "borough": "Queens",
+    "description": "Roosevelt Avenue block party in Woodside! Filipino lechon, halo-halo shaved ice, lumpia, and live street festival music.",
+    "coverPhoto": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&auto=format&fit=crop&q=80",
+    "googlePhotosUrl": "",
+    "photos": [
+      {
+        "id": "lm-1",
+        "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Crispy Filipino lumpia and street skewers in Woodside, Queens",
+        "credit": "Syifa",
+        "date": "Oct 18, 2026"
+      },
+      {
+        "id": "lm-2",
+        "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Table full of traditional dishes shared with 15 Borough Hoppers",
+        "credit": "Fouad Yared",
+        "date": "Oct 18, 2026"
+      }
+    ]
+  },
+  {
+    "id": "dog-cafe-boris-horton",
+    "eventId": 148,
+    "title": "Dog Cafe Morning at Boris & Horton",
+    "date": "2026-10-11",
+    "borough": "Manhattan",
+    "description": "Espressos, pastries, and dozens of friendly pups running around the East Village dog cafe.",
+    "coverPhoto": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&auto=format&fit=crop&q=80",
+    "googlePhotosUrl": "",
+    "photos": [
+      {
+        "id": "dc-1",
+        "url": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1600&auto=format&fit=crop&q=85",
+        "caption": "The guest of honor demanding pastry crumbs",
+        "credit": "Prakhar A.",
+        "date": "Oct 11, 2026"
+      },
+      {
+        "id": "dc-2",
+        "url": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Puppy play hour in the East Village patio",
+        "credit": "Andrea",
+        "date": "Oct 11, 2026"
+      }
+    ]
+  },
+  {
+    "id": "zum-stammtisch-glendale",
+    "eventId": 149,
+    "title": "Oktoberfest German Feast at Zum Stammtisch",
+    "date": "2026-10-04",
+    "borough": "Queens",
+    "description": "Glendale Queens institution since 1972! Huge pretzels, sauerbraten, schnitzels, and German draft biers.",
+    "coverPhoto": "https://images.unsplash.com/photo-1538488881522-4326c36460f7?w=800&auto=format&fit=crop&q=80",
+    "googlePhotosUrl": "",
+    "photos": [
+      {
+        "id": "zs-1",
+        "url": "https://images.unsplash.com/photo-1538488881522-4326c36460f7?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Warm Bavarian pretzel basket and mustard flight",
+        "credit": "David",
+        "date": "Oct 4, 2026"
+      },
+      {
+        "id": "zs-2",
+        "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Toasting steins at the wooden long-table",
+        "credit": "Alan",
+        "date": "Oct 4, 2026"
+      }
+    ]
+  },
+  {
+    "id": "halloween-board-games",
+    "eventId": 157,
+    "title": "Halloween Board Games & Spooky Mixer",
+    "date": "2026-10-31",
+    "borough": "Manhattan",
+    "description": "Costumes, Werewolf, Codenames, and spooky brews in Greenwich Village.",
+    "coverPhoto": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=800&auto=format&fit=crop&q=80",
+    "googlePhotosUrl": "",
+    "photos": [
+      {
+        "id": "bg-1",
+        "url": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=1600&auto=format&fit=crop&q=85",
+        "caption": "Late night board game showdown at Hex & Co",
+        "credit": "Karol\u00edna",
+        "date": "Oct 31, 2026"
+      }
+    ]
+  }
+]
