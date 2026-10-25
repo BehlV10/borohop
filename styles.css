@@ -493,15 +493,46 @@ header p {
 .star-btn {
   background: none;
   border: none;
-  font-size: 20px;
   cursor: pointer;
-  color: var(--line-strong);
-  padding: 0 4px;
+  color: var(--ink-subtle);
+  padding: 4px;
   line-height: 1;
-  transition: transform 0.15s ease, color 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-pill);
+  transition: transform 0.15s ease, color 0.15s ease, background 0.15s ease;
+  flex-shrink: 0;
 }
-.star-btn:hover { transform: scale(1.15); color: var(--star-gold); }
-.star-btn.is-starred { color: var(--star-gold); }
+.star-btn:hover {
+  transform: scale(1.18);
+  color: var(--star-gold);
+  background: rgba(245, 158, 11, 0.12);
+}
+.star-btn.is-starred {
+  color: var(--star-gold);
+}
+.star-btn.is-starred:hover {
+  transform: scale(1.18);
+  color: var(--star-gold);
+  background: rgba(245, 158, 11, 0.16);
+}
+.star-btn:active {
+  transform: scale(0.92);
+}
+.star-icon {
+  display: block;
+  pointer-events: none;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.star-btn.is-starred .star-icon {
+  animation: starPop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes starPop {
+  0% { transform: scale(0.6); }
+  50% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
 
 /* Badges line */
 .badges-row {

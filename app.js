@@ -1159,11 +1159,16 @@
     const starred = isSaved(ev);
     const starClass = starred ? "star-btn is-starred" : "star-btn";
     const starLabel = starred ? "Remove from saved" : "Save event";
+    const starIcon = starred
+      ? `<svg class="star-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`
+      : `<svg class="star-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
 
     const header = `
       <div class="row-header">
         <div class="l1"><span class="swatch" aria-hidden="true">${typeEmoji(primaryType(ev))}</span>${escapeAttr(ev.name)}</div>
-        <button type="button" class="${starClass}" data-ev-id="${ev.id}" aria-label="${starLabel}" title="${starLabel}">⭐</button>
+        <button type="button" class="${starClass}" data-ev-id="${ev.id}" aria-label="${starLabel}" title="${starLabel}">
+          ${starIcon}
+        </button>
       </div>
       ${buildBadges(ev)}
     `;
