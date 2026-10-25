@@ -4519,7 +4519,9 @@
     "wikiTitle": null,
     "thingsToKnow": "Free parade & block party runs til 6pm (host leaves at 1pm) -- grab a free ticket via Partiful; preceded by Filipino food at Renee's Kitchenette from 10-11:45am (separate listing).",
     "customImage": "images/10-18-26_Little_Manila_Parade_v14.png",
-    "id": 146
+    "id": 146,
+    "rsvpCount": 5,
+    "spotsLeftChecked": true
   },
   {
     "name": "D\u00eda de Muertos! \ud83c\uddf2\ud83c\uddfd\ud83c\udf38\ud83d\udc80",
@@ -4551,7 +4553,9 @@
     "wikiTitle": null,
     "thingsToKnow": "Calpulli Mexican Dance Company's Day of the Dead performance; meet in the lobby 1:45-1:50pm, show runs 2-4pm; about a 15 min walk from the 111 St station.",
     "customImage": "images/10-18-26_Dia_de_Muertos_Queens_Theatre_v14.png",
-    "id": 147
+    "id": 147,
+    "rsvpCount": 1,
+    "spotsLeftChecked": true
   },
   {
     "name": "Dog Cafe! \ud83d\udc36\u2615\ufe0f",
@@ -4578,11 +4582,13 @@
     "lng": -73.98145,
     "locationName": "Boris & Horton",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316636573/",
-    "spotsLeft": null,
+    "spotsLeft": 3,
     "wikiTitle": null,
     "thingsToKnow": "Group capped around 10 (first 3 bringing a dog, first 7 not); no minimum order, but a coffee purchase is encouraged to support the cafe.",
     "customImage": "images/10-18-26_Dog_Cafe_Boris_Horton_v14.png",
-    "id": 148
+    "id": 148,
+    "rsvpCount": 7,
+    "spotsLeftChecked": true
   },
   {
     "name": "German food at Zum Stammtisch! \ud83c\udde9\ud83c\uddea\ud83e\udd68",
@@ -4609,11 +4615,13 @@
     "lng": -73.881106,
     "locationName": "Zum Stammtisch",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316870863/",
-    "spotsLeft": null,
+    "spotsLeft": 7,
     "wikiTitle": null,
     "thingsToKnow": "German beer hall classics -- schnitzel, sausages & pretzels.",
     "customImage": "images/10-18-26_Zum_Stammtisch_German_v14.png",
-    "id": 149
+    "id": 149,
+    "rsvpCount": 6,
+    "spotsLeftChecked": true
   },
   {
     "name": "La Bola Negra!",
@@ -4646,7 +4654,9 @@
     "wikiTitle": null,
     "thingsToKnow": "New Spanish film, heralded as one of the best films of the year; meet outside 5:50-6pm, movie runs 6:15-8:45pm; seats DD 104 to DD 106.",
     "customImage": "images/10-19-26_La_Bola_Negra_Film_v14.png",
-    "id": 150
+    "id": 150,
+    "rsvpCount": 5,
+    "spotsLeftChecked": true
   },
   {
     "name": "Zikrayat Restaurant & Lounge! \ud83d\udd7a\ud83d\udc83",
@@ -4675,11 +4685,13 @@
     "lng": -73.910963,
     "locationName": "Zikrayat Restaurant & Lounge",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316823946/",
-    "spotsLeft": null,
+    "spotsLeft": 8,
     "wikiTitle": null,
     "thingsToKnow": "Dancing to Arabic music plus Middle Eastern food; meet outside 10:15pm, group heads in at 10:20pm; can stay later than midnight.",
     "customImage": "images/10-23-26_Zikrayat_Restaurant_Lounge_v14.png",
-    "id": 151
+    "id": 151,
+    "rsvpCount": 4,
+    "spotsLeftChecked": true
   },
   {
     "name": "Bear Mountain!",
@@ -4709,7 +4721,9 @@
     "wikiTitle": "Bear Mountain Inn",
     "thingsToKnow": "Hessian Loop Trail (1.5mi, easy) then Bear Mountain Loop Trail (4mi, moderate/hard, ~1,000ft gain); by car, meet at Bear Mountain Inn by 10am; by bus, meet at Port Authority Gate 405 by 7:45am (bus departs 8:45am, tickets first-come-first-served); optional dinner after at Restaurant 1915 (separate listing).",
     "customImage": "images/10-24-26_Bear_Mountain_Hike_v14.png",
-    "id": 152
+    "id": 152,
+    "rsvpCount": 28,
+    "spotsLeftChecked": true
   },
   {
     "name": "Restaurant 1915 at Bear Mountain!",
@@ -4730,11 +4744,13 @@
     "lng": -73.98952,
     "locationName": "Restaurant 1915",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316818677/",
-    "spotsLeft": null,
+    "spotsLeft": 5,
     "wikiTitle": null,
     "thingsToKnow": "Follows the Bear Mountain hike (separate listing); can also just join for the meal on its own.",
     "customImage": "images/10-24-26_Restaurant_1915_Bear_Mountain_v14.png",
-    "id": 153
+    "id": 153,
+    "rsvpCount": 9,
+    "spotsLeftChecked": true
   },
   {
     "name": "You Can See Everything!",
@@ -4775,7 +4791,9 @@
     "wikiTitle": null,
     "thingsToKnow": "The new Elizabeth Holmes documentary, directed by Nathan Fielder (Nathan for You, The Rehearsal) & Lance Oppenheim; meet in the 1st floor lobby 6:40-6:50pm, trailers at 7pm, movie starts 7:20pm (runs about 3 hours); seats P10 to P14.",
     "customImage": "images/10-24-26_You_Can_See_Everything_v14.png",
-    "id": 154
+    "id": 154,
+    "rsvpCount": 13,
+    "spotsLeftChecked": true
   },
   {
     "name": "Governors Island! \u26f4\ufe0f",
@@ -5109,7 +5127,9 @@
     "wikiTitle": null,
     "thingsToKnow": "Meet 6:40-6:50pm at street level (E 60th St & 2nd Ave), then head upstairs to take the tram together at 6:50pm; ~4.2mi walk around the island, 1.5-2 hours, can join/leave anytime. Food options on the island: ME Mediterranean Eatery (gyros/pizza, open til 8pm), Pinks Cantina (tacos/burritos, open til 9pm), Fuji East (sushi, open til 9:30pm).",
     "customImage": "images/10-23-26_Roosevelt_Island_v14.png",
-    "id": 164
+    "id": 164,
+    "rsvpCount": 21,
+    "spotsLeftChecked": true
   },
   {
     "name": "Halloween Concert at Juilliard! \ud83c\udfb8\ud83c\udfb7\ud83e\udd41",
@@ -5364,5 +5384,35 @@
       "$45"
     ],
     "id": 172
+  },
+  {
+    "name": "Diwali [Part 2] - All-You-Can-Eat Feast at Vatan! \ud83c\uddee\ud83c\uddf3",
+    "types": [
+      "Food",
+      "Culture"
+    ],
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Kips Bay",
+    "transitLines": [
+      "6"
+    ],
+    "transitStation": "28 St",
+    "start": "2026-11-08",
+    "end": null,
+    "startTime": "18:45",
+    "endTime": "20:30",
+    "price": 0,
+    "address": "409 3rd Ave, Manhattan, NY 10016, USA",
+    "lat": 40.7423,
+    "lng": -73.9806,
+    "locationName": "Vatan",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081835/",
+    "rsvpCount": 1,
+    "spotsLeft": 16,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/8/4/6/4/highres_536733892.jpeg",
+    "thingsToKnow": "**The not so fun rule on RSVPs**",
+    "id": 173
   }
 ]

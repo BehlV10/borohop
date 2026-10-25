@@ -15,7 +15,10 @@ import urllib.request
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 
-MEETUP_URL = "https://www.meetup.com/borough-hoppers/events/"
+MEETUP_URLS = [
+    "https://www.meetup.com/borough-hoppers/events/",
+    "https://www.meetup.com/borough-hoppers/events/?type=past"
+]
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 EVENTS_JSON_PATH = "data/events.json"
 
@@ -73,23 +76,30 @@ def infer_categories(title: str, description: str) -> List[str]:
     return matched[:2]
 
 def fetch_meetup_events() -> List[Dict[str, Any]]:
-    req = urllib.request.Request(MEETUP_URL, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req) as resp:
-        html = resp.read().decode("utf-8")
+    combined_cache = {}
+    events_dict = {}
 
-    match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html)
-    if not match:
-        raise ValueError("Could not find __NEXT_DATA__ in Meetup response.")
+    for url in MEETUP_URLS:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req) as resp:
+                html = resp.read().decode("utf-8")
+            match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html)
+            if not match:
+                continue
+            page_data = json.loads(match.group(1))
+            c = page_data.get("props", {}).get("pageProps", {}).get("__APOLLO_STATE__", {})
+            combined_cache.update(c)
+            for key, item in c.items():
+                if key.startswith("Event:") and item.get("title"):
+                    ev_id = item.get("id") or item.get("eventUrl") or key
+                    events_dict[ev_id] = item
+        except Exception as e:
+            print(f"Warning: Could not fetch {url}: {e}")
 
-    page_data = json.loads(match.group(1))
-    cache = page_data.get("props", {}).get("pageProps", {}).get("__APOLLO_STATE__", {})
-
-    events = []
-    for key, item in cache.items():
-        if key.startswith("Event:") and item.get("status") == "ACTIVE":
-            events.append(item)
-
-    print(f"Discovered {len(events)} active events from Meetup Apollo cache.")
+    cache = combined_cache
+    events = list(events_dict.values())
+    print(f"Discovered {len(events)} events across upcoming & past Meetup pages.")
     parsed_events = []
 
     for ev in events:
