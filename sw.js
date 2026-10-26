@@ -1,11 +1,18 @@
 // Service Worker for BoroHop — Offline Subway Browsing
-const CACHE_NAME = "borohop-v15";
+const CACHE_NAME = "borohop-v16";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=15",
-  "./app.js?v=15",
+  "./styles.css?v=16",
+  "./app.js?v=16",
   "./manifest.json",
+  "./favicon.ico",
+  "./images/favicon.svg",
+  "./images/favicon-32x32.png",
+  "./images/favicon-16x16.png",
+  "./images/apple-touch-icon.png",
+  "./images/icon-192.png",
+  "./images/icon-512.png",
   "./data/events.json",
   "./data/gallery.json"
 ];
