@@ -5458,7 +5458,7 @@
     "thingsToKnow": "Choose-your-own-adventure itinerary: bike rental, Slide Hill Playground, Fort Jay, a free walking tour (register ahead), lunch on your own near Makina Caf\u00e9, then Nolan Park's art exhibits with a free pumpkin; meet at the ferry terminal by 8am, ferry departs 8:30am.",
     "customImage": "images/10-25-26_Governors_Island_v14.png",
     "id": 155,
-    "rsvpCount": 12,
+    "rsvpCount": 11,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5531,14 +5531,6 @@
       {
         "name": "Ebony",
         "photo": "https://secure.meetupstatic.com/photos/member/3/a/4/8/highres_268994920.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "ita wi\u013ai",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -6390,7 +6382,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 6,
+    "rsvpCount": 7,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6441,6 +6433,15 @@
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
         "city": "New York"
       }
     ]
@@ -6988,7 +6989,7 @@
     "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
-    "rsvpCount": 10,
+    "rsvpCount": 11,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7057,6 +7058,14 @@
         "isFirstEvent": true,
         "guestsCount": 1,
         "city": "New York, NY"
+      },
+      {
+        "name": "Ujjwal",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/f/4/c/highres_319772588.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -7275,7 +7284,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 9,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7292,14 +7301,6 @@
         "isFirstEvent": false,
         "guestsCount": 1,
         "city": "New York, NY"
-      },
-      {
-        "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
-        "isHost": true,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
       },
       {
         "name": "Lingyan",
@@ -7342,6 +7343,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Stefania",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/0/b/8/highres_320660664.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
       }
     ]
   },
@@ -7368,8 +7377,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 6,
-    "spotsLeft": 14,
+    "rsvpCount": 7,
+    "spotsLeft": 13,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7418,6 +7427,14 @@
         "guestsCount": 0,
         "job": "Technology",
         "city": "New York"
+      },
+      {
+        "name": "amruthaa947",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/4/0/9/highres_324809705.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -7460,5 +7477,170 @@
         "city": "New York, NY"
       }
     ]
+  },
+  {
+    "name": "Let\u2019s play board games!! \ud83e\udd81 Hakuna matata edition! \ud83d\udc17",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "transitLines": [
+      "6",
+      "E",
+      "M"
+    ],
+    "transitStation": "Lexington Av/51-53 St",
+    "start": "2026-11-08",
+    "end": null,
+    "startTime": "16:00",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY 10022, USA",
+    "lat": 40.7578,
+    "lng": -73.9712,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
+    "rsvpCount": 3,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
+    "thingsToKnow": "Feel free to bring games, snacks, and friends.",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Frances",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/5/3/highres_322972051.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Paula Estrada",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/9/4/9/highres_308563337.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      }
+    ],
+    "id": 174
+  },
+  {
+    "name": "Friendsgiving potluck! \ud83c\udf72\ud83d\ude0b",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "transitLines": [
+      "6",
+      "E",
+      "M"
+    ],
+    "transitStation": "Lexington Av/51-53 St",
+    "start": "2026-11-22",
+    "end": null,
+    "startTime": "12:00",
+    "endTime": "14:00",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY 10022, USA",
+    "lat": 40.7578,
+    "lng": -73.9712,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
+    "rsvpCount": 3,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
+    "thingsToKnow": "**The not so fun rule on RSVPs**",
+    "attendees": [
+      {
+        "name": "Andrea",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Frances",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/5/3/highres_322972051.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "id": 175
+  },
+  {
+    "name": "Let\u2019s play board games!! \ud83e\udd73 Friendsgiving edition! \ud83d\ude43",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "transitLines": [
+      "6",
+      "E",
+      "M"
+    ],
+    "transitStation": "Lexington Av/51-53 St",
+    "start": "2026-11-22",
+    "end": null,
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY 10022, USA",
+    "lat": 40.7578,
+    "lng": -73.9712,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
+    "rsvpCount": 3,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
+    "thingsToKnow": "Feel free to bring games, snacks, and friends.",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "clari.domin",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/d/highres_326220669.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronx"
+      },
+      {
+        "name": "Helly K",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/f/3/1/highres_324036657.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronxville"
+      }
+    ],
+    "id": 176
   }
 ]
