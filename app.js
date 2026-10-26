@@ -468,7 +468,37 @@
   /* ============ Quick Preset Chips Handler ============ */
   function updatePresetChipsUI() {
     const chipAll = document.getElementById("chipAll");
-    const anyPresetActive = filterSavedActive || filterNearMeActive || (priceMulti.values.size > 0 && priceMulti.values.has("free")) || (typeMulti.values.size > 0 && (typeMulti.values.has("Food") || typeMulti.values.has("Board Games"))) || datesPicker.selected.size > 0;
+    const chipSaved = document.getElementById("chipSaved");
+    const chipWeekend = document.getElementById("chipWeekend");
+    const chipFree = document.getElementById("chipFree");
+    const chipNearMe = document.getElementById("chipNearMe");
+    const chipFood = document.getElementById("chipFood");
+    const chipGames = document.getElementById("chipGames");
+    const chipNature = document.getElementById("chipNature");
+    const chipCulture = document.getElementById("chipCulture");
+    const chipConcerts = document.getElementById("chipConcerts");
+    const chipSports = document.getElementById("chipSports");
+    const chipManhattan = document.getElementById("chipManhattan");
+    const chipBrooklyn = document.getElementById("chipBrooklyn");
+    const chipQueens = document.getElementById("chipQueens");
+
+    if (chipSaved) chipSaved.classList.toggle("active", filterSavedActive);
+    if (chipNearMe) chipNearMe.classList.toggle("active", filterNearMeActive);
+    if (chipFree) chipFree.classList.toggle("active", priceMulti.values.size === 1 && priceMulti.values.has("free"));
+    if (chipWeekend) chipWeekend.classList.toggle("active", datesPicker.selected.size > 0);
+
+    if (chipFood) chipFood.classList.toggle("active", typeMulti.values.size === 1 && typeMulti.values.has("Food"));
+    if (chipGames) chipGames.classList.toggle("active", typeMulti.values.size === 1 && typeMulti.values.has("Board Games"));
+    if (chipNature) chipNature.classList.toggle("active", typeMulti.values.size === 1 && typeMulti.values.has("Nature"));
+    if (chipCulture) chipCulture.classList.toggle("active", typeMulti.values.size === 1 && typeMulti.values.has("Culture"));
+    if (chipConcerts) chipConcerts.classList.toggle("active", typeMulti.values.size === 1 && typeMulti.values.has("Concerts"));
+    if (chipSports) chipSports.classList.toggle("active", typeMulti.values.size === 1 && typeMulti.values.has("Sports"));
+
+    if (chipManhattan) chipManhattan.classList.toggle("active", locMulti.values.size === 1 && locMulti.values.has("Manhattan"));
+    if (chipBrooklyn) chipBrooklyn.classList.toggle("active", locMulti.values.size === 1 && locMulti.values.has("Brooklyn"));
+    if (chipQueens) chipQueens.classList.toggle("active", locMulti.values.size === 1 && locMulti.values.has("Queens"));
+
+    const anyPresetActive = filterSavedActive || filterNearMeActive || (priceMulti.values.size > 0) || (typeMulti.values.size > 0) || (locMulti.values.size > 0) || (datesPicker.selected.size > 0) || Boolean(searchText);
     if (chipAll) chipAll.classList.toggle("active", !anyPresetActive);
   }
 
@@ -479,7 +509,42 @@
     const chipFree = document.getElementById("chipFree");
     const chipFood = document.getElementById("chipFood");
     const chipGames = document.getElementById("chipGames");
+    const chipNature = document.getElementById("chipNature");
+    const chipCulture = document.getElementById("chipCulture");
+    const chipConcerts = document.getElementById("chipConcerts");
+    const chipSports = document.getElementById("chipSports");
+    const chipManhattan = document.getElementById("chipManhattan");
+    const chipBrooklyn = document.getElementById("chipBrooklyn");
+    const chipQueens = document.getElementById("chipQueens");
     const chipNearMe = document.getElementById("chipNearMe");
+
+    function toggleCategory(catName) {
+      if (typeMulti.values.has(catName) && typeMulti.values.size === 1) {
+        typeMulti.clear();
+      } else {
+        typeMulti.clear();
+        typeMulti.values.add(catName);
+        typeMulti.refreshLabel();
+      }
+      applyFiltersBtnEl?.classList.remove("has-pending");
+      updatePresetChipsUI();
+      applyFilters();
+      updateUrlState();
+    }
+
+    function toggleLocation(locName) {
+      if (locMulti.values.has(locName) && locMulti.values.size === 1) {
+        locMulti.clear();
+      } else {
+        locMulti.clear();
+        locMulti.values.add(locName);
+        locMulti.refreshLabel();
+      }
+      applyFiltersBtnEl?.classList.remove("has-pending");
+      updatePresetChipsUI();
+      applyFilters();
+      updateUrlState();
+    }
 
     if (chipAll) {
       chipAll.addEventListener("click", () => {
@@ -494,7 +559,7 @@
         if (sb) sb.value = "";
         const csb = document.getElementById("clearSearchBtn");
         if (csb) csb.hidden = true;
-        document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+        document.querySelectorAll(".chip:not(.chip-more-filters)").forEach(c => c.classList.remove("active"));
         chipAll.classList.add("active");
         applyFiltersBtnEl?.classList.remove("has-pending");
         applyFilters();
@@ -506,57 +571,52 @@
     if (chipSaved) {
       chipSaved.addEventListener("click", () => {
         filterSavedActive = !filterSavedActive;
-        chipSaved.classList.toggle("active", filterSavedActive);
         updatePresetChipsUI();
         applyFilters();
+        updateUrlState();
       });
     }
 
     if (chipWeekend) {
       chipWeekend.addEventListener("click", () => {
-        datesPicker.selectWeekend();
-        chipWeekend.classList.add("active");
+        if (datesPicker.selected.size > 0) {
+          datesPicker.clear();
+        } else {
+          datesPicker.selectWeekend();
+        }
         applyFiltersBtnEl?.classList.remove("has-pending");
         updatePresetChipsUI();
         applyFilters();
+        updateUrlState();
       });
     }
 
     if (chipFree) {
       chipFree.addEventListener("click", () => {
-        priceMulti.values.clear();
-        priceMulti.values.add("free");
-        priceMulti.refreshLabel();
-        chipFree.classList.add("active");
+        if (priceMulti.values.has("free") && priceMulti.values.size === 1) {
+          priceMulti.clear();
+        } else {
+          priceMulti.clear();
+          priceMulti.values.add("free");
+          priceMulti.refreshLabel();
+        }
         applyFiltersBtnEl?.classList.remove("has-pending");
         updatePresetChipsUI();
         applyFilters();
+        updateUrlState();
       });
     }
 
-    if (chipFood) {
-      chipFood.addEventListener("click", () => {
-        typeMulti.values.clear();
-        typeMulti.values.add("Food");
-        typeMulti.refreshLabel();
-        chipFood.classList.add("active");
-        applyFiltersBtnEl?.classList.remove("has-pending");
-        updatePresetChipsUI();
-        applyFilters();
-      });
-    }
+    if (chipFood) chipFood.addEventListener("click", () => toggleCategory("Food"));
+    if (chipGames) chipGames.addEventListener("click", () => toggleCategory("Board Games"));
+    if (chipNature) chipNature.addEventListener("click", () => toggleCategory("Nature"));
+    if (chipCulture) chipCulture.addEventListener("click", () => toggleCategory("Culture"));
+    if (chipConcerts) chipConcerts.addEventListener("click", () => toggleCategory("Concerts"));
+    if (chipSports) chipSports.addEventListener("click", () => toggleCategory("Sports"));
 
-    if (chipGames) {
-      chipGames.addEventListener("click", () => {
-        typeMulti.values.clear();
-        typeMulti.values.add("Board Games");
-        typeMulti.refreshLabel();
-        chipGames.classList.add("active");
-        applyFiltersBtnEl?.classList.remove("has-pending");
-        updatePresetChipsUI();
-        applyFilters();
-      });
-    }
+    if (chipManhattan) chipManhattan.addEventListener("click", () => toggleLocation("Manhattan"));
+    if (chipBrooklyn) chipBrooklyn.addEventListener("click", () => toggleLocation("Brooklyn"));
+    if (chipQueens) chipQueens.addEventListener("click", () => toggleLocation("Queens"));
 
     if (chipNearMe) {
       chipNearMe.addEventListener("click", () => {
@@ -929,7 +989,7 @@
       searchText = "";
       filterSavedActive = false;
       filterNearMeActive = false;
-      document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+      document.querySelectorAll(".chip:not(.chip-more-filters)").forEach(c => c.classList.remove("active"));
       document.getElementById("searchBox").value = "";
       applyFiltersBtnEl?.classList.remove("has-pending");
       applyFilters();
@@ -963,11 +1023,14 @@
 
     if (filtersActiveBadge) {
       if (count > 0) {
-        filtersActiveBadge.textContent = `${count} active`;
+        filtersActiveBadge.textContent = count;
         filtersActiveBadge.hidden = false;
       } else {
         filtersActiveBadge.hidden = true;
       }
+    }
+    if (toggleFiltersBtn) {
+      toggleFiltersBtn.classList.toggle("has-active", count > 0);
     }
   }
 
@@ -1101,6 +1164,7 @@
     }
 
     updateActiveFilterBadge();
+    updatePresetChipsUI();
     displayList(lastFiltered);
     if (document.body.classList.contains("view-map")) {
       ensureMapAndRender(lastFiltered);
