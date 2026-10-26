@@ -1188,6 +1188,7 @@
   }
 
   function buildRowHtml(ev) {
+    const isPast = dateMode === "past";
     const starred = isSaved(ev);
     const starClass = starred ? "star-btn is-starred" : "star-btn";
     const starLabel = starred ? "Remove from saved" : "Save event";
@@ -1205,8 +1206,10 @@
       ${buildBadges(ev)}
     `;
 
+    const weather = getWeatherForEvent(ev);
+    const miniWeather = (!isPast && weather) ? `<span class="date-weather" title="${escapeAttr(weather.tooltip)}"> ${weather.emoji} ${weather.tempMax}°</span>` : "";
     const dateTime = `
-      <div class="l2">${fmtDayCompact(ev.start)}</div>
+      <div class="l2">${fmtDayCompact(ev.start)}${miniWeather}</div>
       <div class="l2b">${timeCell(ev)}</div>
     `;
 
@@ -1263,7 +1266,6 @@
 
     // Action links
     const gmapsUrl = googleMapsDirectionsUrl(ev);
-    const isPast = dateMode === "past";
     const rsvpText = isPast ? "Link to Event" : "Link to RSVP";
     const weatherUrl = (ev.lat && ev.lng) ? `https://forecast.weather.gov/MapClick.php?lat=${ev.lat}&lon=${ev.lng}` : null;
     const album = (GALLERY_ALBUMS || []).find(a => a.eventId === ev.id);
@@ -1271,10 +1273,17 @@
       ? `<button type="button" class="pill-btn event-gallery-btn" data-album-id="${escapeAttr(album.id)}" title="View photo album for this event">📸 Photos (${(album.photos || []).length}) ↗</button>`
       : "";
 
+    // Live weather forecast badge/pill
+    const weatherPillHtml = (!isPast && weatherUrl) ? (
+      weather
+        ? `<a class="pill-btn weather-pill" href="${weatherUrl}" target="_blank" rel="noopener noreferrer" title="${escapeAttr(weather.tooltip)}" data-ev-id="${ev.id}"><span class="weather-icon">${weather.emoji}</span> <span class="weather-temp">${weather.tempMax}°F</span></a>`
+        : `<a class="pill-btn weather-pill" href="${weatherUrl}" target="_blank" rel="noopener noreferrer" title="View weather forecast" data-ev-id="${ev.id}"><span class="weather-icon">🌤️</span> <span class="weather-temp">Forecast</span></a>`
+    ) : "";
+
     const actions = `
       <div class="action-links">
         <a class="pill-btn" href="${gmapsUrl}" target="_blank" rel="noopener noreferrer">🗺️ Directions</a>
-        ${weatherUrl ? `<a class="pill-btn" href="${weatherUrl}" target="_blank" rel="noopener noreferrer" title="View National Weather Service forecast">🌤️ Forecast ↗</a>` : ''}
+        ${weatherPillHtml}
         ${!isPast ? `
           <a class="pill-btn" href="${googleCalendarUrl(ev)}" target="_blank" rel="noopener noreferrer">📅 Google Cal</a>
           <button type="button" class="pill-btn ics-btn" data-ev-id="${ev.id}" title="Download .ics file for Outlook, Apple, Thunderbird, or Android calendar">📆 Outlook / iCal</button>
@@ -1903,6 +1912,141 @@
       });
   }
 
+  /* ============ Real-time Weather Forecast (Open-Meteo) ============ */
+  const WMO_WEATHER = {
+    0: { label: "Clear / Sunny", emoji: "☀️" },
+    1: { label: "Mainly Clear", emoji: "🌤️" },
+    2: { label: "Partly Cloudy", emoji: "⛅" },
+    3: { label: "Overcast", emoji: "☁️" },
+    45: { label: "Foggy", emoji: "🌫️" },
+    48: { label: "Rime Fog", emoji: "🌫️" },
+    51: { label: "Light Drizzle", emoji: "🌦️" },
+    53: { label: "Moderate Drizzle", emoji: "🌦️" },
+    55: { label: "Dense Drizzle", emoji: "🌧️" },
+    56: { label: "Freezing Drizzle", emoji: "🌨️" },
+    57: { label: "Heavy Freezing Drizzle", emoji: "🌨️" },
+    61: { label: "Slight Rain", emoji: "🌧️" },
+    63: { label: "Moderate Rain", emoji: "🌧️" },
+    65: { label: "Heavy Rain", emoji: "🌧️" },
+    66: { label: "Freezing Rain", emoji: "🌧️" },
+    67: { label: "Heavy Freezing Rain", emoji: "🌧️" },
+    71: { label: "Slight Snow", emoji: "🌨️" },
+    73: { label: "Moderate Snow", emoji: "🌨️" },
+    75: { label: "Heavy Snow", emoji: "🌨️" },
+    77: { label: "Snow Grains", emoji: "🌨️" },
+    80: { label: "Light Showers", emoji: "🌦️" },
+    81: { label: "Showers", emoji: "🌧️" },
+    82: { label: "Violent Rain Showers", emoji: "⛈️" },
+    85: { label: "Snow Showers", emoji: "🌨️" },
+    86: { label: "Heavy Snow Showers", emoji: "🌨️" },
+    95: { label: "Thunderstorm", emoji: "⛈️" },
+    96: { label: "Thunderstorm with Hail", emoji: "⛈️" },
+    99: { label: "Thunderstorm with Heavy Hail", emoji: "⛈️" },
+  };
+
+  let WEATHER_CACHE = {}; // key: `${lat.toFixed(1)},${lng.toFixed(1)}` -> daily
+
+  function getWeatherForEvent(ev) {
+    if (!ev.lat || !ev.lng || !ev.start) return null;
+    const cacheKey = `${ev.lat.toFixed(1)},${ev.lng.toFixed(1)}`;
+    const daily = WEATHER_CACHE[cacheKey];
+    if (!daily || !daily.time) return null;
+
+    const dateIdx = daily.time.indexOf(ev.start);
+    if (dateIdx === -1) return null;
+
+    const code = daily.weathercode ? daily.weathercode[dateIdx] : 0;
+    const info = WMO_WEATHER[code] || { label: "Fair", emoji: "🌤️" };
+    const tempMax = Math.round(daily.temperature_2m_max[dateIdx]);
+    const tempMin = Math.round(daily.temperature_2m_min[dateIdx]);
+    const precip = daily.precipitation_probability_max ? daily.precipitation_probability_max[dateIdx] : null;
+
+    let tooltip = `${info.label} • High ${tempMax}°F / Low ${tempMin}°F`;
+    if (precip !== null && precip > 0) tooltip += ` • ${precip}% Rain`;
+    tooltip += ` • NWS details ↗`;
+
+    return {
+      code,
+      emoji: info.emoji,
+      label: info.label,
+      tempMax,
+      tempMin,
+      precip,
+      tooltip
+    };
+  }
+
+  function updateRenderedWeather() {
+    document.querySelectorAll(".weather-pill[data-ev-id]").forEach(el => {
+      const id = Number(el.dataset.evId);
+      const ev = ALL_EVENTS.find(e => e.id === id);
+      if (ev) {
+        const weather = getWeatherForEvent(ev);
+        if (weather) {
+          el.title = weather.tooltip;
+          el.innerHTML = `<span class="weather-icon">${weather.emoji}</span> <span class="weather-temp">${weather.tempMax}°F</span>`;
+        }
+      }
+    });
+    document.querySelectorAll(".row[data-id]").forEach(row => {
+      const id = Number(row.dataset.id);
+      const ev = ALL_EVENTS.find(e => e.id === id);
+      if (ev) {
+        const weather = getWeatherForEvent(ev);
+        const l2 = row.querySelector(".l2");
+        if (weather && l2 && !l2.querySelector(".date-weather")) {
+          const span = document.createElement("span");
+          span.className = "date-weather";
+          span.title = weather.tooltip;
+          span.textContent = ` ${weather.emoji} ${weather.tempMax}°`;
+          l2.appendChild(span);
+        }
+      }
+    });
+  }
+
+  async function loadWeatherForecasts() {
+    const today = new Date().toISOString().slice(0, 10);
+    const maxDate = new Date(Date.now() + 16 * 86400000).toISOString().slice(0, 10);
+
+    const targetEvents = ALL_EVENTS.filter(e => e.start && e.start >= today && e.start <= maxDate && e.lat && e.lng);
+    if (!targetEvents.length) return;
+
+    const coordMap = new Map();
+    targetEvents.forEach(e => {
+      const key = `${e.lat.toFixed(1)},${e.lng.toFixed(1)}`;
+      if (!coordMap.has(key)) {
+        coordMap.set(key, { lat: Number(e.lat.toFixed(2)), lng: Number(e.lng.toFixed(2)) });
+      }
+    });
+
+    const coords = Array.from(coordMap.values());
+    if (!coords.length) return;
+
+    const latParam = coords.map(c => c.lat).join(",");
+    const lngParam = coords.map(c => c.lng).join(",");
+
+    try {
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${latParam}&longitude=${lngParam}&daily=weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max&temperature_unit=fahrenheit&timezone=America%2FNew_York&forecast_days=16`;
+      const res = await fetch(url);
+      if (!res.ok) return;
+      const data = await res.json();
+      const results = Array.isArray(data) ? data : [data];
+
+      results.forEach((item, idx) => {
+        const coord = coords[idx];
+        if (coord && item.daily) {
+          const cacheKey = `${coord.lat.toFixed(1)},${coord.lng.toFixed(1)}`;
+          WEATHER_CACHE[cacheKey] = item.daily;
+        }
+      });
+
+      updateRenderedWeather();
+    } catch (err) {
+      console.warn("Forecast fetch error:", err);
+    }
+  }
+
   /* ============ Data Bootstrap ============ */
   async function loadEventsData() {
     try {
@@ -1923,6 +2067,7 @@
     applyUrlParams();
     applyFilters();
     loadMtaAlerts();
+    loadWeatherForecasts();
 
     // Check for deep-linked event (?event=ID)
     const params = new URLSearchParams(window.location.search);
