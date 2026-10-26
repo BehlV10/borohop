@@ -5767,23 +5767,6 @@
         "city": "New York"
       },
       {
-        "name": "Tim",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/c/f/highres_322106063.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Brooklyn"
-      },
-      {
-        "name": "Brett",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
-        "city": "New York"
-      },
-      {
         "name": "Yizhou",
         "photo": "https://secure.meetupstatic.com/photos/member/4/b/5/5/highres_310219285.jpeg",
         "isHost": false,
@@ -5884,14 +5867,6 @@
         "city": "New York"
       },
       {
-        "name": "sathvik reddy",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/b/b/a/highres_326307578.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "Jersey City"
-      },
-      {
         "name": "sandhya siva",
         "photo": "https://secure.meetupstatic.com/photos/member/4/e/7/7/highres_319640087.jpeg",
         "isHost": false,
@@ -5906,7 +5881,7 @@
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
-        "bio": "INFJ",
+        "bio": "INFJ. Music Teacher. Musician.",
         "city": "New York, NY"
       },
       {
@@ -5942,6 +5917,31 @@
         "guestsCount": 0,
         "bio": "NYC based web developer",
         "city": "New York, NY"
+      },
+      {
+        "name": "Paula Estrada",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/9/4/9/highres_308563337.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Jenny ",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/3/1/a/highres_322813082.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronx"
+      },
+      {
+        "name": "Carmen",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/b/1/a/highres_318395610.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Art, acting, creative outlet lover!",
+        "city": "New York"
       }
     ]
   },
@@ -5968,12 +5968,12 @@
     "lng": -73.993767,
     "locationName": "Boqueria Flatiron",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/316626116/",
-    "spotsLeft": 0,
+    "spotsLeft": -1,
     "wikiTitle": null,
     "thingsToKnow": "Barcelona-style tapas.",
     "customImage": "images/10-25-26_Boqueria_Flatiron_v14.png",
     "id": 158,
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6044,6 +6044,14 @@
         "guestsCount": 0,
         "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
         "city": "New York"
+      },
+      {
+        "name": "Ali Siddiqui",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/9/f/f/highres_285695327.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Alexandria"
       }
     ]
   },
@@ -6075,7 +6083,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 21,
+    "rsvpCount": 24,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6245,6 +6253,30 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Ercan",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/d/a/highres_318903034.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Lizzy D",
+        "photo": "https://secure.meetupstatic.com/photos/member/f/4/d/highres_271863917.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Bronx"
+      },
+      {
+        "name": "AJ",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/c/b/a/highres_326276506.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Woodside"
       }
     ]
   },
@@ -6283,7 +6315,7 @@
     "thingsToKnow": "Game starts 11:30am; arrive a little early (~11am) before the bar gets crowded.",
     "customImage": "images/11-01-26_EPL_Watch_Party_v14.png",
     "id": 160,
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6318,6 +6350,16 @@
         "guestsCount": 0,
         "job": "Technology",
         "city": "Chicago"
+      },
+      {
+        "name": "Jaime",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/b/4/e/highres_325436142.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I\u2019m interested in outdoor activities and languages. I\u2019m also here professionally to learn more about Agile.",
+        "job": "Technology",
+        "city": "New York, NY"
       }
     ]
   },
@@ -6348,7 +6390,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 4,
+    "rsvpCount": 6,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6383,6 +6425,23 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Vaibhaw",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/e/7/5/highres_325956469.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I have a lot of hobbies, mainly around chill adventuring and crafting.",
+        "city": "Harrison"
+      },
+      {
+        "name": "Diana N",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/7/8/highres_309017272.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6742,7 +6801,7 @@
     "thingsToKnow": "Free annual Halloween concert in Paul Hall (lobby level); free but RSVP required via Juilliard's site. Unconventional contemporary pieces by Berio, Steve Reich, Lera Auerbach, Kaija Saariaho, Pauline Oliveros, Yoko Ono, Robert Ashley & R. Murray Schafer, performed by Juilliard students.",
     "customImage": "images/10-27-26_Halloween_Juilliard_v14.png",
     "id": 165,
-    "rsvpCount": 16,
+    "rsvpCount": 15,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6837,14 +6896,6 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
-      },
-      {
-        "name": "Ana",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/b/8/c/highres_326148012.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
       }
     ]
   },
@@ -7224,7 +7275,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7281,6 +7332,14 @@
         "photo": "https://secure.meetupstatic.com/photos/member/5/d/1/9/highres_323843833.jpeg",
         "isHost": false,
         "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
       }
