@@ -7,17 +7,14 @@
   <meta name="description" content="NYC boroughs, neighborhoods, and nearby towns. Filter by date, category, location, and expenses. Zero tracking, no accounts, no cookies.">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0039A6">
-  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="stylesheet" href="styles.css?v=14">
 </head>
 <body class="view-list">
 <div class="wrap">
 
   <header>
     <div class="header-top">
-      <div>
-        <h1>Events Finder</h1>
-        <p>NYC boroughs and neighborhoods, plus towns nearby. Filter by date, category, location, and expenses. No accounts, no cookies, nothing tracked.</p>
-      </div>
+      <h1>Events Finder</h1>
       <div class="header-actions">
         <button type="button" class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark mode" title="Toggle dark mode">
           <span id="themeIcon">🌙</span> <span id="themeText">Theme</span>
@@ -27,6 +24,7 @@
         </button>
       </div>
     </div>
+    <p class="header-sub">NYC boroughs and neighborhoods, plus towns nearby. Filter by date, category, location, and expenses. No accounts, no cookies, nothing tracked.</p>
   </header>
 
   <!-- Quick Filter Preset Chips -->
@@ -277,6 +275,6 @@
 <!-- Feedback Toast Notification -->
 <div id="toast" hidden role="status" aria-live="polite"></div>
 
-<script src="app.js?v=13"></script>
+<script src="app.js?v=14"></script>
 </body>
 </html>

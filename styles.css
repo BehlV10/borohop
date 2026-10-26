@@ -79,20 +79,22 @@ header {
 .header-top {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 6px;
 }
 header h1 {
   font-size: clamp(24px, 5vw, 34px);
-  margin: 0 0 4px;
+  margin: 0;
   font-weight: 800;
   letter-spacing: -0.01em;
 }
-header p {
+.header-sub, header p {
   margin: 0;
   color: var(--ink-soft);
   font-size: 13.5px;
-  max-width: 65ch;
+  line-height: 1.45;
+  width: 100%;
 }
 .header-actions {
   display: flex;
