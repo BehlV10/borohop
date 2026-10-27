@@ -5579,7 +5579,7 @@
     "thingsToKnow": "Game starts 4pm; arrive by 3:30pm if possible, the bar tends to get busy.",
     "customImage": "images/10-25-26_El_Clasico_Watch_Party_v14.png",
     "id": 156,
-    "rsvpCount": 14,
+    "rsvpCount": 13,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5683,15 +5683,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Alexandria"
-      },
-      {
-        "name": "Tiffany Val",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/0/7/1/highres_319472881.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "job": "Business Finance Law",
-        "city": "New York"
       },
       {
         "name": "yorulmazy2",
@@ -5865,7 +5856,7 @@
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
-        "bio": "INFJ. Music Teacher.",
+        "bio": "INFJ. \nPhilosopher. \nMusic Teacher.",
         "city": "New York, NY"
       },
       {
@@ -6067,7 +6058,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 27,
+    "rsvpCount": 28,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6285,6 +6276,14 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Helly K",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/f/3/1/highres_324036657.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronxville"
       }
     ]
   },
@@ -6398,7 +6397,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 7,
+    "rsvpCount": 8,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6458,6 +6457,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
+      },
+      {
+        "name": "Hannah Hassan",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/d/7/6/highres_326564406.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
         "city": "New York"
       }
     ]
@@ -6810,7 +6817,7 @@
     "thingsToKnow": "Free annual Halloween concert in Paul Hall (lobby level); free but RSVP required via Juilliard's site. Unconventional contemporary pieces by Berio, Steve Reich, Lera Auerbach, Kaija Saariaho, Pauline Oliveros, Yoko Ono, Robert Ashley & R. Murray Schafer, performed by Juilliard students.",
     "customImage": "images/10-27-26_Halloween_Juilliard_v14.png",
     "id": 165,
-    "rsvpCount": 15,
+    "rsvpCount": 17,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6905,6 +6912,22 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Varun Behl",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/7/highres_317633943.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Cambridge"
+      },
+      {
+        "name": "Jessica",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/3/4/6/highres_326344934.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6935,7 +6958,7 @@
     "thingsToKnow": "Meet outside 5:40-5:50pm, then inside; free but RSVP required via Eventbrite (tickets limited). Book sale 6-10pm, PEN America-moderated panels 6:30-8:30pm, author readings/conversations 6:30-9pm, signing & reception at 9pm; authors from 14 European countries including Austria, Germany, Ireland, Italy, Poland, Spain & Ukraine.",
     "customImage": "images/10-28-26_European_Literature_v14.png",
     "id": 166,
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6970,6 +6993,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Paula Estrada",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/9/4/9/highres_308563337.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -7377,8 +7408,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 7,
-    "spotsLeft": 13,
+    "rsvpCount": 8,
+    "spotsLeft": 12,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7433,6 +7464,14 @@
         "photo": "https://secure.meetupstatic.com/photos/member/7/4/0/9/highres_324809705.jpeg",
         "isHost": false,
         "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Shells",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
       }
