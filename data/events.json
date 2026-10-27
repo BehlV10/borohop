@@ -4964,7 +4964,7 @@
     "thingsToKnow": "Hessian Loop Trail (1.5mi, easy) then Bear Mountain Loop Trail (4mi, moderate/hard, ~1,000ft gain); by car, meet at Bear Mountain Inn by 10am; by bus, meet at Port Authority Gate 405 by 7:45am (bus departs 8:45am, tickets first-come-first-served); optional dinner after at Restaurant 1915 (separate listing).",
     "customImage": "images/10-24-26_Bear_Mountain_Hike_v14.png",
     "id": 152,
-    "rsvpCount": 25,
+    "rsvpCount": 24,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -4999,14 +4999,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "job": "Technology",
-        "city": "New York"
-      },
-      {
-        "name": "marta",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/4/b/c/highres_315137596.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
         "city": "New York"
       },
       {
@@ -5873,7 +5865,7 @@
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
-        "bio": "INFJ. Music Teacher. Musician.",
+        "bio": "INFJ. Music Teacher.",
         "city": "New York, NY"
       },
       {
@@ -6075,7 +6067,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 24,
+    "rsvpCount": 27,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6269,6 +6261,30 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "Woodside"
+      },
+      {
+        "name": "Jad",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/5/7/highres_281781335.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Aminul Islam",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/b/1/highres_324600945.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Greg",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/3/f/highres_325506207.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6474,7 +6490,7 @@
     "thingsToKnow": "Meet at the Ticket Counter 1-1:10pm; 1pm crafts (crochet workshop, mask making), 2pm parade, 2:30-3:30pm dance performances, 3:30-5pm dance party; can join/leave anytime, grab a bite afterward.",
     "customImage": "images/11-01-26_Dia_de_los_Muertos_NYBG_v14.png",
     "id": 162,
-    "rsvpCount": 5,
+    "rsvpCount": 4,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6493,14 +6509,6 @@
         "guestsCount": 0,
         "bio": "Making friends is like tending to plants in your plants, and I enjoy watering and caring for my garden.",
         "city": "Bronx"
-      },
-      {
-        "name": "May Bloom",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "White Plains"
       },
       {
         "name": "Liz",
@@ -7284,7 +7292,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 10,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7301,14 +7309,6 @@
         "isFirstEvent": false,
         "guestsCount": 1,
         "city": "New York, NY"
-      },
-      {
-        "name": "Lingyan",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/a/f/c/highres_310055580.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 1,
-        "city": "New York"
       },
       {
         "name": "Yi",
@@ -7500,7 +7500,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -7529,6 +7529,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
       }
     ],
     "id": 174
@@ -7555,7 +7564,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -7584,6 +7593,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
       }
     ],
     "id": 175
@@ -7610,7 +7628,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -7639,6 +7657,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronxville"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
       }
     ],
     "id": 176
