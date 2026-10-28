@@ -5852,11 +5852,11 @@
       },
       {
         "name": "Dan",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/b/2/9/highres_326567913.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/3/e/9/highres_326570153.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
-        "bio": "INFJ. \nPhilosopher. \nMusic Teacher.",
+        "bio": "INFJ. \nPhilosophy lover. \nMusic Teacher.",
         "city": "New York, NY"
       },
       {
@@ -7440,8 +7440,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 9,
-    "spotsLeft": 11,
+    "rsvpCount": 10,
+    "spotsLeft": 10,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7492,14 +7492,6 @@
         "city": "New York"
       },
       {
-        "name": "amruthaa947",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/4/0/9/highres_324809705.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "New York, NY"
-      },
-      {
         "name": "Shells",
         "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
         "isHost": false,
@@ -7514,6 +7506,24 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
+        "city": "New York"
+      },
+      {
+        "name": "Wing L",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/0/f/highres_314726383.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "steve",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/e/9/f/highres_267956991.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "I used to be a technician.  One of my hobbies is collecting domain names.  I trend to hold on to things - and perhaps people.  It is time to move ahead, get new things and perhaps dispose of the old.",
+        "job": "Hospitality Tourism",
         "city": "New York"
       }
     ]
@@ -7580,7 +7590,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 5,
+    "rsvpCount": 7,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -7590,14 +7600,6 @@
         "name": "Fouad Yared",
         "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
         "isHost": true,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Frances",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/b/5/3/highres_322972051.jpeg",
-        "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
@@ -7627,6 +7629,23 @@
         "guestsCount": 0,
         "bio": "Hiiiii",
         "city": "New York"
+      },
+      {
+        "name": "Yizhou",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/b/5/5/highres_310219285.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Mehak Bansal",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/1/5/e/highres_323309022.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "bio": "Hello! I\u2019m a corporate professional as well as entrepreneur who just moved back to NYC. Looking to meet new people and make friends!",
+        "city": "New York, NY"
       }
     ],
     "id": 174
