@@ -5852,7 +5852,7 @@
       },
       {
         "name": "Dan",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/7/c/4/highres_326554756.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/b/2/9/highres_326567913.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
@@ -6058,7 +6058,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 28,
+    "rsvpCount": 32,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6284,6 +6284,30 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronxville"
+      },
+      {
+        "name": "Carla Darconte",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/0/3/a/highres_324324634.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "lpg gv",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/f/1/0/highres_292677104.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
+      },
+      {
+        "name": "Apoorv",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/d/8/3/highres_326552131.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -6817,7 +6841,7 @@
     "thingsToKnow": "Free annual Halloween concert in Paul Hall (lobby level); free but RSVP required via Juilliard's site. Unconventional contemporary pieces by Berio, Steve Reich, Lera Auerbach, Kaija Saariaho, Pauline Oliveros, Yoko Ono, Robert Ashley & R. Murray Schafer, performed by Juilliard students.",
     "customImage": "images/10-27-26_Halloween_Juilliard_v14.png",
     "id": 165,
-    "rsvpCount": 17,
+    "rsvpCount": 15,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6876,15 +6900,6 @@
         "guestsCount": 0,
         "bio": "Avid reader, crochet enthusiast, and pickleball fan. I\u2019m happiest wandering through museums, catching a great show, or diving into conversations about art and finance. Mother and a devoted New Yorker who loves discovering the city\u2019s energy and charm.",
         "city": "New York"
-      },
-      {
-        "name": "Trevor H.",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/8/8/1/highres_326451329.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 1,
-        "bio": "Hello! Just moved to Brooklyn and looking to meet people and build a community of friends! Enjoy outdoors, board games, bar trivia, and more.",
-        "city": "Brooklyn"
       },
       {
         "name": "Debbie",
@@ -7028,7 +7043,7 @@
     "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
-    "rsvpCount": 11,
+    "rsvpCount": 15,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7105,6 +7120,23 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Fiona",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/d/9/1/highres_323028529.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Very outdoor person.  Love to meet people.  Enjoy arts, nature, reading, experimenting good food and cooking, mingle with like minded people to love living, travel, go to concerts, artistic performance, hiking, cross country skiing,",
+        "city": "New York"
+      },
+      {
+        "name": "Ana",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/b/8/c/highres_326148012.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 2,
+        "city": "New York, NY"
       }
     ]
   },
@@ -7408,8 +7440,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 8,
-    "spotsLeft": 12,
+    "rsvpCount": 9,
+    "spotsLeft": 11,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7474,6 +7506,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Michelle",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
+        "city": "New York"
       }
     ]
   },
@@ -7539,7 +7580,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -7576,6 +7617,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
+      },
+      {
+        "name": "Celia Su",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/8/3/5/highres_326331253.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Hiiiii",
         "city": "New York"
       }
     ],
@@ -7708,5 +7758,43 @@
       }
     ],
     "id": 176
+  },
+  {
+    "name": "Possible Love \u2764\ufe0f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-02",
+    "end": null,
+    "startTime": "19:20",
+    "endTime": "22:30",
+    "price": 21,
+    "address": "144 W 65th St, New York, NY 10023, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Elinor Bunin Munroe Film Center",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317170563/",
+    "rsvpCount": 1,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/5/0/3/a/highres_536840538.jpeg",
+    "thingsToKnow": "Ticket is $21",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$21"
+    ],
+    "id": 177
   }
 ]
