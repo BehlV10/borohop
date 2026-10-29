@@ -5857,7 +5857,7 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "bio": "INFJ. \nPhilosophy lover. \nMusic Teacher.",
-        "city": "New York, NY"
+        "city": "Westchester"
       },
       {
         "name": "Apoorv",
@@ -6058,7 +6058,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 32,
+    "rsvpCount": 39,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6308,6 +6308,55 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Mukul",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/3/0/highres_326538992.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Neha",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/4/c/7/highres_278262183.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Meg",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/f/6/d/highres_318028525.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
+      },
+      {
+        "name": "Jenna",
+        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Akanksha Gupta",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/9/e/f/highres_302339887.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
+      },
+      {
+        "name": "Manjunath Reddy",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ]
   },
@@ -6346,7 +6395,7 @@
     "thingsToKnow": "Game starts 11:30am; arrive a little early (~11am) before the bar gets crowded.",
     "customImage": "images/11-01-26_EPL_Watch_Party_v14.png",
     "id": 160,
-    "rsvpCount": 6,
+    "rsvpCount": 5,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6364,14 +6413,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Livingston, NJ"
-      },
-      {
-        "name": "Shells",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
       },
       {
         "name": "Tejas",
@@ -7043,7 +7084,7 @@
     "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
-    "rsvpCount": 15,
+    "rsvpCount": 14,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7086,15 +7127,6 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 1,
-        "city": "New York"
-      },
-      {
-        "name": "Meg",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/f/6/d/highres_318028525.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "job": "Technology",
         "city": "New York"
       },
       {
@@ -7590,7 +7622,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 7,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -7646,6 +7678,14 @@
         "guestsCount": 1,
         "bio": "Hello! I\u2019m a corporate professional as well as entrepreneur who just moved back to NYC. Looking to meet new people and make friends!",
         "city": "New York, NY"
+      },
+      {
+        "name": "Khall",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/4/8/7/highres_326405255.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Bronx"
       }
     ],
     "id": 174
