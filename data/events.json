@@ -4964,7 +4964,7 @@
     "thingsToKnow": "Hessian Loop Trail (1.5mi, easy) then Bear Mountain Loop Trail (4mi, moderate/hard, ~1,000ft gain); by car, meet at Bear Mountain Inn by 10am; by bus, meet at Port Authority Gate 405 by 7:45am (bus departs 8:45am, tickets first-come-first-served); optional dinner after at Restaurant 1915 (separate listing).",
     "customImage": "images/10-24-26_Bear_Mountain_Hike_v14.png",
     "id": 152,
-    "rsvpCount": 24,
+    "rsvpCount": 23,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -5034,14 +5034,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Brooklyn"
-      },
-      {
-        "name": "Rashmi",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/8/c/2/highres_326275490.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York City"
       },
       {
         "name": "ruechika1",
@@ -5852,7 +5844,7 @@
       },
       {
         "name": "Dan",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/3/e/9/highres_326570153.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/d/e/f/highres_326576815.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
@@ -6058,7 +6050,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 39,
+    "rsvpCount": 41,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6357,6 +6349,22 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Jersey City"
+      },
+      {
+        "name": "Mee",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/7/e/highres_279521086.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Forest Hills"
+      },
+      {
+        "name": "Alejandra Padilla",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/9/f/d/highres_326391709.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City, NY"
       }
     ]
   },
@@ -7084,7 +7092,7 @@
     "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
-    "rsvpCount": 14,
+    "rsvpCount": 13,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7093,15 +7101,6 @@
         "isHost": true,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Andrei",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "job": "Technology",
         "city": "New York"
       },
       {
@@ -7387,7 +7386,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 8,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7445,6 +7444,23 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 1,
+        "city": "New York"
+      },
+      {
+        "name": "E T",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/6/6/7/highres_325898503.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Manhattan"
+      },
+      {
+        "name": "Cheryl B",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/2/8/2/highres_316521122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I'm a musician (performer on piano & organ) and teacher. I love collaborative music especially. Other interests include literature, theater, museums, dancing, language learning, socializing, and animals.",
         "city": "New York"
       }
     ]
@@ -7622,7 +7638,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -7686,6 +7702,14 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "Bronx"
+      },
+      {
+        "name": "Jenna",
+        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 174
@@ -7776,7 +7800,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -7813,6 +7837,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
+      },
+      {
+        "name": "Jenna",
+        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
         "city": "New York"
       }
     ],
