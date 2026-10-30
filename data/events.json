@@ -5844,12 +5844,12 @@
       },
       {
         "name": "Dan",
-        "photo": "",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/a/highres_326580698.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
         "bio": "INFJ. \nPhilosophy lover. \nMusic Teacher.",
-        "city": "New York"
+        "city": "Westchester"
       },
       {
         "name": "Apoorv",
@@ -6050,7 +6050,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 41,
+    "rsvpCount": 47,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6365,6 +6365,38 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York City, NY"
+      },
+      {
+        "name": "Sarah A",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/f/9/0/highres_316137232.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "Wilmington"
+      },
+      {
+        "name": "jrchamorrosteve",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/8/c/3/highres_322698627.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Bethel"
+      },
+      {
+        "name": "DEBASIS TRIPATHY",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/3/7/highres_323572023.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "Newark"
+      },
+      {
+        "name": "Varad Joshi",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/1/9/9/highres_325977753.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6470,7 +6502,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 9,
+    "rsvpCount": 13,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6547,6 +6579,22 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "job": "Technology",
+        "city": "New York"
+      },
+      {
+        "name": "Paula Estrada",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/9/4/9/highres_308563337.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 2,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Carla Darconte",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/0/3/a/highres_324324634.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
         "city": "New York"
       }
     ]
@@ -6675,12 +6723,13 @@
         "city": "New York"
       },
       {
-        "name": "Brian",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/a/8/2/highres_318627266.jpeg",
+        "name": "Harsh",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "Staten Island"
+        "job": "Technology",
+        "city": "New York"
       }
     ]
   },
@@ -7101,7 +7150,7 @@
     "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
-    "rsvpCount": 16,
+    "rsvpCount": 17,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7193,6 +7242,14 @@
         "isFirstEvent": true,
         "guestsCount": 1,
         "city": "New York"
+      },
+      {
+        "name": "Mai",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/0/0/d/highres_326472301.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Greenwich"
       }
     ]
   },
@@ -7269,7 +7326,7 @@
     "thingsToKnow": "Meet outside 6:40-6:50pm, then inside; concert continues until 11pm though the group gathering wraps up around 9pm.",
     "customImage": "images/11-05-26_Czech_Jazz_Night_v14.png",
     "id": 169,
-    "rsvpCount": 5,
+    "rsvpCount": 4,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7304,14 +7361,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "astrologer / violinist",
-        "city": "New York"
-      },
-      {
-        "name": "Lee",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
         "city": "New York"
       }
     ]
@@ -7921,5 +7970,344 @@
       "$21"
     ],
     "id": 177
+  },
+  {
+    "name": "Volunteer to unload, sort, & pack produce in a Produce Party! \ud83e\udd55\ud83e\udd6c",
+    "types": null,
+    "region": "nyc",
+    "borough": "Bronx",
+    "neighborhood": "Bronx",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-07",
+    "end": null,
+    "startTime": "08:45",
+    "endTime": "11:30",
+    "price": 0,
+    "address": "1750 E Gun Hill Rd, Bronx, NY 10469, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "1750 East Gun Hill Road",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317207178/",
+    "rsvpCount": 1,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/c/d/8/a/highres_536872618.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "id": 178
+  },
+  {
+    "name": "Watch City of God with Q&A",
+    "types": null,
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-07",
+    "end": null,
+    "startTime": "13:20",
+    "endTime": "16:30",
+    "price": 32,
+    "address": "30 Lafayette Ave, Brooklyn, NY 11217, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "BAM Rose Cinemas",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317207429/",
+    "rsvpCount": 3,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/c/d/9/3/highres_536872627.jpeg",
+    "thingsToKnow": "Ticket is $32 (includes $2 fee)",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "bio": "astrologer / violinist",
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$32"
+    ],
+    "id": 179
+  },
+  {
+    "name": "55th Annual Garth Fagan Dance at Joyce Theater \ud83d\udc83\ud83e\ude70",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-07",
+    "end": null,
+    "startTime": "19:00",
+    "endTime": "21:15",
+    "price": 57,
+    "address": "175 8th Ave, New York, NY 10011, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "The Joyce Theater",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317207830/",
+    "rsvpCount": 1,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/c/f/a/c/highres_536873164.jpeg",
+    "thingsToKnow": "The host's seat is in D 105 but feel free to get a seat anywhere",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$57 to $72"
+    ],
+    "id": 180
+  },
+  {
+    "name": "Hike Mount Tammany and view the Delaware Water Gap!  \ud83d\uddfb\ud83c\udfde\ufe0f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-08",
+    "end": null,
+    "startTime": "08:00",
+    "endTime": "15:30",
+    "price": 40,
+    "address": "265 N Broad St",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Meet outside Kanela's Lounge in Elizabeth, NJ",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317210942/",
+    "rsvpCount": 1,
+    "spotsLeft": 7,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/b/b/1/highres_536876241.jpeg",
+    "thingsToKnow": "If joining our 8 person van: meet outside Kanela's Lounge, a 3 minute walk from Elizabeth, NJ train station by 8:15am ($40 for each person for the round trip; includes all fees; refunds accepted until Wednesday, November 4th at 8pm) will le",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$40"
+    ],
+    "id": 181
+  },
+  {
+    "name": "Before New York talk \ud83c\udfde\ufe0f\ud83c\udf06",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-10",
+    "end": null,
+    "startTime": "17:15",
+    "endTime": "19:00",
+    "price": 0,
+    "address": "476 5th Ave, New York, NY 10018, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "New York Public Library - Stephen A. Schwarzman Building",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208198/",
+    "rsvpCount": 4,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/0/b/d/highres_536873437.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "JL Arevalo",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/9/a/4/highres_326327524.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "New York"
+      },
+      {
+        "name": "Karol\u00edna Kutnarov\u00e1",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      }
+    ],
+    "id": 182
+  },
+  {
+    "name": "Indigenous art, history, and language talk \ud83e\uddfa\ud83d\udc22",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-12",
+    "end": null,
+    "startTime": "16:40",
+    "endTime": "18:30",
+    "price": 0,
+    "address": "476 5th Ave, New York, NY 10018, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "New York Public Library - Stephen A. Schwarzman Building",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208416/",
+    "rsvpCount": 2,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/1/1/8/highres_536873528.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Chris",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/1/highres_264294673.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "id": 183
+  },
+  {
+    "name": "Plant native species with NYC Parks at Forest Park \ud83e\udeb4\ud83e\ude8f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-14",
+    "end": null,
+    "startTime": "09:45",
+    "endTime": "13:00",
+    "price": 0,
+    "address": "Park Ln S, Richmond Hill, NY 11418, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "My Buddy Statue",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208857/",
+    "rsvpCount": 2,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/2/a/d/highres_536873933.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Michelle",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
+        "city": "New York"
+      }
+    ],
+    "id": 184
+  },
+  {
+    "name": "Syrian-German artist discusses their art, inspiration \ud83c\uddf8\ud83c\uddfe \ud83c\udde9\ud83c\uddea \ud83d\uddbc\ufe0f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-17",
+    "end": null,
+    "startTime": "19:15",
+    "endTime": "20:30",
+    "price": 0,
+    "address": "30 Irving Pl, New York, NY 10003, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Goethe-Institut New York",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208492/",
+    "rsvpCount": 2,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/1/c/f/highres_536873711.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Jing Yang",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/8/1/7/highres_326383031.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Long Island City, NY"
+      }
+    ],
+    "id": 185
   }
 ]
