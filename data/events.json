@@ -5844,12 +5844,12 @@
       },
       {
         "name": "Dan",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/d/e/f/highres_326576815.jpeg",
+        "photo": "",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
         "bio": "INFJ. \nPhilosophy lover. \nMusic Teacher.",
-        "city": "Westchester"
+        "city": "New York"
       },
       {
         "name": "Apoorv",
@@ -6470,7 +6470,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6538,6 +6538,15 @@
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Meg",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/f/6/d/highres_318028525.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
         "city": "New York"
       }
     ]
@@ -7092,7 +7101,7 @@
     "thingsToKnow": "6.7mi loop hike, 2.5-3 hours; costumes welcome. By MetroNorth/rideshare: meet Grand Central's info booth by 8:30am, 8:52am train to Tarrytown (arrives 9:45am), then rideshare to the Visitor Center by 10:10am. By car: meet at the Visitor Center by 10:10am. Hike starts 10:20am, finishes by 1:30pm. Costs beyond the free entry: MetroNorth ~$20.50 round trip, rideshare ~$10/person each way, $6/vehicle park entry fee.",
     "customImage": "images/10-31-26_Rockefeller_State_Park_v14.png",
     "id": 167,
-    "rsvpCount": 13,
+    "rsvpCount": 16,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7168,6 +7177,22 @@
         "isFirstEvent": false,
         "guestsCount": 2,
         "city": "New York, NY"
+      },
+      {
+        "name": "Yoko S",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/d/0/highres_292901168.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Woodside"
+      },
+      {
+        "name": "Matt Spiegel`",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/1/7/8/highres_326304952.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "New York"
       }
     ]
   },
@@ -7386,7 +7411,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 10,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7462,6 +7487,15 @@
         "guestsCount": 0,
         "bio": "I'm a musician (performer on piano & organ) and teacher. I love collaborative music especially. Other interests include literature, theater, museums, dancing, language learning, socializing, and animals.",
         "city": "New York"
+      },
+      {
+        "name": "Sasha ",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/4/2/6/highres_316805158.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I like to read, make new friends, visit new places",
+        "city": "Bronx"
       }
     ]
   },
