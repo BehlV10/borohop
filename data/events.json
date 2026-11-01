@@ -5844,12 +5844,11 @@
       },
       {
         "name": "Dan",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/4/6/highres_326583398.jpeg",
+        "photo": "",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
-        "bio": "INFJ. \nPhilosophy lover. \nMusic Teacher.",
-        "city": "Westchester"
+        "city": "New York"
       },
       {
         "name": "Apoorv",
@@ -6050,7 +6049,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 78,
+    "rsvpCount": 75,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6093,15 +6092,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "So I can find new people, I guess...",
-        "city": "New York"
-      },
-      {
-        "name": "Harsh",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "job": "Technology",
         "city": "New York"
       },
       {
@@ -6169,15 +6159,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "NYC"
-      },
-      {
-        "name": "Jaclyn",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/8/a/1/highres_324306305.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Hello there! My name is Jackie and I am not new to the area....\r\nI enjoy camping-more so in a cabin, hiking, biking-fun festive outdoor activities!!! Sailing is my hobby.",
-        "city": "Buffalo"
       },
       {
         "name": "Lawrence E",
@@ -6308,14 +6289,6 @@
         "isFirstEvent": false,
         "guestsCount": 1,
         "city": "New York"
-      },
-      {
-        "name": "Manjunath Reddy",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Jersey City"
       },
       {
         "name": "Mee",
@@ -6629,7 +6602,7 @@
     "thingsToKnow": "Game starts 11:30am; arrive a little early (~11am) before the bar gets crowded.",
     "customImage": "images/11-01-26_EPL_Watch_Party_v14.png",
     "id": 160,
-    "rsvpCount": 5,
+    "rsvpCount": 3,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6639,14 +6612,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
-      },
-      {
-        "name": "kaul.kartik",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Livingston, NJ"
       },
       {
         "name": "Tejas",
@@ -6666,14 +6631,6 @@
         "bio": "I\u2019m interested in outdoor activities and languages. I\u2019m also here professionally to learn more about Agile.",
         "job": "Technology",
         "city": "New York, NY"
-      },
-      {
-        "name": "jrchamorrosteve",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/8/c/3/highres_322698627.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Bethel"
       }
     ]
   },
@@ -6800,21 +6757,20 @@
         "city": "Staten Island"
       },
       {
-        "name": "Andrei",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "job": "Technology",
-        "city": "New York"
-      },
-      {
         "name": "Mee",
         "photo": "https://secure.meetupstatic.com/photos/member/a/0/7/e/highres_279521086.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Forest Hills"
+      },
+      {
+        "name": "Linda",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/3/9/b/highres_304057787.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -6830,8 +6786,8 @@
     "transitText": "Metro-North Harlem Line to Botanical Garden",
     "start": "2026-11-01",
     "end": null,
-    "startTime": "13:00",
-    "endTime": "17:00",
+    "startTime": "13:30",
+    "endTime": "17:30",
     "price": 35,
     "priceDetail": [
       "Ticket: $35 (free with NYBG membership)"
@@ -6846,7 +6802,7 @@
     "thingsToKnow": "Meet at the Ticket Counter 1-1:10pm; 1pm crafts (crochet workshop, mask making), 2pm parade, 2:30-3:30pm dance performances, 3:30-5pm dance party; can join/leave anytime, grab a bite afterward.",
     "customImage": "images/11-01-26_Dia_de_los_Muertos_NYBG_v14.png",
     "id": 162,
-    "rsvpCount": 4,
+    "rsvpCount": 8,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6881,6 +6837,31 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronxville"
+      },
+      {
+        "name": "Viv",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/e/e/b/highres_326564779.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "bio": "I am looking forward in meeting new people and going on adventures.",
+        "city": "New York"
+      },
+      {
+        "name": "Mee",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/7/e/highres_279521086.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Forest Hills"
+      },
+      {
+        "name": "Grace",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/1/1/5/highres_321753045.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -6951,18 +6932,18 @@
         "city": "New York"
       },
       {
-        "name": "Jenna",
-        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg",
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
       },
       {
-        "name": "Hazel",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "name": "mia",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/5/c/c/highres_325093772.jpeg",
         "isHost": false,
-        "isFirstEvent": false,
+        "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
       }
@@ -7678,7 +7659,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 12,
+    "rsvpCount": 14,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7772,6 +7753,14 @@
         "guestsCount": 0,
         "bio": "Korean Canadian in the USA!",
         "city": "New York City"
+      },
+      {
+        "name": "kaul.kartik",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "Livingston, NJ"
       }
     ]
   },
@@ -7798,8 +7787,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 12,
-    "spotsLeft": 8,
+    "rsvpCount": 14,
+    "spotsLeft": 6,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7899,6 +7888,22 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Phuket"
+      },
+      {
+        "name": "kaul.kartik",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/4/8/highres_325710792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Livingston, NJ"
+      },
+      {
+        "name": "Kartik Trisal",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/e/8/highres_324506088.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "McLean, VA"
       }
     ]
   },
@@ -7964,7 +7969,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 11,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8053,6 +8058,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Brooklyn"
+      },
+      {
+        "name": "Shaggy ",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/2/b/8/highres_326433464.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "job": "Not Working",
+        "city": "North Bergen, NJ"
       }
     ],
     "id": 174
@@ -8302,7 +8316,7 @@
     "lng": -73.9855,
     "locationName": "BAM Rose Cinemas",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317207429/",
-    "rsvpCount": 3,
+    "rsvpCount": 2,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/9/3/highres_536872627.jpeg",
@@ -8321,7 +8335,7 @@
         "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
         "isHost": false,
         "isFirstEvent": false,
-        "guestsCount": 1,
+        "guestsCount": 0,
         "bio": "astrologer / violinist",
         "city": "New York"
       }
@@ -8535,7 +8549,7 @@
     "lng": -73.9855,
     "locationName": "My Buddy Statue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208857/",
-    "rsvpCount": 2,
+    "rsvpCount": 3,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/a/d/highres_536873933.jpeg",
@@ -8557,6 +8571,14 @@
         "guestsCount": 0,
         "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
         "city": "New York"
+      },
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 184
