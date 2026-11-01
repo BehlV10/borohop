@@ -6050,7 +6050,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 75,
+    "rsvpCount": 78,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6204,14 +6204,6 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York, NY"
-      },
-      {
-        "name": "Ercan",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/d/a/highres_318903034.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
       },
       {
         "name": "Lizzy D",
@@ -6484,15 +6476,6 @@
         "city": "New York, NY"
       },
       {
-        "name": "Amy",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/e/d/4/highres_324952948.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "bio": "I\u2019m a middle-aged professional woman who enjoys traveling, exploring new cities, visiting museums, and trying different restaurants.",
-        "city": "Jersey City"
-      },
-      {
         "name": "aneeh",
         "photo": "https://secure.meetupstatic.com/photos/member/2/f/e/8/highres_326352264.jpeg",
         "isHost": false,
@@ -6563,6 +6546,50 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "job": "Business Finance Law",
+        "city": "New York"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
+      },
+      {
+        "name": "Monia Ben R'houma",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/7/6/c/highres_326585996.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Edi Arevalo",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/7/1/1/highres_325830481.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Peruvian-American fascinated about different things, looking for new extreme experiences in NYC.",
+        "job": "Education",
+        "city": "New York"
+      },
+      {
+        "name": "Farouq Lakhani",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/9/6/0/highres_306523360.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Seattle"
+      },
+      {
+        "name": "Dave",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/8/6/highres_324788326.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Im an AI architect and Tech Entrepreneuer. Looking to meet like minded people that I can connect with and grow as a person",
         "city": "New York"
       }
     ]
@@ -6677,7 +6704,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 14,
+    "rsvpCount": 15,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6704,14 +6731,6 @@
         "guestsCount": 0,
         "job": "Business Finance Law",
         "city": "New York"
-      },
-      {
-        "name": "Nelly",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/6/1/7/highres_325693847.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
       },
       {
         "name": "Vaibhaw",
@@ -6779,6 +6798,23 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Staten Island"
+      },
+      {
+        "name": "Andrei",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/7/9/highres_324354393.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
+      },
+      {
+        "name": "Mee",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/7/e/highres_279521086.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Forest Hills"
       }
     ]
   },
@@ -7642,7 +7678,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 11,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7727,6 +7763,15 @@
         "guestsCount": 0,
         "bio": "I like to read, make new friends, visit new places",
         "city": "Bronx"
+      },
+      {
+        "name": "Michelle",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/e/9/c/highres_317480124.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Korean Canadian in the USA!",
+        "city": "New York City"
       }
     ]
   },
@@ -7753,8 +7798,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 10,
-    "spotsLeft": 10,
+    "rsvpCount": 12,
+    "spotsLeft": 8,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7838,6 +7883,22 @@
         "bio": "I used to be a technician.  One of my hobbies is collecting domain names.  I trend to hold on to things - and perhaps people.  It is time to move ahead, get new things and perhaps dispose of the old.",
         "job": "Hospitality Tourism",
         "city": "New York"
+      },
+      {
+        "name": "sherene.mukherjee91",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/2/c/0/highres_326125280.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Sara",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/1/8/c/highres_126804972.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Phuket"
       }
     ]
   },
@@ -7903,7 +7964,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 9,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -7975,6 +8036,23 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Xzavier",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/4/1/8/highres_326549720.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I am the color red in a world full of black and white",
+        "city": "New York"
+      },
+      {
+        "name": "Gabriela Giorgiana",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       }
     ],
     "id": 174
@@ -8001,7 +8079,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8039,6 +8117,15 @@
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
+      },
+      {
+        "name": "Jonathan Beltran",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/e/b/c/highres_312607868.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hey there. Looking to make new friends and meet new people from different cultural backgrounds. I appreciate the ethnic diversity of NY and love learning new things about other countries.",
+        "city": "New York"
       }
     ],
     "id": 175
@@ -8065,7 +8152,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8110,6 +8197,15 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Xzavier",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/4/1/8/highres_326549720.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I am the color red in a world full of black and white",
         "city": "New York"
       }
     ],
