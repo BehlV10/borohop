@@ -6049,7 +6049,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 75,
+    "rsvpCount": 74,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6135,14 +6135,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronx"
-      },
-      {
-        "name": "Lindsey Mayer",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/6/d/0/highres_320094992.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "Bellerose"
       },
       {
         "name": "R",
@@ -6661,7 +6653,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 15,
+    "rsvpCount": 14,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6688,15 +6680,6 @@
         "guestsCount": 0,
         "job": "Business Finance Law",
         "city": "New York"
-      },
-      {
-        "name": "Vaibhaw",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/e/7/5/highres_325956469.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "I have a lot of hobbies, mainly around chill adventuring and crafting.",
-        "city": "Harrison"
       },
       {
         "name": "Diana N",
@@ -7659,7 +7642,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 14,
+    "rsvpCount": 15,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7761,6 +7744,14 @@
         "isFirstEvent": false,
         "guestsCount": 1,
         "city": "Livingston, NJ"
+      },
+      {
+        "name": "Anshika ",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/1/f/5/highres_323809653.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ]
   },
@@ -7787,8 +7778,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 14,
-    "spotsLeft": 6,
+    "rsvpCount": 17,
+    "spotsLeft": 3,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7904,6 +7895,30 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "McLean, VA"
+      },
+      {
+        "name": "yashikamaheshwari4",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/2/highres_326400514.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Brooklyn"
+      },
+      {
+        "name": "Maliha Sajjad",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/9/a/6/highres_326594758.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Jersey City, NJ"
+      },
+      {
+        "name": "DEBASIS TRIPATHY",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/3/7/highres_323572023.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Newark"
       }
     ]
   },
@@ -8439,7 +8454,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208198/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/0/b/d/highres_536873437.jpeg",
@@ -8476,6 +8491,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Shells",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 182
