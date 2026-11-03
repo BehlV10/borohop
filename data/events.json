@@ -7634,7 +7634,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 16,
+    "rsvpCount": 18,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7760,6 +7760,22 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Mee",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/7/e/highres_279521086.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Forest Hills"
+      },
+      {
+        "name": "aneeh",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/f/e/8/highres_326352264.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -7786,8 +7802,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 18,
-    "spotsLeft": 2,
+    "rsvpCount": 17,
+    "spotsLeft": 3,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7796,14 +7812,6 @@
     ],
     "id": 172,
     "attendees": [
-      {
-        "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
       {
         "name": "Prakhar Agrawal",
         "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
@@ -8000,7 +8008,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 13,
+    "rsvpCount": 14,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8106,6 +8114,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Brooklyn"
+      },
+      {
+        "name": "Apoorv",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/d/8/3/highres_326552131.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 174
