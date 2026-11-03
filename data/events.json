@@ -5844,10 +5844,11 @@
       },
       {
         "name": "Dan",
-        "photo": "",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/0/4/0/highres_326600544.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
+        "bio": "If Earth\u2019s entire 4.54 billion-year history were compressed into a 12-hour clock, humanity would arrive at the very final moments of the day, specifically at 11:59:57\u2014just 3 seconds before the clock strikes 12:00.",
         "city": "New York"
       },
       {
@@ -6653,7 +6654,7 @@
     "thingsToKnow": "Meet outside 1937 1st Ave, between E 99th & 100th St; bring signs & energy -- welcome to keep cheering after 12pm too.",
     "customImage": "images/11-01-26_NYC_Marathon_Cheer_v14.png",
     "id": 161,
-    "rsvpCount": 14,
+    "rsvpCount": 12,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6671,15 +6672,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "NYC"
-      },
-      {
-        "name": "Martha C.",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/3/5/7/highres_326154103.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "job": "Business Finance Law",
-        "city": "New York"
       },
       {
         "name": "Diana N",
@@ -6722,14 +6714,6 @@
         "isFirstEvent": false,
         "guestsCount": 2,
         "city": "New York, NY"
-      },
-      {
-        "name": "Carla Darconte",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/0/3/a/highres_324324634.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
       },
       {
         "name": "Brian",
@@ -7575,12 +7559,12 @@
     "lng": -73.988776,
     "locationName": "NAR | Modern Turkish & Mediterranean",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317067989/",
-    "spotsLeft": 8,
+    "spotsLeft": 7,
     "wikiTitle": null,
     "thingsToKnow": "$25 deposit, applied toward food & drink; can Venmo or Zelle the host to avoid the PayPal fee.",
     "customImage": "images/11-06-26_Turkish_Nar_v14.png",
     "id": 170,
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7616,6 +7600,14 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Gabriela Giorgiana",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       }
     ]
   },
@@ -7642,7 +7634,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 15,
+    "rsvpCount": 16,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7695,14 +7687,6 @@
         "city": "New York"
       },
       {
-        "name": "Stefania",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/0/b/8/highres_320660664.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 1,
-        "city": "New York"
-      },
-      {
         "name": "E T",
         "photo": "https://secure.meetupstatic.com/photos/member/9/6/6/7/highres_325898503.jpeg",
         "isHost": false,
@@ -7752,6 +7736,30 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Gabriela Giorgiana",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
+      },
+      {
+        "name": "DEBASIS TRIPATHY",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/3/7/highres_323572023.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Newark"
+      },
+      {
+        "name": "David",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/b/9/6/highres_28167542.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -7778,8 +7786,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 17,
-    "spotsLeft": 3,
+    "rsvpCount": 18,
+    "spotsLeft": 2,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7807,14 +7815,6 @@
       {
         "name": "Hazel",
         "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Qama",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -7919,6 +7919,22 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Newark"
+      },
+      {
+        "name": "Gabriela Giorgiana",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
+      },
+      {
+        "name": "David",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/b/9/6/highres_28167542.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -7984,7 +8000,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 12,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8082,6 +8098,14 @@
         "guestsCount": 0,
         "job": "Not Working",
         "city": "North Bergen, NJ"
+      },
+      {
+        "name": "Zlaty Finkelstein",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/e/2/6/highres_326192294.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       }
     ],
     "id": 174
@@ -8258,7 +8282,7 @@
     "lng": -73.9855,
     "locationName": "Elinor Bunin Munroe Film Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317170563/",
-    "rsvpCount": 1,
+    "rsvpCount": 3,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/5/0/3/a/highres_536840538.jpeg",
@@ -8269,6 +8293,22 @@
         "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
         "isHost": true,
         "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "derekmlein",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/b/3/5/highres_326599253.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Jacob Cohen",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/b/8/5/highres_306048005.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
       }
@@ -8667,7 +8707,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 4,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -8704,6 +8744,23 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "White Plains"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
+      },
+      {
+        "name": "lpg gv",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/f/1/0/highres_292677104.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "priceDetail": [
