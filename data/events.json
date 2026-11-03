@@ -7634,7 +7634,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 18,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7772,6 +7772,14 @@
       {
         "name": "aneeh",
         "photo": "https://secure.meetupstatic.com/photos/member/2/f/e/8/highres_326352264.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Mukul",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/3/0/highres_326538992.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -8434,7 +8442,7 @@
     "lng": -73.9855,
     "locationName": "The Joyce Theater",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317207830/",
-    "rsvpCount": 1,
+    "rsvpCount": 2,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/f/a/c/highres_536873164.jpeg",
@@ -8447,6 +8455,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Elise ",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/d/f/9/highres_261847673.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       }
     ],
     "priceDetail": [
@@ -8464,8 +8480,8 @@
     "transitStation": null,
     "start": "2026-11-08",
     "end": null,
-    "startTime": "08:00",
-    "endTime": "15:30",
+    "startTime": "09:15",
+    "endTime": "15:00",
     "price": 40,
     "address": "265 N Broad St",
     "lat": 40.758,
@@ -8577,7 +8593,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208416/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/1/1/8/highres_536873528.jpeg",
@@ -8605,6 +8621,15 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Cheryl B",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/2/8/2/highres_316521122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I'm a musician (performer on piano & organ) and teacher. I love collaborative music especially. Other interests include literature, theater, museums, dancing, language learning, socializing, and animals.",
         "city": "New York"
       }
     ],
