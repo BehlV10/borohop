@@ -6532,7 +6532,7 @@
         "city": "New York, NY"
       },
       {
-        "name": "Edi Arevalo",
+        "name": "Edi",
         "photo": "https://secure.meetupstatic.com/photos/member/7/7/1/1/highres_325830481.jpeg",
         "isHost": false,
         "isFirstEvent": false,
@@ -7634,7 +7634,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 19,
+    "rsvpCount": 20,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7784,6 +7784,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Ping",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/5/f/highres_10386239.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ]
   },
@@ -7810,8 +7818,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 17,
-    "spotsLeft": 3,
+    "rsvpCount": 19,
+    "spotsLeft": 1,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7951,6 +7959,23 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Ping",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/5/f/highres_10386239.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
+      },
+      {
+        "name": "Sunny",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/c/5/highres_326014501.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Explore and grow",
+        "city": "New York City"
       }
     ]
   },
@@ -8016,7 +8041,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 14,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8045,15 +8070,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
-        "city": "New York"
-      },
-      {
-        "name": "Celia Su",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/8/3/5/highres_326331253.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "bio": "Hiiiii",
         "city": "New York"
       },
       {
@@ -8097,14 +8113,6 @@
         "guestsCount": 0,
         "bio": "I am the color red in a world full of black and white",
         "city": "New York"
-      },
-      {
-        "name": "Gabriela Giorgiana",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Brooklyn"
       },
       {
         "name": "Shaggy ",
@@ -8238,7 +8246,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 6,
+    "rsvpCount": 7,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8292,6 +8300,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I am the color red in a world full of black and white",
+        "city": "New York"
+      },
+      {
+        "name": "William S. aka zombie",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/c/0/highres_326466336.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
         "city": "New York"
       }
     ],
@@ -8497,8 +8513,8 @@
     "lng": -73.9855,
     "locationName": "Meet outside Kanela's Lounge in Elizabeth, NJ",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317210942/",
-    "rsvpCount": 1,
-    "spotsLeft": 7,
+    "rsvpCount": 2,
+    "spotsLeft": 6,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/b/b/1/highres_536876241.jpeg",
     "thingsToKnow": "If joining our 8 person van: meet outside Kanela's Lounge, a 3 minute walk from Elizabeth, NJ train station by 8:15am ($40 for each person for the round trip; includes all fees; refunds accepted until Wednesday, November 4th at 8pm) will le",
@@ -8510,6 +8526,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Paula Estrada",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/9/4/9/highres_308563337.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "priceDetail": [
@@ -8602,7 +8626,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208416/",
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/1/1/8/highres_536873528.jpeg",
@@ -8640,6 +8664,14 @@
         "guestsCount": 0,
         "bio": "I'm a musician (performer on piano & organ) and teacher. I love collaborative music especially. Other interests include literature, theater, museums, dancing, language learning, socializing, and animals.",
         "city": "New York"
+      },
+      {
+        "name": "Annette",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/a/7/9/highres_323054969.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 183
@@ -8825,5 +8857,115 @@
       "$21"
     ],
     "id": 186
+  },
+  {
+    "name": "Laut (Malaysian Restaurant) \ud83c\uddf2\ud83c\uddfe\ud83e\udd58",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-16",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "price": 20,
+    "address": "15 E 17th St, New York, NY 10003, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Laut",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317288708/",
+    "rsvpCount": 2,
+    "spotsLeft": 6,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/9/e/7/8/highres_536980568.jpeg",
+    "thingsToKnow": "$20 deposit required",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Harsh",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$20"
+    ],
+    "id": 187
+  },
+  {
+    "name": "JAGUARMAN book discussion (with Author Q&A) \ud83c\uddf8\ud83c\uddf7\ud83d\udc06\ud83d\udcda",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-19",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "price": 25,
+    "address": "180 Maiden Ln, New York, NY 10038, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "180 Maiden Lane",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317286910/",
+    "rsvpCount": 4,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/9/7/f/2/highres_536978898.jpeg",
+    "thingsToKnow": "Unfortunately the book does not have US publishing and was not available for purchase in-person at the European Literature event, so the host bought 10 copies from the UK online book store Waterstones. If you\u2019d like a copy, we\u2019re selling th",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Erzinete",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Michelle",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$25"
+    ],
+    "id": 188
   }
 ]
