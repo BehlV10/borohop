@@ -8156,7 +8156,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8202,6 +8202,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "Hey there. Looking to make new friends and meet new people from different cultural backgrounds. I appreciate the ethnic diversity of NY and love learning new things about other countries.",
+        "city": "New York"
+      },
+      {
+        "name": "Caroline",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Education",
         "city": "New York"
       }
     ],
@@ -8748,7 +8757,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 6,
+    "rsvpCount": 7,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -8802,6 +8811,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Manjunath Reddy",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ],
     "priceDetail": [
