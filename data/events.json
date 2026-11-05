@@ -7492,7 +7492,7 @@
     "thingsToKnow": "Meet outside 6:40-6:50pm, then inside; concert continues until 11pm though the group gathering wraps up around 9pm.",
     "customImage": "images/11-05-26_Czech_Jazz_Night_v14.png",
     "id": 169,
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7528,6 +7528,14 @@
         "guestsCount": 0,
         "bio": "astrologer / violinist",
         "city": "New York"
+      },
+      {
+        "name": "Karol\u00edna Kutnarov\u00e1",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -8041,7 +8049,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 12,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8138,6 +8146,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Jonathan Beltran",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/e/b/c/highres_312607868.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hey there. Looking to make new friends and meet new people from different cultural backgrounds. I appreciate the ethnic diversity of NY and love learning new things about other countries.",
+        "city": "New York"
       }
     ],
     "id": 174
