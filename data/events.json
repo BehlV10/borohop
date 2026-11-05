@@ -6050,7 +6050,7 @@
     "thingsToKnow": "53rd Annual Village Halloween Parade -- meet on the west side of 6th Ave & Vandam St by 5:30pm (arrive early, exact spot may shift slightly); parade starts 7pm on Canal St and runs til 11pm, we'll stay til 9pm; major subway reroutes & closures Fri Oct 30 10pm through Mon Nov 2 5am, so allow extra travel time.",
     "customImage": "images/10-31-26_Greenwich_Village_Halloween_v14.png",
     "id": 159,
-    "rsvpCount": 74,
+    "rsvpCount": 73,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -6226,14 +6226,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronxville"
-      },
-      {
-        "name": "Carla Darconte",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/0/3/a/highres_324324634.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
       },
       {
         "name": "lpg gv",
@@ -7492,7 +7484,7 @@
     "thingsToKnow": "Meet outside 6:40-6:50pm, then inside; concert continues until 11pm though the group gathering wraps up around 9pm.",
     "customImage": "images/11-05-26_Czech_Jazz_Night_v14.png",
     "id": 169,
-    "rsvpCount": 5,
+    "rsvpCount": 8,
     "spotsLeftChecked": true,
     "attendees": [
       {
@@ -7536,6 +7528,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "JK",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/e/8/0/highres_326300096.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 2,
+        "city": "New York"
       }
     ]
   },
@@ -7610,12 +7610,13 @@
         "city": "New York"
       },
       {
-        "name": "Gabriela Giorgiana",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "name": "Ralf",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "Brooklyn"
+        "bio": "Drummer & bass player, comedy & sci-fi lover!",
+        "city": "New York"
       }
     ]
   },
@@ -8576,7 +8577,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208198/",
-    "rsvpCount": 6,
+    "rsvpCount": 7,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/0/b/d/highres_536873437.jpeg",
@@ -8621,6 +8622,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Hank Manning",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/6/d/0/highres_311570896.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 182
@@ -8984,5 +8993,212 @@
       "$25"
     ],
     "id": 188
+  },
+  {
+    "name": "Fall stroll through Central Park \ud83c\udf33\ud83c\udf42",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-14",
+    "end": null,
+    "startTime": "14:45",
+    "endTime": "16:30",
+    "price": 0,
+    "address": "907 5th Ave, New York, NY 10021, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "907 5th Avenue",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
+    "rsvpCount": 4,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
+      },
+      {
+        "name": "mansi",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/9/a/highres_325672122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Erzinete",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "NYC"
+      }
+    ],
+    "id": 189
+  },
+  {
+    "name": "The Met! Highlights tour + Self Explore \ud83c\udfa8\ud83d\uddbc\ufe0f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-14",
+    "end": null,
+    "startTime": "16:45",
+    "endTime": "19:30",
+    "price": 30,
+    "address": "991 5th Ave, New York, NY 10028, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "991 5th Avenue",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
+    "rsvpCount": 2,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
+    "thingsToKnow": "- For online PWYW tickets, put your NYS zipcode and put the suggested $30 ticket in your cart. Then on the next page it says \"I wish to pay\" and that's where you can decide how much you'd like to pay.",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Magda Santiago",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/5/9/4/highres_322294196.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "I lam a native New Yorker looking to meet people with diverse interest from making friends to going out to places that motivate enjoyment, growth and a continuum desire to enjoy the simple but good things of life.",
+        "city": "New York City, NY"
+      }
+    ],
+    "priceDetail": [
+      "$30"
+    ],
+    "id": 190
+  },
+  {
+    "name": "Walking Down Manhattan! \ud83d\udc5f \ud83c\udfd9\ufe0f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-15",
+    "end": null,
+    "startTime": "09:00",
+    "endTime": "18:00",
+    "price": 0,
+    "address": "4961 Broadway, New York, NY 10034, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Buunni Coffee - Inwood",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
+    "rsvpCount": 3,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
+    "thingsToKnow": "9am to 9:30am, grab coffee & snacks",
+    "attendees": [
+      {
+        "name": "Ashley",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/1/5/8/highres_322576728.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello! I'm Ashley \u2600\ufe0f. Born and raised in NYC.  During my free time I enjoy coffee shops, being in nature, hiking when weather permits, salsa dancing, live music, travelling, and weekend getaways. Looking to make new connections in this big city",
+        "city": "New York"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Hunter Rodriguez",
+        "photo": "",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "id": 191
+  },
+  {
+    "name": "Grand Theft Auto",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown East",
+    "transitLines": [
+      "6",
+      "E",
+      "M"
+    ],
+    "transitStation": "Lexington Av/51-53 St",
+    "start": "2026-11-18",
+    "end": null,
+    "startTime": "18:30",
+    "endTime": "20:30",
+    "price": 0,
+    "address": "157 E 53rd St, New York, NY 10022, USA",
+    "lat": 40.7578,
+    "lng": -73.9712,
+    "locationName": "The Hugh",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317301674/",
+    "rsvpCount": 2,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/c/c/e/d/highres_536992461.jpeg",
+    "thingsToKnow": "It\u2019s a free event. Feel free to bring your friends",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Van Hoang",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/a/b/d/highres_321335517.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "Rego Park"
+      }
+    ],
+    "id": 192
   }
 ]
