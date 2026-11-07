@@ -7660,7 +7660,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 23,
+    "rsvpCount": 24,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7844,6 +7844,14 @@
         "bio": "https://www.devharsh.me/",
         "job": "Education",
         "city": "Jersey City"
+      },
+      {
+        "name": "pratik yagnik",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/e/7/7/highres_307244663.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -8021,21 +8029,20 @@
         "city": "New York City"
       },
       {
-        "name": "Tinamarie",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/8/b/2/highres_323586322.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "35 year old, living in Queens and working in Manhattan, wanting to meet new people. :)",
-        "city": "New York"
-      },
-      {
         "name": "Deepesh Goel",
         "photo": "https://secure.meetupstatic.com/photos/member/b/2/e/7/highres_325785799.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Manhattan"
+      },
+      {
+        "name": "Mee",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/7/e/highres_279521086.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Forest Hills"
       }
     ]
   },
@@ -9103,7 +9110,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 11,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9200,6 +9207,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronx"
+      },
+      {
+        "name": "Mukul",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/3/0/highres_326538992.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 189
@@ -9286,7 +9301,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 13,
+    "rsvpCount": 14,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9394,6 +9409,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York City"
+      },
+      {
+        "name": "Andrea",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 191
@@ -9588,8 +9611,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 1,
-    "spotsLeft": 14,
+    "rsvpCount": 2,
+    "spotsLeft": 13,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -9600,6 +9623,15 @@
         "isHost": true,
         "isFirstEvent": false,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Caroline",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Education",
         "city": "New York"
       }
     ],
@@ -9626,7 +9658,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
