@@ -7660,7 +7660,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 25,
+    "rsvpCount": 22,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7796,36 +7796,12 @@
         "city": "New York, NY"
       },
       {
-        "name": "Mukul",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/a/3/0/highres_326538992.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
-      },
-      {
         "name": "Ping",
         "photo": "https://secure.meetupstatic.com/photos/member/1/8/5/f/highres_10386239.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Jersey City"
-      },
-      {
-        "name": "Deepesh Goel",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/2/e/7/highres_325785799.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "Manhattan"
-      },
-      {
-        "name": "Lisa",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/5/e/8/highres_318942472.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "Princeton"
       },
       {
         "name": "Qama",
@@ -7921,15 +7897,6 @@
         "city": "New York, NY"
       },
       {
-        "name": "Michelle",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
-        "city": "New York"
-      },
-      {
         "name": "steve",
         "photo": "https://secure.meetupstatic.com/photos/member/d/e/9/f/highres_267956991.jpeg",
         "isHost": false,
@@ -8021,28 +7988,12 @@
         "city": "New York City"
       },
       {
-        "name": "Deepesh Goel",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/2/e/7/highres_325785799.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Manhattan"
-      },
-      {
         "name": "Mee",
         "photo": "https://secure.meetupstatic.com/photos/member/a/0/7/e/highres_279521086.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Forest Hills"
-      },
-      {
-        "name": "Lisa",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/5/e/8/highres_318942472.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Princeton"
       },
       {
         "name": "Debbie",
@@ -8053,6 +8004,30 @@
         "bio": "Hi! Moved back to NY after 25 years and looking to make new friends. Love food, wine, art events, and anything unique.",
         "job": "Technology",
         "city": "Jamaica, NY"
+      },
+      {
+        "name": "vikas jain",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/4/6/0/highres_323841600.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Hoboken"
+      },
+      {
+        "name": "mansi",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/9/a/highres_325672122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "shraddha ",
+        "photo": "https://secure.meetupstatic.com/photos/member/f/4/2/highres_326463906.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -8110,15 +8085,15 @@
     "transitStation": "Lexington Av/51-53 St",
     "start": "2026-11-08",
     "end": null,
-    "startTime": "16:00",
-    "endTime": "20:00",
+    "startTime": "18:30",
+    "endTime": "22:00",
     "price": 0,
     "address": "157 E 53rd St, New York, NY 10022, USA",
     "lat": 40.7578,
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 14,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8217,21 +8192,45 @@
         "city": "New York, NY"
       },
       {
-        "name": "Jonathan Beltran",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/e/b/c/highres_312607868.jpeg",
+        "name": "Keane",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/e/3/e/highres_326632798.jpeg",
         "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Hey there. Looking to make new friends and meet new people from different cultural backgrounds. I appreciate the ethnic diversity of NY and love learning new things about other countries.",
+        "isFirstEvent": true,
+        "guestsCount": 1,
         "city": "New York"
       },
       {
-        "name": "Ivan Li",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/b/6/7/highres_326627975.jpeg",
+        "name": "Sean",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/7/3/highres_325710835.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
+      },
+      {
+        "name": "Tim",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/7/c/highres_322686268.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Mendy",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/1/a/6/highres_326189094.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
         "city": "New York, NY"
+      },
+      {
+        "name": "Alexis",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/a/e/highres_326634446.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 174
@@ -8258,7 +8257,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 7,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8322,6 +8321,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronx"
+      },
+      {
+        "name": "Helen",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/9/c/e/highres_326315278.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 175
@@ -8631,8 +8638,8 @@
     "lng": -73.9855,
     "locationName": "Meet outside Kanela's Lounge in Elizabeth, NJ",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317210942/",
-    "rsvpCount": 6,
-    "spotsLeft": 2,
+    "rsvpCount": 5,
+    "spotsLeft": 3,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/b/b/1/highres_536876241.jpeg",
     "thingsToKnow": "If joining our 8 person van: meet outside Kanela's Lounge, a 3 minute walk from Elizabeth, NJ train station by 8:15am ($40 for each person for the round trip; includes all fees; refunds accepted until Wednesday, November 4th at 8pm) will le",
@@ -8676,15 +8683,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
-      },
-      {
-        "name": "Monica",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "i'm looking for a community of fun, active,singles to socialize and network for business and pleasure.",
-        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -8710,7 +8708,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208198/",
-    "rsvpCount": 7,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/0/b/d/highres_536873437.jpeg",
@@ -8739,14 +8737,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
-      },
-      {
-        "name": "Lee",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
       },
       {
         "name": "Shells",
@@ -8793,52 +8783,23 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
-        "isHost": true,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
       },
       {
         "name": "Chris",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/1/highres_264294673.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "New York"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/1/highres_264294673.jpeg"
       },
       {
         "name": "Lee",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg"
       },
       {
         "name": "Cheryl B",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/2/8/2/highres_316521122.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "I'm a musician (performer on piano & organ) and teacher. I love collaborative music especially. Other interests include literature, theater, museums, dancing, language learning, socializing, and animals.",
-        "city": "New York"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/2/8/2/highres_316521122.jpeg"
       },
       {
         "name": "Annette",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/a/7/9/highres_323054969.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
-      },
-      {
-        "name": "SAM",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/a/7/9/highres_323054969.jpeg"
       }
     ],
     "id": 183
