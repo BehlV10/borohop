@@ -7660,7 +7660,7 @@
     "lng": -73.9877,
     "locationName": "Bhakti Center",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317081736/",
-    "rsvpCount": 24,
+    "rsvpCount": 25,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/d/d/a/highres_536752698.jpeg",
@@ -7852,6 +7852,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "mansi",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/9/a/highres_325672122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ]
   },
@@ -7920,14 +7928,6 @@
         "guestsCount": 0,
         "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
         "city": "New York"
-      },
-      {
-        "name": "Wing L",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/7/0/f/highres_314726383.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
       },
       {
         "name": "steve",
@@ -8043,6 +8043,16 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Princeton"
+      },
+      {
+        "name": "Debbie",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/7/a/4/highres_200966532.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hi! Moved back to NY after 25 years and looking to make new friends. Love food, wine, art events, and anything unique.",
+        "job": "Technology",
+        "city": "Jamaica, NY"
       }
     ]
   },
@@ -8108,7 +8118,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 13,
+    "rsvpCount": 14,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8214,6 +8224,14 @@
         "guestsCount": 0,
         "bio": "Hey there. Looking to make new friends and meet new people from different cultural backgrounds. I appreciate the ethnic diversity of NY and love learning new things about other countries.",
         "city": "New York"
+      },
+      {
+        "name": "Ivan Li",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/b/6/7/highres_326627975.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 174
@@ -8396,7 +8414,7 @@
       },
       {
         "name": "SAM",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/b/5/4/highres_324623380.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -8613,8 +8631,8 @@
     "lng": -73.9855,
     "locationName": "Meet outside Kanela's Lounge in Elizabeth, NJ",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317210942/",
-    "rsvpCount": 5,
-    "spotsLeft": 3,
+    "rsvpCount": 6,
+    "spotsLeft": 2,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/b/b/1/highres_536876241.jpeg",
     "thingsToKnow": "If joining our 8 person van: meet outside Kanela's Lounge, a 3 minute walk from Elizabeth, NJ train station by 8:15am ($40 for each person for the round trip; includes all fees; refunds accepted until Wednesday, November 4th at 8pm) will le",
@@ -8657,6 +8675,15 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Monica",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "i'm looking for a community of fun, active,singles to socialize and network for business and pleasure.",
         "city": "New York"
       }
     ],
@@ -8758,7 +8785,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208416/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/1/1/8/highres_536873528.jpeg",
@@ -8800,6 +8827,14 @@
       {
         "name": "Annette",
         "photo": "https://secure.meetupstatic.com/photos/member/3/a/7/9/highres_323054969.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -8921,7 +8956,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 7,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -8983,6 +9018,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Jersey City"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "priceDetail": [
@@ -9008,8 +9051,8 @@
     "lng": -73.9855,
     "locationName": "Laut",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317288708/",
-    "rsvpCount": 2,
-    "spotsLeft": 6,
+    "rsvpCount": 3,
+    "spotsLeft": 5,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/9/e/7/8/highres_536980568.jpeg",
     "thingsToKnow": "$20 deposit required",
@@ -9029,6 +9072,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "job": "Technology",
+        "city": "New York"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
       }
     ],
@@ -9118,7 +9170,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 16,
+    "rsvpCount": 18,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9256,6 +9308,23 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York City"
+      },
+      {
+        "name": "Tejas",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "Chicago"
+      },
+      {
+        "name": "Rashmi",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/8/c/2/highres_326275490.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       }
     ],
     "id": 189
@@ -9278,7 +9347,7 @@
     "lng": -73.9855,
     "locationName": "991 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
@@ -9325,6 +9394,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "White Plains"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -9492,7 +9569,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317301674/",
-    "rsvpCount": 2,
+    "rsvpCount": 3,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/c/e/d/highres_536992461.jpeg",
@@ -9514,6 +9591,15 @@
         "guestsCount": 0,
         "job": "Business Finance Law",
         "city": "Rego Park"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
+        "city": "New York"
       }
     ],
     "id": 192
@@ -9651,8 +9737,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 2,
-    "spotsLeft": 13,
+    "rsvpCount": 3,
+    "spotsLeft": 12,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -9672,6 +9758,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "job": "Education",
+        "city": "New York"
+      },
+      {
+        "name": "Rui",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
       }
     ],
@@ -9698,7 +9793,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 6,
+    "rsvpCount": 7,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -9752,6 +9847,14 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 196
