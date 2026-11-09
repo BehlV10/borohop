@@ -8093,7 +8093,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144052/",
-    "rsvpCount": 19,
+    "rsvpCount": 18,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/0/3/highres_536813763.jpeg",
@@ -8122,14 +8122,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
-        "city": "New York"
-      },
-      {
-        "name": "Yizhou",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/b/5/5/highres_310219285.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
         "city": "New York"
       },
       {
@@ -8221,7 +8213,7 @@
         "photo": "https://secure.meetupstatic.com/photos/member/7/1/a/6/highres_326189094.jpeg",
         "isHost": false,
         "isFirstEvent": false,
-        "guestsCount": 1,
+        "guestsCount": 0,
         "city": "New York, NY"
       },
       {
@@ -8231,6 +8223,14 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "sathvik reddy",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/b/b/a/highres_326307578.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ],
     "id": 174
@@ -8783,23 +8783,52 @@
     "attendees": [
       {
         "name": "Fouad Yared",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Chris",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/1/highres_264294673.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/1/highres_264294673.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Lee",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Cheryl B",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/2/8/2/highres_316521122.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/5/2/8/2/highres_316521122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I'm a musician (performer on piano & organ) and teacher. I love collaborative music especially. Other interests include literature, theater, museums, dancing, language learning, socializing, and animals.",
+        "city": "New York"
       },
       {
         "name": "Annette",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/a/7/9/highres_323054969.jpeg"
+        "photo": "https://secure.meetupstatic.com/photos/member/3/a/7/9/highres_323054969.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 183
@@ -8917,7 +8946,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -8987,6 +9016,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Rhiannon",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/9/0/4/highres_325642788.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Ypsilanti"
       }
     ],
     "priceDetail": [
@@ -9068,7 +9105,7 @@
     "lng": -73.9855,
     "locationName": "180 Maiden Lane",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317286910/",
-    "rsvpCount": 4,
+    "rsvpCount": 3,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/9/7/f/2/highres_536978898.jpeg",
@@ -9097,15 +9134,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
-      },
-      {
-        "name": "Michelle",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
-        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -9131,7 +9159,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 18,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9286,6 +9314,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York City"
+      },
+      {
+        "name": "Marilyn ",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/5/2/6/highres_326018182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Forest Hls"
       }
     ],
     "id": 189
@@ -9654,7 +9690,7 @@
     "lng": -73.9855,
     "locationName": "La Colombe Coffee Workshop",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316074/",
-    "rsvpCount": 2,
+    "rsvpCount": 3,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/2/b/2/highres_537004786.jpeg",
@@ -9676,6 +9712,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Brooklyn"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       }
     ],
     "id": 194
@@ -9754,7 +9799,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 7,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -9816,6 +9861,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Rhiannon",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/9/0/4/highres_325642788.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Ypsilanti"
       }
     ],
     "id": 196
