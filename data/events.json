@@ -8257,7 +8257,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8329,6 +8329,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Kevin_Sanichara",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/5/1/highres_322442897.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Elmhurst"
       }
     ],
     "id": 175
@@ -8355,7 +8363,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8426,6 +8434,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Kevin_Sanichara",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/5/1/highres_322442897.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Elmhurst"
       }
     ],
     "id": 176
@@ -8708,7 +8724,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208198/",
-    "rsvpCount": 6,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/0/b/d/highres_536873437.jpeg",
@@ -8749,6 +8765,22 @@
       {
         "name": "Hank Manning",
         "photo": "https://secure.meetupstatic.com/photos/member/c/6/d/0/highres_311570896.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Natalie",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/a/3/4/highres_135643572.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Frances",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/5/3/highres_322972051.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -8851,7 +8883,7 @@
     "lng": -73.9855,
     "locationName": "My Buddy Statue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208857/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/a/d/highres_536873933.jpeg",
@@ -8881,6 +8913,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Stephen ",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/3/2/c/highres_285805388.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "I'm Jamaican and Peruvian and I like to be unreserved with anyone that likes interfacing with me and that can accommodate as much  life knowledge as possible. picking up a dictionary or a book to feed the mind of positivity.",
+        "city": "Ozone Park"
       }
     ],
     "id": 184
@@ -8946,7 +8987,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 9,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -9024,6 +9065,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Ypsilanti"
+      },
+      {
+        "name": "Maria",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/d/f/highres_305967103.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Union, NJ"
       }
     ],
     "priceDetail": [
@@ -9159,7 +9208,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 19,
+    "rsvpCount": 21,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9316,12 +9365,30 @@
         "city": "New York City"
       },
       {
-        "name": "Marilyn ",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/5/2/6/highres_326018182.jpeg",
+        "name": "Ralf",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "Forest Hls"
+        "bio": "Drummer & bass player, comedy & sci-fi lover!",
+        "city": "New York"
+      },
+      {
+        "name": "Maria",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/9/d/f/highres_305967103.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Union, NJ"
+      },
+      {
+        "name": "Elena",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/2/highres_326094674.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
+        "city": "New York"
       }
     ],
     "id": 189
@@ -9344,7 +9411,7 @@
     "lng": -73.9855,
     "locationName": "991 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
-    "rsvpCount": 6,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
@@ -9399,6 +9466,32 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Ralf",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Drummer & bass player, comedy & sci-fi lover!",
+        "city": "New York"
+      },
+      {
+        "name": "Zai ",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/3/7/b/highres_326249563.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hey, I moved to NY 3 years back. I am interested in hike.",
+        "city": "New York, NY"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "priceDetail": [
@@ -9424,7 +9517,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 14,
+    "rsvpCount": 15,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9540,6 +9633,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Melissa S",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/f/b/e/highres_312848126.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 191
@@ -9743,8 +9844,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 3,
-    "spotsLeft": 12,
+    "rsvpCount": 4,
+    "spotsLeft": 11,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -9774,6 +9875,15 @@
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
+      },
+      {
+        "name": "sandhya siva",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/e/7/7/highres_319640087.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello everyone, i live in VA with my fiance, i realized i don't have a big social circle, hence i wanted to meet some nice people with whom i share the same interests and make some new friends",
+        "city": "Jersey City"
       }
     ],
     "priceDetail": [
@@ -9799,7 +9909,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -9869,8 +9979,115 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Ypsilanti"
+      },
+      {
+        "name": "Elena",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/2/highres_326094674.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
+        "city": "New York"
       }
     ],
     "id": 196
+  },
+  {
+    "name": "230 Fifth Ave Rooftop! \ud83c\udf06\ud83c\udf54\ud83c\udf79",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-13",
+    "end": null,
+    "startTime": "17:45",
+    "endTime": "20:00",
+    "price": 0,
+    "address": "1150 Broadway, New York, NY 10001, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "230 Fifth Rooftop Bar",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
+    "rsvpCount": 3,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
+    "thingsToKnow": "Cover is $0 to $15 (website says free before 8pm)",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Marilyn ",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/5/2/6/highres_326018182.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Forest Hls"
+      },
+      {
+        "name": "Mao Vivas",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/c/b/f/highres_311376031.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$0 to $15"
+    ],
+    "id": 197
+  },
+  {
+    "name": "Powerpoint Party! \ud83e\uddd1\u200d\ud83c\udfeb\ud83d\udcad\ud83d\ude38\ud83d\ude80",
+    "types": null,
+    "region": "nyc",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-12-12",
+    "end": null,
+    "startTime": "13:15",
+    "endTime": "15:30",
+    "price": 0,
+    "address": "Williamsburg, Brooklyn, NY, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Williamsburg",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362608/",
+    "rsvpCount": 2,
+    "spotsLeft": 58,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/2/2/1/8/highres_537068728.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
+      }
+    ],
+    "id": 198
   }
 ]
