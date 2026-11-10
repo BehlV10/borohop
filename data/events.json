@@ -8363,7 +8363,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 9,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8442,6 +8442,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Elmhurst"
+      },
+      {
+        "name": "Jenn N.",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/0/5/c/highres_326412380.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 176
@@ -8724,7 +8732,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208198/",
-    "rsvpCount": 8,
+    "rsvpCount": 9,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/0/b/d/highres_536873437.jpeg",
@@ -8785,6 +8793,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 182
@@ -10010,7 +10026,7 @@
     "lng": -73.9855,
     "locationName": "230 Fifth Rooftop Bar",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
@@ -10037,6 +10053,14 @@
         "photo": "https://secure.meetupstatic.com/photos/member/8/c/b/f/highres_311376031.jpeg",
         "isHost": false,
         "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Michael Rosch",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/f/c/9/highres_305300425.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
       }
@@ -10089,5 +10113,89 @@
       }
     ],
     "id": 198
+  },
+  {
+    "name": "Autumn Sonata \ud83d\ude41\ud83c\udf9e\ufe0f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-11",
+    "end": null,
+    "startTime": "15:10",
+    "endTime": "17:00",
+    "price": 18,
+    "address": "7 Ludlow St, New York, NY 10002, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Metrograph",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317363816/",
+    "rsvpCount": 1,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/2/6/d/8/highres_537069944.jpeg",
+    "thingsToKnow": "Ticket is $18 or $11 with membership",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$18"
+    ],
+    "id": 199
+  },
+  {
+    "name": "The Only Living Pickpocket in New York  \ud83d\ude0f\ud83e\udec6\ud83d\udd75\ufe0f",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-12",
+    "end": null,
+    "startTime": "20:10",
+    "endTime": "22:15",
+    "price": 21,
+    "address": "18 W Houston St, New York, NY 10012, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Angelika Film Center & Cafe - New York",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317363554/",
+    "rsvpCount": 2,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/2/5/7/1/highres_537069585.jpeg",
+    "thingsToKnow": "A ticket is $21.19 (includes $2 fee)",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      }
+    ],
+    "priceDetail": [
+      "$21"
+    ],
+    "id": 200
   }
 ]
