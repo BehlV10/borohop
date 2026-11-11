@@ -7862,8 +7862,8 @@
     "lng": -73.9806,
     "locationName": "Vatan",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317102491/",
-    "rsvpCount": 20,
-    "spotsLeft": 0,
+    "rsvpCount": 19,
+    "spotsLeft": 1,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/5/d/6/highres_536769686.jpeg",
     "thingsToKnow": "it's $45 per person before tax and tip and will be $60 after including tax and tip.",
@@ -7921,14 +7921,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Livingston, NJ"
-      },
-      {
-        "name": "Kartik Trisal",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/5/e/8/highres_324506088.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "McLean, VA"
       },
       {
         "name": "yashikamaheshwari4",
@@ -8854,14 +8846,6 @@
         "city": "New York"
       },
       {
-        "name": "Lee",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/1/c/2/highres_122108642.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
         "name": "Cheryl B",
         "photo": "https://secure.meetupstatic.com/photos/member/5/2/8/2/highres_316521122.jpeg",
         "isHost": false,
@@ -8885,6 +8869,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Monica",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "i'm looking for a community of fun, active,singles to socialize and network for business and pleasure.",
+        "city": "New York"
       }
     ],
     "id": 183
@@ -9232,7 +9225,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 23,
+    "rsvpCount": 24,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9430,6 +9423,14 @@
         "guestsCount": 0,
         "bio": "Looking to meet new friends.",
         "city": "Union City"
+      },
+      {
+        "name": "derekmlein",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/b/3/5/highres_326599253.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 189
@@ -9769,7 +9770,7 @@
     "lng": -73.9855,
     "locationName": "Wollman Rink",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317312964/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/b/2/d/highres_537002861.jpeg",
@@ -9815,6 +9816,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Jersey City"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -10075,7 +10085,7 @@
     "lng": -73.9855,
     "locationName": "230 Fifth Rooftop Bar",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
-    "rsvpCount": 5,
+    "rsvpCount": 7,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
@@ -10120,6 +10130,24 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Jersey City"
+      },
+      {
+        "name": "Shannon",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/f/a/d/highres_324552205.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Abdul Haq",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/2/e/8/highres_320038088.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Current writer, artist, and racy podcaster who has relocated back to his hometown of Queens, NY after a 8 year hiatus living in various cities and states in the Eastern US. Looking to meet new people, establish new connections, and have a good time!",
+        "job": "Arts Entertainment",
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -10145,8 +10173,8 @@
     "lng": -73.9855,
     "locationName": "Williamsburg",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362608/",
-    "rsvpCount": 2,
-    "spotsLeft": 58,
+    "rsvpCount": 3,
+    "spotsLeft": 57,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/2/1/8/highres_537068728.jpeg",
     "thingsToKnow": "The not so fun rule on RSVPs",
@@ -10167,6 +10195,14 @@
         "guestsCount": 0,
         "bio": "astrologer / violinist",
         "city": "New York"
+      },
+      {
+        "name": "Rhiannon",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/9/0/4/highres_325642788.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Ypsilanti"
       }
     ],
     "id": 198
