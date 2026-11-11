@@ -8257,7 +8257,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 9,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8337,6 +8337,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Elmhurst"
+      },
+      {
+        "name": "sowjanya.ls207",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/8/8/b/highres_322158571.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ],
     "id": 175
@@ -9224,7 +9232,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 21,
+    "rsvpCount": 23,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9405,6 +9413,23 @@
         "guestsCount": 0,
         "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
         "city": "New York"
+      },
+      {
+        "name": "Ida",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/1/8/d/highres_323513645.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Brooklyn"
+      },
+      {
+        "name": "Raj T.",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/d/d/5/highres_276148117.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new friends.",
+        "city": "Union City"
       }
     ],
     "id": 189
@@ -9427,7 +9452,7 @@
     "lng": -73.9855,
     "locationName": "991 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
-    "rsvpCount": 9,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
@@ -9508,6 +9533,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "John Hargrove",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/8/0/8/highres_323194824.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City"
       }
     ],
     "priceDetail": [
@@ -9776,12 +9809,12 @@
         "city": "New York, NY"
       },
       {
-        "name": "May Bloom",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg",
+        "name": "Manjunath Reddy",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "White Plains"
+        "city": "Jersey City"
       }
     ],
     "priceDetail": [
@@ -9807,7 +9840,7 @@
     "lng": -73.9855,
     "locationName": "La Colombe Coffee Workshop",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316074/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/2/b/2/highres_537004786.jpeg",
@@ -9838,6 +9871,14 @@
         "guestsCount": 0,
         "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
         "city": "New York"
+      },
+      {
+        "name": "Mukul",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/3/0/highres_326538992.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 194
@@ -9860,8 +9901,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 4,
-    "spotsLeft": 11,
+    "rsvpCount": 5,
+    "spotsLeft": 10,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -9899,6 +9940,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "Hello everyone, i live in VA with my fiance, i realized i don't have a big social circle, hence i wanted to meet some nice people with whom i share the same interests and make some new friends",
+        "city": "Jersey City"
+      },
+      {
+        "name": "Max",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/9/c/d/highres_321479853.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
         "city": "Jersey City"
       }
     ],
@@ -10026,7 +10075,7 @@
     "lng": -73.9855,
     "locationName": "230 Fifth Rooftop Bar",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
@@ -10063,6 +10112,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Manjunath Reddy",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ],
     "priceDetail": [
