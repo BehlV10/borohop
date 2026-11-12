@@ -8823,7 +8823,7 @@
     "lng": -73.9855,
     "locationName": "New York Public Library - Stephen A. Schwarzman Building",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208416/",
-    "rsvpCount": 6,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/1/1/8/highres_536873528.jpeg",
@@ -8869,15 +8869,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
-      },
-      {
-        "name": "Monica",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/7/3/6/highres_325414614.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "i'm looking for a community of fun, active,singles to socialize and network for business and pleasure.",
-        "city": "New York"
       }
     ],
     "id": 183
@@ -9004,7 +8995,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 10,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -9090,6 +9081,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Union, NJ"
+      },
+      {
+        "name": "Elena",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/2/highres_326094674.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -9225,7 +9225,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 24,
+    "rsvpCount": 27,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9431,6 +9431,30 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Sarah McDonald",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/1/e/highres_326341054.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Jon",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/e/2/7/highres_249440007.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Astoria"
+      },
+      {
+        "name": "Kerstin",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/c/0/6/highres_311971750.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 189
@@ -9453,7 +9477,7 @@
     "lng": -73.9855,
     "locationName": "991 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
-    "rsvpCount": 10,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
@@ -9542,6 +9566,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York City"
+      },
+      {
+        "name": "Elena",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/2/highres_326094674.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -9567,7 +9600,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 15,
+    "rsvpCount": 16,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9689,6 +9722,14 @@
         "photo": "https://secure.meetupstatic.com/photos/member/1/f/b/e/highres_312848126.jpeg",
         "isHost": false,
         "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Sarah McDonald",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/1/e/highres_326341054.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
       }
@@ -9911,8 +9952,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 5,
-    "spotsLeft": 10,
+    "rsvpCount": 6,
+    "spotsLeft": 9,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -9959,6 +10000,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Jersey City"
+      },
+      {
+        "name": "Vanessa Uzonwanne",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/c/9/a/highres_276203706.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -10085,7 +10134,7 @@
     "lng": -73.9855,
     "locationName": "230 Fifth Rooftop Bar",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
-    "rsvpCount": 7,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
@@ -10148,6 +10197,14 @@
         "bio": "Current writer, artist, and racy podcaster who has relocated back to his hometown of Queens, NY after a 8 year hiatus living in various cities and states in the Eastern US. Looking to meet new people, establish new connections, and have a good time!",
         "job": "Arts Entertainment",
         "city": "New York"
+      },
+      {
+        "name": "May Bloom",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "White Plains"
       }
     ],
     "priceDetail": [
@@ -10290,5 +10347,59 @@
       "$21"
     ],
     "id": 200
+  },
+  {
+    "name": "Godzilla Minus Zero! \ud83e\udd96\ud83c\udf03\ud83d\udd25",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-13",
+    "end": null,
+    "startTime": "20:30",
+    "endTime": "23:00",
+    "price": 26,
+    "address": "234 W 42nd St, New York, NY 10036, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "AMC Empire 25",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317390960/",
+    "rsvpCount": 3,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/9/3/a/3/highres_537097795.jpeg",
+    "thingsToKnow": "Ticket is $26.19 or included with AMC A-list",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "pratik yagnik",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/e/7/7/highres_307244663.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "May Bloom",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "White Plains"
+      }
+    ],
+    "priceDetail": [
+      "$26"
+    ],
+    "id": 201
   }
 ]
