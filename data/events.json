@@ -9225,7 +9225,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 27,
+    "rsvpCount": 26,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9365,15 +9365,6 @@
         "city": "New York City"
       },
       {
-        "name": "Tejas",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "job": "Technology",
-        "city": "Chicago"
-      },
-      {
         "name": "Rashmi",
         "photo": "https://secure.meetupstatic.com/photos/member/d/8/c/2/highres_326275490.jpeg",
         "isHost": false,
@@ -9449,10 +9440,10 @@
         "city": "Astoria"
       },
       {
-        "name": "Kerstin",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/c/0/6/highres_311971750.jpeg",
+        "name": "Qama",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
         "isHost": false,
-        "isFirstEvent": true,
+        "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
       }
@@ -9891,7 +9882,7 @@
     "lng": -73.9855,
     "locationName": "La Colombe Coffee Workshop",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316074/",
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/2/b/2/highres_537004786.jpeg",
@@ -9930,6 +9921,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Lisa",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/5/e/8/highres_318942472.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Princeton"
       }
     ],
     "id": 194
@@ -10134,7 +10133,7 @@
     "lng": -73.9855,
     "locationName": "230 Fifth Rooftop Bar",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
-    "rsvpCount": 8,
+    "rsvpCount": 7,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
@@ -10189,16 +10188,6 @@
         "city": "New York"
       },
       {
-        "name": "Abdul Haq",
-        "photo": "https://secure.meetupstatic.com/photos/member/e/2/e/8/highres_320038088.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Current writer, artist, and racy podcaster who has relocated back to his hometown of Queens, NY after a 8 year hiatus living in various cities and states in the Eastern US. Looking to meet new people, establish new connections, and have a good time!",
-        "job": "Arts Entertainment",
-        "city": "New York"
-      },
-      {
         "name": "May Bloom",
         "photo": "https://secure.meetupstatic.com/photos/member/2/e/c/0/highres_325871968.jpeg",
         "isHost": false,
@@ -10230,8 +10219,8 @@
     "lng": -73.9855,
     "locationName": "Williamsburg",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362608/",
-    "rsvpCount": 3,
-    "spotsLeft": 57,
+    "rsvpCount": 4,
+    "spotsLeft": 56,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/2/1/8/highres_537068728.jpeg",
     "thingsToKnow": "The not so fun rule on RSVPs",
@@ -10260,6 +10249,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Ypsilanti"
+      },
+      {
+        "name": "Jenna",
+        "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 198
@@ -10401,5 +10398,51 @@
       "$26"
     ],
     "id": 201
+  },
+  {
+    "name": "Raise the Red Lantern! \ud83c\udfee",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-18",
+    "end": null,
+    "startTime": "20:00",
+    "endTime": "22:30",
+    "price": 19,
+    "address": "209 W Houston St, New York, NY 10014, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "Film Forum",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317400741/",
+    "rsvpCount": 2,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/b/7/9/3/highres_537106995.jpeg",
+    "thingsToKnow": "Ticket is $19.50 or $13.50 with membership",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Jacob Cohen",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/b/8/5/highres_306048005.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "priceDetail": [
+      "$19"
+    ],
+    "id": 202
   }
 ]
