@@ -8143,7 +8143,7 @@
       },
       {
         "name": "Xzavier",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/a/e/e/highres_326627854.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/e/1/highres_326659169.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -8363,7 +8363,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 10,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8412,7 +8412,7 @@
       },
       {
         "name": "Xzavier",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/a/e/e/highres_326627854.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/e/1/highres_326659169.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -8450,6 +8450,23 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Andrea",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/1/e/8/highres_321765544.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Shaggy ",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/2/b/8/highres_326433464.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Not Working",
+        "city": "North Bergen, NJ"
       }
     ],
     "id": 176
@@ -9225,7 +9242,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 26,
+    "rsvpCount": 25,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9282,16 +9299,8 @@
         "city": "New York"
       },
       {
-        "name": "Dana",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/e/c/1/highres_295224257.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
         "name": "Xzavier",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/a/e/e/highres_326627854.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/e/1/highres_326659169.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -9591,7 +9600,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 16,
+    "rsvpCount": 15,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9685,20 +9694,12 @@
       },
       {
         "name": "Xzavier",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/a/e/e/highres_326627854.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/e/1/highres_326659169.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I am the color red in a world full of black and white",
         "city": "New York"
-      },
-      {
-        "name": "Zoray",
-        "photo": "https://secure.meetupstatic.com/photos/member/1/4/5/3/highres_324365203.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York City"
       },
       {
         "name": "Andrea",
@@ -9882,7 +9883,7 @@
     "lng": -73.9855,
     "locationName": "La Colombe Coffee Workshop",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316074/",
-    "rsvpCount": 5,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/2/b/2/highres_537004786.jpeg",
@@ -9929,6 +9930,39 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "Princeton"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "JK",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/e/8/0/highres_326300096.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 2,
+        "city": "New York"
+      },
+      {
+        "name": "Raj T.",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/d/d/5/highres_276148117.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new friends.",
+        "city": "Union City"
+      },
+      {
+        "name": "ita wi\u013ai",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
       }
     ],
     "id": 194
@@ -10032,7 +10066,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 9,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -10111,6 +10145,30 @@
         "guestsCount": 0,
         "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
         "city": "New York"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Carla Darconte",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/0/3/a/highres_324324634.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 196
@@ -10133,7 +10191,7 @@
     "lng": -73.9855,
     "locationName": "230 Fifth Rooftop Bar",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
-    "rsvpCount": 7,
+    "rsvpCount": 8,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
@@ -10194,6 +10252,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "White Plains"
+      },
+      {
+        "name": "Xzavier",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/e/1/highres_326659169.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I am the color red in a world full of black and white",
+        "city": "New York"
       }
     ],
     "priceDetail": [
