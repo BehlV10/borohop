@@ -8249,7 +8249,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 10,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8337,6 +8337,15 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "Jersey City"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       }
     ],
     "id": 175
@@ -8908,7 +8917,7 @@
     "lng": -73.9855,
     "locationName": "My Buddy Statue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208857/",
-    "rsvpCount": 4,
+    "rsvpCount": 2,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/a/d/highres_536873933.jpeg",
@@ -8923,30 +8932,12 @@
         "city": "New York"
       },
       {
-        "name": "Michelle",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/9/c/c/highres_326067084.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Yoga & Taichi & Ballroom Dance+Salsa",
-        "city": "New York"
-      },
-      {
         "name": "Prakhar Agrawal",
         "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
-      },
-      {
-        "name": "Stephen ",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/3/2/c/highres_285805388.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "bio": "I'm Jamaican and Peruvian and I like to be unreserved with anyone that likes interfacing with me and that can accommodate as much  life knowledge as possible. picking up a dictionary or a book to feed the mind of positivity.",
-        "city": "Ozone Park"
       }
     ],
     "id": 184
@@ -9242,7 +9233,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 25,
+    "rsvpCount": 27,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9272,14 +9263,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
-      },
-      {
-        "name": "Erzinete",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/3/c/9/highres_320801929.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "NYC"
       },
       {
         "name": "Ronke ",
@@ -9323,14 +9306,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Brooklyn"
-      },
-      {
-        "name": "Jessica Wang",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/0/a/1/highres_326048353.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Bronx"
       },
       {
         "name": "Mukul",
@@ -9391,14 +9366,6 @@
         "city": "New York"
       },
       {
-        "name": "Maria",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/9/d/f/highres_305967103.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Union, NJ"
-      },
-      {
         "name": "Elena",
         "photo": "https://secure.meetupstatic.com/photos/member/d/5/9/2/highres_326094674.jpeg",
         "isHost": false,
@@ -9455,6 +9422,50 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Isilay",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/4/5/e/highres_272609790.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Martha C.",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/3/5/7/highres_326154103.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
+      },
+      {
+        "name": "Clark Labelson",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/e/1/0/highres_306284560.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "My name is Clark. I just moved back to NYC from Seattle spent 15 years living out there. I would like to make new friends. I like the arts going to museums, making art and shooting photography. I love to travel abroad.",
+        "job": "Arts Entertainment",
+        "city": "Brooklyn"
+      },
+      {
+        "name": "michael",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/4/c/1/highres_1473985.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 189
@@ -9477,7 +9488,7 @@
     "lng": -73.9855,
     "locationName": "991 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
-    "rsvpCount": 11,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
@@ -9575,6 +9586,24 @@
         "guestsCount": 0,
         "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
         "city": "New York"
+      },
+      {
+        "name": "Uri",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/b/a/5/highres_314731653.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Writer & filmmaker exploring human connection, inequality, and how people actually spend their lives. That is my passion and driving force besides aiming to be a good friend and living a wholesome stable life. Independent entrepreneur here in NY.",
+        "job": "Hospitality Tourism",
+        "city": "New York"
+      },
+      {
+        "name": "Qama",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -9600,7 +9629,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 15,
+    "rsvpCount": 18,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9723,6 +9752,22 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Paz",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/1/8/c/highres_324788588.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "ita wi\u013ai",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
         "city": "New York"
       }
     ],
@@ -9883,7 +9928,7 @@
     "lng": -73.9855,
     "locationName": "La Colombe Coffee Workshop",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316074/",
-    "rsvpCount": 12,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/2/b/2/highres_537004786.jpeg",
@@ -9962,6 +10007,14 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 1,
+        "city": "New York"
+      },
+      {
+        "name": "Kerstin",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/c/0/6/highres_311971750.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
         "city": "New York"
       }
     ],
@@ -10191,7 +10244,7 @@
     "lng": -73.9855,
     "locationName": "230 Fifth Rooftop Bar",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362975/",
-    "rsvpCount": 8,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/3/3/8/highres_537069016.jpeg",
@@ -10214,14 +10267,6 @@
         "city": "Forest Hls"
       },
       {
-        "name": "Mao Vivas",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/c/b/f/highres_311376031.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
         "name": "Michael Rosch",
         "photo": "https://secure.meetupstatic.com/photos/member/4/f/c/9/highres_305300425.jpeg",
         "isHost": false,
@@ -10238,11 +10283,13 @@
         "city": "Jersey City"
       },
       {
-        "name": "Shannon",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/f/a/d/highres_324552205.jpeg",
+        "name": "Abdul Haq",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/2/e/8/highres_320038088.jpeg",
         "isHost": false,
-        "isFirstEvent": true,
+        "isFirstEvent": false,
         "guestsCount": 0,
+        "bio": "Current writer, artist, and racy podcaster who has relocated back to his hometown of Queens, NY after a 8 year hiatus living in various cities and states in the Eastern US. Looking to meet new people, establish new connections, and have a good time!",
+        "job": "Arts Entertainment",
         "city": "New York"
       },
       {
@@ -10260,6 +10307,78 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I am the color red in a world full of black and white",
+        "city": "New York"
+      },
+      {
+        "name": "clari.domin",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/d/highres_326220669.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronx"
+      },
+      {
+        "name": "Ethan Jacoby",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/6/b/8/highres_261878584.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York"
+      },
+      {
+        "name": "Jessica",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/3/4/6/highres_326344934.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Shabana Cassadine",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/c/1/f/highres_326303583.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Pat",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/9/f/f/highres_326543039.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Jessica Wang",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/a/1/highres_326048353.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Bronx"
+      },
+      {
+        "name": "William Yeung",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/b/f/a/highres_297476314.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn, NY"
+      },
+      {
+        "name": "mansi",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/9/a/highres_325672122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Sonia",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/8/c/4/highres_321475492.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
         "city": "New York"
       }
     ],
