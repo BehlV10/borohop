@@ -8372,7 +8372,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 12,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8476,6 +8476,15 @@
         "guestsCount": 0,
         "job": "Not Working",
         "city": "North Bergen, NJ"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
       }
     ],
     "id": 176
@@ -8917,7 +8926,7 @@
     "lng": -73.9855,
     "locationName": "My Buddy Statue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208857/",
-    "rsvpCount": 2,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/a/d/highres_536873933.jpeg",
@@ -8938,6 +8947,22 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Sarah McDonald",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/1/e/highres_326341054.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Soe Park",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/b/c/b/highres_326443979.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Long Island City"
       }
     ],
     "id": 184
@@ -8960,7 +8985,7 @@
     "lng": -73.9855,
     "locationName": "Goethe-Institut New York",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208492/",
-    "rsvpCount": 2,
+    "rsvpCount": 3,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/1/c/f/highres_536873711.jpeg",
@@ -8981,6 +9006,14 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "Long Island City, NY"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 185
@@ -9233,7 +9266,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 27,
+    "rsvpCount": 31,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9466,6 +9499,40 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Jin",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/2/9/a/highres_326661146.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Ann Wu",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/7/4/0/highres_297150528.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Permanently moved to Thailand in 15-20 years, interested to learn more?",
+        "job": "Not Working",
+        "city": "New York, NY"
+      },
+      {
+        "name": "Helen",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/9/c/e/highres_326315278.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Alejandra Padilla",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/9/f/d/highres_326391709.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York City, NY"
       }
     ],
     "id": 189
@@ -9488,7 +9555,7 @@
     "lng": -73.9855,
     "locationName": "991 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
-    "rsvpCount": 13,
+    "rsvpCount": 14,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
@@ -9604,6 +9671,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Yoko S",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/d/0/highres_292901168.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Woodside"
       }
     ],
     "priceDetail": [
@@ -9629,7 +9704,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 18,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9769,6 +9844,14 @@
         "isFirstEvent": false,
         "guestsCount": 1,
         "city": "New York"
+      },
+      {
+        "name": "Gaby san roman",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/0/6/0/highres_326664672.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 191
@@ -10275,14 +10358,6 @@
         "city": "New York"
       },
       {
-        "name": "Manjunath Reddy",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Jersey City"
-      },
-      {
         "name": "Abdul Haq",
         "photo": "https://secure.meetupstatic.com/photos/member/e/2/e/8/highres_320038088.jpeg",
         "isHost": false,
@@ -10380,6 +10455,15 @@
         "isFirstEvent": false,
         "guestsCount": 1,
         "city": "New York"
+      },
+      {
+        "name": "Sean",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/7/3/highres_325710835.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -10405,8 +10489,8 @@
     "lng": -73.9855,
     "locationName": "Williamsburg",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362608/",
-    "rsvpCount": 4,
-    "spotsLeft": 56,
+    "rsvpCount": 5,
+    "spotsLeft": 55,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/2/1/8/highres_537068728.jpeg",
     "thingsToKnow": "The not so fun rule on RSVPs",
@@ -10443,6 +10527,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 198
@@ -10549,7 +10641,7 @@
     "lng": -73.9855,
     "locationName": "AMC Empire 25",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317390960/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/9/3/a/3/highres_537097795.jpeg",
@@ -10578,6 +10670,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "White Plains"
+      },
+      {
+        "name": "Tim",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/7/c/highres_322686268.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "priceDetail": [
