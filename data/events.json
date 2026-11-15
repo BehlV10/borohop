@@ -8372,7 +8372,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 13,
+    "rsvpCount": 14,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8485,6 +8485,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronx"
+      },
+      {
+        "name": "Gabriela Giorgiana",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       }
     ],
     "id": 176
@@ -9036,7 +9044,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 11,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -9130,6 +9138,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "I live in NYC \nLooking for new adventures and connecting with new friends.",
+        "city": "New York"
+      },
+      {
+        "name": "Meg",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/f/6/d/highres_318028525.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
         "city": "New York"
       }
     ],
@@ -9587,7 +9604,7 @@
     "lng": -73.9855,
     "locationName": "991 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317304244/",
-    "rsvpCount": 20,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/4/a/4/highres_536994436.jpeg",
@@ -9651,15 +9668,6 @@
         "guestsCount": 0,
         "bio": "Drummer & bass player, comedy & sci-fi lover!",
         "city": "New York"
-      },
-      {
-        "name": "Zai ",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/3/7/b/highres_326249563.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Hey, I moved to NY 3 years back. I am interested in hike.",
-        "city": "New York, NY"
       },
       {
         "name": "SAM",
@@ -9784,7 +9792,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 23,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9843,28 +9851,12 @@
       },
       {
         "name": "Van Hoang",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/a/b/d/highres_321335517.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/3/6/highres_326670774.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "job": "Business Finance Law",
         "city": "Rego Park"
-      },
-      {
-        "name": "Philip L",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/3/c/f/highres_266030127.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "Brooklyn"
-      },
-      {
-        "name": "Catalina Lorca",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 1,
-        "city": "Montr\u00e9al"
       },
       {
         "name": "Yi",
@@ -9910,14 +9902,6 @@
         "city": "New York"
       },
       {
-        "name": "ita wi\u013ai",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/b/1/0/highres_139483792.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 1,
-        "city": "New York"
-      },
-      {
         "name": "Gaby san roman",
         "photo": "https://secure.meetupstatic.com/photos/member/6/0/6/0/highres_326664672.jpeg",
         "isHost": false,
@@ -9940,6 +9924,14 @@
         "isFirstEvent": true,
         "guestsCount": 1,
         "city": "Bronx"
+      },
+      {
+        "name": "May",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/d/e/highres_324999902.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 191
@@ -9982,7 +9974,7 @@
       },
       {
         "name": "Van Hoang",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/a/b/d/highres_321335517.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/8/3/6/highres_326670774.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -10099,7 +10091,7 @@
     "lng": -73.9855,
     "locationName": "La Colombe Coffee Workshop",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316074/",
-    "rsvpCount": 16,
+    "rsvpCount": 14,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/2/b/2/highres_537004786.jpeg",
@@ -10115,37 +10107,12 @@
         "city": "New York"
       },
       {
-        "name": "Brett",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
-        "city": "New York"
-      },
-      {
         "name": "Mukul",
         "photo": "https://secure.meetupstatic.com/photos/member/4/a/3/0/highres_326538992.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
-      },
-      {
-        "name": "Lisa",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/5/e/8/highres_318942472.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "Princeton"
-      },
-      {
-        "name": "Hazel",
-        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
       },
       {
         "name": "JK",
@@ -10199,20 +10166,29 @@
         "city": "New York, NY"
       },
       {
-        "name": "Henry",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/8/f/8/highres_292642776.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
         "name": "LuLu Huang",
         "photo": "https://secure.meetupstatic.com/photos/member/a/a/d/7/highres_292783735.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Russ",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/f/3/b/highres_318007995.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Aniket Pratap Singh",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/c/7/6/highres_326535478.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Communications professional with common cautions.",
+        "city": "New York, NY"
       }
     ],
     "id": 194
@@ -10611,8 +10587,8 @@
     "lng": -73.9855,
     "locationName": "Williamsburg",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362608/",
-    "rsvpCount": 5,
-    "spotsLeft": 55,
+    "rsvpCount": 6,
+    "spotsLeft": 54,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/2/1/8/highres_537068728.jpeg",
     "thingsToKnow": "The not so fun rule on RSVPs",
@@ -10657,6 +10633,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Christine Trott",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/3/0/0/highres_319558112.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
       }
     ],
     "id": 198
