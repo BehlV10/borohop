@@ -8249,7 +8249,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 11,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8345,6 +8345,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
+      },
+      {
+        "name": "Harsh",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
         "city": "New York"
       }
     ],
@@ -8482,7 +8491,7 @@
         "name": "manny",
         "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/f/highres_326453951.jpeg",
         "isHost": false,
-        "isFirstEvent": false,
+        "isFirstEvent": true,
         "guestsCount": 0,
         "city": "Bronx"
       },
@@ -9044,7 +9053,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 12,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -9148,6 +9157,15 @@
         "guestsCount": 0,
         "job": "Technology",
         "city": "New York"
+      },
+      {
+        "name": "Raj T.",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/d/d/5/highres_276148117.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new friends.",
+        "city": "Union City"
       }
     ],
     "priceDetail": [
@@ -9792,7 +9810,7 @@
     "lng": -73.9855,
     "locationName": "Buunni Coffee - Inwood",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317305238/",
-    "rsvpCount": 19,
+    "rsvpCount": 18,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/9/a/f/highres_536995727.jpeg",
@@ -9918,20 +9936,21 @@
         "city": "Greenwich"
       },
       {
-        "name": "manny",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/2/b/f/highres_326453951.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 1,
-        "city": "Bronx"
-      },
-      {
         "name": "May",
         "photo": "https://secure.meetupstatic.com/photos/member/9/b/d/e/highres_324999902.jpeg",
         "isHost": false,
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Aniket Pratap Singh",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/c/7/6/highres_326535478.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Communications professional with common cautions.",
+        "city": "New York, NY"
       }
     ],
     "id": 191
@@ -10091,7 +10110,7 @@
     "lng": -73.9855,
     "locationName": "La Colombe Coffee Workshop",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316074/",
-    "rsvpCount": 14,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/2/b/2/highres_537004786.jpeg",
@@ -10145,15 +10164,6 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Double Ts",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/f/b/6/highres_313516310.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "From NYC and wanna make new friends. Whenever we're friends, you will know more about me.",
         "city": "New York"
       },
       {
@@ -10515,7 +10525,7 @@
         "city": "New York, NY"
       },
       {
-        "name": "Pat",
+        "name": "Patri",
         "photo": "https://secure.meetupstatic.com/photos/member/5/9/f/f/highres_326543039.jpeg",
         "isHost": false,
         "isFirstEvent": true,
