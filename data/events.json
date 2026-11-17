@@ -8381,7 +8381,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 17,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8527,6 +8527,24 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Joshua Engle",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/2/2/f/highres_318105615.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "Medical professional looking for a good time! (yes, I realize how wrong that sounds).",
+        "city": "New York"
+      },
+      {
+        "name": "Sadia",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/d/b/9/highres_324952665.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "bio": "-",
+        "city": "New York"
       }
     ],
     "id": 176
@@ -9405,7 +9423,7 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "New York, NY"
+        "city": "Jersey City"
       },
       {
         "name": "John Hargrove",
@@ -10002,7 +10020,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317301674/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/c/e/d/highres_536992461.jpeg",
@@ -10033,6 +10051,14 @@
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
+      },
+      {
+        "name": "DEBASIS TRIPATHY",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/3/7/highres_323572023.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Newark"
       }
     ],
     "id": 192
