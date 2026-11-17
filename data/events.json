@@ -8381,7 +8381,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 19,
+    "rsvpCount": 20,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8545,6 +8545,15 @@
         "guestsCount": 0,
         "bio": "-",
         "city": "New York"
+      },
+      {
+        "name": "ajiatu0524",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/1/6/c/highres_273204940.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Healthcare",
+        "city": "Westchester County"
       }
     ],
     "id": 176
@@ -10353,7 +10362,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 18,
+    "rsvpCount": 20,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -10476,6 +10485,22 @@
       {
         "name": "Jessica",
         "photo": "https://secure.meetupstatic.com/photos/member/1/3/4/6/highres_326344934.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Qama",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Akshatha Hegde",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/0/c/highres_325143340.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -10664,8 +10689,8 @@
     "lng": -73.9855,
     "locationName": "Williamsburg",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362608/",
-    "rsvpCount": 6,
-    "spotsLeft": 54,
+    "rsvpCount": 7,
+    "spotsLeft": 53,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/2/1/8/highres_537068728.jpeg",
     "thingsToKnow": "The not so fun rule on RSVPs",
@@ -10718,6 +10743,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Brooklyn"
+      },
+      {
+        "name": "Akshatha Hegde",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/0/c/highres_325143340.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 198
