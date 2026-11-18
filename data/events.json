@@ -8372,7 +8372,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 22,
+    "rsvpCount": 26,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8414,7 +8414,7 @@
       {
         "name": "Jenna",
         "photo": "https://secure.meetupstatic.com/photos/member/f/6/0/highres_313683936.jpeg",
-        "isHost": false,
+        "isHost": true,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
@@ -8561,6 +8561,40 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "V.",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/7/8/highres_323106264.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Keane",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/e/3/e/highres_326632798.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Emmy ",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/4/c/highres_286151084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new people. I enjoy anything outdoors and am willing to try new things",
+        "city": "Manhattan"
+      },
+      {
+        "name": "Srinidhi C",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/9/3/highres_318714419.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "New in town",
+        "city": "Folsom"
       }
     ],
     "id": 176
@@ -10035,7 +10069,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317301674/",
-    "rsvpCount": 5,
+    "rsvpCount": 6,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/c/e/d/highres_536992461.jpeg",
@@ -10083,6 +10117,15 @@
         "guestsCount": 0,
         "job": "Business Finance Law",
         "city": "Brooklyn"
+      },
+      {
+        "name": "Xzavier",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/a/e/1/highres_326659169.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I am the color red in a world full of black and white",
+        "city": "New York"
       }
     ],
     "id": 192
@@ -10296,8 +10339,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 6,
-    "spotsLeft": 9,
+    "rsvpCount": 7,
+    "spotsLeft": 8,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -10352,6 +10395,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Emmy ",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/b/4/c/highres_286151084.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new people. I enjoy anything outdoors and am willing to try new things",
+        "city": "Manhattan"
       }
     ],
     "priceDetail": [
@@ -10377,7 +10429,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 23,
+    "rsvpCount": 24,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -10536,6 +10588,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Jersey City"
+      },
+      {
+        "name": "Jonathan Beltran",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/e/b/c/highres_312607868.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hey there. Looking to make new friends and meet new people from different cultural backgrounds. I appreciate the ethnic diversity of NY and love learning new things about other countries.",
+        "city": "New York"
       }
     ],
     "id": 196
@@ -11088,7 +11149,7 @@
     "lng": -73.9855,
     "locationName": "The Norwegian Seamen's Church in New York",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317470150/",
-    "rsvpCount": 12,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/7/6/0/highres_537185984.jpeg",
@@ -11167,6 +11228,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 204
