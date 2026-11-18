@@ -8249,7 +8249,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 12,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8346,15 +8346,6 @@
         "guestsCount": 0,
         "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
         "city": "New York"
-      },
-      {
-        "name": "Harsh",
-        "photo": "https://secure.meetupstatic.com/photos/member/4/6/c/7/highres_325278119.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "job": "Technology",
-        "city": "New York"
       }
     ],
     "id": 175
@@ -8381,7 +8372,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 20,
+    "rsvpCount": 22,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8554,6 +8545,22 @@
         "guestsCount": 0,
         "job": "Healthcare",
         "city": "Westchester County"
+      },
+      {
+        "name": "Apoorv",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/d/8/3/highres_326552131.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
+      },
+      {
+        "name": "Gideon",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/c/5/e/highres_326084126.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "id": 176
@@ -9054,7 +9061,7 @@
     "lng": -73.9855,
     "locationName": "Goethe-Institut New York",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317208492/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/1/c/f/highres_536873711.jpeg",
@@ -9083,6 +9090,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York, NY"
+      },
+      {
+        "name": "Ali Siddiqui",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/9/f/f/highres_285695327.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Alexandria"
       }
     ],
     "id": 185
@@ -9361,7 +9376,7 @@
     "lng": -73.9855,
     "locationName": "907 5th Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317303516/",
-    "rsvpCount": 36,
+    "rsvpCount": 35,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/a/0/highres_536994176.jpeg",
@@ -9577,15 +9592,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bellerose"
-      },
-      {
-        "name": "Double Ts",
-        "photo": "https://secure.meetupstatic.com/photos/member/3/f/b/6/highres_313516310.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "bio": "From NYC and wanna make new friends. Whenever we're friends, you will know more about me.",
-        "city": "New York"
       },
       {
         "name": "JK",
@@ -10029,7 +10035,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317301674/",
-    "rsvpCount": 4,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/c/e/d/highres_536992461.jpeg",
@@ -10068,6 +10074,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Newark"
+      },
+      {
+        "name": "colestarkman",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/e/1/2/highres_325000466.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "Brooklyn"
       }
     ],
     "id": 192
@@ -10362,7 +10377,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 20,
+    "rsvpCount": 23,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -10505,6 +10520,22 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "DEBASIS TRIPATHY",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/3/7/highres_323572023.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "Newark"
+      },
+      {
+        "name": "Apoorv",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/d/8/3/highres_326552131.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
       }
     ],
     "id": 196
@@ -10946,5 +10977,198 @@
       "$19"
     ],
     "id": 202
+  },
+  {
+    "name": "Broadway Under the Stars! \ud83c\udfa4\ud83e\uddd1\u200d\ud83e\ude70\u2b50",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-19",
+    "end": null,
+    "startTime": "16:30",
+    "endTime": "18:00",
+    "price": 0,
+    "address": "10 Columbus Cir, New York, NY 10019, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "The Shops at Columbus Circle",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317469486/",
+    "rsvpCount": 9,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/1/6/9/d/highres_537185789.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Caroline",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/c/c/0/highres_320831456.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Education",
+        "city": "New York"
+      },
+      {
+        "name": "Prakhar Agrawal",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Lucy",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/8/f/e/highres_9086878.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Jessica",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/3/4/6/highres_326344934.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "SAM",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Gabriela Giorgiana",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 1,
+        "city": "Brooklyn"
+      },
+      {
+        "name": "Qama",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "id": 203
+  },
+  {
+    "name": "Julemarked aka Norwegian Christmas Fair! \ud83c\uddf3\ud83c\uddf4\ud83c\udf84",
+    "types": null,
+    "region": "nyc",
+    "borough": "Manhattan",
+    "neighborhood": "Manhattan",
+    "transitLines": [],
+    "transitStation": null,
+    "start": "2026-11-20",
+    "end": null,
+    "startTime": "16:30",
+    "endTime": "18:00",
+    "price": 0,
+    "address": "317 E 52nd St, New York, NY 10022, USA",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "locationName": "The Norwegian Seamen's Church in New York",
+    "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317470150/",
+    "rsvpCount": 12,
+    "spotsLeft": null,
+    "spotsLeftChecked": true,
+    "customImage": "https://secure.meetupstatic.com/photos/event/1/7/6/0/highres_537185984.jpeg",
+    "thingsToKnow": "The not so fun rule on RSVPs",
+    "attendees": [
+      {
+        "name": "Fouad Yared",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Hank Manning",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/6/d/0/highres_311570896.jpeg",
+        "isHost": true,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Rick M",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/9/6/f/highres_324331087.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 1,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Yilong",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/b/3/6/highres_312343830.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Gabriela Giorgiana",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn"
+      },
+      {
+        "name": "Ann Wu",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/7/4/0/highres_297150528.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Permanently moved to Thailand in 15-20 years, interested to learn more?",
+        "job": "Not Working",
+        "city": "New York, NY"
+      },
+      {
+        "name": "Huiyi",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/1/9/9/highres_326149561.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Lingyan",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/a/f/c/highres_310055580.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 2,
+        "city": "New York"
+      },
+      {
+        "name": "Minghao",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/8/8/2/highres_319559522.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      }
+    ],
+    "id": 204
   }
 ]
