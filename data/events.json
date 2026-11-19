@@ -8306,14 +8306,6 @@
         "city": "Bronx"
       },
       {
-        "name": "Helen",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/9/c/e/highres_326315278.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
         "name": "Kevin_Sanichara",
         "photo": "https://secure.meetupstatic.com/photos/member/b/5/1/highres_322442897.jpeg",
         "isHost": false,
@@ -8336,6 +8328,15 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
+      },
+      {
+        "name": "Kit",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/4/b/8/highres_326578552.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "LGBTQ individual looking for friends and more.",
         "city": "New York"
       }
     ],
@@ -8363,7 +8364,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 27,
+    "rsvpCount": 28,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8591,6 +8592,14 @@
         "photo": "https://secure.meetupstatic.com/photos/member/e/2/4/2/highres_324717922.jpeg",
         "isHost": false,
         "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Pil Lee",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/8/a/d/highres_326691373.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
       }
@@ -10050,7 +10059,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317301674/",
-    "rsvpCount": 6,
+    "rsvpCount": 5,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/c/c/e/d/highres_536992461.jpeg",
@@ -10081,14 +10090,6 @@
         "guestsCount": 0,
         "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
-      },
-      {
-        "name": "DEBASIS TRIPATHY",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/b/3/7/highres_323572023.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Newark"
       },
       {
         "name": "colestarkman",
@@ -10320,8 +10321,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 6,
-    "spotsLeft": 9,
+    "rsvpCount": 7,
+    "spotsLeft": 8,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -10376,6 +10377,14 @@
         "guestsCount": 0,
         "bio": "Looking to meet new people. I enjoy anything outdoors and am willing to try new things",
         "city": "Manhattan"
+      },
+      {
+        "name": "Mendy",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/1/a/6/highres_326189094.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "priceDetail": [
@@ -11046,7 +11055,7 @@
     "lng": -73.9855,
     "locationName": "The Shops at Columbus Circle",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317469486/",
-    "rsvpCount": 11,
+    "rsvpCount": 12,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/6/9/d/highres_537185789.jpeg",
@@ -11094,14 +11103,6 @@
         "city": "New York, NY"
       },
       {
-        "name": "Gabriela Giorgiana",
-        "photo": "https://secure.meetupstatic.com/photos/member/2/0/0/d/highres_325868205.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 1,
-        "city": "Brooklyn"
-      },
-      {
         "name": "Qama",
         "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
         "isHost": false,
@@ -11116,6 +11117,30 @@
         "isFirstEvent": false,
         "guestsCount": 2,
         "city": "New York"
+      },
+      {
+        "name": "Apoorv",
+        "photo": "https://secure.meetupstatic.com/photos/member/7/d/8/3/highres_326552131.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Jersey City"
+      },
+      {
+        "name": "Hazel",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/5/2/highres_233379762.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Karol\u00edna Kutnarov\u00e1",
+        "photo": "https://secure.meetupstatic.com/photos/member/8/6/1/4/highres_310894324.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 203
@@ -11138,7 +11163,7 @@
     "lng": -73.9855,
     "locationName": "The Norwegian Seamen's Church in New York",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317470150/",
-    "rsvpCount": 19,
+    "rsvpCount": 25,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/7/6/0/highres_537185984.jpeg",
@@ -11274,6 +11299,59 @@
         "guestsCount": 0,
         "job": "Technology",
         "city": "Chicago"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
+      },
+      {
+        "name": "William Yeung",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/d/3/f/highres_326692543.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Brooklyn, NY"
+      },
+      {
+        "name": "Abdul Haq",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/2/e/8/highres_320038088.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Current writer, artist, and racy podcaster who has relocated back to his hometown of Queens, NY after a 8 year hiatus living in various cities and states in the Eastern US. Looking to meet new people, establish new connections, and have a good time!",
+        "job": "Arts Entertainment",
+        "city": "New York"
+      },
+      {
+        "name": "Dharmik",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/4/3/0/highres_322074320.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Lisa",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/5/e/8/highres_318942472.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "Princeton"
+      },
+      {
+        "name": "Paul Rwakibale",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/2/4/c/highres_324717932.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Newly retired and looking for fun ways to keep myself occupied",
+        "job": "Not Working",
+        "city": "Westchester County"
       }
     ],
     "id": 204
@@ -11296,7 +11374,7 @@
     "lng": -73.9855,
     "locationName": "180 Maiden Lane",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317484470/",
-    "rsvpCount": 11,
+    "rsvpCount": 13,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/4/8/b/6/highres_537198614.jpeg",
@@ -11393,6 +11471,23 @@
         "guestsCount": 0,
         "bio": "Friendly, well-read woman who enjoy traveling widely, swimming in the ocean.",
         "job": "Technology",
+        "city": "New York"
+      },
+      {
+        "name": "Alan",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/1/b/d/highres_316057309.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "astrologer / violinist",
+        "city": "New York"
+      },
+      {
+        "name": "Mary Colonna",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/7/1/4/highres_322218196.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
         "city": "New York"
       }
     ],
