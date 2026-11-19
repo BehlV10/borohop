@@ -8249,7 +8249,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 11,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8277,15 +8277,6 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Rui",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
       },
       {
@@ -8401,15 +8392,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Bronxville"
-      },
-      {
-        "name": "Rui",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "I love cuisines from different parts of the world.",
-        "city": "New York"
       },
       {
         "name": "Jenna",
@@ -8599,6 +8581,14 @@
       {
         "name": "Doris J.",
         "photo": "https://secure.meetupstatic.com/photos/member/2/1/3/e/highres_276848510.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Monisha Datta Trisha",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/2/4/2/highres_324717922.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -9628,7 +9618,7 @@
       },
       {
         "name": "William Yeung",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/b/f/a/highres_297476314.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/d/3/f/highres_326692543.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -9823,7 +9813,7 @@
       },
       {
         "name": "William Yeung",
-        "photo": "https://secure.meetupstatic.com/photos/member/d/b/f/a/highres_297476314.jpeg",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/d/3/f/highres_326692543.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -10330,8 +10320,8 @@
     "lng": -73.9855,
     "locationName": "Space Karaoke Bar & Lounge | Koreatown NYC",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317318282/",
-    "rsvpCount": 7,
-    "spotsLeft": 8,
+    "rsvpCount": 6,
+    "spotsLeft": 9,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/9/2/3/highres_537006435.jpeg",
     "thingsToKnow": "We're charging $10 per person per hour. We only booked one hour (7:30pm to 8:30pm) but if we enjoy it we can try to extend or come back another time. I'm guessing a group of us will want to grab food nearby afterwards :)",
@@ -10351,15 +10341,6 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "job": "Education",
-        "city": "New York"
-      },
-      {
-        "name": "Rui",
-        "photo": "https://secure.meetupstatic.com/photos/member/5/3/a/e/highres_315381422.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "I love cuisines from different parts of the world.",
         "city": "New York"
       },
       {
@@ -11065,7 +11046,7 @@
     "lng": -73.9855,
     "locationName": "The Shops at Columbus Circle",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317469486/",
-    "rsvpCount": 9,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/6/9/d/highres_537185789.jpeg",
@@ -11093,14 +11074,6 @@
         "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
         "isHost": false,
         "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Lucy",
-        "photo": "https://secure.meetupstatic.com/photos/member/6/8/f/e/highres_9086878.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
       },
@@ -11135,6 +11108,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Riya Raju",
+        "photo": "https://secure.meetupstatic.com/photos/member/d/c/4/b/highres_307916395.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 2,
+        "city": "New York"
       }
     ],
     "id": 203
@@ -11157,7 +11138,7 @@
     "lng": -73.9855,
     "locationName": "The Norwegian Seamen's Church in New York",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317470150/",
-    "rsvpCount": 16,
+    "rsvpCount": 19,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/7/6/0/highres_537185984.jpeg",
@@ -11268,6 +11249,31 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Monisha Datta Trisha",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/2/4/2/highres_324717922.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Sonali Gupta",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/1/9/3/highres_285364499.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Atlanta"
+      },
+      {
+        "name": "Tejas",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/9/c/3/highres_260774787.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Technology",
+        "city": "Chicago"
       }
     ],
     "id": 204
@@ -11290,7 +11296,7 @@
     "lng": -73.9855,
     "locationName": "180 Maiden Lane",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317484470/",
-    "rsvpCount": 9,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/4/8/b/6/highres_537198614.jpeg",
@@ -11369,6 +11375,24 @@
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "javier545",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/f/8/7/highres_326633127.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "Catherine",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/2/b/c/highres_246364796.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Friendly, well-read woman who enjoy traveling widely, swimming in the ocean.",
+        "job": "Technology",
         "city": "New York"
       }
     ],
