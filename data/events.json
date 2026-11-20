@@ -8249,7 +8249,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144321/",
-    "rsvpCount": 10,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/3/f/d/highres_536814269.jpeg",
@@ -8338,6 +8338,15 @@
         "guestsCount": 0,
         "bio": "LGBTQ individual looking for friends and more.",
         "city": "New York"
+      },
+      {
+        "name": "Patty0005",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/7/1/2/highres_325565906.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love to read, dancing and baking\u2026",
+        "city": "Bronx"
       }
     ],
     "id": 175
@@ -8364,7 +8373,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 28,
+    "rsvpCount": 30,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8434,6 +8443,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "Elmhurst"
+      },
+      {
+        "name": "Jenn N.",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/0/5/c/highres_326412380.jpeg",
+        "isHost": false,
+        "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
       },
       {
         "name": "Andrea",
@@ -8602,6 +8619,15 @@
         "isFirstEvent": true,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "Patty0005",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/7/1/2/highres_325565906.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "I love to read, dancing and baking\u2026",
+        "city": "Bronx"
       }
     ],
     "id": 176
@@ -9217,14 +9243,6 @@
         "city": "New York"
       },
       {
-        "name": "Manjunath Reddy",
-        "photo": "https://secure.meetupstatic.com/photos/member/c/f/5/f/highres_261293087.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "Jersey City"
-      },
-      {
         "name": "SAM",
         "photo": "https://secure.meetupstatic.com/photos/member/c/5/8/2/highres_326630562.jpeg",
         "isHost": false,
@@ -9274,6 +9292,15 @@
         "guestsCount": 0,
         "bio": "Looking to meet new friends.",
         "city": "Union City"
+      },
+      {
+        "name": "Mohit Agarwal",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/e/0/highres_319601184.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -10410,7 +10437,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 27,
+    "rsvpCount": 28,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -10507,14 +10534,6 @@
         "city": "New York"
       },
       {
-        "name": "Prakhar Agrawal",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/6/3/1/highres_316594353.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York, NY"
-      },
-      {
         "name": "JK",
         "photo": "https://secure.meetupstatic.com/photos/member/4/e/8/0/highres_326300096.jpeg",
         "isHost": false,
@@ -10591,6 +10610,23 @@
       {
         "name": "Kitty",
         "photo": "https://secure.meetupstatic.com/photos/member/7/5/9/a/highres_308970106.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Raj T.",
+        "photo": "https://secure.meetupstatic.com/photos/member/6/d/d/5/highres_276148117.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Looking to meet new friends.",
+        "city": "Union City"
+      },
+      {
+        "name": "Greg",
+        "photo": "https://secure.meetupstatic.com/photos/member/1/8/3/f/highres_325506207.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
@@ -10779,8 +10815,8 @@
     "lng": -73.9855,
     "locationName": "Williamsburg",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317362608/",
-    "rsvpCount": 7,
-    "spotsLeft": 53,
+    "rsvpCount": 8,
+    "spotsLeft": 52,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/2/2/1/8/highres_537068728.jpeg",
     "thingsToKnow": "The not so fun rule on RSVPs",
@@ -10841,6 +10877,14 @@
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
+      },
+      {
+        "name": "E T",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/6/6/7/highres_325898503.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Manhattan"
       }
     ],
     "id": 198
@@ -11163,7 +11207,7 @@
     "lng": -73.9855,
     "locationName": "The Norwegian Seamen's Church in New York",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317470150/",
-    "rsvpCount": 25,
+    "rsvpCount": 24,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/7/6/0/highres_537185984.jpeg",
@@ -11210,29 +11254,11 @@
         "city": "Brooklyn"
       },
       {
-        "name": "Ann Wu",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/7/4/0/highres_297150528.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "bio": "Permanently moved to Thailand in 15-20 years, interested to learn more?",
-        "job": "Not Working",
-        "city": "New York, NY"
-      },
-      {
         "name": "Huiyi",
         "photo": "https://secure.meetupstatic.com/photos/member/c/1/9/9/highres_326149561.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Lingyan",
-        "photo": "https://secure.meetupstatic.com/photos/member/8/a/f/c/highres_310055580.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 2,
         "city": "New York"
       },
       {
@@ -11336,14 +11362,6 @@
         "city": "New York"
       },
       {
-        "name": "Lisa",
-        "photo": "https://secure.meetupstatic.com/photos/member/a/5/e/8/highres_318942472.jpeg",
-        "isHost": false,
-        "isFirstEvent": true,
-        "guestsCount": 0,
-        "city": "Princeton"
-      },
-      {
         "name": "Paul Rwakibale",
         "photo": "https://secure.meetupstatic.com/photos/member/e/2/4/c/highres_324717932.jpeg",
         "isHost": false,
@@ -11352,6 +11370,41 @@
         "bio": "Newly retired and looking for fun ways to keep myself occupied",
         "job": "Not Working",
         "city": "Westchester County"
+      },
+      {
+        "name": "Robin Klein",
+        "photo": "https://secure.meetupstatic.com/photos/member/3/f/4/3/highres_296476195.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "A New Yorker looking to fill the days with fun activities, people and memories.",
+        "city": "New York, NY"
+      },
+      {
+        "name": "mansi",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/9/a/highres_325672122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Mohit Agarwal",
+        "photo": "https://secure.meetupstatic.com/photos/member/a/0/e/0/highres_319601184.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "job": "Business Finance Law",
+        "city": "New York"
+      },
+      {
+        "name": "Angela Ochieng",
+        "photo": "https://secure.meetupstatic.com/photos/member/e/5/0/highres_326523664.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Creating fitness experiences that bring people together. \u2728",
+        "city": "New York, NY"
       }
     ],
     "id": 204
