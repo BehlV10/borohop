@@ -8373,7 +8373,7 @@
     "lng": -73.9712,
     "locationName": "The Hugh",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317144334/",
-    "rsvpCount": 34,
+    "rsvpCount": 36,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/d/2/9/a/highres_536813914.jpeg",
@@ -8659,6 +8659,23 @@
         "photo": "https://secure.meetupstatic.com/photos/member/7/6/7/5/highres_307170325.jpeg",
         "isHost": false,
         "isFirstEvent": true,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "sandhya siva",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/e/7/7/highres_319640087.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Hello everyone, i live in VA with my fiance, i realized i don't have a big social circle, hence i wanted to meet some nice people with whom i share the same interests and make some new friends",
+        "city": "Jersey City"
+      },
+      {
+        "name": "Ethan Jacoby",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/6/b/8/highres_261878584.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
       }
@@ -9220,7 +9237,7 @@
     "lng": -73.9855,
     "locationName": "Penn Station",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317213220/",
-    "rsvpCount": 11,
+    "rsvpCount": 10,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/e/2/8/e/highres_536877998.jpeg",
@@ -9230,14 +9247,6 @@
         "name": "Fouad Yared",
         "photo": "https://secure.meetupstatic.com/photos/member/6/5/d/9/highres_323786073.jpeg",
         "isHost": true,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
-        "name": "Ercan",
-        "photo": "https://secure.meetupstatic.com/photos/member/b/d/a/highres_318903034.jpeg",
-        "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
         "city": "New York"
@@ -10453,7 +10462,7 @@
     "lng": -73.9855,
     "locationName": "Teuscher Fifth Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317316652/",
-    "rsvpCount": 27,
+    "rsvpCount": 25,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/1/3/c/c/highres_537005068.jpeg",
@@ -10566,14 +10575,6 @@
         "city": "New York"
       },
       {
-        "name": "Qama",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/e/f/7/highres_321152503.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
-      },
-      {
         "name": "Akshatha Hegde",
         "photo": "https://secure.meetupstatic.com/photos/member/d/0/c/highres_325143340.jpeg",
         "isHost": false,
@@ -10614,14 +10615,6 @@
         "guestsCount": 1,
         "bio": "Korean Canadian in the USA!",
         "city": "New York, NY"
-      },
-      {
-        "name": "Kitty",
-        "photo": "https://secure.meetupstatic.com/photos/member/7/5/9/a/highres_308970106.jpeg",
-        "isHost": false,
-        "isFirstEvent": false,
-        "guestsCount": 0,
-        "city": "New York"
       },
       {
         "name": "Raj T.",
@@ -11614,8 +11607,8 @@
     "lng": -73.9855,
     "locationName": "Danubius Traditional Romanian Restaurant",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317516063/",
-    "rsvpCount": 10,
-    "spotsLeft": 10,
+    "rsvpCount": 14,
+    "spotsLeft": 6,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/a/2/5/7/highres_537221559.jpeg",
     "thingsToKnow": "The not so fun rule on RSVPs",
@@ -11700,6 +11693,40 @@
         "guestsCount": 0,
         "bio": "A software engineer keen to build systems that solve problems, possibly with a hint of ML. Other hobbies include reading, basketball, hiking, and beer.",
         "city": "Jersey City"
+      },
+      {
+        "name": "Ralf",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/9/8/8/highres_325210632.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Drummer & bass player, comedy & sci-fi lover!",
+        "city": "New York"
+      },
+      {
+        "name": "Brett",
+        "photo": "https://secure.meetupstatic.com/photos/member/4/3/c/e/highres_315677358.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "bio": "Running, hiking, movies (horror and comedies are my favorites), reading, etc\n\nHere to meet people and have a good time",
+        "city": "New York"
+      },
+      {
+        "name": "mansi",
+        "photo": "https://secure.meetupstatic.com/photos/member/c/b/9/a/highres_325672122.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Shells",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/9/0/e/highres_326439182.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
       }
     ],
     "id": 207
@@ -11722,7 +11749,7 @@
     "lng": -73.9855,
     "locationName": "Dyker Heights",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317516008/",
-    "rsvpCount": 9,
+    "rsvpCount": 11,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/a/2/4/2/highres_537221538.jpeg",
@@ -11800,6 +11827,22 @@
         "guestsCount": 0,
         "bio": "Looking to meet new friends.",
         "city": "Union City"
+      },
+      {
+        "name": "Rhiannon",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/9/0/4/highres_325642788.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Ypsilanti"
+      },
+      {
+        "name": "Catalina Lorca",
+        "photo": "https://secure.meetupstatic.com/photos/member/2/3/3/2/highres_321069010.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "Montr\u00e9al"
       }
     ],
     "id": 208
@@ -11822,7 +11865,7 @@
     "lng": -73.9855,
     "locationName": "Gatsby Hotel",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317515462/",
-    "rsvpCount": 23,
+    "rsvpCount": 26,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/a/1/0/5/highres_537221221.jpeg",
@@ -11990,6 +12033,30 @@
         "guestsCount": 0,
         "bio": "Looking to meet new friends.",
         "city": "Union City"
+      },
+      {
+        "name": "Ana",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/b/8/c/highres_326148012.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York, NY"
+      },
+      {
+        "name": "May",
+        "photo": "https://secure.meetupstatic.com/photos/member/9/b/d/e/highres_324999902.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Vanessa Uzonwanne",
+        "photo": "https://secure.meetupstatic.com/photos/member/5/c/9/a/highres_276203706.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
       }
     ],
     "priceDetail": [
@@ -12015,7 +12082,7 @@
     "lng": -73.9855,
     "locationName": "990 Washington Avenue",
     "rsvpUrl": "https://www.meetup.com/borough-hoppers/events/317515943/",
-    "rsvpCount": 3,
+    "rsvpCount": 4,
     "spotsLeft": null,
     "spotsLeftChecked": true,
     "customImage": "https://secure.meetupstatic.com/photos/event/a/2/2/4/highres_537221508.jpeg",
@@ -12040,6 +12107,14 @@
       {
         "name": "Niket",
         "photo": "https://secure.meetupstatic.com/photos/member/d/a/0/f/highres_266275823.jpeg",
+        "isHost": false,
+        "isFirstEvent": false,
+        "guestsCount": 0,
+        "city": "New York"
+      },
+      {
+        "name": "Kelly Jelly",
+        "photo": "https://secure.meetupstatic.com/photos/member/b/5/2/a/highres_315646378.jpeg",
         "isHost": false,
         "isFirstEvent": false,
         "guestsCount": 0,
